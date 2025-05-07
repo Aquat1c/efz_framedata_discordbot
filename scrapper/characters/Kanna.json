@@ -1,0 +1,643 @@
+{
+  "name": "Kanna",
+  "icon": "https://wiki.gbl.gg/images/7/70/EFZ_Kanna_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d0/EFZ_Kanna_5A.png/175px-EFZ_Kanna_5A.png",
+          "damage": "190",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "1",
+            "recovery": "11",
+            "advHit": "-1",
+            "advBlock": "-2",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Kanna swipes her arm and smacks the opponent. Limited usefulness."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1c/EFZ_Kanna_c5B.png/175px-EFZ_Kanna_c5B.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "1",
+            "recovery": "15",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP J IC f5B"
+          },
+          "properties": [
+            "Kanna sweeps her sword in an upwards motion. Gigantic and air unblockable, leads into her BnB. Excellent move."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/07/EFZ_Kanna_f5B.png/175px-EFZ_Kanna_f5B.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11",
+            "active": "1",
+            "recovery": "20",
+            "advHit": "-4",
+            "advBlock": "-6",
+            "cancel": "N SP IC"
+          },
+          "properties": [
+            "Kanna slashes her sword in a horizontal arc in front of her. Limited usefulness."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/ce/EFZ_Kanna_5C.png/175px-EFZ_Kanna_5C.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "15",
+            "active": "1",
+            "recovery": "26",
+            "advHit": "-3",
+            "advBlock": "-5",
+            "cancel": "SP JH IC"
+          },
+          "properties": [
+            "An absolute monster of a move. Slams airborne opponents into a knockdown, hitboxes take up a quarter of the screen, and combos into most of her specials."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/79/EFZ_Kanna_2A.png/175px-EFZ_Kanna_2A.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "2",
+            "recovery": "9",
+            "advHit": "0",
+            "advBlock": "-1",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Kanna sweeps her hand at the opponent's feet. Hits low."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/fb/EFZ_Kanna_2B.png/175px-EFZ_Kanna_2B.png",
+          "damage": "520",
+          "framedata": {
+            "guard": "Low",
+            "startup": "9",
+            "active": "2",
+            "recovery": "18",
+            "advHit": "-3",
+            "advBlock": "-5",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Kanna sweeps her sword in a low horizontal arc. Hits low and combos into 5C at any range."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d4/EFZ_Kanna_2C.png/162px-EFZ_Kanna_2C.png",
+          "damage": "750",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11",
+            "active": "8",
+            "recovery": "22",
+            "advHit": "-6",
+            "advBlock": "-8",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Kanna raises her wings in an antiair attack. Limited usefulness when 5B exists."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/33/EFZ_Kanna_j5A.png/175px-EFZ_Kanna_j5A.png",
+          "damage": "210",
+          "framedata": {
+            "guard": "High",
+            "startup": "5",
+            "active": "5",
+            "recovery": "7",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "Kanna pokes her sword straight out. Combo filler."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/09/EFZ_Kanna_j5B.png/175px-EFZ_Kanna_j5B.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "High",
+            "startup": "8",
+            "active": "2",
+            "recovery": "20",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Kanna slashes downwards in an arc, covering a giant area. Can hit any character from an instant jB, though it requires IC to fully convert."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7d/EFZ_Kanna_j5C.png/175px-EFZ_Kanna_j5C.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "High",
+            "startup": "11",
+            "active": "2",
+            "recovery": "29",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Kanna slashes in an angled attack that will knock down airborne opponents. Useful for instant overheads and combo enders."
+          ]
+        },
+        {
+          "moveName": "Flight",
+          "input": "7/8/9/j7/j8/j9/j4/j6/j1/j3",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7e/EFZ_Kanna_JX.png/175px-EFZ_Kanna_JX.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "-",
+            "active": "/",
+            "recovery": "-",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD j2 ※"
+          },
+          "properties": [
+            "Kanna's 7-way airdash. Does not require a double press, so it can be accidentally input very easily. After completing the dash Kanna will float and descend very slowly while keeping some horizontal velocity. ※ Cannot be cancelled immediately. Windows vary for different cancels."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "-",
+                "active": "/",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N SP J AD j2 ※"
+              },
+              "notes": "Kanna's 7-way airdash. Does not require a double press, so it can be accidentally input very easily. After completing the dash Kanna will float and descend very slowly while keeping some horizontal velocity. ※ Cannot be cancelled immediately. Windows vary for different cancels."
+            },
+            {
+              "version": "B",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "-",
+                "active": "/",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N SP J AD j2 ※"
+              },
+              "notes": "Kanna's 7-way airdash. Does not require a double press, so it can be accidentally input very easily. After completing the dash Kanna will float and descend very slowly while keeping some horizontal velocity. ※ Cannot be cancelled immediately. Windows vary for different cancels."
+            },
+            {
+              "version": "C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "-",
+                "active": "/",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N SP J AD j2 ※"
+              },
+              "notes": "Kanna's 7-way airdash. Does not require a double press, so it can be accidentally input very easily. After completing the dash Kanna will float and descend very slowly while keeping some horizontal velocity. ※ Cannot be cancelled immediately. Windows vary for different cancels."
+            }
+          ]
+        },
+        {
+          "moveName": "Heavenly Escape",
+          "input": "j2",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7c/EFZ_Kanna_J2.png/175px-EFZ_Kanna_J2.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "0.33",
+            "active": "/",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD"
+          },
+          "properties": [
+            "Kanna cancels her passive floating into a freefall state. She maintains some horizontal velocity during this move."
+          ]
+        },
+        {
+          "moveName": "Kusanagi's Blade of Light",
+          "input": "236C",
+          "image": "https://wiki.gbl.gg/images/thumb/6/69/EFZ_Kanna_236A.png/175px-EFZ_Kanna_236A.png",
+          "damage": "1100",
+          "framedata": {
+            "guard": "Any",
+            "startup": "11",
+            "active": "1",
+            "recovery": "20",
+            "advHit": "/",
+            "advBlock": "+1",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Horizontal slash that knocks the opponent off their feet and reaches across 3/4 of the screen.",
+            "A horizontal slash that knocks the opponent off their feet, wall bounces, is completely untechable, and reaches across the entire screen."
+          ],
+          "variations": [
+            {
+              "version": "A/B",
+              "damage": "1100",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11",
+                "active": "1",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "+1",
+                "cancel": "IC"
+              },
+              "notes": "Horizontal slash that knocks the opponent off their feet and reaches across 3/4 of the screen."
+            },
+            {
+              "version": "C",
+              "damage": "1500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7",
+                "active": "1",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "+1",
+                "cancel": "IC"
+              },
+              "notes": "Horizontal slash that knocks the opponent off their feet and reaches across 3/4 of the screen."
+            },
+            {
+              "version": "jA/B/C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11",
+                "active": "1",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Horizontal slash that knocks the opponent off their feet and reaches across 3/4 of the screen."
+            }
+          ]
+        },
+        {
+          "moveName": "Sky-Soaring Double Spiral",
+          "input": "623",
+          "image": "https://wiki.gbl.gg/images/thumb/3/30/EFZ_Kanna_623X.png/175px-EFZ_Kanna_623X.png",
+          "damage": "600 x 2",
+          "framedata": {
+            "guard": "Any",
+            "startup": "8",
+            "active": "2 x 2",
+            "recovery": "47.66",
+            "advHit": "/",
+            "advBlock": "-27.33",
+            "cancel": "IC"
+          },
+          "properties": [
+            "A spinning uppercut with her wing. Fully invulnerable until partway through recovery.",
+            "Kanna spins high above the screen, making her nearly impossible to punish, even on whiff. Fully invulnerable until the final hit."
+          ],
+          "variations": [
+            {
+              "version": "A/B",
+              "damage": "600 x 2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "2 x 2",
+                "recovery": "47.66",
+                "advHit": "/",
+                "advBlock": "-27.33",
+                "cancel": "IC"
+              },
+              "notes": "A spinning uppercut with her wing. Fully invulnerable until partway through recovery."
+            },
+            {
+              "version": "C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "3",
+                "active": "1 x 12 + 2 x 2",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "A spinning uppercut with her wing. Fully invulnerable until partway through recovery."
+            }
+          ]
+        },
+        {
+          "moveName": "Stone of the Heaven-Revering Moon",
+          "input": "214",
+          "image": "https://wiki.gbl.gg/images/thumb/3/3b/EFZ_Kanna_214X.png/175px-EFZ_Kanna_214X.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "16",
+            "active": "/",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Kanna commands her sword to pierce the ground, causing an eruption of stone to rise out of the ground. Version dictates the location of the eruption, appearing farther away with button strength. Extremely long untech time. Once the sword starts heading towards the ground, can no longer be interrupted."
+          ],
+          "variations": [
+            {
+              "version": "A/B/C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "16",
+                "active": "/",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Kanna commands her sword to pierce the ground, causing an eruption of stone to rise out of the ground. Version dictates the location of the eruption, appearing farther away with button strength. Extremely long untech time. Once the sword starts heading towards the ground, can no longer be interrupted."
+            },
+            {
+              "version": "-",
+              "damage": "890",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32",
+                "active": "2",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+25",
+                "cancel": "None"
+              },
+              "notes": "Kanna commands her sword to pierce the ground, causing an eruption of stone to rise out of the ground. Version dictates the location of the eruption, appearing farther away with button strength. Extremely long untech time. Once the sword starts heading towards the ground, can no longer be interrupted."
+            }
+          ]
+        },
+        {
+          "moveName": "Celestial Hawk's Bow",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/thumb/4/45/EFZ_Kanna_41236A.png/175px-EFZ_Kanna_41236A.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "19.33",
+            "active": "/",
+            "recovery": "17",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "The reason you play Kanna. The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch.",
+            "Kanna shoots out 6 smaller homing projectiles behind her."
+          ],
+          "variations": [
+            {
+              "version": "A/B",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "19.33",
+                "active": "/",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The reason you play Kanna. The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch."
+            },
+            {
+              "version": "-",
+              "damage": "900",
+              "framedata": {
+                "guard": "Any",
+                "startup": "19.33",
+                "active": "∞",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+3 ~ +22",
+                "cancel": "None"
+              },
+              "notes": "The reason you play Kanna. The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch."
+            },
+            {
+              "version": "C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "19",
+                "active": "/",
+                "recovery": "18",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The reason you play Kanna. The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch."
+            },
+            {
+              "version": "-",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "19",
+                "active": "∞",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+2 ~ +45",
+                "cancel": "None"
+              },
+              "notes": "The reason you play Kanna. The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch."
+            }
+          ]
+        },
+        {
+          "moveName": "Raging Heavens of Konohana",
+          "input": "Costs 3 SP",
+          "image": "https://wiki.gbl.gg/images/thumb/5/57/EFZ_Kanna_236236A.png/175px-EFZ_Kanna_236236A.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "-",
+            "active": "/",
+            "recovery": "192",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Kanna sends a single feather offscreen that multiples and covers the entire screen as they fly past. All feathers are untechable launchers. Kanna is fully invulnerable during the duration of the feathers flying across the screen."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "-",
+                "active": "/",
+                "recovery": "192",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Kanna sends a single feather offscreen that multiples and covers the entire screen as they fly past. All feathers are untechable launchers. Kanna is fully invulnerable during the duration of the feathers flying across the screen."
+            },
+            {
+              "version": "-",
+              "damage": "500 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "-",
+                "active": "∞",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Kanna sends a single feather offscreen that multiples and covers the entire screen as they fly past. All feathers are untechable launchers. Kanna is fully invulnerable during the duration of the feathers flying across the screen."
+            }
+          ]
+        },
+        {
+          "moveName": "Treasured Sword of Seven Branches",
+          "input": "Costs 3 SP",
+          "image": "https://wiki.gbl.gg/images/thumb/6/62/EFZ_Kanna_236236B.png/175px-EFZ_Kanna_236236B.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "11",
+            "active": "72",
+            "recovery": "12",
+            "advHit": "-",
+            "advBlock": "+19",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Kanna screams in anguish as several pillars of spikes rise from the ground. Kanna is fully invulnerable until the final hit of the spikes. Breaks armor.",
+            "Breaks armor."
+          ]
+        },
+        {
+          "moveName": "Sword of Unbound Silver",
+          "input": "Costs 3 SP",
+          "image": "https://wiki.gbl.gg/images/thumb/9/9d/EFZ_Kanna_j236236B_1.png/175px-EFZ_Kanna_j236236B_1.png",
+          "damage": "4500",
+          "framedata": {
+            "guard": "High",
+            "startup": "3",
+            "active": "8",
+            "recovery": "76",
+            "advHit": "/",
+            "advBlock": "-42",
+            "cancel": "None"
+          },
+          "properties": [
+            "Kanna raises her wings as they transform into swords of light and sweeps them downwards. Breaks armor.",
+            "Breaks armor."
+          ]
+        },
+        {
+          "moveName": "Bird's Poem",
+          "input": "Cinematic",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a9/EFZ_Kanna_FM_1.png/175px-EFZ_Kanna_FM_1.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "19",
+            "active": "2",
+            "recovery": "80",
+            "advHit": "-",
+            "advBlock": "-60",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Kanna does a sequence of 2 hits which are similar to her f5B and 5C, then if the opponent was hit she adds a third and launches the opponent into the sky. She then unclothes herself, prays and rises into the sky engulfed in a bird of light before piercing through the opponent. This move may get you banned from Twitch, we haven't tested it yet.",
+            "This move may get you banned from Twitch, we haven't tested it yet."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "19",
+                "active": "2",
+                "recovery": "80",
+                "advHit": "-",
+                "advBlock": "-60",
+                "cancel": "IC"
+              },
+              "notes": "Kanna does a sequence of 2 hits which are similar to her f5B and 5C, then if the opponent was hit she adds a third and launches the opponent into the sky. She then unclothes herself, prays and rises into the sky engulfed in a bird of light before piercing through the opponent. This move may get you banned from Twitch, we haven't tested it yet."
+            },
+            {
+              "version": "B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "45",
+                "active": "1",
+                "recovery": "55",
+                "advHit": "-",
+                "advBlock": "-34",
+                "cancel": "IC"
+              },
+              "notes": "Kanna does a sequence of 2 hits which are similar to her f5B and 5C, then if the opponent was hit she adds a third and launches the opponent into the sky. She then unclothes herself, prays and rises into the sky engulfed in a bird of light before piercing through the opponent. This move may get you banned from Twitch, we haven't tested it yet."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

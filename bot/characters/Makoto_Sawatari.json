@@ -1,0 +1,1088 @@
+{
+  "name": "Makoto Sawatari",
+  "icon": "https://wiki.gbl.gg/images/e/e0/EFZ_Makoto_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/9/93/Makoto5a.png",
+          "damage": "190",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4 / 4.33",
+            "active": "2 / 1.66",
+            "recovery": "8",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Makoto hits the opponent with her elbow. Fast startup, but the range is short even for a 5A, and due to her height it's not suitable to be used as an anti-air."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/3/30/Makoto5b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "2",
+            "recovery": "10",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "N SP J IC f5B/2B"
+          },
+          "properties": [
+            "Makoto hits the opponent with a slab of konjac gel. Fast startup and a nice frame advantage make this a good move overall. Can combo into 5A/2A with frame-perfect timing. Be careful, as it can come out instead of fB when slightly out of range. A key part of her corner loops."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e5/Makotof5b.png/175px-Makotof5b.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Any",
+            "startup": "10",
+            "active": "2",
+            "recovery": "15",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "N SP IC"
+          },
+          "properties": [
+            "Makoto fires her gun towards the ground. Great for harassing people at a longer range without extending your own hurtbox, but difficult to convert into a full combo on a random hit. Armor breaking."
+          ]
+        },
+        {
+          "moveName": "Mako Leap  まこリープ",
+          "input": "6B",
+          "image": "https://wiki.gbl.gg/images/7/72/Makoto6b.png",
+          "damage": "390",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "21",
+            "active": "9",
+            "recovery": "10",
+            "advHit": "-2",
+            "advBlock": "-4",
+            "cancel": "SP AD IC"
+          },
+          "properties": [
+            "Makoto leaps into the air and hits the opponent with her knee. A decent overhead that's usually safe on block, and can be cancelled into a backdash before landing. IC after block gives you enough time to perform a jA/jB before landing for an additional mixup. Will combo into 214214 on hit, or the usual ground combos with IC. The startup can be canceled into a block while Makoto is still on the ground (first 3 frames), though this is probably a bug."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "5C~C~C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1e/Makoto5c.png/175px-Makoto5c.png",
+          "damage": "250",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "13",
+            "active": "3",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "SP IC C"
+          },
+          "properties": [
+            "Makoto steps forward and hits the opponent with the gun, then fires up to 3 times. The extra two hits can be tricky to time and come out instantly when C is pressed, which makes it really difficult to combo anything off them without using IC. Excellent poke at long range, and the pushback can get you out of a bad situation if you can get the opponent to block this. Armor breaking except for the initial hit. The 5C followup window is 5F long. It is placed just before Makoto leans back after shooting. Hitting this window without mashing is unreliable."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "250",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "3",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "SP IC C"
+              },
+              "notes": "Makoto steps forward and hits the opponent with the gun, then fires up to 3 times. The extra two hits can be tricky to time and come out instantly when C is pressed, which makes it really difficult to combo anything off them without using IC. Excellent poke at long range, and the pushback can get you out of a bad situation if you can get the opponent to block this. Armor breaking except for the initial hit. The 5C followup window is 5F long. It is placed just before Makoto leans back after shooting. Hitting this window without mashing is unreliable."
+            },
+            {
+              "version": "B",
+              "damage": "350",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "2",
+                "recovery": "22",
+                "advHit": "0",
+                "advBlock": "-2",
+                "cancel": "SP IC C"
+              },
+              "notes": "Makoto steps forward and hits the opponent with the gun, then fires up to 3 times. The extra two hits can be tricky to time and come out instantly when C is pressed, which makes it really difficult to combo anything off them without using IC. Excellent poke at long range, and the pushback can get you out of a bad situation if you can get the opponent to block this. Armor breaking except for the initial hit. The 5C followup window is 5F long. It is placed just before Makoto leans back after shooting. Hitting this window without mashing is unreliable."
+            },
+            {
+              "version": "C",
+              "damage": "350*1~2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "26～",
+                "active": "2",
+                "recovery": "22",
+                "advHit": "0",
+                "advBlock": "-2",
+                "cancel": "SP IC"
+              },
+              "notes": "Makoto steps forward and hits the opponent with the gun, then fires up to 3 times. The extra two hits can be tricky to time and come out instantly when C is pressed, which makes it really difficult to combo anything off them without using IC. Excellent poke at long range, and the pushback can get you out of a bad situation if you can get the opponent to block this. Armor breaking except for the initial hit. The 5C followup window is 5F long. It is placed just before Makoto leans back after shooting. Hitting this window without mashing is unreliable."
+            }
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/2/2e/Makoto2a.png",
+          "damage": "190",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "2",
+            "recovery": "7",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Makoto leans back and performs a fast sweeping kick. Slightly shorter range than 5A, but has a slightly faster recovery. The lean also provides some protection against mid- and high hitting moves, making this move overall better than 5A. Consecutive hits sometimes drop against certain opponents, such as Shiori, who have weird hurt animations."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/a/aa/Makoto2b.png",
+          "damage": "385",
+          "framedata": {
+            "guard": "Low",
+            "startup": "6",
+            "active": "6",
+            "recovery": "6",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Makoto kneels down and hits the opponent in the legs with her gun. Good range, fairly fast, very advantageous on block and easy to combo from, this is one of Makoto's best normals. Can occasionally low-profile some high-hitting moves."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/fd/Makoto2c.png/175px-Makoto2c.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Low",
+            "startup": "12",
+            "active": "18",
+            "recovery": "24",
+            "advHit": "-",
+            "advBlock": "-20",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Very slow slide kick. This is your main ground combo ender and launcher. Usually unsafe when blocked, depending on how late the move connects. If blocked, you can cancel this into 623A to catch a 2A punish, or you can try setting up a 412B bullet which, while unsafe, usually prevents them from landing a full combo on you. If you have enough meter for IC, you could cancel this into 236A/B or 214A/B -> FIC instead for some extra pressure."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/4/4f/Makotoj5a.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "6",
+            "active": "15",
+            "recovery": "5",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Makoto hits the opponent with her knee while in the air. Stays active for a good while. For some reason the first frame of the startup is strike invulnerable."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/e/e5/Makotoj5b.png",
+          "damage": "380",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "6 / 6.33",
+            "active": "10 / 9.66",
+            "recovery": "9",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "A simple punch in the air, same startup duration as jA but hits directly to the side instead of below Makoto. Primary use is against opponents at the same height, but will hit a crouching opponent too."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/30/Makotoj5c.png/175px-Makotoj5c.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9",
+            "active": "3",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Makoto shoots directly forward while in the air. An excellent tool to keep the opponent from dashing towards you while airborne. Be careful though, as Makoto will not recover before landing if this move whiffs. Armor breaking."
+          ]
+        },
+        {
+          "moveName": "Three Burst スリーバースト",
+          "input": "j2C~C~C",
+          "image": "https://wiki.gbl.gg/images/thumb/4/4f/Makotoj2c.png/175px-Makotoj2c.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Any",
+            "startup": "14",
+            "active": "2",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "SP J AD IC C"
+          },
+          "properties": [
+            "Makoto shoots downwards up to 3 times. The initial startup is quite long, but the followup shots are nearly instant. Unlike 5C, the followups can be performed at any time after the initial shot. Like j5C, Makoto will not recover before landing, but the ability to fire multiple shots and cancel into a double jump or airdash if any of them connects makes this safer to whiff than j5C. Can be used as a jump-in, though the long startup and the fact that it can be blocked low make it useless for any mixups. A key part to Makoto's corner loops. Armor breaking."
+          ],
+          "variations": [
+            {
+              "version": "First Shot",
+              "damage": "200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14",
+                "active": "2",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "SP J AD IC C"
+              },
+              "notes": "Initial shot with long startup. Can be followed up with additional shots by pressing C again. Essential for corner combos and air pressure."
+            },
+            {
+              "version": "Follow-up Shots",
+              "damage": "200 per shot",
+              "framedata": {
+                "guard": "Any",
+                "startup": "Instant",
+                "active": "2",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "SP J AD IC C"
+              },
+              "notes": "Additional shots that can be fired by pressing C again. Unlike 5C, these can be performed at any time after the initial shot."
+            }
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/0/0b/Makoto66a.png",
+          "damage": "190",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "2",
+            "recovery": "8",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "A dashing version of her 5A that has a long startup and the same puny range, this one is mostly useless."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/b/b7/Makoto66b.png",
+          "damage": "360",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6 / 6.33",
+            "active": "3 / 2.66",
+            "recovery": "10",
+            "advHit": "+4 / +4.33",
+            "advBlock": "+2 / +2.33",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "A dashing version of her 5B. This move is superior to 66A in every aspect, and is a vital tool to reset her pressure. Can link into 2A if it hits meaty."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/ec/Makoto66c.png/175px-Makoto66c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "14",
+            "active": "23",
+            "recovery": "10",
+            "advHit": "-",
+            "advBlock": "-10",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Makoto performs a leaping punch that travels about 2/3 of the screen. Interesting properties but difficult to find uses for. Unsafe when blocked early, advantageous when blocked late. Can be canceled into specials while still on the ground (technically in the air too, but Makoto doesn't have any air-usable specials), for example you can do a 66C 236A -> FIC to keep the pressure going. You could also wait until Makoto is airborne to IC it for some j5A/2A mixups. On hit, knocks down with groundbounce properties, opening up some combo opportunities."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/e/ed/Makoto662a.png",
+          "damage": "190",
+          "framedata": {
+            "guard": "Low",
+            "startup": "7",
+            "active": "3",
+            "recovery": "6",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "A dashing version of her 2A. Not as bad as 66A, but still fairly useless. Could be used to link from the 66C ground bounce to keep a combo going."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/b/bf/Makoto662b.png",
+          "damage": "385",
+          "framedata": {
+            "guard": "Low/Air",
+            "startup": "10",
+            "active": "8",
+            "recovery": "6",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "A dashing version of her 2B. Very useful as a dash-in, as well as oki due to the long active duration (can be +1 ~ +6 on block depending on how late it connects). Can be blocked in the air for some reason."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/5/52/Makoto662c.png/175px-Makoto662c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "18",
+            "recovery": "18",
+            "advHit": "-",
+            "advBlock": "-14",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Basically an upgraded version of her 2C. Faster startup, travels further and less recovery, though still extremely unsafe on block. A decent way to combo off a f5B IC, and into a firepunch super. Can surprise the opponent if they're standing in neutral."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/c/c7/MakotoGrab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "1",
+            "recovery": "28",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Makoto grabs the opponent's shirt and if it connects, she performs a somersault kick. Makoto's fast dash combined with traps and especially bullets make this a very useful tool, as you can force the opponent into situations with very few safe options. Impossible to follow up by itself and cannot be IC'd, but bullet, firecracker and fireball setups exist to combo off it, possibly even into full corner loops. If you're unable to follow up, you still recover before the opponent even hits the ground, giving you plenty of time to set up your oki. As far as normal throw go, this one is well above average."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "28",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Makoto grabs the opponent's shirt and if it connects, she performs a somersault kick. Makoto's fast dash combined with traps and especially bullets make this a very useful tool, as you can force the opponent into situations with very few safe options. Impossible to follow up by itself and cannot be IC'd, but bullet, firecracker and fireball setups exist to combo off it, possibly even into full corner loops. If you're unable to follow up, you still recover before the opponent even hits the ground, giving you plenty of time to set up your oki. As far as normal throw go, this one is well above average."
+            },
+            {
+              "version": "B",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "28",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Makoto grabs the opponent's shirt and if it connects, she performs a somersault kick. Makoto's fast dash combined with traps and especially bullets make this a very useful tool, as you can force the opponent into situations with very few safe options. Impossible to follow up by itself and cannot be IC'd, but bullet, firecracker and fireball setups exist to combo off it, possibly even into full corner loops. If you're unable to follow up, you still recover before the opponent even hits the ground, giving you plenty of time to set up your oki. As far as normal throw go, this one is well above average."
+            },
+            {
+              "version": "C",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "28",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Makoto grabs the opponent's shirt and if it connects, she performs a somersault kick. Makoto's fast dash combined with traps and especially bullets make this a very useful tool, as you can force the opponent into situations with very few safe options. Impossible to follow up by itself and cannot be IC'd, but bullet, firecracker and fireball setups exist to combo off it, possibly even into full corner loops. If you're unable to follow up, you still recover before the opponent even hits the ground, giving you plenty of time to set up your oki. As far as normal throw go, this one is well above average."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/c/cd/MakotoAirgrab.png",
+          "damage": "1100",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "A fairly standard airthrow, Makoto grabs the opponent and disappears into the sky with her, only to reappear on the ground stomping the opponent. As with her ground throw, this is best used together with bullets to shut down any safe options for the opponent. Recovery takes a while, so you might not be able to set up the oki you want."
+          ]
+        },
+        {
+          "moveName": "Rat Fireworks ねずみ花火",
+          "input": "236A/B/C",
+          "image": "https://wiki.gbl.gg/images/c/cd/Makoto236a1.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "-",
+            "startup": "11",
+            "active": "-",
+            "recovery": "29",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Makoto throws firecrackers that will explode if the opponent steps on them, automatically after a set time, or when this move is performed again. The explosion is slightly larger than the detection radius. They will only explode if the opponent isn't blocking, dashing, in hitstun or knocked down."
+          ],
+          "variations": [
+            {
+              "version": "236A",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "11",
+                "active": "-",
+                "recovery": "29",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "Makoto throws a firecracker about 1/3 of the screen from her. The firecracker will explode if the opponent steps on it, automatically about 1 second after hitting the ground, or when this move is performed again. It's possible to FIC this move right after throwing the firecracker for additional safety, or if you want to set up multiple firecrackers. Very useful as midscreen oki, after a basic 2AABBC combo for example."
+            },
+            {
+              "version": "236A (Explosion)",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "71~142",
+                "active": "2",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "The explosion that follows when the firecracker is triggered or times out."
+            },
+            {
+              "version": "236B",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "11",
+                "active": "-",
+                "recovery": "25",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "Makoto throws a firecracker about 2/3 of the screen from her. Compared to the A version, Makoto recovers slightly faster, the firecracker hits the ground earlier and lasts for about 1.5 seconds. Useful in neutral to provide cover while you rush in, as oki after a 623A hit, after a blocked 5CCC to keep your momentum."
+            },
+            {
+              "version": "236B (Explosion)",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "63~158",
+                "active": "2",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "The explosion that follows when the firecracker is triggered or times out."
+            },
+            {
+              "version": "236C",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "11~13",
+                "active": "-",
+                "recovery": "21",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "Makoto throws 7 firecrackers in a semi-random pattern that usually covers the ground from 1/3 of the screen all the way to the other side. These firecrackers last almost 6 seconds, making it very hard for the opponent to move on the ground for a long time. Do not FIC this, as the firecrackers are spawned consecutively after the start of the IC window, which means you can get anything between 1 and 6 fireworks."
+            },
+            {
+              "version": "236C (Explosions)",
+              "damage": "450*1~7",
+              "framedata": {
+                "guard": "Any",
+                "startup": "53~425 (varies)",
+                "active": "2",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "The explosions that follow when the firecrackers are triggered or time out. Use this version to gain control over the ground."
+            }
+          ]
+        },
+        {
+          "moveName": "Somersault Auu~ サマーソルトあうー",
+          "input": "623A/B/C",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7a/Makoto623a.png/175px-Makoto623a.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "2",
+            "recovery": "31",
+            "advHit": "-",
+            "advBlock": "-11",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Makoto performs a somersault kick with different properties depending on the version used. Can be IC'd for extended combos."
+          ],
+          "variations": [
+            {
+              "version": "623A",
+              "image": "https://wiki.gbl.gg/images/7/7a/Makoto623a.png",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "31",
+                "advHit": "-",
+                "advBlock": "-11",
+                "cancel": "IC"
+              },
+              "notes": "Makoto performs a somersault kick. Has lower-body invulnerability so it can be used against lows, though it tends to trade due to losing most of the protection when it becomes active. Because it has no invulnerability whatsoever on the first frame, it's not usually suitable as a wakeup option. Knocks down when it hits raw or after a couple of hits, but is techable if used as a combo finisher. Can't airdash forward after ICing this move without performing an airjump first."
+            },
+            {
+              "version": "623B",
+              "image": "https://wiki.gbl.gg/images/c/c3/Makoto623b.png",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "29",
+                "advHit": "-",
+                "advBlock": "-9",
+                "cancel": "IC"
+              },
+              "notes": "Looks similar to A version, but has upper-body invulnerability instead. This move is perhaps one of the best anti-airs in the game thanks to its fast startup, high vertical reach and very generous invulnerability. Almost always safe when blocked by an airborne opponent, and you'll usually have time to repeat it should they try to dash back in. Recovers before the opponent can airtech on a raw hit, decent combo options with IC."
+            },
+            {
+              "version": "623C (First Hit)",
+              "image": "https://wiki.gbl.gg/images/e/e9/Makoto623c.png",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-40",
+                "cancel": "IC"
+              },
+              "notes": "Makoto performs two somersaults. The first one is fully invulnerable until landing, making this your primary reversal. The second hit launches the opponent forward with wallbounce properties. A mashy opponent might try to punish the first kick too early and get caught by the second."
+            },
+            {
+              "version": "623C (Second Hit)",
+              "image": "https://wiki.gbl.gg/images/f/fc/EFZ_Makoto_623C_1.png",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "28",
+                "active": "2",
+                "recovery": "39",
+                "advHit": "-",
+                "advBlock": "-19",
+                "cancel": "IC"
+              },
+              "notes": "The second hit of 623C. Launches the opponent with wallbounce properties. If the opponent is close to the corner, this move can be followed up and leads into the usual corner loops, otherwise can be followed up with 412C if you have enough RF meter."
+            }
+          ]
+        },
+        {
+          "moveName": "Insecticide Smoke 殺虫スモーク",
+          "input": "214A/B/C",
+          "image": "https://wiki.gbl.gg/images/f/f6/Makoto214b.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "-",
+            "startup": "17",
+            "active": "-",
+            "recovery": "32",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Makoto drops an insecticide smoke bomb that'll let out puffs of smoke over time. Any version of this trap already on the screen will be destroyed immediately when the move is performed again. The damage this trap does by itself is minuscule, but it's very efficient at forcing the opponent to keep blocking."
+          ],
+          "variations": [
+            {
+              "version": "214A",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "17",
+                "active": "-",
+                "recovery": "32",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "This version rolls forward after being dropped and repeats a cycle of generating 6 puffs of smoke up to 3 times with gaps in between runs, then finally disappears into 4 more puffs. Can be FIC'd the moment Makoto lets go of the bomb, making it a very good option for midscreen oki when you don't have time for anything else."
+            },
+            {
+              "version": "214A (Smoke)",
+              "damage": "10*22",
+              "framedata": {
+                "guard": "Any",
+                "startup": "77",
+                "active": "184",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "The puffs of smoke that generate over time. Can be destroyed by the opponent or other projectiles, so make sure to cover it with a meaty 2B or something similar."
+            },
+            {
+              "version": "214B",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "17",
+                "active": "-",
+                "recovery": "32",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "Similar to the A version, but this one will not roll forward, and will simply let out 17 puffs of smoke before disappearing. This is the foundation of your corner oki, giving you time to set up other stuff such as bullets or fireballs, or some high/low mixups."
+            },
+            {
+              "version": "214B (Smoke)",
+              "damage": "10*17",
+              "framedata": {
+                "guard": "Any",
+                "startup": "67",
+                "active": "73",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "The puffs of smoke. This version has weird hit-eating properties which will protect Makoto from getting hit by the same attack that destroys the bomb. Especially amusing against moves like Sayuri's 41236C wallslam."
+            },
+            {
+              "version": "214C",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "17",
+                "active": "-",
+                "recovery": "32",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "A direct improvement over the A version. The smoke bomb becomes active faster, and now performs 6 cycles of 8 puffs of smoke, after which it disappears into 4 more puffs for a total of 52. It also has the hit-eating properties of the B version."
+            },
+            {
+              "version": "214C (Smoke)",
+              "damage": "10*52",
+              "framedata": {
+                "guard": "Any",
+                "startup": "57",
+                "active": "354",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Despite these improvements, it's the least useful version of this move, as it's still just as fragile, and you usually won't have the meter for FIC to keep the opponent from destroying it."
+            }
+          ]
+        },
+        {
+          "moveName": "Ricochet Shot 跳弾",
+          "input": "412A/B/C",
+          "image": "https://wiki.gbl.gg/images/thumb/9/9d/Makoto412a1.png/175px-Makoto412a1.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Any",
+            "startup": "13",
+            "active": "-",
+            "recovery": "30",
+            "advHit": "-3",
+            "advBlock": "-5",
+            "cancel": "None"
+          },
+          "properties": [
+            "Makoto fires a bullet forward and towards the ceiling at a 45 degree angle. The bullet will ricochet off the screen edges, which can make its path very hard to predict, as camera movement will affect when it hits the walls. Only one bullet is allowed at a time, unlike her other projectiles you cannot perform any version of this move while there's a bullet on screen."
+          ],
+          "variations": [
+            {
+              "version": "412A",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "-",
+                "recovery": "30",
+                "advHit": "-3",
+                "advBlock": "-5",
+                "cancel": "None"
+              },
+              "notes": "Makoto fires a bullet forward and towards the ceiling at a 45 degree angle. This version will ricochet up to 2 times before flying off the screen, and disappears on hit. Can be used for midscreen oki and sometimes as anti-air, but not as useful in neutral as B version, because the opponent can intercept and RG the bullet before you have time to catch up. Part of her meterless corner combo."
+            },
+            {
+              "version": "412B",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "-",
+                "recovery": "29",
+                "advHit": "-2",
+                "advBlock": "-4",
+                "cancel": "None"
+              },
+              "notes": "Makoto shoots behind her instead. This version will ricochet up to 3 times. Extremely useful in both oki and neutral to limit the opponent's options. Try to have a bullet on screen at all times. If you manage to dash under a jumping opponent while escaping their pressure, you can even use this to cover your escape."
+            },
+            {
+              "version": "412C",
+              "damage": "500*1~8",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "-",
+                "recovery": "29",
+                "advHit": "-2",
+                "advBlock": "-4",
+                "cancel": "None"
+              },
+              "notes": "Quite possibly the best projectile in the game, this version has the same startup as the A and B versions, but travels much faster, and will always ricochet 7 times until flying out of the screen. Cannot be destroyed. If it hits the opponent, it will regain its hitbox after the next bounce, giving it a theoretical maximum of 8 hits. Ignores other projectiles, which allows it to beat even moves like Shiori's shield. Gives Makoto almost complete control of the screen for a few seconds."
+            }
+          ]
+        },
+        {
+          "moveName": "Fox Fire 狐火",
+          "input": "236236A/B/C",
+          "image": "https://wiki.gbl.gg/images/thumb/a/ae/Makoto236236.png/175px-Makoto236236.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "-",
+            "startup": "20",
+            "active": "-",
+            "recovery": "52",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Makoto conjures a huge fireball that stays on screen for a long time. Will disappear after 5 hits or blocks, or until it times out (amount of hits doesn't affect the timer)."
+          ],
+          "variations": [
+            {
+              "version": "236236A",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "20",
+                "active": "-",
+                "recovery": "52",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "This version slowly rises up above any character's standing height, then descends to the floor and disappears, all the while moving very slowly forward. Very useful as corner oki if you can get the opponent to block this, for example while they're already blocking a smoke trap."
+            },
+            {
+              "version": "236236A (Fireball)",
+              "damage": "400*5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "121~278",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "The gap when the fireball is at its apex height is a good opportunity to go for a throw, as it'll automatically punish most mash attempts while coming back down, and jumping out will leave the opponent blocking in the air."
+            },
+            {
+              "version": "236236B",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "20",
+                "active": "-",
+                "recovery": "52",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Similar to the A version, but doesn't move much besides slowly floating in place. Technically lasts much longer, but is hard to make much use of, because it gets quickly canceled out by blocking when placed on top of the opponent."
+            },
+            {
+              "version": "236236B (Fireball)",
+              "damage": "400*5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "471~817",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Can be used as oki against some characters after a 641236A corner knockdown (2AABBC 641236A -> J7 -> 236236B) to make it impossible to act without getting hit by the fireball, forcing them to choose between a throw and fireball damage."
+            },
+            {
+              "version": "236236C",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "20",
+                "active": "-",
+                "recovery": "52",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Like the A version, but also moves forward at a reasonable speed. The shortest lasting variant. Could be used midscreen the same way A version is used in corner, but not as good."
+            },
+            {
+              "version": "236236C (Fireball)",
+              "damage": "400*5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "91~212",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Also works as a projectile cover for your approach in neutral if you don't mind spending a super bar."
+            }
+          ]
+        },
+        {
+          "moveName": "Ground Strafing 地上掃射",
+          "input": "(j)214214A/B/C",
+          "image": "https://wiki.gbl.gg/images/thumb/f/fc/Makoto214214.png/175px-Makoto214214.png",
+          "damage": "50*10",
+          "framedata": {
+            "guard": "Any",
+            "startup": "23",
+            "active": "1 x 10※",
+            "recovery": "52~",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Makoto performs a gun sweep super that creates a hitbox along the ground. When used in the air, Makoto will descend while firing. Each version has different invincibility frames, hit count, and ground coverage."
+          ],
+          "variations": [
+            {
+              "version": "214214A",
+              "damage": "50*10",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "1 x 10※",
+                "recovery": "52~",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "This version becomes invulnerable when Makoto leaps off the ground at frame 8, or immediately if used in air. The ground hitbox covers half the screen in front of Makoto. Due to a bug in the game, when this version is IC'd and immediately chained into itself, the previous ground hitbox will not disappear, so it's possible to do 3 supers worth of damage with the cost of 2."
+            },
+            {
+              "version": "214214B",
+              "damage": "50*17",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "1 x 17※",
+                "recovery": "50~",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "An upgraded version of A, this one lasts longer and deals more damage, the ground hitbox now covers 3/4 of the screen and the move is fully invulnerable from the start, making this a proper reversal. Moves faster and travels further than A version, which makes it less likely from the opponent to drop out of this."
+            },
+            {
+              "version": "214214C",
+              "damage": "50*27",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "1 x 27※",
+                "recovery": "46~",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Another straight upgrade, the move lasts even longer and deals more damage, and the hitbox has been extended to cover the whole ground, making it possible to use this move in all the same situations as A and B, but also as a fullscreen surprise punish against projectile spam."
+            }
+          ]
+        },
+        {
+          "moveName": "Legend of Monomi Hill ものみの丘の伝承",
+          "input": "641236A/B/C",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7b/Makoto641236.png/175px-Makoto641236.png",
+          "damage": "400*5",
+          "framedata": {
+            "guard": "Any",
+            "startup": "10",
+            "active": "27",
+            "recovery": "28",
+            "advHit": "-",
+            "advBlock": "-9",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Makoto's eyes turn red and she grows a fox tail. She then rushes forward with her hand surrounded by fire. Guaranteed knockdown on hit and can be IC'd for extended combos."
+          ],
+          "variations": [
+            {
+              "version": "641236A",
+              "damage": "400*5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "27",
+                "recovery": "28",
+                "advHit": "-",
+                "advBlock": "-9",
+                "cancel": "IC"
+              },
+              "notes": "Makoto's primary source of damage, it can always be used after 2C as a combo finisher and corner carry, and can be IC'd for even more damage. This version has the fastest startup but no invulnerability whatsoever, so its only use is in combos. Can drop early when done at max distance. Extremely unsafe on block, but when IC'd in the air early into the move, gives enough time to deliver one j5A/j5B for a quick mixup."
+            },
+            {
+              "version": "641236B",
+              "damage": "450*5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "27",
+                "recovery": "33",
+                "advHit": "-",
+                "advBlock": "-14",
+                "cancel": "IC"
+              },
+              "notes": "An improved version that has invulnerability all the way to the 2nd active frame, making it a very good reversal. Moves faster and travels further than A version, which makes it less likely for the opponent to drop out of this, but the damage/cost ratio isn't as good. Use in combos when you think A would drop."
+            },
+            {
+              "version": "641236C",
+              "damage": "500*5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "27",
+                "recovery": "33",
+                "advHit": "-",
+                "advBlock": "-14",
+                "cancel": "IC"
+              },
+              "notes": "Because of the long startup, this version is usually not suitable for combos outside of corner, and although it's invulnerable all the way until landing, it might be too slow to be used as a reversal in some situations. Nevertheless, it has some uses, especially since it allows you to travel from one side of the screen to the another while fully invulnerable."
+            }
+          ]
+        },
+        {
+          "moveName": "Meat Bun 肉まんよー",
+          "input": "263S",
+          "image": "https://wiki.gbl.gg/images/c/c0/MakotoFM.png",
+          "damage": "0",
+          "framedata": {
+            "guard": "Unblockable",
+            "startup": "9",
+            "active": "10",
+            "recovery": "136, 123~171",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Makoto throws a meat bun into the air and attempts to catch it in her mouth. If she eats it, she regains health. The throw part is one of the extremely rare real unblockables in the game, making it possible to use eg. smoke trap setups for a guaranteed heal. If it hits it's a guaranteed knockdown (it even has armor breaking properties), otherwise the opponent has the opportunity to hit the meat bun before it reaches Makoto to prevent health regeneration.",
+            "Makoto herself is completely invulnerable throughout this move and has throw protection for a while after it, so the only damage you'll suffer is the mental damage from having your snack taken from you. The recovery duration depends on whether or not Makoto gets to eat the bun, and how late the opponent hit it to prevent the heal.",
+            "Although the move does 0 damage by itself, it's possible to use the unblockable together with smoke if you've chipped the opponent down to 1HP and only need to deal the winning blow. It's also possible to do some gimmicky smoke/bullet setups to combo the meat bun into bullet for about 300 damage: 662C -> small delay -> 214B FIC 5C 412B 66 263S (not tight until the opponent starts blocking the smoke, but they're probably not expecting this).",
+            "Note: Be careful while inputting this move; while super inputs are usually prioritized over specials, this move seems to be outprioritized by valid inputs that don't have moves associated with them, such as 236S and 623S. These are easy to input by accident, for example, if you're doing this move from a dash, you're probably holding 6 already and inputting this move as 6263S, which will count as 623S first. This can cause your super to be delayed until the offending input has fallen out of the input buffer."
+          ]
+        }
+      ]
+    }
+  ]
+}

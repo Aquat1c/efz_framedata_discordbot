@@ -1,0 +1,1473 @@
+{
+  "name": "Minagi Tohno",
+  "icon": "https://wiki.gbl.gg/images/2/21/EFZ_Minagi_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/0/08/Minagi5a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "5",
+            "recovery": "6",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Minagi extends out her hand in a short punch."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/3/3a/Minagic5b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "8",
+            "recovery": "6",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP J IC f5B SB"
+          },
+          "properties": [
+            "Minagi offers the opponent a ticket that for some reason causes pain."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/30/Minagif5b.png/175px-Minagif5b.png",
+          "damage": "410",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9",
+            "active": "2",
+            "recovery": "21",
+            "advHit": "-7",
+            "advBlock": "-9",
+            "cancel": "N SP IC SB"
+          },
+          "properties": [
+            "Minagi swings her bag in front of her. Has a very powerful hitbox. Most useful in neutral. Can combo into many of her specials and supers when Michiru is properly set up."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/92/Minagi5c.png/175px-Minagi5c.png",
+          "damage": "430",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "1",
+            "recovery": "32",
+            "advHit": "-9",
+            "advBlock": "-11",
+            "cancel": "SP JH IC SB"
+          },
+          "properties": [
+            "Minagi does one downward swipe into an upward swipe with a spread of paper tickets. Second hit launches."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "430",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "10",
+                "active": "1",
+                "recovery": "32",
+                "advHit": "-9",
+                "advBlock": "-11",
+                "cancel": "SP JH IC SB"
+              },
+              "notes": "Minagi does one downward swipe into an upward swipe with a spread of paper tickets. Second hit launches."
+            },
+            {
+              "version": "B",
+              "damage": "500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "20",
+                "active": "2",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "-1",
+                "cancel": "SP JH IC SB"
+              },
+              "notes": "Minagi does one downward swipe into an upward swipe with a spread of paper tickets. Second hit launches."
+            }
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/d/d3/Minagi2a.png",
+          "damage": "190",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "2",
+            "recovery": "9",
+            "advHit": "0",
+            "advBlock": "-1",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Minagi thrusts a ticket forward while crouching. Unfortunately not a low."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/e/e8/Minagi2b.png",
+          "damage": "420",
+          "framedata": {
+            "guard": "Low",
+            "startup": "6",
+            "active": "5",
+            "recovery": "9",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP J IC f5B SB"
+          },
+          "properties": [
+            "Minagi does an apologetic bow. Hits low, but has less range than 2A. Very fast startup and crucial to her high/low game."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/9b/Minagi2c.png/175px-Minagi2c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "8",
+            "recovery": "32",
+            "advHit": "/",
+            "advBlock": "-5",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Minagi extends her legs out to trip the opponent. Good for getting simple knockdowns midscreen into Michiru shenanigans. For combos you'll be using 5C more often."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/4/4c/Minagij5a.png",
+          "damage": "210",
+          "framedata": {
+            "guard": "High",
+            "startup": "4",
+            "active": "2",
+            "recovery": "11",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "Minagi swipes under herself with a ticket. Exceptionally fast."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/a/a9/Minagij5b.png",
+          "damage": "420",
+          "framedata": {
+            "guard": "High",
+            "startup": "7",
+            "active": "5",
+            "recovery": "14",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Minagi kicks at an angle towards the ground."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/bf/Minagij5c.png/175px-Minagij5c.png",
+          "damage": "540",
+          "framedata": {
+            "guard": "High",
+            "startup": "10",
+            "active": "3",
+            "recovery": "32",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Minagi does a flip kick which hits mostly in front of her. Used in her corner juggle loops and can be useful when challenging air-to-air. Causes downward momentum on aerial hit."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/6/69/Minagi66a.png",
+          "damage": "230",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "6",
+            "recovery": "4",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Similar to 5A except the hitbox is slightly smaller and it has forward momentum. Used in Minagi's 66AxN corner carries and in pressure."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/93/Minagi66b.png/175px-Minagi66b.png",
+          "damage": "430",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9",
+            "active": "2",
+            "recovery": "27",
+            "advHit": "-3",
+            "advBlock": "-5",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Identical to f5B with forward momentum. Strong neutral tool for hassling the opponent."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/71/Minagi66c.png/175px-Minagi66c.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "High",
+            "startup": "23",
+            "active": "2",
+            "recovery": "22",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Minagi dashes forward and swipes down with a ticket. Minagi's only grounded overhead, and also her only ground normal that can't be cancelled with S commands."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/f/f2/Minagi662a.png",
+          "damage": "210",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "2",
+            "recovery": "8",
+            "advHit": "0",
+            "advBlock": "-1",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Similar to 2A except the hitbox is slightly smaller and has forward momentum."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1f/Minagi662b.png/175px-Minagi662b.png",
+          "damage": "580",
+          "framedata": {
+            "guard": "Low",
+            "startup": "10",
+            "active": "2",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "+1",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Similar to 2C with different placing of the hitbox and forward momentum. Good for catching people blocking high at a distance."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/17/Minagi662c.png/175px-Minagi662c.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "12",
+            "active": "2",
+            "recovery": "30",
+            "advHit": "/",
+            "advBlock": "-10",
+            "cancel": "SP JH IC SB"
+          },
+          "properties": [
+            "Minagi does an upward swipe from dashing, identical to the second hit of 5C. This is Minagi's main way of launching opponents."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "c6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/8/87/EFZ_Minagi_Tohno_Grab.png/126px-EFZ_Minagi_Tohno_Grab.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "0.66",
+            "recovery": "27",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Can be IC canceled to start a combo."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "800",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "27",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Can be IC canceled to start a combo."
+            },
+            {
+              "version": "B",
+              "damage": "800",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "27",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Can be IC canceled to start a combo."
+            },
+            {
+              "version": "C",
+              "damage": "800",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "27",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Can be IC canceled to start a combo."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "cj6C",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0e/EFZ_Minagi_Tohno_Airgrab.png/175px-EFZ_Minagi_Tohno_Airgrab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Regular air throw. Opponent lands directly below Minagi."
+          ]
+        },
+        {
+          "moveName": "Chiruchiru _____",
+          "input": "4/5/6S",
+          "image": "https://wiki.gbl.gg/images/thumb/6/66/MinagiD.png/175px-MinagiD.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "0.33",
+            "active": "/",
+            "recovery": "16.66",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "5S - Chiruchiru Setup (ちるちる構えて) Michiru enters her \"ready\" stance. In this stance, she cannot move but her assist specials are much faster and some get unique properties. When Michiru completes a readied attack, she will return to her normal stance. Cancelling into this move and its variants is crucial to Minagi's gameplan. 5S - Chiruchiru Stop Setup (ちるちる構え止め) Michiru leaves the \"ready\" state and can move again.",
+            "6S - Chiruchiru Right (ちるちる右よ) Orders Michiru to move right. Cannot be used while Michiru is readied. 4S - Chiruchiru Left (ちるちる左よ) Orders Michiru to move left. Cannot be used while Michiru is readied.",
+            "Michiru enters her \"ready\" stance. In this stance, she cannot move but her assist specials are much faster and some get unique properties. When Michiru completes a readied attack, she will return to her normal stance. Cancelling into this move and its variants is crucial to Minagi's gameplan.",
+            "Michiru leaves the \"ready\" state and can move again.",
+            "Orders Michiru to move right. Cannot be used while Michiru is readied.",
+            "Orders Michiru to move left. Cannot be used while Michiru is readied."
+          ],
+          "variations": [
+            {
+              "version": "5S",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0.33",
+                "active": "/",
+                "recovery": "16.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "5S - Chiruchiru Setup (ちるちる構えて) Michiru enters her \"ready\" stance. In this stance, she cannot move but her assist specials are much faster and some get unique properties. When Michiru completes a readied attack, she will return to her normal stance. Cancelling into this move and its variants is crucial to Minagi's gameplan. 5S - Chiruchiru Stop Setup (ちるちる構え止め) Michiru leaves the \"ready\" state and can move again."
+            },
+            {
+              "version": "4/6S",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0.33",
+                "active": "/",
+                "recovery": "15.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "5S - Chiruchiru Setup (ちるちる構えて) Michiru enters her \"ready\" stance. In this stance, she cannot move but her assist specials are much faster and some get unique properties. When Michiru completes a readied attack, she will return to her normal stance. Cancelling into this move and its variants is crucial to Minagi's gameplan. 5S - Chiruchiru Stop Setup (ちるちる構え止め) Michiru leaves the \"ready\" state and can move again."
+            }
+          ]
+        },
+        {
+          "moveName": "Chiruchiru Kick  ちるちるキック",
+          "input": "C (Readied)",
+          "image": "https://wiki.gbl.gg/images/thumb/0/03/EFZ_Minagi_236A.png/175px-EFZ_Minagi_236A.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Any",
+            "startup": "13",
+            "active": "27",
+            "recovery": "9, 85 ~ 87※",
+            "advHit": "+17",
+            "advBlock": "+15",
+            "cancel": "None"
+          },
+          "properties": [
+            "Causes a wallbounce on hit.",
+            "Launches.",
+            "Doesn't launch but hits 5 times for extreme frame advantage."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "550",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "27",
+                "recovery": "9, 85 ~ 87※",
+                "advHit": "+17",
+                "advBlock": "+15",
+                "cancel": "None"
+              },
+              "notes": "Causes a wallbounce on hit."
+            },
+            {
+              "version": "B",
+              "damage": "550",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "35",
+                "recovery": "9, 85 ~ 89※",
+                "advHit": "+17",
+                "advBlock": "+15",
+                "cancel": "None"
+              },
+              "notes": "Causes a wallbounce on hit."
+            },
+            {
+              "version": "C",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "35",
+                "recovery": "9, 85 ~ 89※",
+                "advHit": "/",
+                "advBlock": "+22",
+                "cancel": "None"
+              },
+              "notes": "Causes a wallbounce on hit."
+            },
+            {
+              "version": "Ready A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "27",
+                "recovery": "9",
+                "advHit": "/",
+                "advBlock": "+21",
+                "cancel": "None"
+              },
+              "notes": "Causes a wallbounce on hit."
+            },
+            {
+              "version": "Ready B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "35",
+                "recovery": "9",
+                "advHit": "/",
+                "advBlock": "+21",
+                "cancel": "None"
+              },
+              "notes": "Causes a wallbounce on hit."
+            },
+            {
+              "version": "Ready C",
+              "damage": "150 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "35",
+                "recovery": "9",
+                "advHit": "+32 ~ +87",
+                "advBlock": "+31 ~ +85",
+                "cancel": "None"
+              },
+              "notes": "Causes a wallbounce on hit."
+            },
+            {
+              "version": "Minagi",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "3",
+                "active": "/",
+                "recovery": "18",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Causes a wallbounce on hit."
+            },
+            {
+              "version": "Minagi (Air)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "6",
+                "active": "/",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Causes a wallbounce on hit."
+            }
+          ]
+        },
+        {
+          "moveName": "Chiruchiru Drilling Bow Thigh  ちるちる穿弓腿",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/2/22/EFZ_Minagi_623A.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Any",
+            "startup": "35",
+            "active": "10",
+            "recovery": "65",
+            "advHit": "/",
+            "advBlock": "+15",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Michiru is able to absorb a hit for Minagi.",
+            "Hits multiple times.",
+            "Minagi herself isn't invincible in any version."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "35",
+                "active": "10",
+                "recovery": "65",
+                "advHit": "/",
+                "advBlock": "+15",
+                "cancel": "FIC"
+              },
+              "notes": "Michiru is able to absorb a hit for Minagi."
+            },
+            {
+              "version": "B",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "35",
+                "active": "20",
+                "recovery": "71",
+                "advHit": "/",
+                "advBlock": "+15",
+                "cancel": "FIC"
+              },
+              "notes": "Michiru is able to absorb a hit for Minagi."
+            },
+            {
+              "version": "C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "35",
+                "active": "20, 10 x 2",
+                "recovery": "51",
+                "advHit": "/",
+                "advBlock": "+30 ~ +44",
+                "cancel": "FIC"
+              },
+              "notes": "Michiru is able to absorb a hit for Minagi."
+            },
+            {
+              "version": "Ready A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "10",
+                "recovery": "65",
+                "advHit": "/",
+                "advBlock": "-10",
+                "cancel": "FIC"
+              },
+              "notes": "Michiru is able to absorb a hit for Minagi."
+            },
+            {
+              "version": "Ready B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "20",
+                "recovery": "71",
+                "advHit": "/",
+                "advBlock": "-10",
+                "cancel": "FIC"
+              },
+              "notes": "Michiru is able to absorb a hit for Minagi."
+            },
+            {
+              "version": "Ready C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "20, 10 x 2",
+                "recovery": "51",
+                "advHit": "/",
+                "advBlock": "+4 ~ +18",
+                "cancel": "FIC"
+              },
+              "notes": "Michiru is able to absorb a hit for Minagi."
+            },
+            {
+              "version": "Minagi",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "3",
+                "active": "/",
+                "recovery": "47",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Michiru is able to absorb a hit for Minagi."
+            }
+          ]
+        },
+        {
+          "moveName": "Chiruchiru Iron Head Merit  ちるちる鉄頭功",
+          "input": "Nerfed into obscurity.",
+          "image": "https://wiki.gbl.gg/images/7/71/EFZ_Minagi_421A_1.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "32",
+            "active": "15",
+            "recovery": "76",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Michiru travels slightly farther than the A version.",
+            "Tracks the opponent."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32",
+                "active": "15",
+                "recovery": "76",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "-",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "59",
+                "active": "25",
+                "recovery": "39",
+                "advHit": "+34",
+                "advBlock": "+32",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "B",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32",
+                "active": "15",
+                "recovery": "76",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "-",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "59",
+                "active": "25",
+                "recovery": "39",
+                "advHit": "+34",
+                "advBlock": "+32",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "C",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32",
+                "active": "15",
+                "recovery": "81",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "-",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "59",
+                "active": "29",
+                "recovery": "40",
+                "advHit": "+34",
+                "advBlock": "+32",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "Ready A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7",
+                "active": "15",
+                "recovery": "76",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "-",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "34",
+                "active": "25",
+                "recovery": "39",
+                "advHit": "+33",
+                "advBlock": "+31",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "Ready B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7",
+                "active": "15",
+                "recovery": "76",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "-",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "34",
+                "active": "25",
+                "recovery": "39",
+                "advHit": "+33",
+                "advBlock": "+31",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "Ready C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7",
+                "active": "15",
+                "recovery": "81",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "-",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "34",
+                "active": "29",
+                "recovery": "40",
+                "advHit": "+34",
+                "advBlock": "+32",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "Minagi",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "3",
+                "active": "/",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            },
+            {
+              "version": "Minagi (Air)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "6",
+                "active": "/",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru travels slightly farther than the A version."
+            }
+          ]
+        },
+        {
+          "moveName": "Chiruchiru Whirlwind Leg  ちるちる旋風脚",
+          "input": "(j)214",
+          "image": "https://wiki.gbl.gg/images/thumb/8/8a/EFZ_Minagi_214A_1.png/175px-EFZ_Minagi_214A_1.png",
+          "damage": "100 x 4",
+          "framedata": {
+            "guard": "Any",
+            "startup": "48",
+            "active": "3 x 7 + 1",
+            "recovery": "31",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Michiru jumps twice as high."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "100 x 4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "48",
+                "active": "3 x 7 + 1",
+                "recovery": "31",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Michiru jumps twice as high."
+            },
+            {
+              "version": "B",
+              "damage": "100 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "48",
+                "active": "3 x 16",
+                "recovery": "34",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Michiru jumps twice as high."
+            },
+            {
+              "version": "C",
+              "damage": "70 x 12",
+              "framedata": {
+                "guard": "Any",
+                "startup": "41",
+                "active": "3 x 13",
+                "recovery": "33",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Michiru jumps twice as high."
+            },
+            {
+              "version": "Ready A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "3 x 7 + 1",
+                "recovery": "31",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Michiru jumps twice as high."
+            },
+            {
+              "version": "Ready B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "3 x 16",
+                "recovery": "34",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Michiru jumps twice as high."
+            },
+            {
+              "version": "Ready C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "3 x 13",
+                "recovery": "33",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Michiru jumps twice as high."
+            },
+            {
+              "version": "Minagi",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "3",
+                "active": "/",
+                "recovery": "18",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru jumps twice as high."
+            },
+            {
+              "version": "Minagi (Air)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "6",
+                "active": "/",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru jumps twice as high."
+            }
+          ]
+        },
+        {
+          "moveName": "Rice Ticket Presentation  お米券進呈",
+          "input": "41236",
+          "image": "https://wiki.gbl.gg/images/thumb/0/06/Minagi41236.png/175px-Minagi41236.png",
+          "damage": "580",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9",
+            "active": "49",
+            "recovery": "29",
+            "advHit": "-7",
+            "advBlock": "-9",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Travels about 75% of the screen.",
+            "Travels about 90% of the screen, far enough to hit opponents fullscreen.",
+            "Hits twice, travels for over a screen, and most importantly invincible. Minagi's primary reversal option."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "580",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "49",
+                "recovery": "29",
+                "advHit": "-7",
+                "advBlock": "-9",
+                "cancel": "FIC"
+              },
+              "notes": "Travels about 75% of the screen."
+            },
+            {
+              "version": "B",
+              "damage": "580",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14",
+                "active": "72",
+                "recovery": "35",
+                "advHit": "-12",
+                "advBlock": "-14",
+                "cancel": "FIC"
+              },
+              "notes": "Travels about 75% of the screen."
+            },
+            {
+              "version": "C",
+              "damage": "600 x 2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "97",
+                "recovery": "45",
+                "advHit": "/",
+                "advBlock": "-5",
+                "cancel": "FIC"
+              },
+              "notes": "Travels about 75% of the screen."
+            }
+          ]
+        },
+        {
+          "moveName": "Chiruchiru Kick Festival  ちるちるキック祭り",
+          "input": "236236C",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d9/Minagi236236.png/175px-Minagi236236.png",
+          "damage": "140 x 17",
+          "framedata": {
+            "guard": "Any",
+            "startup": "21",
+            "active": "96",
+            "recovery": "95",
+            "advHit": "+20 ~ +113",
+            "advBlock": "+18 ~ +111",
+            "cancel": "None"
+          },
+          "properties": [
+            "Michiru spins like a drill in the air towards the opponent. Higher levels increase damage, hitbox size, and number of hits. Provides no gaps during the attack, so the opponent can block in the same direction even if a crossup is attempted."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "140 x 17",
+              "framedata": {
+                "guard": "Any",
+                "startup": "21",
+                "active": "96",
+                "recovery": "95",
+                "advHit": "+20 ~ +113",
+                "advBlock": "+18 ~ +111",
+                "cancel": "None"
+              },
+              "notes": "Michiru spins like a drill in the air towards the opponent. Higher levels increase damage, hitbox size, and number of hits. Provides no gaps during the attack, so the opponent can block in the same direction even if a crossup is attempted."
+            },
+            {
+              "version": "B",
+              "damage": "210 x 18",
+              "framedata": {
+                "guard": "Any",
+                "startup": "21",
+                "active": "100",
+                "recovery": "95",
+                "advHit": "+20 ~ +119",
+                "advBlock": "+18 ~ +117",
+                "cancel": "None"
+              },
+              "notes": "Michiru spins like a drill in the air towards the opponent. Higher levels increase damage, hitbox size, and number of hits. Provides no gaps during the attack, so the opponent can block in the same direction even if a crossup is attempted."
+            },
+            {
+              "version": "C",
+              "damage": "280 x 21",
+              "framedata": {
+                "guard": "Any",
+                "startup": "21",
+                "active": "123",
+                "recovery": "95",
+                "advHit": "+20 ~ +137",
+                "advBlock": "+18 ~ +135",
+                "cancel": "None"
+              },
+              "notes": "Michiru spins like a drill in the air towards the opponent. Higher levels increase damage, hitbox size, and number of hits. Provides no gaps during the attack, so the opponent can block in the same direction even if a crossup is attempted."
+            },
+            {
+              "version": "Minagi",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "9",
+                "active": "/",
+                "recovery": "29",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru spins like a drill in the air towards the opponent. Higher levels increase damage, hitbox size, and number of hits. Provides no gaps during the attack, so the opponent can block in the same direction even if a crossup is attempted."
+            },
+            {
+              "version": "Minagi (Air)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "1",
+                "active": "/",
+                "recovery": "50",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Michiru spins like a drill in the air towards the opponent. Higher levels increase damage, hitbox size, and number of hits. Provides no gaps during the attack, so the opponent can block in the same direction even if a crossup is attempted."
+            }
+          ]
+        },
+        {
+          "moveName": "Chiruchiru Solar Plexus Break  ちるちる鳩尾ブレイク",
+          "input": "(j)214214",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1f/Minagi214214.png/175px-Minagi214214.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Any",
+            "startup": "19",
+            "active": "2",
+            "recovery": "18",
+            "advHit": "+39",
+            "advBlock": "+32",
+            "cancel": "None"
+          },
+          "properties": [],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Any",
+                "startup": "19",
+                "active": "2",
+                "recovery": "18",
+                "advHit": "+39",
+                "advBlock": "+32",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "B",
+              "damage": "1800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "19",
+                "active": "2",
+                "recovery": "18",
+                "advHit": "+49",
+                "advBlock": "+32",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "C",
+              "damage": "2500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "19",
+                "active": "2",
+                "recovery": "18",
+                "advHit": "+58",
+                "advBlock": "+32",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "Ready A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13 ~ 37",
+                "active": "3",
+                "recovery": "18",
+                "advHit": "+52 ~ +54",
+                "advBlock": "+30 ~ +32",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "Ready B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13 ~ 52",
+                "active": "3",
+                "recovery": "18",
+                "advHit": "+72 ~ +74",
+                "advBlock": "+30 ~ +32",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "Ready C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13 ~ 69",
+                "active": "3",
+                "recovery": "18",
+                "advHit": "+89 ~ +91",
+                "advBlock": "+30 ~ +32",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "Minagi",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "3",
+                "active": "/",
+                "recovery": "11",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "Minagi (Air)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "1",
+                "active": "/",
+                "recovery": "32",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "moveName": "Soap Bubbles  しゃぼん玉",
+          "input": "Bubble hitboxes expand over time.",
+          "image": "https://wiki.gbl.gg/images/thumb/9/98/Minagi214236.png/175px-Minagi214236.png",
+          "damage": "200 x 5",
+          "framedata": {
+            "guard": "Any",
+            "startup": "12",
+            "active": "41",
+            "recovery": "36",
+            "advHit": "/",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "9f gap between bubbles.",
+            "6f gap between bubbles.",
+            "3f gap between bubbles."
+          ],
+          "variations": [
+            {
+              "version": "A (Minagi)",
+              "damage": "200 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "41",
+                "recovery": "36",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "9f gap between bubbles."
+            },
+            {
+              "version": "A (Michiru)",
+              "damage": "200 x 10~11※",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9 ~ 15※",
+                "active": "64 ~ 71",
+                "recovery": "31 ~ 37",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "9f gap between bubbles."
+            },
+            {
+              "version": "B (Minagi)",
+              "damage": "200 x 11",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "71",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "9f gap between bubbles."
+            },
+            {
+              "version": "B (Michiru)",
+              "damage": "200 x 15~16※",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9 ~ 15※",
+                "active": "99 ~ 106",
+                "recovery": "~32",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "9f gap between bubbles."
+            },
+            {
+              "version": "C (Minagi)",
+              "damage": "200 x 24",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "93",
+                "recovery": "32",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "9f gap between bubbles."
+            },
+            {
+              "version": "C (Michiru)",
+              "damage": "200 x 18~19※",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9 ~ 15※",
+                "active": "120 ~ 127",
+                "recovery": "~35",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "9f gap between bubbles."
+            }
+          ]
+        },
+        {
+          "moveName": "Star Sand  星の砂",
+          "input": "222S",
+          "image": "https://wiki.gbl.gg/images/thumb/d/dd/MinagiFM.png/175px-MinagiFM.png",
+          "damage": "500 + 300 x N",
+          "framedata": {
+            "guard": "Any",
+            "startup": "19",
+            "active": "2",
+            "recovery": "66",
+            "advHit": "/",
+            "advBlock": "-53",
+            "cancel": "None"
+          },
+          "properties": [
+            "Minagi and Michiru call stars to fall from the sky. Lasts for quite a while. Hitting Michiru will cancel the FM and stop it from producing more stars. Hitting Minagi does not stop the FM. Knocks down on hit."
+          ]
+        }
+      ]
+    }
+  ]
+}

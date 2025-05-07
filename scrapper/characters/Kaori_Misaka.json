@@ -1,0 +1,787 @@
+{
+  "name": "Kaori Misaka",
+  "icon": "https://wiki.gbl.gg/images/e/e8/EFZ_Kaori_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/4/48/Kaori5a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "1",
+            "recovery": "6",
+            "advHit": "+4",
+            "advBlock": "+3",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Quick jab. It's quick nature allows you to make openings for slower attacks, it's also used in Kaori's Corner juggle, and for cancelling cyclones in the cyclone juggle."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/1/1f/Kaori5b.png",
+          "damage": "380",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "2",
+            "recovery": "10",
+            "advHit": "+6",
+            "advBlock": "+4",
+            "cancel": "N SP J IC f5B/2B"
+          },
+          "properties": [
+            "Kaori lets out a small hook directed toward the face. Hits harder than most medium attacks and is used in her corner juggle BnB because it can push the opponent upwards a bit to extend the juggle."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a8/Kaorif5b.png/175px-Kaorif5b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "2",
+            "recovery": "13",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP JH IC"
+          },
+          "properties": [
+            "A straight punch. A strong punch, heavier than most medium attacks, not much to say about it, also helps in the corner juggle. Your basic poke, use this a lot when trying to hit-confirm for BnB."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d4/Kaori5c.png/175px-Kaori5c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "2",
+            "recovery": "18",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Big straight punch. Hits heavily, very important part of one of her BnBs."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/6/6d/Kaori2a.png/175px-Kaori2a.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "2",
+            "recovery": "8",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "A crouched jab. It's a low attack so it will break a standing guard."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/75/Kaori2b.png/175px-Kaori2b.png",
+          "damage": "390",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "2",
+            "recovery": "14",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Kaori let's out a high punch. Kaori's AA in most cases, used in pushing opponents toward the corner with one of her BnBs, and can restart a cyclone loop. It's fairly damaging. Has a lot more forward range than you might think. If you press this button on the same frame you input 3 (starting from 6 position), Kaori will be propelled forwards while doing this move."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/cb/Kaori2c.png/175px-Kaori2c.png",
+          "damage": "580",
+          "framedata": {
+            "guard": "Low",
+            "startup": "10",
+            "active": "2",
+            "recovery": "21",
+            "advHit": "/",
+            "advBlock": "0",
+            "cancel": "SP JH IC"
+          },
+          "properties": [
+            "Kaori makes a large sweep with her fist. Knocks down on hit."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/46/Kaorij5a.png/175px-Kaorij5a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "High",
+            "startup": "5",
+            "active": "2",
+            "recovery": "11",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC R"
+          },
+          "properties": [
+            "A downward angled punch delivered from the air. This move does a fair amount of damage, and is useful to extend the juggle meter enough on a launched opponent to start a corner juggle. Also used in pushing the opponent into the corner in combination with her other air attacks. It's angle makes it useful for breaking crouch guards, as this is an airborne attack."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/80/Kaorij5b.png/175px-Kaorij5b.png",
+          "damage": "390",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "3",
+            "recovery": "14",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC"
+          },
+          "properties": [
+            "A straight punch delivered in the air. Used to push opponent toward the corner in combination with her j.A. It's fairly strong. air attack, but it's angle makes it inefficient for breaking crouch guards."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/22/Kaorij5c.png/175px-Kaorij5c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High",
+            "startup": "9",
+            "active": "4",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "J AD IC"
+          },
+          "properties": [
+            "Kaori makes a huge downward punch from the air. Smashes airborne opponents onto the floor and is the ender to most of her air combos, air attack and has a nice angle matched with her short jump can make this effective for breaking crouch guards."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/d/de/EFZ_Kaori_Misaka_GroundGrab.png/175px-EFZ_Kaori_Misaka_GroundGrab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "6.33",
+            "active": "0.66",
+            "recovery": "21",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Kaori brings the opponent close and blasts them away with fire. Tied for the slowest normal throw in the game, but Kaori's excellent walk speed helps to compensate this.",
+            "Tied for the slowest normal throw in the game, but Kaori's excellent walk speed helps to compensate this."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6.33",
+                "active": "0.66",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Kaori brings the opponent close and blasts them away with fire. Tied for the slowest normal throw in the game, but Kaori's excellent walk speed helps to compensate this."
+            },
+            {
+              "version": "B",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6.33",
+                "active": "0.66",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Kaori brings the opponent close and blasts them away with fire. Tied for the slowest normal throw in the game, but Kaori's excellent walk speed helps to compensate this."
+            },
+            {
+              "version": "C",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6.33",
+                "active": "0.66",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Kaori brings the opponent close and blasts them away with fire. Tied for the slowest normal throw in the game, but Kaori's excellent walk speed helps to compensate this."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/6/62/EFZ_Kaori_Misaka_AirGrab.png/175px-EFZ_Kaori_Misaka_AirGrab.png",
+          "damage": "1400",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Kaori grabs the opponent's neck and punches them away and into the ground."
+          ]
+        },
+        {
+          "moveName": "Ducking",
+          "input": "66",
+          "image": "https://wiki.gbl.gg/images/thumb/4/48/Kaori66.png/175px-Kaori66.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "-",
+            "startup": "-",
+            "active": "-",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "N SP ※"
+          },
+          "properties": [
+            "Kaori takes a quick step forward while ducking in. You don't go very far. This move is a special move so you can cancel into it from any normal attack. Leads into 4 other moves. ※ Not cancellable into itself."
+          ]
+        },
+        {
+          "moveName": "Recoil Ducking",
+          "input": "44~66",
+          "image": "https://wiki.gbl.gg/images/thumb/4/48/Kaori66.png/175px-Kaori66.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "-",
+            "startup": "-",
+            "active": "-",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "N SP ※"
+          },
+          "properties": [
+            "Same as above except inputted after a backdash. This version goes farther than a regular dash and is much faster. You can backdash an opponent's attack and rush in while they are vulnerable, or can be used to just close the gap between you and the enemy. Leads into 4 other moves. ※ Not cancellable into itself."
+          ]
+        },
+        {
+          "moveName": "Fast Upper",
+          "input": "66A",
+          "image": "https://wiki.gbl.gg/images/b/bb/Kaori66a.png",
+          "damage": "350",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "2",
+            "recovery": "13",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "SP IC 5C/2C"
+          },
+          "properties": [
+            "Kaori makes a quick uppercut out of ducking. This move must be inputted in the last frames of a ducking, comes out very quick and has almost no delay."
+          ]
+        },
+        {
+          "moveName": "Shine One Two",
+          "input": "66B",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f8/EFZ_Kaori_Misaka_66B.png/175px-EFZ_Kaori_Misaka_66B.png",
+          "damage": "250",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "2",
+            "recovery": "20",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Kaori makes a one-two punch. Must be inputted in the last frames of a ducking."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "250",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6",
+                "active": "2",
+                "recovery": "20",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "SP IC"
+              },
+              "notes": "Kaori makes a one-two punch. Must be inputted in the last frames of a ducking."
+            },
+            {
+              "version": "B",
+              "damage": "300",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "2",
+                "recovery": "13",
+                "advHit": "+3",
+                "advBlock": "+1",
+                "cancel": "SP IC"
+              },
+              "notes": "Kaori makes a one-two punch. Must be inputted in the last frames of a ducking."
+            }
+          ]
+        },
+        {
+          "moveName": "Hell Charge",
+          "input": "66C",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a5/Kaori66c.png/175px-Kaori66c.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "16",
+            "recovery": "32",
+            "advHit": "/",
+            "advBlock": "-11",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Kaori makes a strong straight. Must be inputted in the last frames of a ducking. After the ducking, she'll take another step and make a long-distance punch. If used with recoil ducking you can pretty much punch across a screen. After it hits it will launch the opponent across the screen and most likely right into the corner, right where Kaori does the most damage. ICing Hell Charge when you already have the opponent in the corner leads to a perfect corner juggle opportunity."
+          ]
+        },
+        {
+          "moveName": "Leg Smasher",
+          "input": "662C",
+          "image": "https://wiki.gbl.gg/images/thumb/c/cb/Kaori2c.png/175px-Kaori2c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Low",
+            "startup": "10",
+            "active": "2",
+            "recovery": "20.66",
+            "advHit": "/",
+            "advBlock": "+0.33",
+            "cancel": "SP IC ※"
+          },
+          "properties": [
+            "Same as her 2C. About the same as 2C, if used after recoil ducking it can be a long-distanced knockdown attack. ※ Cannot be dash-cancelled but can be backdash-cancelled."
+          ]
+        },
+        {
+          "moveName": "Punishment Cross",
+          "input": "214",
+          "image": "https://wiki.gbl.gg/images/thumb/6/6a/EFZ_Kaori_Misaka_214.png/175px-EFZ_Kaori_Misaka_214.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "High",
+            "startup": "21",
+            "active": "2",
+            "recovery": "24",
+            "advHit": "/",
+            "advBlock": "-3",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Kaori doesn't move in this version. Sadly that means the second hit can whiff if the first connects from max range. The second hit will not come out if the first punch is blocked or whiffs.",
+            "Much slower than the A version, but Kaori steps forward while delivering her punch, covering about 30% of the screen. Second hit still comes out on block or whiff.",
+            "Has faster startup than the A version and moves forward like the B version (~20% of the screen) with the added bonus of invincible startup. Like the A version, the second punch only comes out if the first one hits, and it still can whiff at max range."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "450",
+              "framedata": {
+                "guard": "High",
+                "startup": "21",
+                "active": "2",
+                "recovery": "24",
+                "advHit": "/",
+                "advBlock": "-3",
+                "cancel": "IC"
+              },
+              "notes": "Kaori doesn't move in this version. Sadly that means the second hit can whiff if the first connects from max range. The second hit will not come out if the first punch is blocked or whiffs."
+            },
+            {
+              "version": "-",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "41",
+                "active": "2",
+                "recovery": "65",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Kaori doesn't move in this version. Sadly that means the second hit can whiff if the first connects from max range. The second hit will not come out if the first punch is blocked or whiffs."
+            },
+            {
+              "version": "B",
+              "damage": "450",
+              "framedata": {
+                "guard": "High",
+                "startup": "30",
+                "active": "2",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Kaori doesn't move in this version. Sadly that means the second hit can whiff if the first connects from max range. The second hit will not come out if the first punch is blocked or whiffs."
+            },
+            {
+              "version": "-",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "48",
+                "active": "2",
+                "recovery": "18",
+                "advHit": "/",
+                "advBlock": "+3",
+                "cancel": "IC"
+              },
+              "notes": "Kaori doesn't move in this version. Sadly that means the second hit can whiff if the first connects from max range. The second hit will not come out if the first punch is blocked or whiffs."
+            },
+            {
+              "version": "C",
+              "damage": "450",
+              "framedata": {
+                "guard": "High",
+                "startup": "20",
+                "active": "2",
+                "recovery": "24",
+                "advHit": "/",
+                "advBlock": "-3",
+                "cancel": "IC"
+              },
+              "notes": "Kaori doesn't move in this version. Sadly that means the second hit can whiff if the first connects from max range. The second hit will not come out if the first punch is blocked or whiffs."
+            },
+            {
+              "version": "-",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "40",
+                "active": "2",
+                "recovery": "66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Kaori doesn't move in this version. Sadly that means the second hit can whiff if the first connects from max range. The second hit will not come out if the first punch is blocked or whiffs."
+            }
+          ]
+        },
+        {
+          "moveName": "Cyclone Upper",
+          "input": "623",
+          "image": "https://wiki.gbl.gg/images/thumb/0/02/Kaori623.png/175px-Kaori623.png",
+          "damage": "100 x 9",
+          "framedata": {
+            "guard": "Any",
+            "startup": "21",
+            "active": "2 x 9",
+            "recovery": "32",
+            "advHit": "+7",
+            "advBlock": "+5",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Kaori does an uppercut and creates a tornado in front of her.",
+            "Can cancel into any normal move, special move (※other than 623B) and super move. As 66 counts as a special, this is also a cancel option. Hits very high, and is good at raising the opponent up in juggles. Cannot be cancelled into from any normal.",
+            "Completely invulnerable during startup.",
+            "Cannot be cancelled into from any normal."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "100 x 9",
+              "framedata": {
+                "guard": "Any",
+                "startup": "21",
+                "active": "2 x 9",
+                "recovery": "32",
+                "advHit": "+7",
+                "advBlock": "+5",
+                "cancel": "IC"
+              },
+              "notes": "Kaori does an uppercut and creates a tornado in front of her."
+            },
+            {
+              "version": "B",
+              "damage": "100 x 10",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "2 x 10",
+                "recovery": "43",
+                "advHit": "/",
+                "advBlock": "-14 ~ +22",
+                "cancel": "N SP IC ※"
+              },
+              "notes": "Kaori does an uppercut and creates a tornado in front of her."
+            },
+            {
+              "version": "C",
+              "damage": "750",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "2",
+                "recovery": "43",
+                "advHit": "/",
+                "advBlock": "-22",
+                "cancel": "IC"
+              },
+              "notes": "Kaori does an uppercut and creates a tornado in front of her."
+            }
+          ]
+        },
+        {
+          "moveName": "Initial K",
+          "input": "236236",
+          "image": "https://wiki.gbl.gg/images/thumb/0/08/Kaori236236.png/175px-Kaori236236.png",
+          "damage": "2000",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "2",
+            "recovery": "43",
+            "advHit": "/",
+            "advBlock": "-22",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Kaori let's out a powerful punch causing the screen to flash, she follows it up for a 3 punch combo, the direction of the punches form a large K. this move can be used as a devestating AA, and after the hit, the opponent is always placed on your right. you can IC the attack half-way to freeze the opponent in place and position yourself for a combo (the special does no damage until the last hit. each version has more freeze then the last, C version is actually 4 hits which is a delayed explosion. this move HURTS, C version can usually do 5k+ damage alone (easiest to do when used as AA). you can also cancel the move AFTER the final damaging hit and start up a corner juggle or push the opponent into the corner."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2000",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "4",
+                "active": "2",
+                "recovery": "43",
+                "advHit": "/",
+                "advBlock": "-22",
+                "cancel": "IC"
+              },
+              "notes": "Kaori let's out a powerful punch causing the screen to flash, she follows it up for a 3 punch combo, the direction of the punches form a large K. this move can be used as a devestating AA, and after the hit, the opponent is always placed on your right. you can IC the attack half-way to freeze the opponent in place and position yourself for a combo (the special does no damage until the last hit. each version has more freeze then the last, C version is actually 4 hits which is a delayed explosion. this move HURTS, C version can usually do 5k+ damage alone (easiest to do when used as AA). you can also cancel the move AFTER the final damaging hit and start up a corner juggle or push the opponent into the corner."
+            },
+            {
+              "version": "B",
+              "damage": "3200",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "4",
+                "active": "2",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-4",
+                "cancel": "IC"
+              },
+              "notes": "Kaori let's out a powerful punch causing the screen to flash, she follows it up for a 3 punch combo, the direction of the punches form a large K. this move can be used as a devestating AA, and after the hit, the opponent is always placed on your right. you can IC the attack half-way to freeze the opponent in place and position yourself for a combo (the special does no damage until the last hit. each version has more freeze then the last, C version is actually 4 hits which is a delayed explosion. this move HURTS, C version can usually do 5k+ damage alone (easiest to do when used as AA). you can also cancel the move AFTER the final damaging hit and start up a corner juggle or push the opponent into the corner."
+            },
+            {
+              "version": "C",
+              "damage": "4500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "4",
+                "active": "2",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-4",
+                "cancel": "IC"
+              },
+              "notes": "Kaori let's out a powerful punch causing the screen to flash, she follows it up for a 3 punch combo, the direction of the punches form a large K. this move can be used as a devestating AA, and after the hit, the opponent is always placed on your right. you can IC the attack half-way to freeze the opponent in place and position yourself for a combo (the special does no damage until the last hit. each version has more freeze then the last, C version is actually 4 hits which is a delayed explosion. this move HURTS, C version can usually do 5k+ damage alone (easiest to do when used as AA). you can also cancel the move AFTER the final damaging hit and start up a corner juggle or push the opponent into the corner."
+            }
+          ]
+        },
+        {
+          "moveName": "Fire Storm",
+          "input": "214214",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a2/Kaori214214.png/175px-Kaori214214.png",
+          "damage": "2200",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9",
+            "active": "8",
+            "recovery": "27",
+            "advHit": "/",
+            "advBlock": "-8",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Kaori ducks into the opponent and then lets out a long barrage of punches. A and B versions end with an uppercut, launching the opponent high into the air. C version ends with an uppercut then a straight punch which knocks the opponent to the edge of the screen, if they hit the wall they will wallbounce, IC before the straight for just a launch. ICing anywhere in the middle and before the last hits puts the opponent into a frozen state (very long attack stun basically) letting you setup a combo yourself."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "8",
+                "recovery": "27",
+                "advHit": "/",
+                "advBlock": "-8",
+                "cancel": "IC"
+              },
+              "notes": "Kaori ducks into the opponent and then lets out a long barrage of punches. A and B versions end with an uppercut, launching the opponent high into the air. C version ends with an uppercut then a straight punch which knocks the opponent to the edge of the screen, if they hit the wall they will wallbounce, IC before the straight for just a launch. ICing anywhere in the middle and before the last hits puts the opponent into a frozen state (very long attack stun basically) letting you setup a combo yourself."
+            },
+            {
+              "version": "B",
+              "damage": "3200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "11",
+                "recovery": "32",
+                "advHit": "/",
+                "advBlock": "-11",
+                "cancel": "IC"
+              },
+              "notes": "Kaori ducks into the opponent and then lets out a long barrage of punches. A and B versions end with an uppercut, launching the opponent high into the air. C version ends with an uppercut then a straight punch which knocks the opponent to the edge of the screen, if they hit the wall they will wallbounce, IC before the straight for just a launch. ICing anywhere in the middle and before the last hits puts the opponent into a frozen state (very long attack stun basically) letting you setup a combo yourself."
+            },
+            {
+              "version": "C",
+              "damage": "4200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "16",
+                "recovery": "37",
+                "advHit": "/",
+                "advBlock": "-16",
+                "cancel": "IC"
+              },
+              "notes": "Kaori ducks into the opponent and then lets out a long barrage of punches. A and B versions end with an uppercut, launching the opponent high into the air. C version ends with an uppercut then a straight punch which knocks the opponent to the edge of the screen, if they hit the wall they will wallbounce, IC before the straight for just a launch. ICing anywhere in the middle and before the last hits puts the opponent into a frozen state (very long attack stun basically) letting you setup a combo yourself."
+            }
+          ]
+        },
+        {
+          "moveName": "Extreme Double",
+          "input": "641236",
+          "image": "https://wiki.gbl.gg/images/thumb/e/ef/Kaori641236.png/175px-Kaori641236.png",
+          "damage": "0 + 2500",
+          "framedata": {
+            "guard": "Unblockable",
+            "startup": "38",
+            "active": "2",
+            "recovery": "16",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Kaori slowly leaps forward and lets out a powerful UNBLOCKABLE downward straight. Like all other supers, the meter will not be spent until the superflash occurs, meaning Kaori won't spend any SP if she gets hit on the way up. The first hit does no damage and can be blocked but on hit or block the game freezes and Kaori throws out the second unblockable hit. Unfortunately for Kaori, the startup is very long and the active frames are very short, making this difficult to hit the opponent with. Even worse, the superflash right before the first hit makes it trivially easy to react to with an invincible move. If the opponent makes a mistake and RG's the first hit, they still get the chance to reversal through the unblockable (although Kaori will be able to counter RG). Even though Kaori jumps during this move, it will most likely whiff on airborne opponents because the hitbox is so low and so small.",
+            "Unfortunately for Kaori, the startup is very long and the active frames are very short, making this difficult to hit the opponent with. Even worse, the superflash right before the first hit makes it trivially easy to react to with an invincible move. If the opponent makes a mistake and RG's the first hit, they still get the chance to reversal through the unblockable (although Kaori will be able to counter RG).",
+            "Even though Kaori jumps during this move, it will most likely whiff on airborne opponents because the hitbox is so low and so small."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0 + 2500",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "38",
+                "active": "2",
+                "recovery": "16",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Kaori slowly leaps forward and lets out a powerful UNBLOCKABLE downward straight. Like all other supers, the meter will not be spent until the superflash occurs, meaning Kaori won't spend any SP if she gets hit on the way up. The first hit does no damage and can be blocked but on hit or block the game freezes and Kaori throws out the second unblockable hit. Unfortunately for Kaori, the startup is very long and the active frames are very short, making this difficult to hit the opponent with. Even worse, the superflash right before the first hit makes it trivially easy to react to with an invincible move. If the opponent makes a mistake and RG's the first hit, they still get the chance to reversal through the unblockable (although Kaori will be able to counter RG). Even though Kaori jumps during this move, it will most likely whiff on airborne opponents because the hitbox is so low and so small."
+            },
+            {
+              "version": "B",
+              "damage": "0 + 3500",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "38",
+                "active": "2",
+                "recovery": "16",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Kaori slowly leaps forward and lets out a powerful UNBLOCKABLE downward straight. Like all other supers, the meter will not be spent until the superflash occurs, meaning Kaori won't spend any SP if she gets hit on the way up. The first hit does no damage and can be blocked but on hit or block the game freezes and Kaori throws out the second unblockable hit. Unfortunately for Kaori, the startup is very long and the active frames are very short, making this difficult to hit the opponent with. Even worse, the superflash right before the first hit makes it trivially easy to react to with an invincible move. If the opponent makes a mistake and RG's the first hit, they still get the chance to reversal through the unblockable (although Kaori will be able to counter RG). Even though Kaori jumps during this move, it will most likely whiff on airborne opponents because the hitbox is so low and so small."
+            },
+            {
+              "version": "C",
+              "damage": "0 + 5000",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "38",
+                "active": "2",
+                "recovery": "16",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Kaori slowly leaps forward and lets out a powerful UNBLOCKABLE downward straight. Like all other supers, the meter will not be spent until the superflash occurs, meaning Kaori won't spend any SP if she gets hit on the way up. The first hit does no damage and can be blocked but on hit or block the game freezes and Kaori throws out the second unblockable hit. Unfortunately for Kaori, the startup is very long and the active frames are very short, making this difficult to hit the opponent with. Even worse, the superflash right before the first hit makes it trivially easy to react to with an invincible move. If the opponent makes a mistake and RG's the first hit, they still get the chance to reversal through the unblockable (although Kaori will be able to counter RG). Even though Kaori jumps during this move, it will most likely whiff on airborne opponents because the hitbox is so low and so small."
+            }
+          ]
+        },
+        {
+          "moveName": "Silent Pose",
+          "input": "666S",
+          "image": "https://wiki.gbl.gg/images/5/5e/EFZ_Kaori_FM.png",
+          "damage": "5000",
+          "framedata": {
+            "guard": "/",
+            "startup": "0.33",
+            "active": "40",
+            "recovery": "52",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Kaori stands still with her eyes closed. This is a counter move, the opponent must hit you for it to activate. On activation, no matter where the opponent is and even if they are invincible, the screen will fade to a stylish animation and the opponent will take loads of damage. The opponent will then fall behind Kaori for a sideswitch. 623B and all ground normals (except for 66C) can be whiff cancelled into this move."
+          ]
+        }
+      ]
+    }
+  ]
+}

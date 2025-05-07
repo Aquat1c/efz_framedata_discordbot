@@ -1,0 +1,1011 @@
+{
+  "name": "Sayuri Kurata",
+  "icon": "https://wiki.gbl.gg/images/d/d2/EFZ_Sayuri_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/f/fc/Sayuri5a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "5",
+            "recovery": "4",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Sayuri does a horizontal chop. An excellent 5A with above average horizontal reach and great frame data. The go-to normal for anti airs after RGing a jump in, as the 4F startup allows the move to beat even 5F jAAA strings if timed well. Can be used in pressure strings to threaten command throw super, works especially well if you cover the first half circle of the super during the animation of 5A."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d5/Sayuric5b.png/175px-Sayuric5b.png",
+          "damage": "410",
+          "framedata": {
+            "guard": "Low",
+            "startup": "6",
+            "active": "2",
+            "recovery": "20",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP J IC f5B 2B"
+          },
+          "properties": [
+            "Sayuri kicks her leg out at a downward angle, hitting the opponent as a low. Excellent move to catch opponents by surprise at max c5B range. Causes a lot of hitstun and blockstun, allowing for easy hitconfirms."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f4/Sayurif5b.png/175px-Sayurif5b.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "2",
+            "recovery": "14",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP IC"
+          },
+          "properties": [
+            "Sayuri swipes with her magical wand. This move has is very disjointed, most characters will have a tough time competing with it. Be careful of opponents with ways to get under this normal, such as slides. Perfect for harassing at a safe range and smacking people out of the air, especially against opponents stuck in the corner. Has a long cancel window. The higher hitbox whiffs on every crouching character."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/ac/Sayuri5c.png/175px-Sayuri5c.png",
+          "damage": "300",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "2",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Sayuri's magic wand transforms into a piston which kicks twice. Second hit launches. Has slightly longer range than f5B, making it particularly potent to catch opponents sitting just outside of f5B range. Complements the rest of her neutral buttons but can become dangerous for the player if overused, due to the recovery and extended hurtbox. Short cancel windows makes this difficult to hitconfirm from."
+          ],
+          "variations": [
+            {
+              "version": "1st hit",
+              "damage": "300",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "10",
+                "active": "2",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "SP IC"
+              },
+              "notes": "Sayuri's magic wand transforms into a piston which kicks twice. Second hit launches. Has slightly longer range than f5B, making it particularly potent to catch opponents sitting just outside of f5B range. Complements the rest of her neutral buttons but can become dangerous for the player if overused, due to the recovery and extended hurtbox. Short cancel windows makes this difficult to hitconfirm from."
+            },
+            {
+              "version": "2nd hit",
+              "damage": "450",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "16",
+                "active": "2",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "+2",
+                "cancel": "SP IC"
+              },
+              "notes": "Sayuri's magic wand transforms into a piston which kicks twice. Second hit launches. Has slightly longer range than f5B, making it particularly potent to catch opponents sitting just outside of f5B range. Complements the rest of her neutral buttons but can become dangerous for the player if overused, due to the recovery and extended hurtbox. Short cancel windows makes this difficult to hitconfirm from."
+            }
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b2/Sayuri2a.png/175px-Sayuri2a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "4",
+            "recovery": "5",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Sayuri extends her arm while crouching. Hits low. A core tool for opening up the opponent. Must be Recoil Guarded low, making it a valuable response after RG. Can be used to threaten command throw super if close to the opponent."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/5/59/Sayuri2b.png/175px-Sayuri2b.png",
+          "damage": "430",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "8",
+            "recovery": "10",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Sayuri's wand turns into a sword and she stabs it up and forward. Has almost identical reach to f5B, only with 6 extra active frames and 4 less recovery, at the cost of a more extended hurtbox. As such, it has many of the same uses as f5B, covering slightly different angles. Also has a long cancel window. Be aware that this move will whiff on Nayuki (Asleep) and Ikumi when they are crouching."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "Active Frame 1",
+          "image": "https://wiki.gbl.gg/images/thumb/0/09/Sayuri2c.png/175px-Sayuri2c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9",
+            "active": "9",
+            "recovery": "20",
+            "advHit": "-5",
+            "advBlock": "-7",
+            "cancel": "SP JH IC"
+          },
+          "properties": [
+            "Sayuri's wand turns into a mace and she swings it from her feet to above her head. Decent anti-air for opponents too close or too high to use f5B. Active Frames 2-3 Active Frames 4-9",
+            "Active Frames 2-3",
+            "Active Frames 4-9"
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/b/b8/Sayurij5a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "5",
+            "active": "6",
+            "recovery": "6",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "Sayuri punches diagonally downwards. A core part of Sayuri's mixups and pressure. Can be risky against opponents with a 4F anti-air height 5A if the opponent is good at RG 5A timing."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c5/Sayurij5b.png/175px-Sayurij5b.png",
+          "damage": "430",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "8",
+            "active": "8",
+            "recovery": "13",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Sayuri extends her leg out in a jumping kick. Excellent priority. Her primary tool for dealing with opponents at the same height in the air. Can be used as a crossup tool but spacing, height and timing is tight."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/25/Sayurij5c.png/175px-Sayurij5c.png",
+          "damage": "620",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "10",
+            "active": "2",
+            "recovery": "-",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Sayuri's extends her wand diagonally downwards. One of Sayuri's best normals. Her main normal for getting damage from juggle loops. Your go to air normal when the opponent is below you. Incredible priority."
+          ],
+          "variations": [
+            {
+              "version": "Active Frames 1-2",
+              "damage": "620",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "10",
+                "active": "2",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "SP J AD IC"
+              },
+              "notes": "Sayuri's extends her wand diagonally downwards. One of Sayuri's best normals. Her main normal for getting damage from juggle loops. Your go to air normal when the opponent is below you. Incredible priority."
+            },
+            {
+              "version": "Active Frames 3-12",
+              "damage": "550",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "12",
+                "active": "10",
+                "recovery": "12",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "SP J AD IC"
+              },
+              "notes": "Sayuri's extends her wand diagonally downwards. One of Sayuri's best normals. Her main normal for getting damage from juggle loops. Your go to air normal when the opponent is below you. Incredible priority."
+            }
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/a/a4/EFZ_Sayuri_GroundGrab.png",
+          "damage": "1150",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5",
+            "active": "1",
+            "recovery": "24",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Sayuri throws the opponent back over her shoulder. This can be both a blessing and a curse - she gets IAD j412C/jC mixups off this, but may lose the corner."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1150",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "24",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Sayuri throws the opponent back over her shoulder. This can be both a blessing and a curse - she gets IAD j412C/jC mixups off this, but may lose the corner."
+            },
+            {
+              "version": "B",
+              "damage": "1150",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "24",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Sayuri throws the opponent back over her shoulder. This can be both a blessing and a curse - she gets IAD j412C/jC mixups off this, but may lose the corner."
+            },
+            {
+              "version": "C",
+              "damage": "1150",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "24",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Sayuri throws the opponent back over her shoulder. This can be both a blessing and a curse - she gets IAD j412C/jC mixups off this, but may lose the corner."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/a/a8/EFZ_Sayuri_AirGrab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Sayuri grabs the opponent by the neck and electrocutes them with magic. The invincibility on this air throw starts one frame too late to cover its active frames, meaning it can trade unlike most other throws. On the bright side, these late invincibility frames will cover Sayuri during the startup of her jC if it whiffs, and the invincibility is actually longer than what is usual for throws. As player 2, trading with this can be beneficial thanks to a bug that stuns the opponent in place in the air for 333.33 frames, allowing her to easily start a combo. Throw trades act normally as player 1, making the opponent fall straight to the ground without taking any damage.",
+            "The invincibility on this air throw starts one frame too late to cover its active frames, meaning it can trade unlike most other throws. On the bright side, these late invincibility frames will cover Sayuri during the startup of her jC if it whiffs, and the invincibility is actually longer than what is usual for throws.",
+            "As player 2, trading with this can be beneficial thanks to a bug that stuns the opponent in place in the air for 333.33 frames, allowing her to easily start a combo. Throw trades act normally as player 1, making the opponent fall straight to the ground without taking any damage."
+          ]
+        },
+        {
+          "moveName": "Magical☆Shot",
+          "input": "236",
+          "image": "https://wiki.gbl.gg/images/thumb/5/5d/Sayuri236.png/175px-Sayuri236.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Any",
+            "startup": "10.33",
+            "active": "∞",
+            "recovery": "31.66",
+            "advHit": "/",
+            "advBlock": "-16",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Sayuri shoots a slow moving star horizontally close to the ground. Easily reacted to in neutral and leaves you open to IAD punishes, always keep the opponent guessing which star you will use.",
+            "Sayuri shoots a slow moving star horizontally at eye height. Easily reacted to in neutral, but only some characters will have opportunities to punish this. These tend to be characters with slides.",
+            "Sayuri does the A version and B version in quick succession. Not often used as Sayuri has much better places to spend RF meter.",
+            "Sayuri shoots a slow moving star directly forward.",
+            "Sayuri shoots a slow moving star angled slightly downwards. This projectile does not interact with other projectiles (including Shiori's 5S shield).",
+            "Sayuri shoots a slow moving star angled more downwards than the j.B version. Unlike most C specials, this move does not require RF to use. This projectile does not interact with other projectiles (including Shiori's 5S shield)."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10.33",
+                "active": "∞",
+                "recovery": "31.66",
+                "advHit": "/",
+                "advBlock": "-16",
+                "cancel": "FIC"
+              },
+              "notes": "Sayuri shoots a slow moving star horizontally close to the ground. Easily reacted to in neutral and leaves you open to IAD punishes, always keep the opponent guessing which star you will use."
+            },
+            {
+              "version": "B",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11.33",
+                "active": "∞",
+                "recovery": "27.66",
+                "advHit": "/",
+                "advBlock": "-12",
+                "cancel": "FIC"
+              },
+              "notes": "Sayuri shoots a slow moving star horizontally close to the ground. Easily reacted to in neutral and leaves you open to IAD punishes, always keep the opponent guessing which star you will use."
+            },
+            {
+              "version": "C",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7.66",
+                "active": "∞",
+                "recovery": "37",
+                "advHit": "/",
+                "advBlock": "-24",
+                "cancel": "None"
+              },
+              "notes": "Sayuri shoots a slow moving star horizontally close to the ground. Easily reacted to in neutral and leaves you open to IAD punishes, always keep the opponent guessing which star you will use."
+            },
+            {
+              "version": "-",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "24.33",
+                "active": "∞",
+                "recovery": "21.66",
+                "advHit": "/",
+                "advBlock": "-6",
+                "cancel": "FIC"
+              },
+              "notes": "Sayuri shoots a slow moving star horizontally close to the ground. Easily reacted to in neutral and leaves you open to IAD punishes, always keep the opponent guessing which star you will use."
+            },
+            {
+              "version": "jA",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14.33",
+                "active": "∞",
+                "recovery": "36.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Sayuri shoots a slow moving star horizontally close to the ground. Easily reacted to in neutral and leaves you open to IAD punishes, always keep the opponent guessing which star you will use."
+            },
+            {
+              "version": "jB",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14.33",
+                "active": "∞",
+                "recovery": "36.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Sayuri shoots a slow moving star horizontally close to the ground. Easily reacted to in neutral and leaves you open to IAD punishes, always keep the opponent guessing which star you will use."
+            },
+            {
+              "version": "jC",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14.33",
+                "active": "∞",
+                "recovery": "36.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Sayuri shoots a slow moving star horizontally close to the ground. Easily reacted to in neutral and leaves you open to IAD punishes, always keep the opponent guessing which star you will use."
+            }
+          ]
+        },
+        {
+          "moveName": "Magical☆Sword",
+          "input": "623B",
+          "image": "https://wiki.gbl.gg/images/thumb/2/21/EFZ_Sayuri_623A.png/175px-EFZ_Sayuri_623A.png",
+          "damage": "750",
+          "framedata": {
+            "guard": "Any",
+            "startup": "8",
+            "active": "2",
+            "recovery": "31",
+            "advHit": "/",
+            "advBlock": "-11",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Sayuri quickly slashes her wand (transformed into a sword) horizontally, moving Sayuri forward. This move is incredible as it is quick, has good range, and an excellent hitbox. Her most common launcher when coupled with IC. Used in pressure to late cancel normals like c5B, f5B, and 2B. Cancelling late into this from c5B is only recommended if you have IC available due to the proximity required for c5B. At longer ranges with f5B and 2B, it can be safer to use without IC, but only with care.",
+            "Sayuri slashes her wand (transformed into a sword) vertically up, and then back down. The first hit will not connect if the opponent is standing right next to you. Almost useless. It's a bit slower than the A version, and if the first hit is blocked, the second hit can easily be RGed.",
+            "Sayuri does 623B into 623A. The second hit is an overhead, and the third hit will wallbounce the opponent if they are knocked back to the corner. Has some invulnerability. Can be used as a risky reversal."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "750",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "2",
+                "recovery": "31",
+                "advHit": "/",
+                "advBlock": "-11",
+                "cancel": "IC"
+              },
+              "notes": "Sayuri quickly slashes her wand (transformed into a sword) horizontally, moving Sayuri forward. This move is incredible as it is quick, has good range, and an excellent hitbox. Her most common launcher when coupled with IC. Used in pressure to late cancel normals like c5B, f5B, and 2B. Cancelling late into this from c5B is only recommended if you have IC available due to the proximity required for c5B. At longer ranges with f5B and 2B, it can be safer to use without IC, but only with care."
+            },
+            {
+              "version": "B",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "1",
+                "recovery": "47",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Sayuri quickly slashes her wand (transformed into a sword) horizontally, moving Sayuri forward. This move is incredible as it is quick, has good range, and an excellent hitbox. Her most common launcher when coupled with IC. Used in pressure to late cancel normals like c5B, f5B, and 2B. Cancelling late into this from c5B is only recommended if you have IC available due to the proximity required for c5B. At longer ranges with f5B and 2B, it can be safer to use without IC, but only with care."
+            },
+            {
+              "version": "-",
+              "damage": "550",
+              "framedata": {
+                "guard": "Any",
+                "startup": "30.66",
+                "active": "3",
+                "recovery": "24.33",
+                "advHit": "/",
+                "advBlock": "-5",
+                "cancel": "IC"
+              },
+              "notes": "Sayuri quickly slashes her wand (transformed into a sword) horizontally, moving Sayuri forward. This move is incredible as it is quick, has good range, and an excellent hitbox. Her most common launcher when coupled with IC. Used in pressure to late cancel normals like c5B, f5B, and 2B. Cancelling late into this from c5B is only recommended if you have IC available due to the proximity required for c5B. At longer ranges with f5B and 2B, it can be safer to use without IC, but only with care."
+            },
+            {
+              "version": "C",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14",
+                "active": "2",
+                "recovery": "68.66",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Sayuri quickly slashes her wand (transformed into a sword) horizontally, moving Sayuri forward. This move is incredible as it is quick, has good range, and an excellent hitbox. Her most common launcher when coupled with IC. Used in pressure to late cancel normals like c5B, f5B, and 2B. Cancelling late into this from c5B is only recommended if you have IC available due to the proximity required for c5B. At longer ranges with f5B and 2B, it can be safer to use without IC, but only with care."
+            },
+            {
+              "version": "-",
+              "damage": "550",
+              "framedata": {
+                "guard": "High, Air",
+                "startup": "35.66",
+                "active": "3",
+                "recovery": "46",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Sayuri quickly slashes her wand (transformed into a sword) horizontally, moving Sayuri forward. This move is incredible as it is quick, has good range, and an excellent hitbox. Her most common launcher when coupled with IC. Used in pressure to late cancel normals like c5B, f5B, and 2B. Cancelling late into this from c5B is only recommended if you have IC available due to the proximity required for c5B. At longer ranges with f5B and 2B, it can be safer to use without IC, but only with care."
+            },
+            {
+              "version": "-",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "57.66",
+                "active": "2",
+                "recovery": "25",
+                "advHit": "-",
+                "advBlock": "-12",
+                "cancel": "IC"
+              },
+              "notes": "Sayuri quickly slashes her wand (transformed into a sword) horizontally, moving Sayuri forward. This move is incredible as it is quick, has good range, and an excellent hitbox. Her most common launcher when coupled with IC. Used in pressure to late cancel normals like c5B, f5B, and 2B. Cancelling late into this from c5B is only recommended if you have IC available due to the proximity required for c5B. At longer ranges with f5B and 2B, it can be safer to use without IC, but only with care."
+            }
+          ]
+        },
+        {
+          "moveName": "Ah, got your skill~",
+          "input": "The only good counter",
+          "image": "https://wiki.gbl.gg/images/f/f3/EFZ_Sayuri_214X_A.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "/",
+            "startup": "3",
+            "active": "21.33",
+            "recovery": "21",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Sayuri turns around and holds out her hand for a moment. If Sayuri is attacked by a physical move, she catches the opponent and throws them behind her. Sayuri will also \"remember\" the countered attack for her Magical☆Cutter. As this move does not rely on a hitbox, it will successfully counter invincible attacks. From stand RG, this move allows Sayuri to punish 3.66F gaps or longer. Especially useful against jAA pressure. From crouch RG, this move allows Sayuri to punish 5.66F gaps or longer. Sayuri can only remember one countered move at a time.",
+            "Sayuri can only remember one countered move at a time."
+          ]
+        },
+        {
+          "moveName": "Magical☆Cutter",
+          "input": "Hit 3",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0b/EFZ_Sayuri_214X_1.png/175px-EFZ_Sayuri_214X_1.png",
+          "damage": "100",
+          "framedata": {
+            "guard": "Any",
+            "startup": "4.33",
+            "active": "2",
+            "recovery": "56.66",
+            "advHit": "/",
+            "advBlock": "-39",
+            "cancel": "IC"
+          },
+          "properties": [
+            "If Sayuri blocks the move remembered by her \"Ah, got your skill~\" move, she will flash completely white while in blockstun. Pushing any attack button during this time will cause her to perform a rising circular kick. It is important to note that this move cannot be buffered, so inputting during blockstop will not work. Sayuri is completely invincible while rising up. How useful this move is depends on what move was caught. For example, quick attacks with short blockstun will be harder to react to with this, while a multihit move may be nigh impossible to get away with. Not to be relied on, but useful as a trump card to keep your opponent on their toes. Player 2 Sayuri has a bug that allows her to perform Magical☆Cutter during the captured move's startup if she is already in blockstun from another move. This makes the move much stronger for Player 2 Sayuri."
+          ],
+          "variations": [
+            {
+              "version": "All",
+              "damage": "100",
+              "framedata": {
+                "guard": "Any",
+                "startup": "4.33",
+                "active": "2",
+                "recovery": "56.66",
+                "advHit": "/",
+                "advBlock": "-39",
+                "cancel": "IC"
+              },
+              "notes": "If Sayuri blocks the move remembered by her \"Ah, got your skill~\" move, she will flash completely white while in blockstun. Pushing any attack button during this time will cause her to perform a rising circular kick. It is important to note that this move cannot be buffered, so inputting during blockstop will not work. Sayuri is completely invincible while rising up. How useful this move is depends on what move was caught. For example, quick attacks with short blockstun will be harder to react to with this, while a multihit move may be nigh impossible to get away with. Not to be relied on, but useful as a trump card to keep your opponent on their toes. Player 2 Sayuri has a bug that allows her to perform Magical☆Cutter during the captured move's startup if she is already in blockstun from another move. This makes the move much stronger for Player 2 Sayuri."
+            },
+            {
+              "version": "-",
+              "damage": "100",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6.33",
+                "active": "2",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "If Sayuri blocks the move remembered by her \"Ah, got your skill~\" move, she will flash completely white while in blockstun. Pushing any attack button during this time will cause her to perform a rising circular kick. It is important to note that this move cannot be buffered, so inputting during blockstop will not work. Sayuri is completely invincible while rising up. How useful this move is depends on what move was caught. For example, quick attacks with short blockstun will be harder to react to with this, while a multihit move may be nigh impossible to get away with. Not to be relied on, but useful as a trump card to keep your opponent on their toes. Player 2 Sayuri has a bug that allows her to perform Magical☆Cutter during the captured move's startup if she is already in blockstun from another move. This makes the move much stronger for Player 2 Sayuri."
+            },
+            {
+              "version": "-",
+              "damage": "100",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8.33",
+                "active": "3",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "If Sayuri blocks the move remembered by her \"Ah, got your skill~\" move, she will flash completely white while in blockstun. Pushing any attack button during this time will cause her to perform a rising circular kick. It is important to note that this move cannot be buffered, so inputting during blockstop will not work. Sayuri is completely invincible while rising up. How useful this move is depends on what move was caught. For example, quick attacks with short blockstun will be harder to react to with this, while a multihit move may be nigh impossible to get away with. Not to be relied on, but useful as a trump card to keep your opponent on their toes. Player 2 Sayuri has a bug that allows her to perform Magical☆Cutter during the captured move's startup if she is already in blockstun from another move. This makes the move much stronger for Player 2 Sayuri."
+            }
+          ]
+        },
+        {
+          "moveName": "Magical☆Smash",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/thumb/5/5e/Sayurij412.png/175px-Sayurij412.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Any",
+            "startup": "20",
+            "active": "Until ground or hit",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "When used sparingly, can be used to surprise the opponent after a blocked or RG'd aerial normal, especially jC. Used in her max damage combos.",
+            "Visually the same as j412A, except Sayuri will jump back if this move is blocked or RG'd. After this jump back, Sayuri is able to act immediately but can only use normals and specials, except for j412B. Has similar applications to j412A, and becomes especially potent if used alongside it to keep the opponent guessing.",
+            "C is the most useful of the three. It starts off with an energy ball where she is completely invulnerable for 38 frames. This makes it fairly decent for predicting wakeup reversals as it should outlast most other moves' invinciblity. After this period, she has 5 frames of being vulnerable without a hitbox to cover her, which due to how long the invincibility lasts may be difficult to punish before the second hitbox comes out for some characters. The second half is visually identical to A and B but has a much larger hitbox. When used as a crossup from an airdash this move will automatically turn around to face the opponent, making it an excellent mixup tool that has lots of invulnerability frames."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "Until ground or hit",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "When used sparingly, can be used to surprise the opponent after a blocked or RG'd aerial normal, especially jC. Used in her max damage combos."
+            },
+            {
+              "version": "B",
+              "damage": "500x2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "24",
+                "active": "Until ground or hit",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "When used sparingly, can be used to surprise the opponent after a blocked or RG'd aerial normal, especially jC. Used in her max damage combos."
+            },
+            {
+              "version": "C",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "3",
+                "active": "36",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "When used sparingly, can be used to surprise the opponent after a blocked or RG'd aerial normal, especially jC. Used in her max damage combos."
+            },
+            {
+              "version": "-",
+              "damage": "400x2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "44",
+                "active": "Until ground or hit",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "-"
+              },
+              "notes": "When used sparingly, can be used to surprise the opponent after a blocked or RG'd aerial normal, especially jC. Used in her max damage combos."
+            }
+          ]
+        },
+        {
+          "moveName": "Magical☆Press",
+          "input": "41236",
+          "image": "https://wiki.gbl.gg/images/thumb/8/8c/Sayuri41236.png/175px-Sayuri41236.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "17",
+            "active": "12",
+            "recovery": "14",
+            "advHit": "/",
+            "advBlock": "-4",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Sayuri dashes forward a bit. If she catches the enemy, she slams them into the wall in front of her. Air unblockable. Incredible in blockstrings if mixed up with 236A/B and 623A. With how varied the timings for RG are for each of these moves, it becomes much harder for the opponent to create a situation where they can escape the string.",
+            "Same as A version but goes further, usually minus on block unless spaced at max range. Can be used at ranges where A version is likely to whiff, but still may be significantly minus on block, so use with care.",
+            "Goes further than the B version and will wallbounce if it hits, allowing further juggles. Frame 1 invulnerability and the damage potential if it hits as the starter makes this a potent, if risky, reversal option. Outside of reversals, this is often used in combos and can punish certain projectiles from mid-range."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "17",
+                "active": "12",
+                "recovery": "14",
+                "advHit": "/",
+                "advBlock": "-4",
+                "cancel": "IC"
+              },
+              "notes": "Sayuri dashes forward a bit. If she catches the enemy, she slams them into the wall in front of her. Air unblockable. Incredible in blockstrings if mixed up with 236A/B and 623A. With how varied the timings for RG are for each of these moves, it becomes much harder for the opponent to create a situation where they can escape the string."
+            },
+            {
+              "version": "B",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "17",
+                "active": "18",
+                "recovery": "14",
+                "advHit": "/",
+                "advBlock": "-10",
+                "cancel": "IC"
+              },
+              "notes": "Sayuri dashes forward a bit. If she catches the enemy, she slams them into the wall in front of her. Air unblockable. Incredible in blockstrings if mixed up with 236A/B and 623A. With how varied the timings for RG are for each of these moves, it becomes much harder for the opponent to create a situation where they can escape the string."
+            },
+            {
+              "version": "C",
+              "damage": "1350",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "21",
+                "active": "30",
+                "recovery": "10",
+                "advHit": "/",
+                "advBlock": "-18",
+                "cancel": "IC"
+              },
+              "notes": "Sayuri dashes forward a bit. If she catches the enemy, she slams them into the wall in front of her. Air unblockable. Incredible in blockstrings if mixed up with 236A/B and 623A. With how varied the timings for RG are for each of these moves, it becomes much harder for the opponent to create a situation where they can escape the string."
+            }
+          ]
+        },
+        {
+          "moveName": "Magical☆Agents",
+          "input": "All of 236236C's agents. Just a capture of each hitbox, not accurate to in-game animation.",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d3/EFZ_Sayuri_236236C.gif/175px-EFZ_Sayuri_236236C.gif",
+          "damage": "230x8",
+          "framedata": {
+            "guard": "Any",
+            "startup": "15",
+            "active": "1.66",
+            "recovery": "204",
+            "advHit": "-",
+            "advBlock": "-35.66",
+            "cancel": "None"
+          },
+          "properties": [
+            "Sayuri is assisted by 2 agents. Excellent tool for Blue IC drain. Will combo from 5C against most characters.",
+            "Sayuri is assisted by 4 agents. Can be used to punish unsafe moves full screen.",
+            "Sayuri is assisted by 6 agents. Much faster, making it even better for long range punishes."
+          ],
+          "variations": [
+            {
+              "version": "A, Sayuri",
+              "damage": "230x8",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "1.66",
+                "recovery": "204",
+                "advHit": "-",
+                "advBlock": "-35.66",
+                "cancel": "None"
+              },
+              "notes": "Sayuri is assisted by 2 agents. Excellent tool for Blue IC drain. Will combo from 5C against most characters."
+            },
+            {
+              "version": "A, Agents",
+              "damage": "140x6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "/",
+                "active": "※0.66 / 1",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "-"
+              },
+              "notes": "Sayuri is assisted by 2 agents. Excellent tool for Blue IC drain. Will combo from 5C against most characters."
+            },
+            {
+              "version": "B",
+              "damage": "2857",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "2x12",
+                "recovery": "192",
+                "advHit": "-",
+                "advBlock": "-14.66",
+                "cancel": "None"
+              },
+              "notes": "Sayuri is assisted by 2 agents. Excellent tool for Blue IC drain. Will combo from 5C against most characters."
+            },
+            {
+              "version": "C",
+              "damage": "3992",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "2x23",
+                "recovery": "221",
+                "advHit": "-",
+                "advBlock": "-22.66",
+                "cancel": "None"
+              },
+              "notes": "Sayuri is assisted by 2 agents. Excellent tool for Blue IC drain. Will combo from 5C against most characters."
+            }
+          ]
+        },
+        {
+          "moveName": "Magical☆Pressure",
+          "input": "214236",
+          "image": "https://wiki.gbl.gg/images/0/09/Sayuri2141236.png",
+          "damage": "2221",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "15",
+            "active": "12",
+            "recovery": "15",
+            "advHit": "-",
+            "advBlock": "-6",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Same as A except slams the opponent into one wall, then back into the opposite wall. A brief period of invulnerability from frame 1, extending slightly into startup, makes this a decent reversal option if you react to the startup or whiff of an opponent's move during her usual IC points in pressure, or after 236* FIC, but often only if you can reach the opponent during the invulnerability window.",
+            "Same as above, except goes back and forth between the walls 3 times. Same startup as B version, but the invulnerability extends significantly further into active frames, making this less risky to use from further away."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2221",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "15",
+                "active": "12",
+                "recovery": "15",
+                "advHit": "-",
+                "advBlock": "-6",
+                "cancel": "IC"
+              },
+              "notes": "Same as A except slams the opponent into one wall, then back into the opposite wall. A brief period of invulnerability from frame 1, extending slightly into startup, makes this a decent reversal option if you react to the startup or whiff of an opponent's move during her usual IC points in pressure, or after 236* FIC, but often only if you can reach the opponent during the invulnerability window."
+            },
+            {
+              "version": "B",
+              "damage": "3163",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "11",
+                "active": "18",
+                "recovery": "15",
+                "advHit": "-",
+                "advBlock": "-12",
+                "cancel": "IC"
+              },
+              "notes": "Same as A except slams the opponent into one wall, then back into the opposite wall. A brief period of invulnerability from frame 1, extending slightly into startup, makes this a decent reversal option if you react to the startup or whiff of an opponent's move during her usual IC points in pressure, or after 236* FIC, but often only if you can reach the opponent during the invulnerability window."
+            },
+            {
+              "version": "C",
+              "damage": "4477",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "11",
+                "active": "30",
+                "recovery": "15",
+                "advHit": "-",
+                "advBlock": "-24",
+                "cancel": "IC"
+              },
+              "notes": "Same as A except slams the opponent into one wall, then back into the opposite wall. A brief period of invulnerability from frame 1, extending slightly into startup, makes this a decent reversal option if you react to the startup or whiff of an opponent's move during her usual IC points in pressure, or after 236* FIC, but often only if you can reach the opponent during the invulnerability window."
+            }
+          ]
+        },
+        {
+          "moveName": "Magical☆Thunder",
+          "input": "6321463214",
+          "image": "https://wiki.gbl.gg/images/thumb/4/46/Sayuri6321463214.png/175px-Sayuri6321463214.png",
+          "damage": "2327",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "6.33",
+            "active": "1",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Sayuri grabs the opponent by the neck and electrocutes them. Level 1 is jumpable post super flash and thus is rarely used.",
+            "Impossible to avoid post super flash. Invul from frame 1. A crucial part of Sayuri's gameplan. Working this move into your pressure strings and mixups reminds opponents that they can't simply block and react to overheads, they also have to contend with a fast unreactable throw. If we can get the opponent scared they might risk jumping, and we want them to risk jumping. As the input is long, it's important to learn how to hide your inputs during the animations of other moves. One example is point blank 5AA. Buffer 5AA, and during the 5AA animation input the first half circle, walk forward after the last 5A ends and input the last half circle and B. The full input looks like 5AA 63214[6]3214B. Setups like this work best when used sparingly at pressure points where alternative options to catch jumps are used. Lull your opponent into a sense of despair over Sayuri's pressure before attempting. This move's long buffer window allows you to buffer the first half circle, pause and react, then buffer the final half circle. The buffer window also makes it very easy to use as a wake up reversal, by buffering both half circles early, pausing to react to whether your opponent lands low, then pressing the B button if they do. If the opponent does avoid the initial throw, they still have to contend with the lightning that activates regardless of whether the throw connects.",
+            "Impossible to jump post super flash. Same applications as B version but does more damage at lower cost efficiency."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2327",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6.33",
+                "active": "1",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Sayuri grabs the opponent by the neck and electrocutes them. Level 1 is jumpable post super flash and thus is rarely used."
+            },
+            {
+              "version": "B",
+              "damage": "3397",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "3.33",
+                "active": "0.33",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Sayuri grabs the opponent by the neck and electrocutes them. Level 1 is jumpable post super flash and thus is rarely used."
+            },
+            {
+              "version": "C",
+              "damage": "4384",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "0.33",
+                "active": "0.33",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Sayuri grabs the opponent by the neck and electrocutes them. Level 1 is jumpable post super flash and thus is rarely used."
+            }
+          ]
+        },
+        {
+          "moveName": "Magical☆On Stage",
+          "input": "2 5 2A 5 5S",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b0/SayuriFM.png/163px-SayuriFM.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "25",
+            "active": "17",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Sayuri teleports above the opponent and falls on top of them. An invincible throw that can hit both grounded and aerial opponents. Can be avoided with some well timed jumping throw invincibility so this Final Memory sees little use outside of punishing specific moves. Sayuri's FM input requires at least 1 frame of no inputs between 2 and 2A, 2A and 5S.",
+            "Sayuri's FM input requires at least 1 frame of no inputs between 2 and 2A, 2A and 5S."
+          ]
+        }
+      ]
+    }
+  ]
+}

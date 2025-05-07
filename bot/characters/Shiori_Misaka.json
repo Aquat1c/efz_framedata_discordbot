@@ -1,0 +1,924 @@
+{
+  "name": "Shiori Misaka",
+  "icon": "https://wiki.gbl.gg/images/c/cf/EFZ_Shiori_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f0/EFZ_Shiori_Misaka_5A.png/175px-EFZ_Shiori_Misaka_5A.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5 / 5.33",
+            "active": "4 / 3.66",
+            "recovery": "5",
+            "advHit": "+2.33 / +2.66",
+            "advBlock": "+1.33 / +1.66",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Shiori does a short punch to the opponent's torso."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/cb/EFZ_Shiori_Misaka_5B.png/175px-EFZ_Shiori_Misaka_5B.png",
+          "damage": "360",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "8",
+            "recovery": "13",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP JH IC f5B/2B SB"
+          },
+          "properties": [
+            "Shiori kicks her foot high, creating a bladed arc of ice in its wake."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/37/EFZ_Shiori_Misaka_f5B.png/175px-EFZ_Shiori_Misaka_f5B.png",
+          "damage": "390",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9",
+            "active": "3",
+            "recovery": "15",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP IC SB"
+          },
+          "properties": [
+            "Shiori whips her now-frozen shawl directly out in front of her, reaching 1/3 of the screen. This move is probably Shiori's best poke due to its range and speed. However, at this move's maximum range, it cannot be comboed into the Strong attacks since they do not extend far enough.",
+            "Shiori whips her now-frozen shawl directly out in front of her, reaching 1/3 of the screen.",
+            "This move is probably Shiori's best poke due to its range and speed. However, at this move's maximum range, it cannot be comboed into the Strong attacks since they do not extend far enough."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/18/EFZ_Shiori_Misaka_5C.png/175px-EFZ_Shiori_Misaka_5C.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Any",
+            "startup": "12",
+            "active": "12",
+            "recovery": "16",
+            "advHit": "/",
+            "advBlock": "-6",
+            "cancel": "SP J IC SB"
+          },
+          "properties": [
+            "Shiori generates a mid-sized shard of ice from the ground, pointing diagonally up-forwards. This move will launch the opponent and becomes jump-cancellable if it hits. This move is Shiori's primary method to launch her opponent and use her powerful air combos. During active, this move will alternate between the two hitboxes every 2 frames.",
+            "Shiori generates a mid-sized shard of ice from the ground, pointing diagonally up-forwards. This move will launch the opponent and becomes jump-cancellable if it hits.",
+            "This move is Shiori's primary method to launch her opponent and use her powerful air combos.",
+            "During active, this move will alternate between the two hitboxes every 2 frames."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b8/EFZ_Shiori_Misaka_2A.png/175px-EFZ_Shiori_Misaka_2A.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "5",
+            "recovery": "8",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Shiori does a short punch to the opponent's torso from her crouching state. This move is pretty weak for a 2A, and it does not even hit low!",
+            "Shiori does a short punch to the opponent's torso from her crouching state.",
+            "This move is pretty weak for a 2A, and it does not even hit low!"
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/da/EFZ_Shiori_Misaka_2B.png/175px-EFZ_Shiori_Misaka_2B.png",
+          "damage": "350",
+          "framedata": {
+            "guard": "Low or Air",
+            "startup": "5",
+            "active": "4",
+            "recovery": "11",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "N SP J IC SB"
+          },
+          "properties": [
+            "Shiori does a short punch to the opponent's knees. This move is Shiori's fastest low attack. It cannot be comboed into any other B attacks, so it will not be as easy to hit-confirm Shiori's high-low mixup game compared to other characters.",
+            "Shiori does a short punch to the opponent's knees.",
+            "This move is Shiori's fastest low attack. It cannot be comboed into any other B attacks, so it will not be as easy to hit-confirm Shiori's high-low mixup game compared to other characters."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/bf/EFZ_Shiori_Misaka_2C.png/175px-EFZ_Shiori_Misaka_2C.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Low",
+            "startup": "10",
+            "active": "4",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "+2",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Shiori does a low sweep kick, with a blade of ice on her foot to increase her range. This move will barely launch the opponent."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f2/EFZ_Shiori_Misaka_j5A.png/175px-EFZ_Shiori_Misaka_j5A.png",
+          "damage": "190",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "6",
+            "recovery": "11",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "Shiori flicks her shawl out diagonally down-forwards a short distance."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/40/EFZ_Shiori_Misaka_j5B.png/175px-EFZ_Shiori_Misaka_j5B.png",
+          "damage": "350",
+          "framedata": {
+            "guard": "High",
+            "startup": "7",
+            "active": "6",
+            "recovery": "20",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Shiori creates a straight blade of ice from her hand, pointing diagonally down-forward."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/74/EFZ_Shiori_Misaka_j5C.png/175px-EFZ_Shiori_Misaka_j5C.png",
+          "damage": "200 x 3",
+          "framedata": {
+            "guard": "High",
+            "startup": "13",
+            "active": "18",
+            "recovery": "33",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Shiori creates a chainsaw of ice from her foot, pointing diagonally down-forward. It hits 3 times, each hit does the same amount, and can be cancelled in-between hits."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f0/EFZ_Shiori_Misaka_5A.png/175px-EFZ_Shiori_Misaka_5A.png",
+          "damage": "210",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "5",
+            "recovery": "8",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Dashing version of 5A."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/ba/EFZ_Shiori_Misaka_66B.png/175px-EFZ_Shiori_Misaka_66B.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "8",
+            "recovery": "13",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Dashing version of c5B."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/74/EFZ_Shiori_Misaka_66C.png/175px-EFZ_Shiori_Misaka_66C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High",
+            "startup": "23",
+            "active": "4",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "-5",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Shiori does a short running hop and slams her shawl on top of the opponent's head. This move acts as an overhead, and will knock down the opponent if it hits."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/78/EFZ_Shiori_Misaka_662A.png/175px-EFZ_Shiori_Misaka_662A.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "5",
+            "recovery": "8",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Shiori does a short punch to the opponent's torso from her crouching state. Even less useful than her regular 2A since it is a typical dash attack and can only be cancelled into specials.",
+            "Shiori does a short punch to the opponent's torso from her crouching state.",
+            "Even less useful than her regular 2A since it is a typical dash attack and can only be cancelled into specials."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/ae/EFZ_Shiori_Misaka_662B.png/175px-EFZ_Shiori_Misaka_662B.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Low or Air",
+            "startup": "8",
+            "active": "4",
+            "recovery": "11",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Shiori does a short punch to the opponent's knees."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/17/EFZ_Shiori_Misaka_662C.png/175px-EFZ_Shiori_Misaka_662C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Low",
+            "startup": "10",
+            "active": "4",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "+2",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Shiori does a low sweep kick, with a blade of ice on her foot to increase her range. This move will barely launch the opponent."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/8/88/EFZ_Shiori_Misaka_GroundGrab.png/175px-EFZ_Shiori_Misaka_GroundGrab.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "1",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Shiori hugs the opponent, who then goes into a frozen state and is launched high and slightly forward before landing in a knockdown state. This move is a pretty useful throw in the corner, because it is possible for Shiori to combo while the opponent is still frozen.",
+            "Shiori hugs the opponent, who then goes into a frozen state and is launched high and slightly forward before landing in a knockdown state.",
+            "This move is a pretty useful throw in the corner, because it is possible for Shiori to combo while the opponent is still frozen."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Shiori hugs the opponent, who then goes into a frozen state and is launched high and slightly forward before landing in a knockdown state. This move is a pretty useful throw in the corner, because it is possible for Shiori to combo while the opponent is still frozen."
+            },
+            {
+              "version": "B",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Shiori hugs the opponent, who then goes into a frozen state and is launched high and slightly forward before landing in a knockdown state. This move is a pretty useful throw in the corner, because it is possible for Shiori to combo while the opponent is still frozen."
+            },
+            {
+              "version": "C",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Shiori hugs the opponent, who then goes into a frozen state and is launched high and slightly forward before landing in a knockdown state. This move is a pretty useful throw in the corner, because it is possible for Shiori to combo while the opponent is still frozen."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/10/EFZ_Shiori_Misaka_AirGrab.png/175px-EFZ_Shiori_Misaka_AirGrab.png",
+          "damage": "1100",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Shiori hugs the opponent, who then goes into a frozen state and is launched high and slightly forward before landing in a knockdown state."
+          ]
+        },
+        {
+          "moveName": "A sure way to win snowball fights",
+          "input": "5S",
+          "image": "https://wiki.gbl.gg/images/thumb/4/40/EFZ_Shiori_5S.png/175px-EFZ_Shiori_5S.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "22.33",
+            "active": "/",
+            "recovery": "26",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Shiori poses for a half-second, and then generates a circular shield around her which makes her completely immune to almost all projectile attacks. The shield lasts for 310.33 frames (about 5 seconds) before fading. The shield can only absorb one projectile per frame so some supers (noted below) can pass through it and hit Shiori when most of their projectiles should not be able to. Projectiles disabled by the shield do not become active again when the shield ends. Reference the table below to see which projeciles this makes Shiori immune to.",
+            "Shiori poses for a half-second, and then generates a circular shield around her which makes her completely immune to almost all projectile attacks. The shield lasts for 310.33 frames (about 5 seconds) before fading. The shield can only absorb one projectile per frame so some supers (noted below) can pass through it and hit Shiori when most of their projectiles should not be able to. Projectiles disabled by the shield do not become active again when the shield ends."
+          ]
+        },
+        {
+          "moveName": "It's an ice cream beam",
+          "input": "(j)236",
+          "image": "https://wiki.gbl.gg/images/thumb/9/95/EFZ_Shiori_Misaka_236.png/175px-EFZ_Shiori_Misaka_236.png",
+          "damage": "450 + 150 + 150",
+          "framedata": {
+            "guard": "Any",
+            "startup": "14, 17, 21",
+            "active": "1, 1, 2",
+            "recovery": "51",
+            "advHit": "/",
+            "advBlock": "-23",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Shiori shoots an instant 3-hit beam straight across the entire screen. This move will freeze the opponent for a second if it hits.",
+            "Same as the A version, except that Shiori does a slight delay before firing, and recovers faster.",
+            "Shiori shoots 3 instant hit beams straight across the entire screen, with slight differences in height. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
+            "Same as the corresponding ground versions, except the beam stays parallel to Shiori's jump arc. Also, if she reaches the ground before the move finishes, she will hover at ground level with the same momentum of her initial jump until she recovers.",
+            "Shiori shoots 3 instant hit beams straight across the entire screen, with slight differences in height. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards.",
+            "Allows the player to continue the combo even after the opponent's ice block state hits the ground."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "450 + 150 + 150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14, 17, 21",
+                "active": "1, 1, 2",
+                "recovery": "51",
+                "advHit": "/",
+                "advBlock": "-23",
+                "cancel": "FIC"
+              },
+              "notes": "Shiori shoots an instant 3-hit beam straight across the entire screen. This move will freeze the opponent for a second if it hits."
+            },
+            {
+              "version": "B",
+              "damage": "450 + 150 + 150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "26, 29, 33",
+                "active": "1, 1, 2",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "-7",
+                "cancel": "FIC"
+              },
+              "notes": "Shiori shoots an instant 3-hit beam straight across the entire screen. This move will freeze the opponent for a second if it hits."
+            },
+            {
+              "version": "C",
+              "damage": "400 + 400 + 400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "18, 25, 32",
+                "active": "2, 2, 1",
+                "recovery": "40",
+                "advHit": "/",
+                "advBlock": "-15",
+                "cancel": "None"
+              },
+              "notes": "Shiori shoots an instant 3-hit beam straight across the entire screen. This move will freeze the opponent for a second if it hits."
+            },
+            {
+              "version": "Aerial",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "-",
+                "active": "-",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC(jA/B) None(jC)"
+              },
+              "notes": "Shiori shoots an instant 3-hit beam straight across the entire screen. This move will freeze the opponent for a second if it hits."
+            }
+          ]
+        },
+        {
+          "moveName": "It's a flying snowman",
+          "input": "(j)214",
+          "image": "https://wiki.gbl.gg/images/thumb/6/6a/EFZ_Shiori_Misaka_214.png/120px-EFZ_Shiori_Misaka_214.png",
+          "damage": "250 x 3",
+          "framedata": {
+            "guard": "Any",
+            "startup": "(33)",
+            "active": "-",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "The snowman floats around Shiori for about 2 seconds before punching towards the opponent 3 times.",
+            "The snowman floats around Shiori for about 2 seconds before firing a thin instant-hit ice beam straight forward. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The aerial version is only slightly different in that the snowman will stay in the place it was created. Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
+            "The snowman quickly moves about 1/3 of the screen in front of her and creates a large circular zone of coldness. This move will freeze the opponent if it hits. There's really no reason to FIC this though, but if you wanted to, really the only way to do so is with the command 214 2C.",
+            "The snowman floats around Shiori for about 2 seconds before firing a thin instant-hit ice beam straight forward. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The aerial version is only slightly different in that the snowman will stay in the place it was created.",
+            "Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
+            "The snowman quickly moves about 1/3 of the screen in front of her and creates a large circular zone of coldness. This move will freeze the opponent if it hits.",
+            "There's really no reason to FIC this though, but if you wanted to, really the only way to do so is with the command 214 2C."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "250 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "(33)",
+                "active": "-",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The snowman floats around Shiori for about 2 seconds before punching towards the opponent 3 times."
+            },
+            {
+              "version": "B",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "(34)",
+                "active": "-",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The snowman floats around Shiori for about 2 seconds before punching towards the opponent 3 times."
+            },
+            {
+              "version": "C",
+              "damage": "100 x 8",
+              "framedata": {
+                "guard": "Any",
+                "startup": "(57)",
+                "active": "-",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The snowman floats around Shiori for about 2 seconds before punching towards the opponent 3 times."
+            }
+          ]
+        },
+        {
+          "moveName": "It's a spinning shawl",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d0/EFZ_Shiori_Misaka_623.png/175px-EFZ_Shiori_Misaka_623.png",
+          "damage": "100 x 5",
+          "framedata": {
+            "guard": "Any",
+            "startup": "12",
+            "active": "16",
+            "recovery": "23",
+            "advHit": "/",
+            "advBlock": "-9 ~ +11",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Shiori spins her shawl in a large circle in front of her, hitting the opponent a maximum of 5 times. This move will launch the opponent if it hits, but it generally not possible to follow up without IC.",
+            "Same as the A version, except it hits a maximum of 9 times.",
+            "Startup invincibility, more hits, and knocks down the opponent. Shiori's main reversal, although not a fantastic one."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "100 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "16",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "-9 ~ +11",
+                "cancel": "IC"
+              },
+              "notes": "Shiori spins her shawl in a large circle in front of her, hitting the opponent a maximum of 5 times. This move will launch the opponent if it hits, but it generally not possible to follow up without IC."
+            },
+            {
+              "version": "B",
+              "damage": "100 x 9",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "24",
+                "recovery": "31",
+                "advHit": "/",
+                "advBlock": "-13 ~ +10",
+                "cancel": "IC"
+              },
+              "notes": "Shiori spins her shawl in a large circle in front of her, hitting the opponent a maximum of 5 times. This move will launch the opponent if it hits, but it generally not possible to follow up without IC."
+            },
+            {
+              "version": "C",
+              "damage": "100 x 18",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "52",
+                "recovery": "18",
+                "advHit": "/",
+                "advBlock": "-12 ~ +2",
+                "cancel": "IC"
+              },
+              "notes": "Shiori spins her shawl in a large circle in front of her, hitting the opponent a maximum of 5 times. This move will launch the opponent if it hits, but it generally not possible to follow up without IC."
+            }
+          ]
+        },
+        {
+          "moveName": "Watch out above your head",
+          "input": "412",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7e/EFZ_Shiori_Misaka_412.png/175px-EFZ_Shiori_Misaka_412.png",
+          "damage": "320 x 3",
+          "framedata": {
+            "guard": "Any",
+            "startup": "11",
+            "active": "50",
+            "recovery": "46",
+            "advHit": "/",
+            "advBlock": "+10",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Shiori raises her hand out toward the sky, and a large block of ice falls from above (A: close, B: middle, C: far). This move will knock down the opponent if it hits."
+          ]
+        },
+        {
+          "moveName": "This is sharper than I thought",
+          "input": "j412",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d3/EFZ_Shiori_Misaka_j412.png/175px-EFZ_Shiori_Misaka_j412.png",
+          "damage": "300 x 2",
+          "framedata": {
+            "guard": "Any",
+            "startup": "16",
+            "active": "/",
+            "recovery": "22",
+            "advHit": "/",
+            "advBlock": "+1 ~ +3",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Shiori throws two ice-boxcutters in a straight line diagonally down-forwards.",
+            "Same as the A version, except Shiori does a slight delay before firing.",
+            "Same as the A version, except Shiori is invincible during startup frames and each boxcutter hits more and does more damage."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "300 x 2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "/",
+                "recovery": "22",
+                "advHit": "/",
+                "advBlock": "+1 ~ +3",
+                "cancel": "FIC"
+              },
+              "notes": "Shiori throws two ice-boxcutters in a straight line diagonally down-forwards."
+            },
+            {
+              "version": "B",
+              "damage": "300 x 2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "26",
+                "active": "/",
+                "recovery": "19",
+                "advHit": "/",
+                "advBlock": "+4 ~ +6",
+                "cancel": "FIC"
+              },
+              "notes": "Shiori throws two ice-boxcutters in a straight line diagonally down-forwards."
+            },
+            {
+              "version": "C",
+              "damage": "150 x 4 x 2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "/",
+                "recovery": "18",
+                "advHit": "/",
+                "advBlock": "+5 ~ +10",
+                "cancel": "FIC"
+              },
+              "notes": "Shiori throws two ice-boxcutters in a straight line diagonally down-forwards."
+            }
+          ]
+        },
+        {
+          "moveName": "Wide-Spread Megavanilla Cannon",
+          "input": "(j)214236",
+          "image": "https://wiki.gbl.gg/images/thumb/4/41/EFZ_Shiori_Misaka_214236.png/175px-EFZ_Shiori_Misaka_214236.png",
+          "damage": "170 x 15",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9 ~ 11",
+            "active": "/",
+            "recovery": "72",
+            "advHit": "/",
+            "advBlock": "-14.33",
+            "cancel": "None"
+          },
+          "properties": [
+            "Shiori rapidly fires 15 cartons of ice cream (most likely vanilla) out randomly across a wide angle in front of her. The best position to use the super is at point-blank range, in the air slightly above the opponent. Getting all 15 cartons to hit is usually possible.",
+            "Same as the A version, except that Shiori fires 27 cartons. On average, only 24 will hit when in the best position.",
+            "Same as the A version, except that Shiori fires 50 cartons. On average, only 35 will hit when in the best position."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "170 x 15",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9 ~ 11",
+                "active": "/",
+                "recovery": "72",
+                "advHit": "/",
+                "advBlock": "-14.33",
+                "cancel": "None"
+              },
+              "notes": "Shiori rapidly fires 15 cartons of ice cream (most likely vanilla) out randomly across a wide angle in front of her. The best position to use the super is at point-blank range, in the air slightly above the opponent. Getting all 15 cartons to hit is usually possible."
+            },
+            {
+              "version": "B",
+              "damage": "170 x 27",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9 ~ 11",
+                "active": "/",
+                "recovery": "106",
+                "advHit": "/",
+                "advBlock": "-18.66",
+                "cancel": "None"
+              },
+              "notes": "Shiori rapidly fires 15 cartons of ice cream (most likely vanilla) out randomly across a wide angle in front of her. The best position to use the super is at point-blank range, in the air slightly above the opponent. Getting all 15 cartons to hit is usually possible."
+            },
+            {
+              "version": "C",
+              "damage": "170 x 50",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9 ~ 11",
+                "active": "/",
+                "recovery": "166",
+                "advHit": "/",
+                "advBlock": "-26",
+                "cancel": "None"
+              },
+              "notes": "Shiori rapidly fires 15 cartons of ice cream (most likely vanilla) out randomly across a wide angle in front of her. The best position to use the super is at point-blank range, in the air slightly above the opponent. Getting all 15 cartons to hit is usually possible."
+            }
+          ]
+        },
+        {
+          "moveName": "Were you surprised?",
+          "input": "214214",
+          "image": "https://wiki.gbl.gg/images/thumb/2/22/EFZ_Shiori_Misaka_214214.png/175px-EFZ_Shiori_Misaka_214214.png",
+          "damage": "800 x 3",
+          "framedata": {
+            "guard": "Any",
+            "startup": "30",
+            "active": "4 x 3",
+            "recovery": "62",
+            "advHit": "/",
+            "advBlock": "-12.66",
+            "cancel": "None"
+          },
+          "properties": [
+            "Shiori crouches down and creates 3 ice spikes from the ground evenly across 1/2 of the screen in front of her. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The best distance to get all 3 spikes to hit is about 1/4 of the screen. Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
+            "Same as the A version, except that Shiori creates 5 ice spikes across the entire screen. It is only possible to hit with 3 spikes at the most though. Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
+            "Same as the B version, except that Shiori creates 6 ice spikes across the entire screen. It is only possible to hit with 4 spikes at the most though. The best distance to get 4 spikes to hit is about 1/4 of the screen. Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
+            "Shiori crouches down and creates 3 ice spikes from the ground evenly across 1/2 of the screen in front of her. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The best distance to get all 3 spikes to hit is about 1/4 of the screen.",
+            "Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
+            "Same as the A version, except that Shiori creates 5 ice spikes across the entire screen. It is only possible to hit with 3 spikes at the most though.",
+            "Same as the B version, except that Shiori creates 6 ice spikes across the entire screen. It is only possible to hit with 4 spikes at the most though. The best distance to get 4 spikes to hit is about 1/4 of the screen."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "800 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "30",
+                "active": "4 x 3",
+                "recovery": "62",
+                "advHit": "/",
+                "advBlock": "-12.66",
+                "cancel": "None"
+              },
+              "notes": "Shiori crouches down and creates 3 ice spikes from the ground evenly across 1/2 of the screen in front of her. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The best distance to get all 3 spikes to hit is about 1/4 of the screen. Allows the player to continue the combo even after the opponent's ice block state hits the ground."
+            },
+            {
+              "version": "B",
+              "damage": "1000 * 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "27",
+                "active": "5 x 5",
+                "recovery": "59",
+                "advHit": "/",
+                "advBlock": "-8.66",
+                "cancel": "None"
+              },
+              "notes": "Shiori crouches down and creates 3 ice spikes from the ground evenly across 1/2 of the screen in front of her. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The best distance to get all 3 spikes to hit is about 1/4 of the screen. Allows the player to continue the combo even after the opponent's ice block state hits the ground."
+            },
+            {
+              "version": "C",
+              "damage": "1400 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "24",
+                "active": "5 x 6",
+                "recovery": "51",
+                "advHit": "/",
+                "advBlock": "+2",
+                "cancel": "None"
+              },
+              "notes": "Shiori crouches down and creates 3 ice spikes from the ground evenly across 1/2 of the screen in front of her. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The best distance to get all 3 spikes to hit is about 1/4 of the screen. Allows the player to continue the combo even after the opponent's ice block state hits the ground."
+            }
+          ]
+        },
+        {
+          "moveName": "I'm used to the cold",
+          "input": "641236",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d3/EFZ_Shiori_Misaka_641236.png/175px-EFZ_Shiori_Misaka_641236.png",
+          "damage": "510 x 5",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "55",
+            "recovery": "93",
+            "advHit": "/",
+            "advBlock": "-72 ~ -18",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Shiori generates a column of freezing winds that surrounds her on both sides, and as high as 1/2 of the screen. This move will freeze the opponent if it hits, and cannot be air-blocked. The move randomly attacks the opponent when in range, but will normally reach the maximum amount of 5 hits.",
+            "Same as the A version, except that the column is about 1.5 screens high (already higher than any character can double jump over). Also the randomness is more apparent, varying between 8 and 15 hits, even at point-blank range.",
+            "Same as the B version, except that the hits randomly vary between 12 and 18 hits, even at point-blank range."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "510 x 5",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "55",
+                "recovery": "93",
+                "advHit": "/",
+                "advBlock": "-72 ~ -18",
+                "cancel": "IC"
+              },
+              "notes": "Shiori generates a column of freezing winds that surrounds her on both sides, and as high as 1/2 of the screen. This move will freeze the opponent if it hits, and cannot be air-blocked. The move randomly attacks the opponent when in range, but will normally reach the maximum amount of 5 hits."
+            },
+            {
+              "version": "B",
+              "damage": "320 x 15",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "59",
+                "recovery": "93",
+                "advHit": "/",
+                "advBlock": "-72 ~ -14",
+                "cancel": "IC"
+              },
+              "notes": "Shiori generates a column of freezing winds that surrounds her on both sides, and as high as 1/2 of the screen. This move will freeze the opponent if it hits, and cannot be air-blocked. The move randomly attacks the opponent when in range, but will normally reach the maximum amount of 5 hits."
+            },
+            {
+              "version": "C",
+              "damage": "350 x 18",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "68",
+                "recovery": "102",
+                "advHit": "/",
+                "advBlock": "-81 ~ -14",
+                "cancel": "IC"
+              },
+              "notes": "Shiori generates a column of freezing winds that surrounds her on both sides, and as high as 1/2 of the screen. This move will freeze the opponent if it hits, and cannot be air-blocked. The move randomly attacks the opponent when in range, but will normally reach the maximum amount of 5 hits."
+            }
+          ]
+        },
+        {
+          "moveName": "Perfectly Freezing Tornado Strike",
+          "input": "236236BC",
+          "image": "https://wiki.gbl.gg/images/thumb/6/61/EFZ_Shiori_Misaka_236236BC.png/175px-EFZ_Shiori_Misaka_236236BC.png",
+          "damage": "5000",
+          "framedata": {
+            "guard": "Any",
+            "startup": "56",
+            "active": "/",
+            "recovery": "142",
+            "advHit": "/",
+            "advBlock": "-11",
+            "cancel": "None"
+          },
+          "properties": [
+            "Shiori poses with her hand out forwards, then generates a large horizontal tornado of wind. If it hits the opponent, Shiori will toss the frozen opponent into the air, and then uppercut straight through the opponent, ice and all, as it falls. Additionally, if the opponent blocks the tornado on the ground, the move will chip an incredible 2800 damage off, disregarding all forms of damage and defense multipliers. This move can be quite an effective tool to remove the last 1/3 of the opponent's life, which usually takes a long time due to the Guts damage multiplier. Most normals can be whiff cancelled into this move. This move's input is NOT 236236B+C, B and C must be pressed in sequence rather than simultaneously.",
+            "Shiori poses with her hand out forwards, then generates a large horizontal tornado of wind. If it hits the opponent, Shiori will toss the frozen opponent into the air, and then uppercut straight through the opponent, ice and all, as it falls. Additionally, if the opponent blocks the tornado on the ground, the move will chip an incredible 2800 damage off, disregarding all forms of damage and defense multipliers.",
+            "This move can be quite an effective tool to remove the last 1/3 of the opponent's life, which usually takes a long time due to the Guts damage multiplier.",
+            "Most normals can be whiff cancelled into this move.",
+            "This move's input is NOT 236236B+C, B and C must be pressed in sequence rather than simultaneously."
+          ]
+        }
+      ]
+    }
+  ]
+}

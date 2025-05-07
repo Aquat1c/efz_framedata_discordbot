@@ -1,0 +1,1018 @@
+{
+  "name": "UNKNOWN",
+  "icon": "https://wiki.gbl.gg/images/b/b5/EFZ_UNKNOWN_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "66",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/eb/EFZ_Unko_66.gif/175px-EFZ_Unko_66.gif",
+          "damage": "-",
+          "framedata": {
+            "guard": "-",
+            "startup": "-",
+            "active": "-",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "N SP"
+          },
+          "properties": [
+            "UNKNOWN has a unique dash that grants her invisibility, invincibility, and the ability to pass through opponents. Coinciding with her invincibiilty frames, UNKNOWN becomes almost completely transparent. Her shadow remains visible, however it will be obscured on Kanna's stage, The Infinite Sky. UNKNOWN loses her collision between frames 10 and 41.66~47.66※, allowing her to cross through opponents. If the dash is cancelled UNKNOWN instantly regains her collision but stays invincible for 4 frames. UNKNOWN cannot jump cancel her dash despite it being a \"run\" type dash, with her 662C functioning as a short command jump instead. ※ Depending on how long the dash is held.",
+            "Coinciding with her invincibiilty frames, UNKNOWN becomes almost completely transparent. Her shadow remains visible, however it will be obscured on Kanna's stage, The Infinite Sky.",
+            "UNKNOWN loses her collision between frames 10 and 41.66~47.66※, allowing her to cross through opponents.",
+            "If the dash is cancelled UNKNOWN instantly regains her collision but stays invincible for 4 frames.",
+            "UNKNOWN cannot jump cancel her dash despite it being a \"run\" type dash, with her 662C functioning as a short command jump instead."
+          ]
+        },
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b7/EFZ_Unko_5A.png/175px-EFZ_Unko_5A.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4 / 4.33",
+            "active": "4 / 3.66",
+            "recovery": "9",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "UNKNOWN throws a thin, linear wisp in front of her. The hitbox is slightly shorter than the wisp would have you believe. This move will lead into her BnB, so be prepared to use it a lot at close range.",
+            "UNKNOWN throws a thin, linear wisp in front of her.",
+            "The hitbox is slightly shorter than the wisp would have you believe. This move will lead into her BnB, so be prepared to use it a lot at close range."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d7/EFZ_Unko_5B.png/175px-EFZ_Unko_5B.png",
+          "damage": "420",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "4",
+            "recovery": "15",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP J IC f5B SB"
+          },
+          "properties": [
+            "UNKNOWN produces a ghostly white orb and throws it at the opponent with both hands for a close-range uppercut. Mostly used as part of her BnB.",
+            "UNKNOWN produces a ghostly white orb and throws it at the opponent with both hands for a close-range uppercut.",
+            "Mostly used as part of her BnB."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f3/EFZ_Unko_f5B.png/175px-EFZ_Unko_f5B.png",
+          "damage": "440",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "4",
+            "recovery": "15",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP IC SB"
+          },
+          "properties": [
+            "UNKNOWN sweeps her arm across her body, throwing out a large horizontal wisp. Much longer range than her 5A wisp. Good for catching a charging opponent without letting them get too close.",
+            "UNKNOWN sweeps her arm across her body, throwing out a large horizontal wisp.",
+            "Much longer range than her 5A wisp. Good for catching a charging opponent without letting them get too close."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/43/EFZ_Unko_5C.png/175px-EFZ_Unko_5C.png",
+          "damage": "610",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "4",
+            "recovery": "23",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "N SP JH IC SB"
+          },
+          "properties": [
+            "UNKNOWN produces a giant squeaky hammer and slams it down. This is naturally the final part of her basic combo, however, this move's range is a lot shorter than it appears, meaning that the third hit of the combo may miss if the opponent is not being comboed at point blank range. Will knock down an airborne opponent, and is a staple in her optimized BIC combos.",
+            "UNKNOWN produces a giant squeaky hammer and slams it down.",
+            "This is naturally the final part of her basic combo, however, this move's range is a lot shorter than it appears, meaning that the third hit of the combo may miss if the opponent is not being comboed at point blank range. Will knock down an airborne opponent, and is a staple in her optimized BIC combos."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a6/EFZ_Unko_2A.png/175px-EFZ_Unko_2A.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "4",
+            "recovery": "9",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "UNKNOWN leans back and throws a thin wisp at the opponent's ankles. Basically used the same way as the standing version, with the obvious exception that this hits low. Quite good as a quick combo starter, since it's fast enough that the opponent won't be able to block it on reaction most of the time.",
+            "UNKNOWN leans back and throws a thin wisp at the opponent's ankles.",
+            "Basically used the same way as the standing version, with the obvious exception that this hits low. Quite good as a quick combo starter, since it's fast enough that the opponent won't be able to block it on reaction most of the time."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/81/EFZ_Unko_2B.png/175px-EFZ_Unko_2B.png",
+          "damage": "410",
+          "framedata": {
+            "guard": "Low",
+            "startup": "7",
+            "active": "10",
+            "recovery": "15",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP J IC f5B SB"
+          },
+          "properties": [
+            "UNKNOWN throws a large horizontal wisp at the opponent's feet. Same principle as the far 5B. Don't be fooled by the size of the wisp. The hitbox reaches only to the edge closest to UNKNOWN's body.",
+            "UNKNOWN throws a large horizontal wisp at the opponent's feet.",
+            "Same principle as the far 5B. Don't be fooled by the size of the wisp. The hitbox reaches only to the edge closest to UNKNOWN's body."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e7/EFZ_Unko_2C.png/175px-EFZ_Unko_2C.png",
+          "damage": "620",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "12",
+            "recovery": "23",
+            "advHit": "/",
+            "advBlock": "-9",
+            "cancel": "SP JH IC SB"
+          },
+          "properties": [
+            "UNKNOWN slides across the ground feet first for a whole body tackle. This move is great. It hits pretty hard for an UNKNOWN move, covers a lot of range, is pretty fast and knocks the opponent down in front of you. It's much safer to use this as a combo finisher instead of her 5C, and it has the added advantage of hitting low. It's unsafe on block though, so don't abuse it outside of a combo, but sparing use of this move on its own can catch the opponent off guard thanks to its range and speed. A good way to stop a charging, headstrong opponent in their tracks. This attack is special and flight cancellable. While you can try to trick out an opponent with a late cancelled 623B, for example, it is more reliable to flight cancel this move on block. Even with flight cancel, it is not always safe if the opponent RGs the 2C.",
+            "UNKNOWN slides across the ground feet first for a whole body tackle.",
+            "This move is great. It hits pretty hard for an UNKNOWN move, covers a lot of range, is pretty fast and knocks the opponent down in front of you. It's much safer to use this as a combo finisher instead of her 5C, and it has the added advantage of hitting low. It's unsafe on block though, so don't abuse it outside of a combo, but sparing use of this move on its own can catch the opponent off guard thanks to its range and speed. A good way to stop a charging, headstrong opponent in their tracks. This attack is special and flight cancellable. While you can try to trick out an opponent with a late cancelled 623B, for example, it is more reliable to flight cancel this move on block. Even with flight cancel, it is not always safe if the opponent RGs the 2C."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/04/EFZ_Unko_j5A.png/175px-EFZ_Unko_j5A.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "4",
+            "recovery": "11",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R SB"
+          },
+          "properties": [
+            "A jumping variant of the thin wisp. This attack has more range than the ground and standing versions, and the hitbox extends below her a little. Natural combo starter in the air, good for keeping people out of your face too.",
+            "A jumping variant of the thin wisp. This attack has more range than the ground and standing versions, and the hitbox extends below her a little.",
+            "Natural combo starter in the air, good for keeping people out of your face too."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/8b/EFZ_Unko_j5B.png/175px-EFZ_Unko_j5B.png",
+          "damage": "430",
+          "framedata": {
+            "guard": "High",
+            "startup": "10",
+            "active": "5",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC SB"
+          },
+          "properties": [
+            "UNKNOWN creates a dash of blue fire and throws it downwards a short distance. A good aerial move. This sends the opponent downwards at a slight angle. Canceling this move into an air dash is important to continue her combos. It hits slightly below her as well, making it a safe move to use when coming down from the air.",
+            "UNKNOWN creates a dash of blue fire and throws it downwards a short distance.",
+            "A good aerial move. This sends the opponent downwards at a slight angle. Canceling this move into an air dash is important to continue her combos. It hits slightly below her as well, making it a safe move to use when coming down from the air."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/8f/EFZ_Unko_j5C.png/154px-EFZ_Unko_j5C.png",
+          "damage": "220 x 3",
+          "framedata": {
+            "guard": "High",
+            "startup": "14",
+            "active": "2 x 3",
+            "recovery": "32",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC SB"
+          },
+          "properties": [
+            "UNKNOWN creates a large white orb beneath her, hitting up to 3 times. A fantastic jumping attack. This moves hitbox is huge and extends below her with great priority. It deals rather good damage and can be used as a crossup or a way to safely attack from the air.",
+            "UNKNOWN creates a large white orb beneath her, hitting up to 3 times.",
+            "A fantastic jumping attack. This moves hitbox is huge and extends below her with great priority. It deals rather good damage and can be used as a crossup or a way to safely attack from the air."
+          ]
+        },
+        {
+          "moveName": "Fly Away!  とんでって",
+          "input": "j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/7/75/EFZ_Unko_j6C.png/175px-EFZ_Unko_j6C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "10",
+            "active": "15",
+            "recovery": "24",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC SB"
+          },
+          "properties": [
+            "Similar to jC, but this will cause her to create the orb in front of her instead, hitting once. Unlike jC, this move will cause the opponent to fly across the screen to the other corner. As with the jC, this is quite a useful move. It has a lot of range and priority.",
+            "Similar to jC, but this will cause her to create the orb in front of her instead, hitting once. Unlike jC, this move will cause the opponent to fly across the screen to the other corner.",
+            "As with the jC, this is quite a useful move. It has a lot of range and priority."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/6/6b/EFZ_Unko_66A.png",
+          "damage": "250",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "4",
+            "recovery": "6",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "A dashing version of 5A. Limited usage, generally only used if you want to close some distance between you and the opponent but do not want to walk or commit to a full dash.",
+            "A dashing version of 5A.",
+            "Limited usage, generally only used if you want to close some distance between you and the opponent but do not want to walk or commit to a full dash."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/23/EFZ_Unko_66B.png/175px-EFZ_Unko_66B.png",
+          "damage": "440",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "4",
+            "recovery": "12",
+            "advHit": "/",
+            "advBlock": "-1",
+            "cancel": "SP JH IC SB"
+          },
+          "properties": [
+            "A running version of her close 5B. Combined with UNKNOWN's invincible running frames, this attack is a great launcher and sets up perfectly for her aerial combos. The hitbox is large and strikes about half a body length above her, meaning it can function as a good anti-air if used carefully. It's quite fast for a launching move, too.",
+            "A running version of her close 5B.",
+            "Combined with UNKNOWN's invincible running frames, this attack is a great launcher and sets up perfectly for her aerial combos. The hitbox is large and strikes about half a body length above her, meaning it can function as a good anti-air if used carefully. It's quite fast for a launching move, too."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7a/EFZ_Unko_66C.png/175px-EFZ_Unko_66C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11",
+            "active": "3",
+            "recovery": "15",
+            "advHit": "+6",
+            "advBlock": "+4",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "A running version of her 5C. Being a running attack, it has more range than her standing 5C. It is +4 on block and allows you to link into her A attacks on hit and confirm into a full ground string. Slams airborne opponents and puts them in OTG State, allowing this move to loop into itself.",
+            "A running version of her 5C.",
+            "Being a running attack, it has more range than her standing 5C. It is +4 on block and allows you to link into her A attacks on hit and confirm into a full ground string.",
+            "Slams airborne opponents and puts them in OTG State, allowing this move to loop into itself."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/e/ef/EFZ_Unko_662A.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "4",
+            "recovery": "6",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "A running version of 2A. Most opponents will expect her to attempt a 66B from her dash, so using this move occasionally will catch them off guard and open up for a low combo.",
+            "A running version of 2A.",
+            "Most opponents will expect her to attempt a 66B from her dash, so using this move occasionally will catch them off guard and open up for a low combo."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7d/EFZ_Unko_662B.png/175px-EFZ_Unko_662B.png",
+          "damage": "410",
+          "framedata": {
+            "guard": "Low",
+            "startup": "7",
+            "active": "10",
+            "recovery": "6",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "SP JH IC SB"
+          },
+          "properties": [
+            "A running version of her 2B It can combo into some of her other specials. Can catch the opponent off guard if they were expecting a 66B launch, as it hits low. If it hits, Unknown can IC and combo into 66B.",
+            "A running version of her 2B",
+            "It can combo into some of her other specials. Can catch the opponent off guard if they were expecting a 66B launch, as it hits low. If it hits, Unknown can IC and combo into 66B."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/46/EFZ_Unko_662C.png/162px-EFZ_Unko_662C.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "/",
+            "active": "/",
+            "recovery": "17",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD FIC SB"
+          },
+          "properties": [
+            "UNKNOWN does a small running hop towards the opponent. Not an attack. This is a really great way to attack while close to the ground. It elevates her just enough so that her air specials and attacks can be used quickly at the perfect height for harassing a grounded opponent. It also provides a perfect opportunity for her to use her 'Solar' moves.",
+            "UNKNOWN does a small running hop towards the opponent. Not an attack.",
+            "This is a really great way to attack while close to the ground. It elevates her just enough so that her air specials and attacks can be used quickly at the perfect height for harassing a grounded opponent. It also provides a perfect opportunity for her to use her 'Solar' moves."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/13/EFZ_Unko_GroundGrab.png/175px-EFZ_Unko_GroundGrab.png",
+          "damage": "0 + 800",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "0.66",
+            "recovery": "28",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "UNKNOWN summons a group of plush toys that grab the opponent and carry them to the other side of the stage for a wallbounce. This is one of the best throws in the game, as it is one of the only ones that can be meterlessly comboed from. Normally throws the opponent behind UNKNOWN, but if she is too close to the corner they will be thrown forward instead. Has much more range than other throws, but the proximity is bugged to where UNKNOWN can initiate it at ranges where it will whiff. The vertical proximity is also bugged, so UNKNOWN can initiate this throw if the opponent is in the air. At any height. For some reason. UNKNOWN does not get any strike nor throw invincibility during this throw, so it can trade.",
+            "This is one of the best throws in the game, as it is one of the only ones that can be meterlessly comboed from.",
+            "Normally throws the opponent behind UNKNOWN, but if she is too close to the corner they will be thrown forward instead.",
+            "Has much more range than other throws, but the proximity is bugged to where UNKNOWN can initiate it at ranges where it will whiff.",
+            "The vertical proximity is also bugged, so UNKNOWN can initiate this throw if the opponent is in the air. At any height. For some reason.",
+            "UNKNOWN does not get any strike nor throw invincibility during this throw, so it can trade."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0 + 800",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "28",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "UNKNOWN summons a group of plush toys that grab the opponent and carry them to the other side of the stage for a wallbounce. This is one of the best throws in the game, as it is one of the only ones that can be meterlessly comboed from. Normally throws the opponent behind UNKNOWN, but if she is too close to the corner they will be thrown forward instead. Has much more range than other throws, but the proximity is bugged to where UNKNOWN can initiate it at ranges where it will whiff. The vertical proximity is also bugged, so UNKNOWN can initiate this throw if the opponent is in the air. At any height. For some reason. UNKNOWN does not get any strike nor throw invincibility during this throw, so it can trade."
+            },
+            {
+              "version": "B",
+              "damage": "0 + 800",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "28",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "UNKNOWN summons a group of plush toys that grab the opponent and carry them to the other side of the stage for a wallbounce. This is one of the best throws in the game, as it is one of the only ones that can be meterlessly comboed from. Normally throws the opponent behind UNKNOWN, but if she is too close to the corner they will be thrown forward instead. Has much more range than other throws, but the proximity is bugged to where UNKNOWN can initiate it at ranges where it will whiff. The vertical proximity is also bugged, so UNKNOWN can initiate this throw if the opponent is in the air. At any height. For some reason. UNKNOWN does not get any strike nor throw invincibility during this throw, so it can trade."
+            },
+            {
+              "version": "C",
+              "damage": "0 + 800",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "28",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "UNKNOWN summons a group of plush toys that grab the opponent and carry them to the other side of the stage for a wallbounce. This is one of the best throws in the game, as it is one of the only ones that can be meterlessly comboed from. Normally throws the opponent behind UNKNOWN, but if she is too close to the corner they will be thrown forward instead. Has much more range than other throws, but the proximity is bugged to where UNKNOWN can initiate it at ranges where it will whiff. The vertical proximity is also bugged, so UNKNOWN can initiate this throw if the opponent is in the air. At any height. For some reason. UNKNOWN does not get any strike nor throw invincibility during this throw, so it can trade."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/9/9c/EFZ_Unko_AirGrab.png/175px-EFZ_Unko_AirGrab.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "UNKNOWN grabs the opponent and casually tosses them aside. This will take your opponent out of the corner, but you can use teleport to close the distance and get some oki. Not the most rewarding air throw, and not the most available either, since UNKNOWN can't jump out of her dash.",
+            "UNKNOWN grabs the opponent and casually tosses them aside.",
+            "This will take your opponent out of the corner, but you can use teleport to close the distance and get some oki. Not the most rewarding air throw, and not the most available either, since UNKNOWN can't jump out of her dash."
+          ]
+        },
+        {
+          "moveName": "Flight",
+          "input": "(j)5S",
+          "image": "https://wiki.gbl.gg/images/thumb/a/ac/EFZ_Unko_Flight.png/132px-EFZ_Unko_Flight.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "0.33",
+            "active": "/",
+            "recovery": "10/17※ (fly) 0.33 (unfly)",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP AD SB"
+          },
+          "properties": [
+            "UNKNOWN's special ability. She levitates off the ground and can fly in any direction in the air while being free to act. Drains RF gauge while in use. Pressing jS while in flight will exit it and cause UNKNOWN to fall normally. After leaving flight, UNKNOWN cannot re-enter flight until she has touched the ground or air teched. UNKNOWN can do a partial airdash without being kicked out of flight after, and can airdash an unlimited amount of times until it ends. Doing a full airdash will end flight, however. UNKNOWN cannot enter flight after double jumping or airdashing. This ability is extremely useful and the lynchpin of her strength. Flight cancelling can be used to make most blockstrings safe and continue pressure. It allows her to completely control her drop path by inputting a direction with a second jS input, creating extremely difficult to see okizeme. An UNKNOWN that has mastered this ability can be extremely oppressive, while an UNKNOWN who misuses it will constantly need RF gauge and will struggle to capitalize off their openings. The RF meter will continuously drain while flying. If UNKNOWN is hit out of flight, her RF gauge will continue to drain during hitstun (and even 34.33 frames of air recovery, during which she is not allowed to re-fly), letting the opponent drain it even when it is not in the light blue/BIC state. RF meter will also continue to drain during superflash. Depending on how much RF she has, UNKNOWN can fly for upwards of 410 frames. In BIC, the most she can fly is 333 frames. This move has a bug called the \"UNKNOWN infinite flight glitch\". Having velocity and doing jA just as the RF meter empties, then continuously using jA while holding the direction UNKNOWN was travelling in allows her to keep her velocity in that direction for as long as she keeps up the jA's. Abuse of this glitch can lead to infinites, so it is commonly banned in tournaments. ※ UNKNOWN can attack and airdash after frame 10, but must wait 17 frames to be able to move or unfly.",
+            "UNKNOWN's special ability. She levitates off the ground and can fly in any direction in the air while being free to act. Drains RF gauge while in use. Pressing jS while in flight will exit it and cause UNKNOWN to fall normally. After leaving flight, UNKNOWN cannot re-enter flight until she has touched the ground or air teched. UNKNOWN can do a partial airdash without being kicked out of flight after, and can airdash an unlimited amount of times until it ends. Doing a full airdash will end flight, however.",
+            "UNKNOWN cannot enter flight after double jumping or airdashing.",
+            "This ability is extremely useful and the lynchpin of her strength. Flight cancelling can be used to make most blockstrings safe and continue pressure. It allows her to completely control her drop path by inputting a direction with a second jS input, creating extremely difficult to see okizeme. An UNKNOWN that has mastered this ability can be extremely oppressive, while an UNKNOWN who misuses it will constantly need RF gauge and will struggle to capitalize off their openings.",
+            "The RF meter will continuously drain while flying. If UNKNOWN is hit out of flight, her RF gauge will continue to drain during hitstun (and even 34.33 frames of air recovery, during which she is not allowed to re-fly), letting the opponent drain it even when it is not in the light blue/BIC state. RF meter will also continue to drain during superflash. Depending on how much RF she has, UNKNOWN can fly for upwards of 410 frames. In BIC, the most she can fly is 333 frames.",
+            "This move has a bug called the \"UNKNOWN infinite flight glitch\". Having velocity and doing jA just as the RF meter empties, then continuously using jA while holding the direction UNKNOWN was travelling in allows her to keep her velocity in that direction for as long as she keeps up the jA's. Abuse of this glitch can lead to infinites, so it is commonly banned in tournaments."
+          ]
+        },
+        {
+          "moveName": "Outside the Window",
+          "input": "(j)236",
+          "image": "https://wiki.gbl.gg/images/thumb/3/36/EFZ_Unko_236.png/175px-EFZ_Unko_236.png",
+          "damage": "150 x 5",
+          "framedata": {
+            "guard": "Any",
+            "startup": "25",
+            "active": "66",
+            "recovery": "55",
+            "advHit": "+4",
+            "advBlock": "+2",
+            "cancel": "Rekka"
+          },
+          "properties": [
+            "UNKNOWN leans forward and creates a ghostly orb in front of her as if she were blowing a bubble. Can be thrown further by inputting another 236*. When thrown, the hitbox will expand in size. The A variant of this move has the highest defensive value, and appears right in front of UNKNOWN, making it hard to punish if used correctly. The B variant is a much more offensive attack, and it appears about two body widths away from UNKNOWN. It can be used as a mid to long range projectile, and will usually force the opponent into a corner. This attack is critical for gaining initiative for a projectile assault and keep away games as it stuns for a good deal of time, even on block. However, if the opponent manages to get close enough before this move comes out, it will miss entirely and leave her extremely vulnerable to attack, so it must be used with care. Because of the size of the hitbox, and the length of time it stays out for, this is a great defensive projectile against frontal opponents. It takes a short while to activate, but once it's out, the player can choose to either hold it close or toss it out further to catch the opponent. At close range, this attack can combo for decent damage, and the combo can be extended further by throwing the orb. This has a lot of priority for a projectile, and will block almost any other projectile that it connects with.",
+            "The C variant is unusual, it's a copy of the projectiles that the boss version of UNKNOWN uses, however this one uses some of the RF gauge. It always has the expanded hitbox of the A and B versions and travels slowly across the entire screen, it cannot have follow-ups input for it. If it hits the opponent, they're instantly teleported to the top of the screen directly above UNKNOWN, and minor damage is dealt. It does provide a great projectile cover, but its lack of damage makes it difficult to use, especially since it costs some RF and can be easily blocked. If it does hit, the opponent falls very fast towards the ground, making it difficult to actually combo them from the fall. Not as useful as the A and B variants, but it has a certain cool/meme factor that makes it attractive nonetheless.",
+            "If the input is done again, the A orb will travel to about half screen in front of UNKNOWN. If the input is done again, the B orb will travel far enough to hit fullscreen. Can make 236B into an offensive projectile, great for anti-zoning. 236A~236* and 236B~236*.",
+            "The A variant of this move has the highest defensive value, and appears right in front of UNKNOWN, making it hard to punish if used correctly.",
+            "The B variant is a much more offensive attack, and it appears about two body widths away from UNKNOWN. It can be used as a mid to long range projectile, and will usually force the opponent into a corner. This attack is critical for gaining initiative for a projectile assault and keep away games as it stuns for a good deal of time, even on block. However, if the opponent manages to get close enough before this move comes out, it will miss entirely and leave her extremely vulnerable to attack, so it must be used with care.",
+            "Because of the size of the hitbox, and the length of time it stays out for, this is a great defensive projectile against frontal opponents. It takes a short while to activate, but once it's out, the player can choose to either hold it close or toss it out further to catch the opponent. At close range, this attack can combo for decent damage, and the combo can be extended further by throwing the orb. This has a lot of priority for a projectile, and will block almost any other projectile that it connects with.",
+            "If the input is done again, the A orb will travel to about half screen in front of UNKNOWN.",
+            "If the input is done again, the B orb will travel far enough to hit fullscreen.",
+            "Can make 236B into an offensive projectile, great for anti-zoning."
+          ],
+          "variations": [
+            {
+              "version": "A or B (Start)",
+              "damage": "150 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "25",
+                "active": "66",
+                "recovery": "55",
+                "advHit": "+4",
+                "advBlock": "+2",
+                "cancel": "Rekka"
+              },
+              "notes": "UNKNOWN leans forward and creates a ghostly orb in front of her as if she were blowing a bubble. Can be thrown further by inputting another 236*. When thrown, the hitbox will expand in size. The A variant of this move has the highest defensive value, and appears right in front of UNKNOWN, making it hard to punish if used correctly. The B variant is a much more offensive attack, and it appears about two body widths away from UNKNOWN. It can be used as a mid to long range projectile, and will usually force the opponent into a corner. This attack is critical for gaining initiative for a projectile assault and keep away games as it stuns for a good deal of time, even on block. However, if the opponent manages to get close enough before this move comes out, it will miss entirely and leave her extremely vulnerable to attack, so it must be used with care. Because of the size of the hitbox, and the length of time it stays out for, this is a great defensive projectile against frontal opponents. It takes a short while to activate, but once it's out, the player can choose to either hold it close or toss it out further to catch the opponent. At close range, this attack can combo for decent damage, and the combo can be extended further by throwing the orb. This has a lot of priority for a projectile, and will block almost any other projectile that it connects with."
+            },
+            {
+              "version": "C",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "25",
+                "active": "/",
+                "recovery": "45",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "UNKNOWN leans forward and creates a ghostly orb in front of her as if she were blowing a bubble. Can be thrown further by inputting another 236*. When thrown, the hitbox will expand in size. The A variant of this move has the highest defensive value, and appears right in front of UNKNOWN, making it hard to punish if used correctly. The B variant is a much more offensive attack, and it appears about two body widths away from UNKNOWN. It can be used as a mid to long range projectile, and will usually force the opponent into a corner. This attack is critical for gaining initiative for a projectile assault and keep away games as it stuns for a good deal of time, even on block. However, if the opponent manages to get close enough before this move comes out, it will miss entirely and leave her extremely vulnerable to attack, so it must be used with care. Because of the size of the hitbox, and the length of time it stays out for, this is a great defensive projectile against frontal opponents. It takes a short while to activate, but once it's out, the player can choose to either hold it close or toss it out further to catch the opponent. At close range, this attack can combo for decent damage, and the combo can be extended further by throwing the orb. This has a lot of priority for a projectile, and will block almost any other projectile that it connects with."
+            },
+            {
+              "version": "236A~236* Follow-up",
+              "damage": "150 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "46",
+                "recovery": "51",
+                "advHit": "-12 ~ +4",
+                "advBlock": "-14 ~ +6",
+                "cancel": "None"
+              },
+              "notes": "UNKNOWN leans forward and creates a ghostly orb in front of her as if she were blowing a bubble. Can be thrown further by inputting another 236*. When thrown, the hitbox will expand in size. The A variant of this move has the highest defensive value, and appears right in front of UNKNOWN, making it hard to punish if used correctly. The B variant is a much more offensive attack, and it appears about two body widths away from UNKNOWN. It can be used as a mid to long range projectile, and will usually force the opponent into a corner. This attack is critical for gaining initiative for a projectile assault and keep away games as it stuns for a good deal of time, even on block. However, if the opponent manages to get close enough before this move comes out, it will miss entirely and leave her extremely vulnerable to attack, so it must be used with care. Because of the size of the hitbox, and the length of time it stays out for, this is a great defensive projectile against frontal opponents. It takes a short while to activate, but once it's out, the player can choose to either hold it close or toss it out further to catch the opponent. At close range, this attack can combo for decent damage, and the combo can be extended further by throwing the orb. This has a lot of priority for a projectile, and will block almost any other projectile that it connects with."
+            },
+            {
+              "version": "236B~236* Follow-up",
+              "damage": "150 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "66",
+                "recovery": "51",
+                "advHit": "+6 ~ +20",
+                "advBlock": "+8 ~ +22",
+                "cancel": "None"
+              },
+              "notes": "UNKNOWN leans forward and creates a ghostly orb in front of her as if she were blowing a bubble. Can be thrown further by inputting another 236*. When thrown, the hitbox will expand in size. The A variant of this move has the highest defensive value, and appears right in front of UNKNOWN, making it hard to punish if used correctly. The B variant is a much more offensive attack, and it appears about two body widths away from UNKNOWN. It can be used as a mid to long range projectile, and will usually force the opponent into a corner. This attack is critical for gaining initiative for a projectile assault and keep away games as it stuns for a good deal of time, even on block. However, if the opponent manages to get close enough before this move comes out, it will miss entirely and leave her extremely vulnerable to attack, so it must be used with care. Because of the size of the hitbox, and the length of time it stays out for, this is a great defensive projectile against frontal opponents. It takes a short while to activate, but once it's out, the player can choose to either hold it close or toss it out further to catch the opponent. At close range, this attack can combo for decent damage, and the combo can be extended further by throwing the orb. This has a lot of priority for a projectile, and will block almost any other projectile that it connects with."
+            }
+          ]
+        },
+        {
+          "moveName": "Master? Lord?",
+          "input": "214",
+          "image": "https://wiki.gbl.gg/images/thumb/3/3c/EFZ_Unko_214.png/175px-EFZ_Unko_214.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "22",
+            "active": "15",
+            "recovery": "46",
+            "advHit": "/",
+            "advBlock": "-16",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Appears directly in front of UNKNOWN.",
+            "Appears about 60% of the screen away from UNKNOWN.",
+            "Repeatedly spawns plushes one in front of the other until they go off screen. Can keep the opponent blocking for a long time, although it is easily RG'd and not so useful for combos, making it somewhat of a gimmick when considering the RF cost."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "700",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "22",
+                "active": "15",
+                "recovery": "46",
+                "advHit": "/",
+                "advBlock": "-16",
+                "cancel": "FIC"
+              },
+              "notes": "Appears directly in front of UNKNOWN."
+            },
+            {
+              "version": "B",
+              "damage": "650",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "22",
+                "active": "15",
+                "recovery": "46",
+                "advHit": "/",
+                "advBlock": "-16",
+                "cancel": "FIC"
+              },
+              "notes": "Appears directly in front of UNKNOWN."
+            },
+            {
+              "version": "C",
+              "damage": "400 x N",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "22",
+                "active": "15 x N",
+                "recovery": "46",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Appears directly in front of UNKNOWN."
+            }
+          ]
+        },
+        {
+          "moveName": "Rotten World",
+          "input": "623",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a7/EFZ_Unko_623.png/175px-EFZ_Unko_623.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "6",
+            "recovery": "53",
+            "advHit": "/",
+            "advBlock": "-32",
+            "cancel": "IC"
+          },
+          "properties": [
+            "UNKNOWN pulls in her arms and then explodes with white energy, blowing the opponent away. A decent anti-air attack. Anyone who's fought against the boss version of UNKNOWN will know just how annoying this move is for aerial attackers. However, it's somewhat difficult to find a good time to use it. If it hits, this move throws the opponent into the air, but will not start a juggle unless it's canceled with an IC. The great part about this move is that UNKNOWN is invincible during the entire startup, and the hitbox is massive, covering her entire body. The A variant of this move has a fast startup time for a no-nonsense way to get the opponent off your case. It can combo from certain basic attacks, but the range of this move is deceptive in the same style as her wisps, that is it's shorter than it appears to be. One common usage is to run through the opponent and DP from the other side for a very quick crossup (66..23A)",
+            "This move is her generic fully invulnerable DP, and can catch out opponent due to its slow startup. On the other hand, the startup can make it easier for the opponent to block and punish UNKNOWN if it is not ICed.",
+            "The C variant has slower startup than the A version, but hits twice, doing more damage than the B version. Extra care is needed when using this attack, but it's more rewarding on hit than any of the other variants. In most situations it's safer to use the A variant, but for damaging IC combos needed to finish off the opponent, this move could be valuable.",
+            "A decent anti-air attack. Anyone who's fought against the boss version of UNKNOWN will know just how annoying this move is for aerial attackers. However, it's somewhat difficult to find a good time to use it. If it hits, this move throws the opponent into the air, but will not start a juggle unless it's canceled with an IC. The great part about this move is that UNKNOWN is invincible during the entire startup, and the hitbox is massive, covering her entire body.",
+            "The A variant of this move has a fast startup time for a no-nonsense way to get the opponent off your case. It can combo from certain basic attacks, but the range of this move is deceptive in the same style as her wisps, that is it's shorter than it appears to be. One common usage is to run through the opponent and DP from the other side for a very quick crossup (66..23A)"
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "6",
+                "recovery": "53",
+                "advHit": "/",
+                "advBlock": "-32",
+                "cancel": "IC"
+              },
+              "notes": "UNKNOWN pulls in her arms and then explodes with white energy, blowing the opponent away. A decent anti-air attack. Anyone who's fought against the boss version of UNKNOWN will know just how annoying this move is for aerial attackers. However, it's somewhat difficult to find a good time to use it. If it hits, this move throws the opponent into the air, but will not start a juggle unless it's canceled with an IC. The great part about this move is that UNKNOWN is invincible during the entire startup, and the hitbox is massive, covering her entire body. The A variant of this move has a fast startup time for a no-nonsense way to get the opponent off your case. It can combo from certain basic attacks, but the range of this move is deceptive in the same style as her wisps, that is it's shorter than it appears to be. One common usage is to run through the opponent and DP from the other side for a very quick crossup (66..23A)"
+            },
+            {
+              "version": "B",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Any",
+                "startup": "33",
+                "active": "6",
+                "recovery": "53",
+                "advHit": "/",
+                "advBlock": "-32",
+                "cancel": "IC"
+              },
+              "notes": "UNKNOWN pulls in her arms and then explodes with white energy, blowing the opponent away. A decent anti-air attack. Anyone who's fought against the boss version of UNKNOWN will know just how annoying this move is for aerial attackers. However, it's somewhat difficult to find a good time to use it. If it hits, this move throws the opponent into the air, but will not start a juggle unless it's canceled with an IC. The great part about this move is that UNKNOWN is invincible during the entire startup, and the hitbox is massive, covering her entire body. The A variant of this move has a fast startup time for a no-nonsense way to get the opponent off your case. It can combo from certain basic attacks, but the range of this move is deceptive in the same style as her wisps, that is it's shorter than it appears to be. One common usage is to run through the opponent and DP from the other side for a very quick crossup (66..23A)"
+            },
+            {
+              "version": "C",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "42",
+                "recovery": "68",
+                "advHit": "/",
+                "advBlock": "-35",
+                "cancel": "IC"
+              },
+              "notes": "UNKNOWN pulls in her arms and then explodes with white energy, blowing the opponent away. A decent anti-air attack. Anyone who's fought against the boss version of UNKNOWN will know just how annoying this move is for aerial attackers. However, it's somewhat difficult to find a good time to use it. If it hits, this move throws the opponent into the air, but will not start a juggle unless it's canceled with an IC. The great part about this move is that UNKNOWN is invincible during the entire startup, and the hitbox is massive, covering her entire body. The A variant of this move has a fast startup time for a no-nonsense way to get the opponent off your case. It can combo from certain basic attacks, but the range of this move is deceptive in the same style as her wisps, that is it's shorter than it appears to be. One common usage is to run through the opponent and DP from the other side for a very quick crossup (66..23A)"
+            },
+            {
+              "version": "-",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "36",
+                "recovery": "62",
+                "advHit": "/",
+                "advBlock": "-41",
+                "cancel": "IC"
+              },
+              "notes": "UNKNOWN pulls in her arms and then explodes with white energy, blowing the opponent away. A decent anti-air attack. Anyone who's fought against the boss version of UNKNOWN will know just how annoying this move is for aerial attackers. However, it's somewhat difficult to find a good time to use it. If it hits, this move throws the opponent into the air, but will not start a juggle unless it's canceled with an IC. The great part about this move is that UNKNOWN is invincible during the entire startup, and the hitbox is massive, covering her entire body. The A variant of this move has a fast startup time for a no-nonsense way to get the opponent off your case. It can combo from certain basic attacks, but the range of this move is deceptive in the same style as her wisps, that is it's shorter than it appears to be. One common usage is to run through the opponent and DP from the other side for a very quick crossup (66..23A)"
+            }
+          ]
+        },
+        {
+          "moveName": "Toy Knife",
+          "input": "41236",
+          "image": "https://wiki.gbl.gg/images/thumb/4/43/EFZ_Unko_41236.png/175px-EFZ_Unko_41236.png",
+          "damage": "300 x 3",
+          "framedata": {
+            "guard": "Any",
+            "startup": "24",
+            "active": "/",
+            "recovery": "45",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "UNKNOWN produces a set of 6 plastic knives and throws them rapidly in two groups of three. Travels quickly across the stage in a horizontal line. An incredible projectile that is fast, safe and powerful. Very abusable at range, and sometimes even close up as well. UNKNOWN's recovery time after throwing them is fast, and she can start on any of her other ranged attacks as soon as the move finishes. It cancels other projectiles easily, and since it comes out in two waves, it usually ends up beating single projectiles out and still hitting the opponent. It also has a large hitbox, the three knives together covering a vertical area that's about the same height as UNKNOWN herself. They even deal a good amount of chip damage. The A variant of this move consists of both waves being thrown horizontally one after the other. The most useful of the three, and best for using when the opponent doesn't really have time to jump or is starting a slower attack from a distance. Eats other projectiles for breakfast. The B variant has UNKNOWN throwing the first wave horizontal, then throwing the second wave at a 45 degree angle, with the knives spread in a fan formation. Great for opponents who get smart and attempt to jump over the A variant, as at least 1 of the knives thrown upwards are bound to hit. Probably the safest of the three variants. The C variant does not require RF meter, and has UNKNOWN throwing both waves upwards at a 45 degree angle. A good way to get some extra damage out of her throw, and also a way to shoot down opponents who are jumping to avoid the ground projectiles and squirrels. It won't deal as much damage as the A variant though, since the knives are quite spread out, but at closer range, at least two of the three knives should hit the opponent. Because of its low proration and decent damage, it is often used in BIC combos to deal high amounts of damage.",
+            "UNKNOWN produces a set of 6 plastic knives and throws them rapidly in two groups of three. Travels quickly across the stage in a horizontal line.",
+            "An incredible projectile that is fast, safe and powerful. Very abusable at range, and sometimes even close up as well. UNKNOWN's recovery time after throwing them is fast, and she can start on any of her other ranged attacks as soon as the move finishes. It cancels other projectiles easily, and since it comes out in two waves, it usually ends up beating single projectiles out and still hitting the opponent. It also has a large hitbox, the three knives together covering a vertical area that's about the same height as UNKNOWN herself. They even deal a good amount of chip damage.",
+            "The A variant of this move consists of both waves being thrown horizontally one after the other. The most useful of the three, and best for using when the opponent doesn't really have time to jump or is starting a slower attack from a distance. Eats other projectiles for breakfast.",
+            "The B variant has UNKNOWN throwing the first wave horizontal, then throwing the second wave at a 45 degree angle, with the knives spread in a fan formation. Great for opponents who get smart and attempt to jump over the A variant, as at least 1 of the knives thrown upwards are bound to hit. Probably the safest of the three variants.",
+            "The C variant does not require RF meter, and has UNKNOWN throwing both waves upwards at a 45 degree angle. A good way to get some extra damage out of her throw, and also a way to shoot down opponents who are jumping to avoid the ground projectiles and squirrels. It won't deal as much damage as the A variant though, since the knives are quite spread out, but at closer range, at least two of the three knives should hit the opponent. Because of its low proration and decent damage, it is often used in BIC combos to deal high amounts of damage."
+          ],
+          "variations": [
+            {
+              "version": "Any",
+              "damage": "300 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "24",
+                "active": "/",
+                "recovery": "45",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "UNKNOWN produces a set of 6 plastic knives and throws them rapidly in two groups of three. Travels quickly across the stage in a horizontal line. An incredible projectile that is fast, safe and powerful. Very abusable at range, and sometimes even close up as well. UNKNOWN's recovery time after throwing them is fast, and she can start on any of her other ranged attacks as soon as the move finishes. It cancels other projectiles easily, and since it comes out in two waves, it usually ends up beating single projectiles out and still hitting the opponent. It also has a large hitbox, the three knives together covering a vertical area that's about the same height as UNKNOWN herself. They even deal a good amount of chip damage. The A variant of this move consists of both waves being thrown horizontally one after the other. The most useful of the three, and best for using when the opponent doesn't really have time to jump or is starting a slower attack from a distance. Eats other projectiles for breakfast. The B variant has UNKNOWN throwing the first wave horizontal, then throwing the second wave at a 45 degree angle, with the knives spread in a fan formation. Great for opponents who get smart and attempt to jump over the A variant, as at least 1 of the knives thrown upwards are bound to hit. Probably the safest of the three variants. The C variant does not require RF meter, and has UNKNOWN throwing both waves upwards at a 45 degree angle. A good way to get some extra damage out of her throw, and also a way to shoot down opponents who are jumping to avoid the ground projectiles and squirrels. It won't deal as much damage as the A variant though, since the knives are quite spread out, but at closer range, at least two of the three knives should hit the opponent. Because of its low proration and decent damage, it is often used in BIC combos to deal high amounts of damage."
+            },
+            {
+              "version": "/",
+              "damage": "300 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "52",
+                "active": "/",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "UNKNOWN produces a set of 6 plastic knives and throws them rapidly in two groups of three. Travels quickly across the stage in a horizontal line. An incredible projectile that is fast, safe and powerful. Very abusable at range, and sometimes even close up as well. UNKNOWN's recovery time after throwing them is fast, and she can start on any of her other ranged attacks as soon as the move finishes. It cancels other projectiles easily, and since it comes out in two waves, it usually ends up beating single projectiles out and still hitting the opponent. It also has a large hitbox, the three knives together covering a vertical area that's about the same height as UNKNOWN herself. They even deal a good amount of chip damage. The A variant of this move consists of both waves being thrown horizontally one after the other. The most useful of the three, and best for using when the opponent doesn't really have time to jump or is starting a slower attack from a distance. Eats other projectiles for breakfast. The B variant has UNKNOWN throwing the first wave horizontal, then throwing the second wave at a 45 degree angle, with the knives spread in a fan formation. Great for opponents who get smart and attempt to jump over the A variant, as at least 1 of the knives thrown upwards are bound to hit. Probably the safest of the three variants. The C variant does not require RF meter, and has UNKNOWN throwing both waves upwards at a 45 degree angle. A good way to get some extra damage out of her throw, and also a way to shoot down opponents who are jumping to avoid the ground projectiles and squirrels. It won't deal as much damage as the A variant though, since the knives are quite spread out, but at closer range, at least two of the three knives should hit the opponent. Because of its low proration and decent damage, it is often used in BIC combos to deal high amounts of damage."
+            }
+          ]
+        },
+        {
+          "moveName": "Hide-and-Seek",
+          "input": "(j)421",
+          "image": "https://wiki.gbl.gg/images/thumb/7/74/EFZ_Unko_421.png/175px-EFZ_Unko_421.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "/",
+            "active": "/",
+            "recovery": "43.66",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC (A, B, C, jC) None (jA, jB)"
+          },
+          "properties": [
+            "UNKNOWN vanishes and teleports elsewhere. Has an FIC window that starts as soon as she reappears. An alright teleport that is unfortunately pretty slow when compared to the rest of UNKNOWN's movement options. A version teleports forward about 60% of the screen. The most useful teleport thanks to its combo applicability. B version teleports about the same distance away from the opponent. The aerial A and B versions do not allow UNKNOWN to double jump, airdash, fly, or re-teleport afterwards. UNKNOWN will also not be corrected to face the opponent which is a problem for the A version. C version does not require RF to use and teleports UNKNOWN directly above the opponent, free to use all of her air mobility options after. The aerial version teleports UNKNOWN to the ground and directly in front of the opponent. This move cannot be canceled into while UNKNOWN is dashing. Inputting the button on the same frame as the 1 direction will return 623* instead, so be careful. This quirk can be used to option select 623B against crossups.",
+            "UNKNOWN vanishes and teleports elsewhere. Has an FIC window that starts as soon as she reappears.",
+            "An alright teleport that is unfortunately pretty slow when compared to the rest of UNKNOWN's movement options.",
+            "A version teleports forward about 60% of the screen. The most useful teleport thanks to its combo applicability.",
+            "B version teleports about the same distance away from the opponent.",
+            "The aerial A and B versions do not allow UNKNOWN to double jump, airdash, fly, or re-teleport afterwards. UNKNOWN will also not be corrected to face the opponent which is a problem for the A version.",
+            "C version does not require RF to use and teleports UNKNOWN directly above the opponent, free to use all of her air mobility options after. The aerial version teleports UNKNOWN to the ground and directly in front of the opponent.",
+            "This move cannot be canceled into while UNKNOWN is dashing.",
+            "Inputting the button on the same frame as the 1 direction will return 623* instead, so be careful. This quirk can be used to option select 623B against crossups."
+          ]
+        },
+        {
+          "moveName": "22S[1]",
+          "input": "during wakeup",
+          "image": "https://wiki.gbl.gg/images/thumb/4/41/EFZ_Unko_22S.png/175px-EFZ_Unko_22S.png",
+          "damage": "0",
+          "framedata": {
+            "guard": "Any",
+            "startup": "33",
+            "active": "1",
+            "recovery": "37",
+            "advHit": "/",
+            "advBlock": "-15",
+            "cancel": "None"
+          },
+          "properties": [
+            "UNKNOWN performs a burst. Can only be used on wake-up. Costs 1 Bar of the SP gauge! Has no superflash. This move is expensive, slow, punishable on block, has no cancel options, does no damage on hit, and UNKNOWN has no way to mix up its usage. A questionable option when even the slowest version of 623* is a faster reversal.",
+            "UNKNOWN performs a burst.",
+            "Can only be used on wake-up.",
+            "Costs 1 Bar of the SP gauge! Has no superflash.",
+            "This move is expensive, slow, punishable on block, has no cancel options, does no damage on hit, and UNKNOWN has no way to mix up its usage. A questionable option when even the slowest version of 623* is a faster reversal."
+          ]
+        },
+        {
+          "moveName": "Great Migration",
+          "input": "Projectile collision boxes underneath hitboxes",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7f/EFZ_Unko_236236.png/175px-EFZ_Unko_236236.png",
+          "damage": "50 x 14",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9",
+            "active": "/",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "/"
+          },
+          "properties": [
+            "UNKNOWN whistles sharply and summons a whole herd of plush toys that run across the stage. Yet another way for UNKNOWN to force her mixups on the opponent by creating a walking wall of hitboxes. This move traps and combos the opponent somewhat randomly, as the plush toys all move at different speeds, sometimes creating openings for the opponent to recover. However UNKNOWN is free to move throughout the entire duration of the attack, meaning that she can combo or mixup throughout the duration freely. In general, the UNKNOWN will want to use flight to mix up high/low and left/right until the opponent is opened up, and then use 66B at the end of the lemming line to convert to a combo. On its own, the herd only does about 1k damage, but doesn't scale much at all. The A variant of this move causes the plush toys to start migrating from the opposite side of the screen. This is the offensive option that can be used to catch an opponent from behind. Most commonly used after applying pressure with orbs or knives to get the opponent into the corner, or after a knockdown in the corner. The B variant causes the plush toys to migrate from behind UNKNOWN. This is a more defensive option that gives UNKNOWN some backup for her to attack the opponent head on.",
+            "At the same time the plushes are summoned, there is a non-damaging physical hit that doesn't hit in front of UNKNOWN at all and can only be active for a single subframe if the variable startup bug is not in effect. Obviously, this is extremely unlikely to hit an opponent in a real match and even less likely to be impactful.",
+            "UNKNOWN whistles sharply and summons a whole herd of plush toys that run across the stage.",
+            "Yet another way for UNKNOWN to force her mixups on the opponent by creating a walking wall of hitboxes. This move traps and combos the opponent somewhat randomly, as the plush toys all move at different speeds, sometimes creating openings for the opponent to recover. However UNKNOWN is free to move throughout the entire duration of the attack, meaning that she can combo or mixup throughout the duration freely. In general, the UNKNOWN will want to use flight to mix up high/low and left/right until the opponent is opened up, and then use 66B at the end of the lemming line to convert to a combo. On its own, the herd only does about 1k damage, but doesn't scale much at all.",
+            "The A variant of this move causes the plush toys to start migrating from the opposite side of the screen. This is the offensive option that can be used to catch an opponent from behind. Most commonly used after applying pressure with orbs or knives to get the opponent into the corner, or after a knockdown in the corner.",
+            "The B variant causes the plush toys to migrate from behind UNKNOWN. This is a more defensive option that gives UNKNOWN some backup for her to attack the opponent head on."
+          ],
+          "variations": [
+            {
+              "version": "A/B Plushes",
+              "damage": "50 x 14",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "/",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "UNKNOWN whistles sharply and summons a whole herd of plush toys that run across the stage. Yet another way for UNKNOWN to force her mixups on the opponent by creating a walking wall of hitboxes. This move traps and combos the opponent somewhat randomly, as the plush toys all move at different speeds, sometimes creating openings for the opponent to recover. However UNKNOWN is free to move throughout the entire duration of the attack, meaning that she can combo or mixup throughout the duration freely. In general, the UNKNOWN will want to use flight to mix up high/low and left/right until the opponent is opened up, and then use 66B at the end of the lemming line to convert to a combo. On its own, the herd only does about 1k damage, but doesn't scale much at all. The A variant of this move causes the plush toys to start migrating from the opposite side of the screen. This is the offensive option that can be used to catch an opponent from behind. Most commonly used after applying pressure with orbs or knives to get the opponent into the corner, or after a knockdown in the corner. The B variant causes the plush toys to migrate from behind UNKNOWN. This is a more defensive option that gives UNKNOWN some backup for her to attack the opponent head on."
+            },
+            {
+              "version": "A/B UNKNOWN",
+              "damage": "0",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "9",
+                "active": "0 / 0.33",
+                "recovery": "56",
+                "advHit": "-50",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "UNKNOWN whistles sharply and summons a whole herd of plush toys that run across the stage. Yet another way for UNKNOWN to force her mixups on the opponent by creating a walking wall of hitboxes. This move traps and combos the opponent somewhat randomly, as the plush toys all move at different speeds, sometimes creating openings for the opponent to recover. However UNKNOWN is free to move throughout the entire duration of the attack, meaning that she can combo or mixup throughout the duration freely. In general, the UNKNOWN will want to use flight to mix up high/low and left/right until the opponent is opened up, and then use 66B at the end of the lemming line to convert to a combo. On its own, the herd only does about 1k damage, but doesn't scale much at all. The A variant of this move causes the plush toys to start migrating from the opposite side of the screen. This is the offensive option that can be used to catch an opponent from behind. Most commonly used after applying pressure with orbs or knives to get the opponent into the corner, or after a knockdown in the corner. The B variant causes the plush toys to migrate from behind UNKNOWN. This is a more defensive option that gives UNKNOWN some backup for her to attack the opponent head on."
+            }
+          ]
+        },
+        {
+          "moveName": "Inside of Barrel",
+          "input": "463214",
+          "image": "https://wiki.gbl.gg/images/thumb/d/df/EFZ_Unko_463214.png/175px-EFZ_Unko_463214.png",
+          "damage": "0 (50%) or 1800 (50%)",
+          "framedata": {
+            "guard": "Unblockable",
+            "startup": "28※",
+            "active": "33.66",
+            "recovery": "37.33(whiff)",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Rolls the 50/50 once.",
+            "2 rounds of 50/50 coinflips, with the second round dealing more damage on success.",
+            "Flips 3 coins, with the third round dealing massive damage on success."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0 (50%) or 1800 (50%)",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "28※",
+                "active": "33.66",
+                "recovery": "37.33(whiff)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Rolls the 50/50 once."
+            },
+            {
+              "version": "B",
+              "damage": "0 (25%) or 1800 (50%) or 3500 (25%)",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "28※",
+                "active": "33.66",
+                "recovery": "37.33(whiff)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Rolls the 50/50 once."
+            },
+            {
+              "version": "C",
+              "damage": "0 (12.5%) or 1800 (50%) or 3500 (25%) or 6500 (12.5%)",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "28※",
+                "active": "33.66",
+                "recovery": "37.33(whiff)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Rolls the 50/50 once."
+            }
+          ]
+        },
+        {
+          "moveName": "Solar",
+          "input": "j236236",
+          "image": "https://wiki.gbl.gg/images/thumb/2/24/EFZ_Unko_j236236.png/139px-EFZ_Unko_j236236.png",
+          "damage": "100 x N + 2000",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "14",
+            "active": "/",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "UNKNOWN creates a huge orb of fire above her head and throws it down at the opponent, causing a radial blast that burns the target and blows them into the air. This is UNKNOWN's most damaging special, and one that's definitely worth using. The hitbox is massive, and if it hits any time during its way down, it will combo. Since it's an aerial special, it's very safe to use and not hard to connect with. The A variant of this move causes a small explosion that hits a few times for good damage. The radius of the explosion isn't all that big, so care must be taken to aim this move appropriately.",
+            "The B variant uses two special bars and creates an explosion that's much bigger, hitting once for great damage.",
+            "The C variant empties the entire special gauge and creates a massive explosion that travels across the screen in burning pillars, reaching a great vertical distance as well as a horizontal distance. This move deals fantastic damage and combos, filling almost the entire space in front of UNKNOWN. It's very hard to avoid without blocking, and even on block it does a substantial amount of chip damage. This one is definitely worth saving for.",
+            "UNKNOWN creates a huge orb of fire above her head and throws it down at the opponent, causing a radial blast that burns the target and blows them into the air.",
+            "This is UNKNOWN's most damaging special, and one that's definitely worth using. The hitbox is massive, and if it hits any time during its way down, it will combo. Since it's an aerial special, it's very safe to use and not hard to connect with.",
+            "The A variant of this move causes a small explosion that hits a few times for good damage. The radius of the explosion isn't all that big, so care must be taken to aim this move appropriately."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "100 x N + 2000",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "14",
+                "active": "/",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "UNKNOWN creates a huge orb of fire above her head and throws it down at the opponent, causing a radial blast that burns the target and blows them into the air. This is UNKNOWN's most damaging special, and one that's definitely worth using. The hitbox is massive, and if it hits any time during its way down, it will combo. Since it's an aerial special, it's very safe to use and not hard to connect with. The A variant of this move causes a small explosion that hits a few times for good damage. The radius of the explosion isn't all that big, so care must be taken to aim this move appropriately."
+            },
+            {
+              "version": "B",
+              "damage": "100 x N + 2800",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "14",
+                "active": "/",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "UNKNOWN creates a huge orb of fire above her head and throws it down at the opponent, causing a radial blast that burns the target and blows them into the air. This is UNKNOWN's most damaging special, and one that's definitely worth using. The hitbox is massive, and if it hits any time during its way down, it will combo. Since it's an aerial special, it's very safe to use and not hard to connect with. The A variant of this move causes a small explosion that hits a few times for good damage. The radius of the explosion isn't all that big, so care must be taken to aim this move appropriately."
+            },
+            {
+              "version": "C",
+              "damage": "100 x N + 2000 x 3",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "14",
+                "active": "/",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "UNKNOWN creates a huge orb of fire above her head and throws it down at the opponent, causing a radial blast that burns the target and blows them into the air. This is UNKNOWN's most damaging special, and one that's definitely worth using. The hitbox is massive, and if it hits any time during its way down, it will combo. Since it's an aerial special, it's very safe to use and not hard to connect with. The A variant of this move causes a small explosion that hits a few times for good damage. The radius of the explosion isn't all that big, so care must be taken to aim this move appropriately."
+            }
+          ]
+        },
+        {
+          "moveName": "Swimming Up Waterfall",
+          "input": "C B 6 A A",
+          "image": "https://wiki.gbl.gg/images/thumb/1/15/EFZ_Unko_FM.png/175px-EFZ_Unko_FM.png",
+          "damage": "6200",
+          "framedata": {
+            "guard": "Low",
+            "startup": "24",
+            "active": "15",
+            "recovery": "46",
+            "advHit": "/",
+            "advBlock": "-22",
+            "cancel": "None"
+          },
+          "properties": [
+            "UNKNOWN does a short hop and grabs the opponent's feet. She then rides a chain of giant plush toys into space, trailing the unfortunate opponent along with her. Finally, she comes back to earth and her mount regurgitates the opponent onto the floor in front of her. Extremely high damage. Despite the hop, this move is a low! If the opponent is unaware of this fact, they will often try to block it high. Very punishable on block, though, so not a great gimmick. As the input may imply, this move can be whiff cancelled from most normals.",
+            "UNKNOWN does a short hop and grabs the opponent's feet. She then rides a chain of giant plush toys into space, trailing the unfortunate opponent along with her. Finally, she comes back to earth and her mount regurgitates the opponent onto the floor in front of her. Extremely high damage.",
+            "Despite the hop, this move is a low! If the opponent is unaware of this fact, they will often try to block it high. Very punishable on block, though, so not a great gimmick.",
+            "As the input may imply, this move can be whiff cancelled from most normals."
+          ]
+        }
+      ]
+    }
+  ]
+}

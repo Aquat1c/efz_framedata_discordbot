@@ -1,0 +1,1377 @@
+{
+  "name": "Kano Kirishima",
+  "icon": "https://wiki.gbl.gg/images/d/dd/EFZ_Kano_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/d/dd/Kano5A.png",
+          "damage": "190",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5 / 5.33",
+            "active": "2 / 1.66",
+            "recovery": "9",
+            "advHit": "0 / +0.33",
+            "advBlock": "-1 / -0.66",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Not the fastest 5A and minus on block, but has a great vertical hitbox that can stuff both upper and lower-body invincible reversals (except Nayuki's 623B) while still keeping the initiative on RG. Most other characters can only do that with higher commitment moves like a c5B, which forces them on the defensive if the opponent RGs. Despite not moving Kano at all, this move will reset the timer for her 30% meter bonus."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "(Not Too) Close 5B",
+          "image": "https://wiki.gbl.gg/images/thumb/1/18/KanocB.png/175px-KanocB.png",
+          "damage": "410",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "2",
+            "recovery": "10",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "N SP J IC f5B SB"
+          },
+          "properties": [
+            "The only plus on block normal Kano can chain into. Has an extremely disappointing hitbox, especially noticeable in corner combos, where it can easily whiff if not used carefully. At 7F startup, it's not a great move to cancel into if the opponent RGs, only do it if you've conditioned them with 2As/5As and you know they're not going to mash. It does give you frame advantage, but at that range there's not a whole lot Kano can do mixup wise, so it ends up being mostly filler in combos and pressure strings."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/6/6a/KanofB.png/175px-KanofB.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9",
+            "active": "1",
+            "recovery": "15",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "N SP IC SB"
+          },
+          "properties": [
+            "One of Kano's main pokes, fast, great range, fantastic at annoying and interrupting the opponent. It's a very versatile move when spaced right, as it can be safely cancelled into 5C, 3C, 6C, spells or charge."
+          ]
+        },
+        {
+          "moveName": "Full Swing Rod",
+          "input": "6B",
+          "image": "https://wiki.gbl.gg/images/thumb/3/33/Kano6B.png/175px-Kano6B.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "12",
+            "active": "1",
+            "recovery": "17",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Kano's other main poke, very similar looking to f5B, and her strongest mid range normal. It is fast for its range, and has a bit more horizontal and vertical range than f5B, allowing you to hit instant air dash attempts. Unlike f5B though, you cannot chain out of it so it's much weaker in pressure. Since f5B and 6B look so similar, it can be hard for the opponent to figure out which one was used immediately, allowing you to stagger your timings at mid range and to hit opponents who think they can safely do a move when outside of her f5B range (whiff f5B into immediate 6B for example)."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0e/Kano5C.png/175px-Kano5C.png",
+          "damage": "610",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "15",
+            "active": "2",
+            "recovery": "27",
+            "advHit": "-5",
+            "advBlock": "-7",
+            "cancel": "SP JH IC SB"
+          },
+          "properties": [
+            "Although this move may seem like a large and powerful poke, it is almost entirely just combo filler. Its hitbox is smaller than the animation would suggest, Kano extends her hurtbox during startup, and it only has 2 active frames. Bad on block, worse on RG, and suicide on whiff, so this move absolutely needs to be cancelled into 6C, charge or spell. Despite its appearance, makes for an absolutely terrible anti air. Its range is decent enough that depending on the matchup an RG'd f5B can be safely cancelled into it."
+          ]
+        },
+        {
+          "moveName": "Napalm Beat",
+          "input": "6C",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c1/Kano6C.png/175px-Kano6C.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Any",
+            "startup": "21",
+            "active": "1",
+            "recovery": "24",
+            "advHit": "/",
+            "advBlock": "-3",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "A fantastic move with a huge hitbox, good speed for its range, and the key to her high damage Napalm Loop bnbs. Costs a tiny bit of SP meter. Learning to charge cancel this move is vital to playing Kano, as it drastically strengthens her combos and pressure game (makes the move +6 on block). It is also fantastic for hitting players when they try to move after blocking a spell, or when they try to set up their game outside of Kano's f5B/6B range. Napalm Beat's main weakness is that it ends your turn on RG, and is horrible on whiff. No matter how good a hitbox it has, a well timed jump will get you punished. Also has the bad habit of coming out and whiffing point blank when you're going for a throw."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/86/Kano2A.png/175px-Kano2A.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "2",
+            "recovery": "9",
+            "advHit": "0",
+            "advBlock": "-1",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Once again, a fairly slow, negative on block 2A, which doesn't even have the decency to hit low. On the plus side, it has an amazing horizontal range, rivaling some 2Bs, which makes it fantastic to mash or use in RG battles beyond point blank range. Its hitbox is angled upwards, which makes it surprisingly decent as an anti air, or to catch people jumping out. This property also allows it to beat some moves with lower body invul. Conversely, that also means that some low profile moves will beat it in nonsensical situations."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/46/Kano2B.png/175px-Kano2B.png",
+          "damage": "480",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "1",
+            "recovery": "14",
+            "advHit": "/",
+            "advBlock": "0",
+            "cancel": "N SP J IC f5B SB"
+          },
+          "properties": [
+            "Kano's fastest and most useful low. Can be considered a sweep that has fast startup, decent range, is neutral on block and has fairly low recovery on whiff. Can also cancel into the same moves as her f5B, allowing for multiple followups. Despite being even on block, it can also be used for pseudo frame traps depending on spacing, as few chars have the normals to challenge Kano at that range."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1c/Kano2C_1.png/166px-Kano2C_1.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Any",
+            "startup": "5",
+            "active": "1",
+            "recovery": "45",
+            "advHit": "/",
+            "advBlock": "-31",
+            "cancel": "IC"
+          },
+          "properties": [
+            "An incredible move that's suicide when the opponent calls it out, or when you accidentally do it instead of 3C. This move has a massive hitbox, barely any hurtbox, hits on both sides, and only comes out in 5F, faster than even some A normals. As an anti air, it is only air unblockable from the second active frame and onwards, but will beat out any jump normal in the game. Its weakness is its massive recovery, and its complete inability to be cancelled into other moves. If the opponent jump RGs it, there is only a very short window to IC it. If they bait a whiff, Kano may as well be dead. Additionally, this move has very low reward on hit, doing little damage, having very limited combo potential, and resetting to neutral after. Beyond using it as a straight anti air, its speed can be abused to kill non meaty crossup setups and to get hoverdash characters off you when they try to get back in during blockstrings."
+          ],
+          "variations": [
+            {
+              "version": "Active Frame 1",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "5",
+                "active": "1",
+                "recovery": "45",
+                "advHit": "/",
+                "advBlock": "-31",
+                "cancel": "IC"
+              },
+              "notes": "An incredible move that's suicide when the opponent calls it out, or when you accidentally do it instead of 3C. This move has a massive hitbox, barely any hurtbox, hits on both sides, and only comes out in 5F, faster than even some A normals. As an anti air, it is only air unblockable from the second active frame and onwards, but will beat out any jump normal in the game. Its weakness is its massive recovery, and its complete inability to be cancelled into other moves. If the opponent jump RGs it, there is only a very short window to IC it. If they bait a whiff, Kano may as well be dead. Additionally, this move has very low reward on hit, doing little damage, having very limited combo potential, and resetting to neutral after. Beyond using it as a straight anti air, its speed can be abused to kill non meaty crossup setups and to get hoverdash characters off you when they try to get back in during blockstrings."
+            },
+            {
+              "version": "Active Frames 2-8",
+              "damage": "650",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6",
+                "active": "2 + 5",
+                "recovery": "44",
+                "advHit": "/",
+                "advBlock": "-30",
+                "cancel": "IC"
+              },
+              "notes": "An incredible move that's suicide when the opponent calls it out, or when you accidentally do it instead of 3C. This move has a massive hitbox, barely any hurtbox, hits on both sides, and only comes out in 5F, faster than even some A normals. As an anti air, it is only air unblockable from the second active frame and onwards, but will beat out any jump normal in the game. Its weakness is its massive recovery, and its complete inability to be cancelled into other moves. If the opponent jump RGs it, there is only a very short window to IC it. If they bait a whiff, Kano may as well be dead. Additionally, this move has very low reward on hit, doing little damage, having very limited combo potential, and resetting to neutral after. Beyond using it as a straight anti air, its speed can be abused to kill non meaty crossup setups and to get hoverdash characters off you when they try to get back in during blockstrings."
+            }
+          ]
+        },
+        {
+          "moveName": "Sliding",
+          "input": "3C",
+          "image": "https://wiki.gbl.gg/images/5/50/Kano3C.png",
+          "damage": "610",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "24",
+            "recovery": "14",
+            "advHit": "/",
+            "advBlock": "-17",
+            "cancel": "N SP IC SB"
+          },
+          "properties": [
+            "A slide with an average hitbox and no low profile. Its biggest strength lies in its startup speed, making it extremely strong in RG battles at mid range. If they RG one of your normals beyond their 2A/5A range, then Kano's slide will win against almost any normal they counter with, netting you a knockdown. It is her farthest reaching low, and can be used in pressure strings against opponents who stand up when beyond Kano's 2B range (do not use this against characters with high walk speed as the slide will whiff). It can be cancelled into spells or charge cancelled (+8 on block), making it safe for a slide, as long as the opponent does not RG it. If they do RG it, cancel it into Fast Incantation, Lighting Bolt or Fire Wall."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/0/05/KanojA.png",
+          "damage": "210",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "2",
+            "recovery": "11",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC R j2*"
+          },
+          "properties": [
+            "A typical jA, fast, pretty decent hitbox, used in many of her BnB's as filler."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/fb/KanojB_1.png/140px-KanojB_1.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9",
+            "active": "2",
+            "recovery": "46",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC j2*"
+          },
+          "properties": [
+            "A 2 hit move, and one of the strongest jBs in the game. Has a very fast startup given its range. Both hits have ridiculous hitboxes, with the first hit knocking down, and the second sending them flying away. Unfortunately the first hit is not an overhead. Used mostly in neutral to swat them away when they're in the air, and as a combo ender to knock them down. Both hits can be air dash cancelled or jump cancelled, leaving her plenty of options if it is blocked."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "2",
+                "recovery": "46",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N J AD IC j2*"
+              },
+              "notes": "A 2 hit move, and one of the strongest jBs in the game. Has a very fast startup given its range. Both hits have ridiculous hitboxes, with the first hit knocking down, and the second sending them flying away. Unfortunately the first hit is not an overhead. Used mostly in neutral to swat them away when they're in the air, and as a combo ender to knock them down. Both hits can be air dash cancelled or jump cancelled, leaving her plenty of options if it is blocked."
+            },
+            {
+              "version": "B",
+              "damage": "450",
+              "framedata": {
+                "guard": "High",
+                "startup": "25",
+                "active": "2",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N J AD IC j2*"
+              },
+              "notes": "A 2 hit move, and one of the strongest jBs in the game. Has a very fast startup given its range. Both hits have ridiculous hitboxes, with the first hit knocking down, and the second sending them flying away. Unfortunately the first hit is not an overhead. Used mostly in neutral to swat them away when they're in the air, and as a combo ender to knock them down. Both hits can be air dash cancelled or jump cancelled, leaving her plenty of options if it is blocked."
+            }
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/18/KanojC.png/150px-KanojC.png",
+          "damage": "130 x 5",
+          "framedata": {
+            "guard": "High",
+            "startup": "19",
+            "active": "14",
+            "recovery": "23",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "J AD IC"
+          },
+          "properties": [
+            "Another great Kano aerial normal, used as her standard jump in and in some advanced combos. It's fast, multiple hits make it really hard to RG, and she can use it to improvise ambiguous crossups. If they do manage to RG it, you can still double jump or air dash cancel any of the hits."
+          ]
+        },
+        {
+          "moveName": "Rod Surfing",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/thumb/e/ee/Kanoj2A.png/175px-Kanoj2A.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Any",
+            "startup": "14",
+            "active": "/",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Kano's dive kick/yoga spiral. Kano needs to be above a minimum height to initiate, with the A and C versions requiring her to be 6 frames into her jump before it becomes available and 7 frames for the B version, as opposed to 4 frames for most air actions. Has frame advantage if you hit an opponent's feet, but otherwise is suicide without IC, even on hit. Can be cancelled into from jA and jB, making it sometimes helpful for landing faster or repositioning after a jB knockdown. Can be used to bait out anti airs and mashing if you have IC available to make it safe/combo off a hit. The A version is a decent movement option, TKing it in pressure allows Kano to beat slides and low mashes. The only overhead version is the B one, it can be TK'd for an \"instant\" overhead in pressure strings. Unfortunately it is very slow thanks to the a height minimum, and probably won't hit unless they're mashing. Don't use this move from high up as it will take an extremely long time to land."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14",
+                "active": "/",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Kano's dive kick/yoga spiral. Kano needs to be above a minimum height to initiate, with the A and C versions requiring her to be 6 frames into her jump before it becomes available and 7 frames for the B version, as opposed to 4 frames for most air actions. Has frame advantage if you hit an opponent's feet, but otherwise is suicide without IC, even on hit. Can be cancelled into from jA and jB, making it sometimes helpful for landing faster or repositioning after a jB knockdown. Can be used to bait out anti airs and mashing if you have IC available to make it safe/combo off a hit. The A version is a decent movement option, TKing it in pressure allows Kano to beat slides and low mashes. The only overhead version is the B one, it can be TK'd for an \"instant\" overhead in pressure strings. Unfortunately it is very slow thanks to the a height minimum, and probably won't hit unless they're mashing. Don't use this move from high up as it will take an extremely long time to land."
+            },
+            {
+              "version": "B",
+              "damage": "500",
+              "framedata": {
+                "guard": "High",
+                "startup": "16",
+                "active": "/",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Kano's dive kick/yoga spiral. Kano needs to be above a minimum height to initiate, with the A and C versions requiring her to be 6 frames into her jump before it becomes available and 7 frames for the B version, as opposed to 4 frames for most air actions. Has frame advantage if you hit an opponent's feet, but otherwise is suicide without IC, even on hit. Can be cancelled into from jA and jB, making it sometimes helpful for landing faster or repositioning after a jB knockdown. Can be used to bait out anti airs and mashing if you have IC available to make it safe/combo off a hit. The A version is a decent movement option, TKing it in pressure allows Kano to beat slides and low mashes. The only overhead version is the B one, it can be TK'd for an \"instant\" overhead in pressure strings. Unfortunately it is very slow thanks to the a height minimum, and probably won't hit unless they're mashing. Don't use this move from high up as it will take an extremely long time to land."
+            },
+            {
+              "version": "C",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14",
+                "active": "/",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Kano's dive kick/yoga spiral. Kano needs to be above a minimum height to initiate, with the A and C versions requiring her to be 6 frames into her jump before it becomes available and 7 frames for the B version, as opposed to 4 frames for most air actions. Has frame advantage if you hit an opponent's feet, but otherwise is suicide without IC, even on hit. Can be cancelled into from jA and jB, making it sometimes helpful for landing faster or repositioning after a jB knockdown. Can be used to bait out anti airs and mashing if you have IC available to make it safe/combo off a hit. The A version is a decent movement option, TKing it in pressure allows Kano to beat slides and low mashes. The only overhead version is the B one, it can be TK'd for an \"instant\" overhead in pressure strings. Unfortunately it is very slow thanks to the a height minimum, and probably won't hit unless they're mashing. Don't use this move from high up as it will take an extremely long time to land."
+            }
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/c/c2/Kano66A.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "2",
+            "recovery": "6",
+            "advHit": "+3",
+            "advBlock": "+2",
+            "cancel": "SP IC SB 6C"
+          },
+          "properties": [
+            "A rare plus on block normal, does not link into anything on hit. Its hitbox is similar to her 5A, you lose the initiative if it is RG'd. Used to get in on the opponent."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/ec/Kano66B.png/175px-Kano66B.png",
+          "damage": "520",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11",
+            "active": "1",
+            "recovery": "17",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "SP JH IC SB 6C"
+          },
+          "properties": [
+            "Dashing version of her 6B, used for very much the same purpose, if you want to sacrifice some speed to gain some range."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/eb/Kano66C.png/175px-Kano66C.png",
+          "damage": "690",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "12",
+            "active": "2",
+            "recovery": "38",
+            "advHit": "/",
+            "advBlock": "-7",
+            "cancel": "SP JH IC SB"
+          },
+          "properties": [
+            "Although this move may seem similar to 5C, it's much stronger in neutral. Its faster startup and forward movement make all the difference in the world. Incredibly useful for pressure, especially in the corner where it becomes a great combo starter. Great at catching opponents jumping out, too. Still horrible on RG like 5C, but way harder to read since you're able to easily space it and use from ranges where Kano is comfortable with many more options. Should always be cancelled, whether it be with a charge, spell, or jump. Gives massive frame advantage (up to +8) when charge cancelled. Launches."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/bf/Kano662A.png/175px-Kano662A.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "2",
+            "recovery": "8",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC SB 6C"
+          },
+          "properties": [
+            "Almost the same hitbox as her 2A, neutral on block and does not link into anything on hit. It has a similar use to 66A, use 66A when you end up close to them after the dash, 662A when you're further away (hit them with the tip of the staff). Can also be used to slip under some attacks in specific situations, as she slides forward while shrinking her hurt/collision boxes."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/82/Kano662B.png/175px-Kano662B.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Low",
+            "startup": "7",
+            "active": "1",
+            "recovery": "15",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC SB 6C"
+          },
+          "properties": [
+            "Dashing version of her 2B, still hits low but no longer knocks down. Does not link into anything on hit. A lot of players stop blocking low when out of Kano's 2B range. 662B is there to safely snipe those players, and can actually lead to a full combo when used in tandem with spells."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/9c/Kano662C.png/175px-Kano662C.png",
+          "damage": "140 x 6",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "2 x 6",
+            "recovery": "30",
+            "advHit": "/",
+            "advBlock": "-15 ~ -5",
+            "cancel": "SP IC SB 6C"
+          },
+          "properties": [
+            "A tricky, hard to use move that whiffs on crouching characters. Has fast startup, a good hitbox, and multiple hits and yet it is still difficult to use as an anti-air since it is a dashing move. Comboing off of it is even harder, but the move is actually primarily used in advanced BIC combos. Can throw off an opponent trying to air RG Kano's spells."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f9/EFZ_Kano_Kirishima_GroundGrab.png/175px-EFZ_Kano_Kirishima_GroundGrab.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "0.66",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Dosukoi. Above average ground throw as it can easily be comboed off of with IC, especially in the corner. If not IC'd will send the opponent about a half screen away. Kano is invincible during part of this throw's startup but not its active so it can trade with strike moves."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "19",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Dosukoi. Above average ground throw as it can easily be comboed off of with IC, especially in the corner. If not IC'd will send the opponent about a half screen away. Kano is invincible during part of this throw's startup but not its active so it can trade with strike moves."
+            },
+            {
+              "version": "B",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "19",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Dosukoi. Above average ground throw as it can easily be comboed off of with IC, especially in the corner. If not IC'd will send the opponent about a half screen away. Kano is invincible during part of this throw's startup but not its active so it can trade with strike moves."
+            },
+            {
+              "version": "C",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "19",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Dosukoi. Above average ground throw as it can easily be comboed off of with IC, especially in the corner. If not IC'd will send the opponent about a half screen away. Kano is invincible during part of this throw's startup but not its active so it can trade with strike moves."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e2/EFZ_Kano_Kirishima_AirGrab.png/175px-EFZ_Kano_Kirishima_AirGrab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "The other anti air used to counter jump RG strats. Kano tosses the opponent behind her in an arc. Can lead to a combo if you throw them into the corner while low to the ground. Kano is not invincible during this throw so it can trade."
+          ]
+        },
+        {
+          "moveName": "Incantation",
+          "input": "Cannot be used with full magic",
+          "image": "https://wiki.gbl.gg/images/thumb/4/4d/KanoS.png/175px-KanoS.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "8",
+            "active": "/",
+            "recovery": "Charge + 5",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC SB 236S ※"
+          },
+          "properties": [
+            "Incantation can only be done when Kano's magic gauge is not full. Pressing S once will start a charge, pressing it again after startup will stop it. The cancel cannot be buffered. A full magic meter takes 44.33 frames to charge, and if cancelled it still charges for the subframe S was pressed and begins recovering a subframe later. This move is crucial to Kano's gameplay, as her pressure and advanced combos revolve around the correct use of Incantation to cancel moves and gain frame advantage (aka Charge Cancelling). Most useful moves to charge cancel: 5C, 66C, 6C, 3C. A quick charge cancel in neutral can also bait frustrated opponents to charge right in. ※ When entering the charge animation from casting magic without a full gauge 5S and 236S cancelling will not be available, although depending on the spell an FIC cancel may be available.",
+            "Incantation can only be done when Kano's magic gauge is not full.",
+            "Pressing S once will start a charge, pressing it again after startup will stop it. The cancel cannot be buffered.",
+            "A full magic meter takes 44.33 frames to charge, and if cancelled it still charges for the subframe S was pressed and begins recovering a subframe later.",
+            "This move is crucial to Kano's gameplay, as her pressure and advanced combos revolve around the correct use of Incantation to cancel moves and gain frame advantage (aka Charge Cancelling).",
+            "Most useful moves to charge cancel: 5C, 66C, 6C, 3C.",
+            "A quick charge cancel in neutral can also bait frustrated opponents to charge right in."
+          ]
+        },
+        {
+          "moveName": "Lightning Bolt",
+          "input": "236 ~ 4/5/6",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e0/Kano236A.png/175px-Kano236A.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Any",
+            "startup": "21.66",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "-10",
+            "cancel": "FIC 236S"
+          },
+          "properties": [
+            "Uses 25% of her magic meter. Rarely used outside of the opponent RGing her slide. Even then another version/spell might be better. Lowest damage, requires good spacing and does not give frame advantage.",
+            "Uses 50% of her magic meter. The most useful version, easiest to combo into and to use as a tech trap. 6f gap between hits.",
+            "Uses 75% of her magic meter. Does not require RF to use. Harder to snipe and combo with than the B version, but does more damage/pushes them further away on block. 6f gap between hits.",
+            "Uses 25% of her magic meter.",
+            "Rarely used outside of the opponent RGing her slide. Even then another version/spell might be better. Lowest damage, requires good spacing and does not give frame advantage.",
+            "Uses 50% of her magic meter.",
+            "The most useful version, easiest to combo into and to use as a tech trap. 6f gap between hits.",
+            "Uses 75% of her magic meter.",
+            "Does not require RF to use.",
+            "Harder to snipe and combo with than the B version, but does more damage/pushes them further away on block. 6f gap between hits."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "21.66",
+                "active": "1",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-10",
+                "cancel": "FIC 236S"
+              },
+              "notes": "Uses 25% of her magic meter. Rarely used outside of the opponent RGing her slide. Even then another version/spell might be better. Lowest damage, requires good spacing and does not give frame advantage."
+            },
+            {
+              "version": "Kano",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "14",
+                "active": "/",
+                "recovery": "39",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC 236S"
+              },
+              "notes": "Uses 25% of her magic meter. Rarely used outside of the opponent RGing her slide. Even then another version/spell might be better. Lowest damage, requires good spacing and does not give frame advantage."
+            },
+            {
+              "version": "B",
+              "damage": "450 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20.66",
+                "active": "1 x 3",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-10 ~ +4",
+                "cancel": "FIC 236S"
+              },
+              "notes": "Uses 25% of her magic meter. Rarely used outside of the opponent RGing her slide. Even then another version/spell might be better. Lowest damage, requires good spacing and does not give frame advantage."
+            },
+            {
+              "version": "Kano",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13",
+                "active": "/",
+                "recovery": "39",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC 236S"
+              },
+              "notes": "Uses 25% of her magic meter. Rarely used outside of the opponent RGing her slide. Even then another version/spell might be better. Lowest damage, requires good spacing and does not give frame advantage."
+            },
+            {
+              "version": "C",
+              "damage": "450 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20.66",
+                "active": "1 x 5",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-10 ~ +18",
+                "cancel": "FIC 236S"
+              },
+              "notes": "Uses 25% of her magic meter. Rarely used outside of the opponent RGing her slide. Even then another version/spell might be better. Lowest damage, requires good spacing and does not give frame advantage."
+            },
+            {
+              "version": "Kano",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13",
+                "active": "/",
+                "recovery": "39",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC 236S"
+              },
+              "notes": "Uses 25% of her magic meter. Rarely used outside of the opponent RGing her slide. Even then another version/spell might be better. Lowest damage, requires good spacing and does not give frame advantage."
+            }
+          ]
+        },
+        {
+          "moveName": "Fire Bolt",
+          "input": "214",
+          "image": "https://wiki.gbl.gg/images/thumb/0/09/Kano214A.png/175px-Kano214A.png",
+          "damage": "680",
+          "framedata": {
+            "guard": "Any",
+            "startup": "18",
+            "active": "/",
+            "recovery": "21",
+            "advHit": "/",
+            "advBlock": "+9 ~ +47",
+            "cancel": "FIC 236S ※"
+          },
+          "properties": [
+            "Uses 25% of her magic meter. Used to gain frame advantage from an opponent trying to RG. As the fire bolts are effectively 2 hits, they will RG the first hit and be forced to block the second, leaving Kano at frame advantage. Using A firebolt to cover ground approaches is slightly dangerous, as it is vulnerable to low profile moves and instant air dashes. You might also trigger the above bug where the explosion does not happen.",
+            "Uses 50% of her magic meter. Used to cover ground approaches, and in the same way as A fire bolt in pressure. This version covers more vertical space, and is able to beat most low profile moves and instant air dashes. It can also be used in pressure to gain a bit more chip damage at the expense of costing more magic.",
+            "Uses 75% of her magic meter. Does not require RF to use. Used to cover ground approaches and low air approaches, in pressure for maximum chip and frame advantage and to beat many RF reversals. This version covers the most horizontal and vertical space, to the point where it can even be used against some jumping opponents. It will also blow up opponents trying to bully their way in with RF moves.",
+            "Uses 25% of her magic meter.",
+            "Used to gain frame advantage from an opponent trying to RG. As the fire bolts are effectively 2 hits, they will RG the first hit and be forced to block the second, leaving Kano at frame advantage. Using A firebolt to cover ground approaches is slightly dangerous, as it is vulnerable to low profile moves and instant air dashes. You might also trigger the above bug where the explosion does not happen.",
+            "Uses 50% of her magic meter.",
+            "Used to cover ground approaches, and in the same way as A fire bolt in pressure. This version covers more vertical space, and is able to beat most low profile moves and instant air dashes. It can also be used in pressure to gain a bit more chip damage at the expense of costing more magic.",
+            "Uses 75% of her magic meter.",
+            "Does not require RF to use.",
+            "Used to cover ground approaches and low air approaches, in pressure for maximum chip and frame advantage and to beat many RF reversals. This version covers the most horizontal and vertical space, to the point where it can even be used against some jumping opponents. It will also blow up opponents trying to bully their way in with RF moves."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "680",
+              "framedata": {
+                "guard": "Any",
+                "startup": "18",
+                "active": "/",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "+9 ~ +47",
+                "cancel": "FIC 236S ※"
+              },
+              "notes": "Uses 25% of her magic meter. Used to gain frame advantage from an opponent trying to RG. As the fire bolts are effectively 2 hits, they will RG the first hit and be forced to block the second, leaving Kano at frame advantage. Using A firebolt to cover ground approaches is slightly dangerous, as it is vulnerable to low profile moves and instant air dashes. You might also trigger the above bug where the explosion does not happen."
+            },
+            {
+              "version": "B",
+              "damage": "680 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "18",
+                "active": "/",
+                "recovery": "27",
+                "advHit": "/",
+                "advBlock": "+9 ~ +49",
+                "cancel": "FIC 236S ※"
+              },
+              "notes": "Uses 25% of her magic meter. Used to gain frame advantage from an opponent trying to RG. As the fire bolts are effectively 2 hits, they will RG the first hit and be forced to block the second, leaving Kano at frame advantage. Using A firebolt to cover ground approaches is slightly dangerous, as it is vulnerable to low profile moves and instant air dashes. You might also trigger the above bug where the explosion does not happen."
+            },
+            {
+              "version": "C",
+              "damage": "680 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "18",
+                "active": "/",
+                "recovery": "33",
+                "advHit": "/",
+                "advBlock": "+9 ~ +51",
+                "cancel": "FIC 236S ※"
+              },
+              "notes": "Uses 25% of her magic meter. Used to gain frame advantage from an opponent trying to RG. As the fire bolts are effectively 2 hits, they will RG the first hit and be forced to block the second, leaving Kano at frame advantage. Using A firebolt to cover ground approaches is slightly dangerous, as it is vulnerable to low profile moves and instant air dashes. You might also trigger the above bug where the explosion does not happen."
+            }
+          ]
+        },
+        {
+          "moveName": "Cold Bolt",
+          "input": "421",
+          "image": "https://wiki.gbl.gg/images/thumb/8/8d/Kano421B.png/175px-Kano421B.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Any",
+            "startup": "41",
+            "active": "/",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "+23",
+            "cancel": "FIC 236S ※"
+          },
+          "properties": [
+            "Uses 25% of her magic meter. Used in neutral to harass, and is involved in oki and pressure string setups, leading to Kano's strongest meterless combos in the corner. Has the lowest recovery out of all her spells.",
+            "Uses 50% of her magic meter. Probably the least used version. It can play the same roles as the C version, but not as effectively. Not bad at all, but used more for variety than because of any specific strength.",
+            "Uses 75% of her magic meter. Does not require RF to use. Used as meaty corner oki, providing massive frame advantage while allowing Kano to recover before any reversal. It is also great at sniping opponents who try to approach from high up in the air, as Kano is able to cross under the opponent off screen while the ice bolts track them. Harder to combo off of than the A version.",
+            "Uses 25% of her magic meter.",
+            "Used in neutral to harass, and is involved in oki and pressure string setups, leading to Kano's strongest meterless combos in the corner. Has the lowest recovery out of all her spells.",
+            "Uses 50% of her magic meter.",
+            "Probably the least used version. It can play the same roles as the C version, but not as effectively. Not bad at all, but used more for variety than because of any specific strength.",
+            "Uses 75% of her magic meter.",
+            "Does not require RF to use.",
+            "Used as meaty corner oki, providing massive frame advantage while allowing Kano to recover before any reversal. It is also great at sniping opponents who try to approach from high up in the air, as Kano is able to cross under the opponent off screen while the ice bolts track them.",
+            "Harder to combo off of than the A version."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "41",
+                "active": "/",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+23",
+                "cancel": "FIC 236S ※"
+              },
+              "notes": "Uses 25% of her magic meter. Used in neutral to harass, and is involved in oki and pressure string setups, leading to Kano's strongest meterless combos in the corner. Has the lowest recovery out of all her spells."
+            },
+            {
+              "version": "Kano",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "9",
+                "active": "/",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC 236S ※"
+              },
+              "notes": "Uses 25% of her magic meter. Used in neutral to harass, and is involved in oki and pressure string setups, leading to Kano's strongest meterless combos in the corner. Has the lowest recovery out of all her spells."
+            },
+            {
+              "version": "B",
+              "damage": "450 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "41",
+                "active": "/",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+35",
+                "cancel": "FIC 236S ※"
+              },
+              "notes": "Uses 25% of her magic meter. Used in neutral to harass, and is involved in oki and pressure string setups, leading to Kano's strongest meterless combos in the corner. Has the lowest recovery out of all her spells."
+            },
+            {
+              "version": "Kano",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "9",
+                "active": "/",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC 236S ※"
+              },
+              "notes": "Uses 25% of her magic meter. Used in neutral to harass, and is involved in oki and pressure string setups, leading to Kano's strongest meterless combos in the corner. Has the lowest recovery out of all her spells."
+            },
+            {
+              "version": "C",
+              "damage": "450 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "41",
+                "active": "/",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+45",
+                "cancel": "FIC 236S ※"
+              },
+              "notes": "Uses 25% of her magic meter. Used in neutral to harass, and is involved in oki and pressure string setups, leading to Kano's strongest meterless combos in the corner. Has the lowest recovery out of all her spells."
+            },
+            {
+              "version": "Kano",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "9",
+                "active": "/",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC 236S ※"
+              },
+              "notes": "Uses 25% of her magic meter. Used in neutral to harass, and is involved in oki and pressure string setups, leading to Kano's strongest meterless combos in the corner. Has the lowest recovery out of all her spells."
+            }
+          ]
+        },
+        {
+          "moveName": "Fast Incantation",
+          "input": "Cannot be used with full magic",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f6/Kano236S.png/175px-Kano236S.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Any",
+            "startup": "10",
+            "active": "7",
+            "recovery": "22",
+            "advHit": "/",
+            "advBlock": "-7",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Kano makes a charging pose as a sphere of light briefly surrounds her entire body. Costs 50% RF to use. This is her only RF move, and can be used as a reversal. Vulnerable during active so it can trade. After this move is performed, Kano will have a full magic gauge. However, she cannot use this move if her magic gauge is already full. Fast Incantation can be used to cancel Lightning Bolt, Fire Bolt, and Cold Bolt, making it an excellent escape option if the opponent gets too close while you are still casting a spell. Since Kano can cancel her spells into this move, and charges her magic gauge while doing so, she can use her RF meter to \"machine gun\" C spells, hitting opponents who try to take advantage of her charge time to get in. It is also useful when the opponent RGs a move they think they can punish, most notably her slide.",
+            "Kano makes a charging pose as a sphere of light briefly surrounds her entire body.",
+            "Costs 50% RF to use. This is her only RF move, and can be used as a reversal. Vulnerable during active so it can trade.",
+            "After this move is performed, Kano will have a full magic gauge. However, she cannot use this move if her magic gauge is already full.",
+            "Fast Incantation can be used to cancel Lightning Bolt, Fire Bolt, and Cold Bolt, making it an excellent escape option if the opponent gets too close while you are still casting a spell.",
+            "Since Kano can cancel her spells into this move, and charges her magic gauge while doing so, she can use her RF meter to \"machine gun\" C spells, hitting opponents who try to take advantage of her charge time to get in.",
+            "It is also useful when the opponent RGs a move they think they can punish, most notably her slide."
+          ]
+        },
+        {
+          "moveName": "Fire Ball",
+          "input": "Collision box directly overlapped by hitbox",
+          "image": "https://wiki.gbl.gg/images/thumb/a/aa/Kano236236A.png/175px-Kano236236A.png",
+          "damage": "1800",
+          "framedata": {
+            "guard": "Any",
+            "startup": "11",
+            "active": "/",
+            "recovery": "55",
+            "advHit": "/",
+            "advBlock": "-12",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Uses 100% of her magic meter. A fairly strong, fast moving projectile that flies over Kano's head. Explodes several times on impact with the opponent or the ground. Used in some side switch corner combos with BIC. Even if nullified by another projectile, the inactive fireball will still travel and explode at the ground.",
+            "Uses 100% of her magic meter.",
+            "A fairly strong, fast moving projectile that flies over Kano's head. Explodes several times on impact with the opponent or the ground.",
+            "Used in some side switch corner combos with BIC.",
+            "Even if nullified by another projectile, the inactive fireball will still travel and explode at the ground."
+          ]
+        },
+        {
+          "moveName": "Fire Wall",
+          "input": "236236B",
+          "image": "https://wiki.gbl.gg/images/thumb/9/95/Kano236236B_1.png/175px-Kano236236B_1.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "9.33",
+            "active": "/",
+            "recovery": "47.66",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC ※"
+          },
+          "properties": [
+            "Uses 100% of her magic meter. Kano creates many explosions which leaves behind a wall of 3 flame pillars after. The pillars will last until either they exhaust their 6 hits or 6 seconds have passed. Each pillar has its own number of hits. Burns the opponent on hit, launching them in the air. They can be repeatedly bounced on the firewall with jB in the corner. Very fast startup and has some invincibility, making it usable in corner pressure strings even on RG. The ideal spacing is to activate it so that only one flame hits the opponent while they're blocking in the corner. While they're in blockstun just approach them. After the flame disappears from the blocked hits, the other two will still be there, preventing the opponent from mashing or extending their hurtbox in any way. With this setup your opponent might as well be in checkmate, as they are free to throws or 5A's should they try to jump, and there is basically nothing they can do to fight back against Kano in this time. Any hit will extend their hurtbox into the flames (for some characters, even just attempting jump will make them touch the fire) and launch them for a juggle. ※ Only FICable when charging (by input instead of with 5S). ※2 Explosions appear 4.33 frames apart.",
+            "Uses 100% of her magic meter.",
+            "Kano creates many explosions which leaves behind a wall of 3 flame pillars after. The pillars will last until either they exhaust their 6 hits or 6 seconds have passed. Each pillar has its own number of hits.",
+            "Burns the opponent on hit, launching them in the air. They can be repeatedly bounced on the firewall with jB in the corner.",
+            "Very fast startup and has some invincibility, making it usable in corner pressure strings even on RG.",
+            "The ideal spacing is to activate it so that only one flame hits the opponent while they're blocking in the corner. While they're in blockstun just approach them. After the flame disappears from the blocked hits, the other two will still be there, preventing the opponent from mashing or extending their hurtbox in any way. With this setup your opponent might as well be in checkmate, as they are free to throws or 5A's should they try to jump, and there is basically nothing they can do to fight back against Kano in this time. Any hit will extend their hurtbox into the flames (for some characters, even just attempting jump will make them touch the fire) and launch them for a juggle."
+          ],
+          "variations": [
+            {
+              "version": "Kano",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "9.33",
+                "active": "/",
+                "recovery": "47.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC ※"
+              },
+              "notes": "Uses 100% of her magic meter. Kano creates many explosions which leaves behind a wall of 3 flame pillars after. The pillars will last until either they exhaust their 6 hits or 6 seconds have passed. Each pillar has its own number of hits. Burns the opponent on hit, launching them in the air. They can be repeatedly bounced on the firewall with jB in the corner. Very fast startup and has some invincibility, making it usable in corner pressure strings even on RG. The ideal spacing is to activate it so that only one flame hits the opponent while they're blocking in the corner. While they're in blockstun just approach them. After the flame disappears from the blocked hits, the other two will still be there, preventing the opponent from mashing or extending their hurtbox in any way. With this setup your opponent might as well be in checkmate, as they are free to throws or 5A's should they try to jump, and there is basically nothing they can do to fight back against Kano in this time. Any hit will extend their hurtbox into the flames (for some characters, even just attempting jump will make them touch the fire) and launch them for a juggle. ※ Only FICable when charging (by input instead of with 5S). ※2 Explosions appear 4.33 frames apart."
+            },
+            {
+              "version": "Explosions",
+              "damage": "300 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9.33",
+                "active": "3.66 x 6※2",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Uses 100% of her magic meter. Kano creates many explosions which leaves behind a wall of 3 flame pillars after. The pillars will last until either they exhaust their 6 hits or 6 seconds have passed. Each pillar has its own number of hits. Burns the opponent on hit, launching them in the air. They can be repeatedly bounced on the firewall with jB in the corner. Very fast startup and has some invincibility, making it usable in corner pressure strings even on RG. The ideal spacing is to activate it so that only one flame hits the opponent while they're blocking in the corner. While they're in blockstun just approach them. After the flame disappears from the blocked hits, the other two will still be there, preventing the opponent from mashing or extending their hurtbox in any way. With this setup your opponent might as well be in checkmate, as they are free to throws or 5A's should they try to jump, and there is basically nothing they can do to fight back against Kano in this time. Any hit will extend their hurtbox into the flames (for some characters, even just attempting jump will make them touch the fire) and launch them for a juggle. ※ Only FICable when charging (by input instead of with 5S). ※2 Explosions appear 4.33 frames apart."
+            },
+            {
+              "version": "Pillars",
+              "damage": "200 x 6 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "25",
+                "active": "384.33 x 3",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Uses 100% of her magic meter. Kano creates many explosions which leaves behind a wall of 3 flame pillars after. The pillars will last until either they exhaust their 6 hits or 6 seconds have passed. Each pillar has its own number of hits. Burns the opponent on hit, launching them in the air. They can be repeatedly bounced on the firewall with jB in the corner. Very fast startup and has some invincibility, making it usable in corner pressure strings even on RG. The ideal spacing is to activate it so that only one flame hits the opponent while they're blocking in the corner. While they're in blockstun just approach them. After the flame disappears from the blocked hits, the other two will still be there, preventing the opponent from mashing or extending their hurtbox in any way. With this setup your opponent might as well be in checkmate, as they are free to throws or 5A's should they try to jump, and there is basically nothing they can do to fight back against Kano in this time. Any hit will extend their hurtbox into the flames (for some characters, even just attempting jump will make them touch the fire) and launch them for a juggle. ※ Only FICable when charging (by input instead of with 5S). ※2 Explosions appear 4.33 frames apart."
+            }
+          ]
+        },
+        {
+          "moveName": "Meteor Storm",
+          "input": "236236C",
+          "image": "https://wiki.gbl.gg/images/thumb/8/80/Kano236236C_1.png/175px-Kano236236C_1.png",
+          "damage": "4000",
+          "framedata": {
+            "guard": "Any",
+            "startup": "10",
+            "active": "-",
+            "recovery": "93",
+            "advHit": "/",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Kano launches 6 projectiles in the air, which later come down as meteors. Uses 100% of her magic meter. The number of meteors is the same as the number of shots in the air, so 6 by default, less should Kano be interrupted. The meteors come down over time and inflict the burning status. They can be dodged easily if the opponent switches sides. The shots hit on the way up and can be used as an anti air as they are pretty fast. They don't have pushback so they combo properly but sadly are not air unblockable and the move lacks invulnerability. Can be combo'd off a throw with IC/BIC for decent damage and followup meteors.",
+            "Uses 100% of her magic meter.",
+            "The number of meteors is the same as the number of shots in the air, so 6 by default, less should Kano be interrupted.",
+            "The meteors come down over time and inflict the burning status.",
+            "They can be dodged easily if the opponent switches sides.",
+            "The shots hit on the way up and can be used as an anti air as they are pretty fast. They don't have pushback so they combo properly but sadly are not air unblockable and the move lacks invulnerability.",
+            "Can be combo'd off a throw with IC/BIC for decent damage and followup meteors."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "4000",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "-",
+                "recovery": "93",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Kano launches 6 projectiles in the air, which later come down as meteors. Uses 100% of her magic meter. The number of meteors is the same as the number of shots in the air, so 6 by default, less should Kano be interrupted. The meteors come down over time and inflict the burning status. They can be dodged easily if the opponent switches sides. The shots hit on the way up and can be used as an anti air as they are pretty fast. They don't have pushback so they combo properly but sadly are not air unblockable and the move lacks invulnerability. Can be combo'd off a throw with IC/BIC for decent damage and followup meteors."
+            },
+            {
+              "version": "B",
+              "damage": "1600 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "-",
+                "active": "-",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Kano launches 6 projectiles in the air, which later come down as meteors. Uses 100% of her magic meter. The number of meteors is the same as the number of shots in the air, so 6 by default, less should Kano be interrupted. The meteors come down over time and inflict the burning status. They can be dodged easily if the opponent switches sides. The shots hit on the way up and can be used as an anti air as they are pretty fast. They don't have pushback so they combo properly but sadly are not air unblockable and the move lacks invulnerability. Can be combo'd off a throw with IC/BIC for decent damage and followup meteors."
+            }
+          ]
+        },
+        {
+          "moveName": "Frost Diver",
+          "input": "214214A",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0d/Kano214214A.png/175px-Kano214214A.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Low",
+            "startup": "15",
+            "active": "/",
+            "recovery": "93",
+            "advHit": "/",
+            "advBlock": "-10",
+            "cancel": "FIC ※"
+          },
+          "properties": [
+            "Uses 100% of her magic meter. A poor man's Frost Nova, used in similar situations but inferior in every way. Causes the freeze status, only use if you don't have the meter for Frost Nova. Hits low for some reason so you might be able to gimmick your opponent once. ※ Only FICable when charging (by input instead of with 5S).",
+            "Uses 100% of her magic meter.",
+            "A poor man's Frost Nova, used in similar situations but inferior in every way. Causes the freeze status, only use if you don't have the meter for Frost Nova.",
+            "Hits low for some reason so you might be able to gimmick your opponent once."
+          ]
+        },
+        {
+          "moveName": "Frost Nova",
+          "input": "214214B",
+          "image": "https://wiki.gbl.gg/images/thumb/c/cf/Kano214214B_1.png/175px-Kano214214B_1.png",
+          "damage": "2500",
+          "framedata": {
+            "guard": "Any",
+            "startup": "8",
+            "active": "/",
+            "recovery": "24",
+            "advHit": "/",
+            "advBlock": "+10",
+            "cancel": "FIC ※"
+          },
+          "properties": [
+            "Uses 100% of her magic meter. Kano's most useful spell, the core of her high damage combos. Also her only armor breaking move, although it will rarely be used for that. Fast enough that it can be used to snipe opponents, can be combo'd into from many situations. Look to land this when you have BIC on deck. ※ Only FICable when charging (by input instead of with 5S).",
+            "Uses 100% of her magic meter.",
+            "Kano's most useful spell, the core of her high damage combos.",
+            "Also her only armor breaking move, although it will rarely be used for that.",
+            "Fast enough that it can be used to snipe opponents, can be combo'd into from many situations.",
+            "Look to land this when you have BIC on deck."
+          ]
+        },
+        {
+          "moveName": "Storm Gust",
+          "input": "214214C",
+          "image": "https://wiki.gbl.gg/images/thumb/3/3c/Kano214214C_1.png/175px-Kano214214C_1.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "/",
+            "recovery": "74",
+            "advHit": "/",
+            "advBlock": "-26 ~ +2",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Uses 100% of her magic meter. If you have 3 meters, IC or BIC and a full magic gauge then this move comes into play. Combos off a throw midscreen for massive damage, 4000+ with IC and 6000+ with BIC. Does a lot less damage in the corner, consider using Meteor Storm for control or Lord Of Vermilion for damage instead.",
+            "Uses 100% of her magic meter.",
+            "If you have 3 meters, IC or BIC and a full magic gauge then this move comes into play.",
+            "Combos off a throw midscreen for massive damage, 4000+ with IC and 6000+ with BIC.",
+            "Does a lot less damage in the corner, consider using Meteor Storm for control or Lord Of Vermilion for damage instead."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "5",
+                "active": "/",
+                "recovery": "74",
+                "advHit": "/",
+                "advBlock": "-26 ~ +2",
+                "cancel": "IC"
+              },
+              "notes": "Uses 100% of her magic meter. If you have 3 meters, IC or BIC and a full magic gauge then this move comes into play. Combos off a throw midscreen for massive damage, 4000+ with IC and 6000+ with BIC. Does a lot less damage in the corner, consider using Meteor Storm for control or Lord Of Vermilion for damage instead."
+            },
+            {
+              "version": "B",
+              "damage": "5200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "-",
+                "active": "/",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "+10",
+                "cancel": "None"
+              },
+              "notes": "Uses 100% of her magic meter. If you have 3 meters, IC or BIC and a full magic gauge then this move comes into play. Combos off a throw midscreen for massive damage, 4000+ with IC and 6000+ with BIC. Does a lot less damage in the corner, consider using Meteor Storm for control or Lord Of Vermilion for damage instead."
+            }
+          ]
+        },
+        {
+          "moveName": "Thunderstorm",
+          "input": "641236A",
+          "image": "https://wiki.gbl.gg/images/thumb/0/02/EFZ_Kano_641236A_1.png/175px-EFZ_Kano_641236A_1.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "16.66",
+            "active": "/",
+            "recovery": "53.33",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Uses 100% of her magic meter. Kano makes a magic seal appear on the ground, which moves forward for as long as you hold A. As soon as you let go, three massive lightning strikes come down around the seal, covering almost the whole screen. Kano recovers and can act while the seal is advancing on screen. Useful to force the opponent to either move or allow you in. Either way they will have to deal with your strong normals and the threat of the thunder release. Should they try to avoid it by jumping, you can dash under them for a mixup, as you get to choose when to release the thunder. Or just get in their face, block and release the thunder at the same time.",
+            "Uses 100% of her magic meter.",
+            "Kano makes a magic seal appear on the ground, which moves forward for as long as you hold A. As soon as you let go, three massive lightning strikes come down around the seal, covering almost the whole screen. Kano recovers and can act while the seal is advancing on screen.",
+            "Useful to force the opponent to either move or allow you in. Either way they will have to deal with your strong normals and the threat of the thunder release. Should they try to avoid it by jumping, you can dash under them for a mixup, as you get to choose when to release the thunder. Or just get in their face, block and release the thunder at the same time."
+          ],
+          "variations": [
+            {
+              "version": "Kano",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "16.66",
+                "active": "/",
+                "recovery": "53.33",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Uses 100% of her magic meter. Kano makes a magic seal appear on the ground, which moves forward for as long as you hold A. As soon as you let go, three massive lightning strikes come down around the seal, covering almost the whole screen. Kano recovers and can act while the seal is advancing on screen. Useful to force the opponent to either move or allow you in. Either way they will have to deal with your strong normals and the threat of the thunder release. Should they try to avoid it by jumping, you can dash under them for a mixup, as you get to choose when to release the thunder. Or just get in their face, block and release the thunder at the same time."
+            },
+            {
+              "version": "-",
+              "damage": "500 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "3, 11, 19",
+                "active": "1 x 3",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-10 ~ +37",
+                "cancel": "/"
+              },
+              "notes": "Uses 100% of her magic meter. Kano makes a magic seal appear on the ground, which moves forward for as long as you hold A. As soon as you let go, three massive lightning strikes come down around the seal, covering almost the whole screen. Kano recovers and can act while the seal is advancing on screen. Useful to force the opponent to either move or allow you in. Either way they will have to deal with your strong normals and the threat of the thunder release. Should they try to avoid it by jumping, you can dash under them for a mixup, as you get to choose when to release the thunder. Or just get in their face, block and release the thunder at the same time."
+            }
+          ]
+        },
+        {
+          "moveName": "Jupiter Thunder",
+          "input": "641236B",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0f/Kano641236B_1.png/175px-Kano641236B_1.png",
+          "damage": "3600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "16",
+            "active": "/",
+            "recovery": "84",
+            "advHit": "/",
+            "advBlock": "-17 ~ +190",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Uses 100% of her magic meter. This spell is a mystery. It looks and sounds cool. Does massive chip damage and gives absolutely ridiculous frame advantage when done facing out of the corner, it's basically an airtight corner to corner blockstring. Very hard to combo out of and definitely not worth it when Frost Nova is there for the same cost.",
+            "Uses 100% of her magic meter.",
+            "This spell is a mystery. It looks and sounds cool.",
+            "Does massive chip damage and gives absolutely ridiculous frame advantage when done facing out of the corner, it's basically an airtight corner to corner blockstring.",
+            "Very hard to combo out of and definitely not worth it when Frost Nova is there for the same cost."
+          ]
+        },
+        {
+          "moveName": "Lord of Vermilion",
+          "input": "641236C",
+          "image": "https://wiki.gbl.gg/images/thumb/f/fe/Kano641236C_1.png/155px-Kano641236C_1.png",
+          "damage": "4800",
+          "framedata": {
+            "guard": "Any",
+            "startup": "22",
+            "active": "/",
+            "recovery": "165",
+            "advHit": "/",
+            "advBlock": "-40",
+            "cancel": "None"
+          },
+          "properties": [
+            "Uses 100% of her magic meter. Looks extremely cool, and has a lot of invincibility. Unfortunately it has such a slow startup that your opponent will recover from pretty much any normal attack before it becomes active. It is also air blockable, making it doubly disappointing for anti-air Can be combo'd off a corner throw with IC/BIC for damage. Otherwise reserved for swag combos and very hard reads in neutral.",
+            "Uses 100% of her magic meter.",
+            "Looks extremely cool, and has a lot of invincibility.",
+            "Unfortunately it has such a slow startup that your opponent will recover from pretty much any normal attack before it becomes active. It is also air blockable, making it doubly disappointing for anti-air",
+            "Can be combo'd off a corner throw with IC/BIC for damage. Otherwise reserved for swag combos and very hard reads in neutral."
+          ]
+        },
+        {
+          "moveName": "Safety Wall",
+          "input": "22B",
+          "image": "https://wiki.gbl.gg/images/thumb/6/6d/Kano22B.png/130px-Kano22B.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "Any",
+            "startup": "7.33",
+            "active": "/",
+            "recovery": "35",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC ※"
+          },
+          "properties": [
+            "Uses 100% of her magic meter. Kano sets a Safety Wall right under her. It grows larger when she stands in it, and absorbs hits in that state. After absorbing a hit, the Safety Wall deactivates for 8F. This makes it weak to fast multi hit moves, as they can easily hit Kano while it is down. The wall still regenerates if Kano is in hitstun, as long as she's standing inside it. Safety Wall does not absorb throws, however if the throw animation contains followup hits then it will absorb them, as long as it regenerates fast enough. As a spell it is fairly useless for 2 meters, it can be used as a lesser Firewall in the corner, and maybe to stall for time to get BIC midscreen. Firewall does seem to be the better spell for the same cost and similar uses, the one advantage Safety Wall has over it is its longer duration. ※ Only FICable when charging (by input instead of with 5S).",
+            "Uses 100% of her magic meter.",
+            "Kano sets a Safety Wall right under her. It grows larger when she stands in it, and absorbs hits in that state.",
+            "After absorbing a hit, the Safety Wall deactivates for 8F. This makes it weak to fast multi hit moves, as they can easily hit Kano while it is down. The wall still regenerates if Kano is in hitstun, as long as she's standing inside it.",
+            "Safety Wall does not absorb throws, however if the throw animation contains followup hits then it will absorb them, as long as it regenerates fast enough.",
+            "As a spell it is fairly useless for 2 meters, it can be used as a lesser Firewall in the corner, and maybe to stall for time to get BIC midscreen. Firewall does seem to be the better spell for the same cost and similar uses, the one advantage Safety Wall has over it is its longer duration."
+          ],
+          "variations": [
+            {
+              "version": "Kano",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7.33",
+                "active": "/",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC ※"
+              },
+              "notes": "Uses 100% of her magic meter. Kano sets a Safety Wall right under her. It grows larger when she stands in it, and absorbs hits in that state. After absorbing a hit, the Safety Wall deactivates for 8F. This makes it weak to fast multi hit moves, as they can easily hit Kano while it is down. The wall still regenerates if Kano is in hitstun, as long as she's standing inside it. Safety Wall does not absorb throws, however if the throw animation contains followup hits then it will absorb them, as long as it regenerates fast enough. As a spell it is fairly useless for 2 meters, it can be used as a lesser Firewall in the corner, and maybe to stall for time to get BIC midscreen. Firewall does seem to be the better spell for the same cost and similar uses, the one advantage Safety Wall has over it is its longer duration. ※ Only FICable when charging (by input instead of with 5S)."
+            },
+            {
+              "version": "Wall",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "45",
+                "active": "784",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "Uses 100% of her magic meter. Kano sets a Safety Wall right under her. It grows larger when she stands in it, and absorbs hits in that state. After absorbing a hit, the Safety Wall deactivates for 8F. This makes it weak to fast multi hit moves, as they can easily hit Kano while it is down. The wall still regenerates if Kano is in hitstun, as long as she's standing inside it. Safety Wall does not absorb throws, however if the throw animation contains followup hits then it will absorb them, as long as it regenerates fast enough. As a spell it is fairly useless for 2 meters, it can be used as a lesser Firewall in the corner, and maybe to stall for time to get BIC midscreen. Firewall does seem to be the better spell for the same cost and similar uses, the one advantage Safety Wall has over it is its longer duration. ※ Only FICable when charging (by input instead of with 5S)."
+            }
+          ]
+        },
+        {
+          "moveName": "Soul Strike",
+          "input": "214236",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f8/Kano2141236C_1.png/175px-Kano2141236C_1.png",
+          "damage": "700 x 3",
+          "framedata": {
+            "guard": "Any",
+            "startup": "17",
+            "active": "/",
+            "recovery": "106",
+            "advHit": "/",
+            "advBlock": "-12",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Uses 100% of her magic meter. Kano's best reversal, and her only spell that does not need a full magic meter to use. She shoots a number of souls behind her that then track the opponent. The higher the level used, the more projectiles come out and the longer the invincibility lasts. The souls are only 1 hit each, and can be nullified by other projectiles. Doesn't need a full magic gauge to be used as Kano fills it during superflash in all versions. As it is still a spell though, the magic gauge will be emptied on frame 8.33. An FIC'd level 3 Soul Strike is (almost) completely safe, as she is invulnerable until the FIC point. The only way to punish it is to take advantage of the block-only frame with a command throw. This move may sound amazing, but it is too slow to reliably punish a dodged attack (the souls are active while travelling backwards, so they are likely to take much longer than 17 frames to touch the opponent) and unless you commit all of your resources for level 3 some characters may be able to consistently punish it. However, many punishes require RF and/or SP, so you can still get away with it with proper awareness. Can additionally be used in corner combos after 3C (character specific) as it does good damage, is untechable, and doesn't require magic.",
+            "Uses 100% of her magic meter.",
+            "Kano's best reversal, and her only spell that does not need a full magic meter to use. She shoots a number of souls behind her that then track the opponent. The higher the level used, the more projectiles come out and the longer the invincibility lasts. The souls are only 1 hit each, and can be nullified by other projectiles.",
+            "Doesn't need a full magic gauge to be used as Kano fills it during superflash in all versions. As it is still a spell though, the magic gauge will be emptied on frame 8.33.",
+            "An FIC'd level 3 Soul Strike is (almost) completely safe, as she is invulnerable until the FIC point. The only way to punish it is to take advantage of the block-only frame with a command throw.",
+            "This move may sound amazing, but it is too slow to reliably punish a dodged attack (the souls are active while travelling backwards, so they are likely to take much longer than 17 frames to touch the opponent) and unless you commit all of your resources for level 3 some characters may be able to consistently punish it. However, many punishes require RF and/or SP, so you can still get away with it with proper awareness.",
+            "Can additionally be used in corner combos after 3C (character specific) as it does good damage, is untechable, and doesn't require magic."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "700 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "17",
+                "active": "/",
+                "recovery": "106",
+                "advHit": "/",
+                "advBlock": "-12",
+                "cancel": "FIC"
+              },
+              "notes": "Uses 100% of her magic meter. Kano's best reversal, and her only spell that does not need a full magic meter to use. She shoots a number of souls behind her that then track the opponent. The higher the level used, the more projectiles come out and the longer the invincibility lasts. The souls are only 1 hit each, and can be nullified by other projectiles. Doesn't need a full magic gauge to be used as Kano fills it during superflash in all versions. As it is still a spell though, the magic gauge will be emptied on frame 8.33. An FIC'd level 3 Soul Strike is (almost) completely safe, as she is invulnerable until the FIC point. The only way to punish it is to take advantage of the block-only frame with a command throw. This move may sound amazing, but it is too slow to reliably punish a dodged attack (the souls are active while travelling backwards, so they are likely to take much longer than 17 frames to touch the opponent) and unless you commit all of your resources for level 3 some characters may be able to consistently punish it. However, many punishes require RF and/or SP, so you can still get away with it with proper awareness. Can additionally be used in corner combos after 3C (character specific) as it does good damage, is untechable, and doesn't require magic."
+            },
+            {
+              "version": "B",
+              "damage": "850 x 4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "17",
+                "active": "/",
+                "recovery": "106",
+                "advHit": "/",
+                "advBlock": "-3",
+                "cancel": "FIC"
+              },
+              "notes": "Uses 100% of her magic meter. Kano's best reversal, and her only spell that does not need a full magic meter to use. She shoots a number of souls behind her that then track the opponent. The higher the level used, the more projectiles come out and the longer the invincibility lasts. The souls are only 1 hit each, and can be nullified by other projectiles. Doesn't need a full magic gauge to be used as Kano fills it during superflash in all versions. As it is still a spell though, the magic gauge will be emptied on frame 8.33. An FIC'd level 3 Soul Strike is (almost) completely safe, as she is invulnerable until the FIC point. The only way to punish it is to take advantage of the block-only frame with a command throw. This move may sound amazing, but it is too slow to reliably punish a dodged attack (the souls are active while travelling backwards, so they are likely to take much longer than 17 frames to touch the opponent) and unless you commit all of your resources for level 3 some characters may be able to consistently punish it. However, many punishes require RF and/or SP, so you can still get away with it with proper awareness. Can additionally be used in corner combos after 3C (character specific) as it does good damage, is untechable, and doesn't require magic."
+            },
+            {
+              "version": "C",
+              "damage": "950 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "17",
+                "active": "/",
+                "recovery": "106",
+                "advHit": "/",
+                "advBlock": "+9",
+                "cancel": "FIC"
+              },
+              "notes": "Uses 100% of her magic meter. Kano's best reversal, and her only spell that does not need a full magic meter to use. She shoots a number of souls behind her that then track the opponent. The higher the level used, the more projectiles come out and the longer the invincibility lasts. The souls are only 1 hit each, and can be nullified by other projectiles. Doesn't need a full magic gauge to be used as Kano fills it during superflash in all versions. As it is still a spell though, the magic gauge will be emptied on frame 8.33. An FIC'd level 3 Soul Strike is (almost) completely safe, as she is invulnerable until the FIC point. The only way to punish it is to take advantage of the block-only frame with a command throw. This move may sound amazing, but it is too slow to reliably punish a dodged attack (the souls are active while travelling backwards, so they are likely to take much longer than 17 frames to touch the opponent) and unless you commit all of your resources for level 3 some characters may be able to consistently punish it. However, many punishes require RF and/or SP, so you can still get away with it with proper awareness. Can additionally be used in corner combos after 3C (character specific) as it does good damage, is untechable, and doesn't require magic."
+            }
+          ]
+        },
+        {
+          "moveName": "Memory of Shiraho",
+          "input": "214236S during grounded Recoil Guard",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b4/KanoFM_1.png/175px-KanoFM_1.png",
+          "damage": "5000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "0.33",
+            "active": "3",
+            "recovery": "33",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Kano reaches out with her hands. If the opponent is in range, Kano will grab them by the neck and lift them off the ground. After saying the lines \"If it must be done, I would rather kill you with my own hands...\", she crushes their neck and drops them. Can only be inputted when RGing an opponent's move, making it very hard to use outside of a read. When used properly, the only way the opponent can escape it is if they correctly read your read and cancel into a frame 1 throw invulnerable or airborne move during the RG freeze. Once the superflash starts, it's already too late...",
+            "Kano reaches out with her hands. If the opponent is in range, Kano will grab them by the neck and lift them off the ground. After saying the lines \"If it must be done, I would rather kill you with my own hands...\", she crushes their neck and drops them.",
+            "Can only be inputted when RGing an opponent's move, making it very hard to use outside of a read.",
+            "When used properly, the only way the opponent can escape it is if they correctly read your read and cancel into a frame 1 throw invulnerable or airborne move during the RG freeze. Once the superflash starts, it's already too late..."
+          ]
+        }
+      ]
+    }
+  ]
+}

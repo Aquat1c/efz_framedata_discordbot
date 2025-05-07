@@ -1,0 +1,1087 @@
+{
+  "name": "Mizuka Nagamori",
+  "icon": "https://wiki.gbl.gg/images/2/2f/EFZ_Mizuka_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/6/64/Mizuka5a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "5",
+            "recovery": "4",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Mizuka's fastest normal, a quick low kick aimed at the opponent's shin.",
+            "At 4 frames startup, it's excellent for pressure strings and punishing gaps.",
+            "Being both plus on block and a low attack makes it a critical pressure tool.",
+            "Can chain into itself for continued pressure or be canceled into specials/supers."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0d/Mizukac5b.png/175px-Mizukac5b.png",
+          "damage": "390",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "6",
+            "recovery": "8",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP J IC f5B"
+          },
+          "properties": [
+            "A mid-range side kick with good horizontal coverage.",
+            "Being +1 on block makes this an excellent pressure tool for frame traps and continued offense.",
+            "Can be chained into from 5A/2A for added damage in combos or to maintain pressure.",
+            "Can chain into f5B, allowing for extended pressure sequences with proper spacing."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/24/EFZ_Mizuka_f5B1.png/175px-EFZ_Mizuka_f5B1.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "3",
+            "recovery": "14",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "N SP IC"
+          },
+          "properties": [
+            "Mizuka swings her bookbag in a wide horizontal arc, covering good horizontal range.",
+            "Slightly unsafe at -2 on block, but can be made safe with special cancels.",
+            "Often used as a combo filler due to higher damage than c5B.",
+            "Good for catching opponents trying to sidestep or move away from Mizuka's pressure."
+          ]
+        },
+        {
+          "moveName": "Bookbag Decapitation",
+          "input": "6B",
+          "image": "https://wiki.gbl.gg/images/thumb/6/6e/Mizuka6b.png/175px-Mizuka6b.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "High",
+            "startup": "19",
+            "active": "2",
+            "recovery": "18",
+            "advHit": "-3",
+            "advBlock": "-5",
+            "cancel": "IC"
+          },
+          "properties": [
+            "An overhead attack where Mizuka slowly raises her bookbag, then swings it downward.",
+            "Must be blocked standing, making it a key component in Mizuka's high/low mixup game.",
+            "The animation has a subtle startup, making it difficult to react to despite the 19-frame startup.",
+            "When combined with forte notes (214214A), creates powerful high/low mixups that force opponents to guess correctly.",
+            "Requires IC or note explosion to be safe or to combo from."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0b/Mizuka5c.png/175px-Mizuka5c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "4",
+            "recovery": "20",
+            "advHit": "+2",
+            "advBlock": "0",
+            "cancel": "SP JH IC"
+          },
+          "properties": [
+            "Mizuka's primary damage normal, swinging her cello in a large vertical arc upward.",
+            "Good vertical coverage makes it useful for anti-air in some situations.",
+            "Being neutral (0) on block makes it safe to use in pressure strings.",
+            "The vertical arc catches opponents trying to jump away from Mizuka's pressure.",
+            "Primary launcher in combos due to its high damage and juggle potential."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/9/99/Mizuka2a.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "4",
+            "recovery": "4",
+            "advHit": "+3",
+            "advBlock": "+2",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "A quick low kick performed while sitting on a chair, hitting at shin level.",
+            "Extremely good frame data at +2 on block, allowing for continued pressure.",
+            "Often used as a pressure reset or tick throw setup due to its recovery.",
+            "Can chain into itself multiple times to build meter and maintain offense.",
+            "Excellent for staggering pressure and catching opponents trying to interrupt."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/39/Mizuka2b.png/175px-Mizuka2b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "4",
+            "recovery": "10",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP JH IC f5B"
+          },
+          "properties": [
+            "Mizuka kicks out while using a chair for balance, hitting at mid-level.",
+            "Good frame data at +1 on block makes this a strong pressure tool.",
+            "Can chain into f5B for extended pressure sequences.",
+            "Slightly longer range than 2A, useful for maintaining a slight spacing advantage.",
+            "A key normal in Mizuka's offense due to its speed and favorable frame advantage."
+          ]
+        },
+        {
+          "moveName": "2C with bow",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/95/Mizuka2c.png/175px-Mizuka2c.png",
+          "damage": "100 x 6",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "22",
+            "recovery": "13",
+            "advHit": "/",
+            "advBlock": "-14 ~ +4",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Mizuka plays her cello, creating a barrier of music notes that circle around her.",
+            "One of the best moves in the game - a 6-frame multi-hitting attack with maximum reach on startup.",
+            "Detonates any notes near Mizuka on frame 6.33, creating explosive pressure opportunities.",
+            "Has a full 360° hitbox that hits behind Mizuka as well, making it excellent for crossup situations.",
+            "Difficult to Recoil Guard due to its multiple hits and potential note explosions.",
+            "Among the best armor breakers in the game due to its multi-hit nature.",
+            "Despite its strengths, this move doesn't actually hit low and can be air-blocked."
+          ]
+        },
+        {
+          "moveName": "2C without bow",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/03/Mizuka2cnobow.png/175px-Mizuka2cnobow.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "8",
+            "active": "16",
+            "recovery": "27",
+            "advHit": "/",
+            "advBlock": "-20",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "A drastically inferior version of 2C where Mizuka simply faceplants forward.",
+            "Very unsafe at -20 on block, making it risky to use in most situations.",
+            "Launches the opponent on hit, but the risk rarely justifies the reward.",
+            "Only available when Mizuka's bow is away during Slow & Keying (236*) moves.",
+            "Generally avoided due to its poor frame data and limited utility."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/5/51/Mizuka66a.png",
+          "damage": "250",
+          "framedata": {
+            "guard": "Low",
+            "startup": "5",
+            "active": "6",
+            "recovery": "4",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "A running low kick that functions nearly identically to 5A but with forward momentum.",
+            "The added momentum makes it useful for closing space while maintaining offense.",
+            "Being neutral (0) on block makes it safe to use for approach.",
+            "Often used to close distance before transitioning into pressure or mixups.",
+            "Excellent for catching opponents back-dashing or trying to create space."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/24/Mizuka66b.png/175px-Mizuka66b.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "1 + 1",
+            "recovery": "15",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Similar to f5B but with added momentum, Mizuka swings her bookbag while running.",
+            "The momentum allows Mizuka to control space and spacing during pressure.",
+            "With proper spacing, this move can be difficult for opponents to punish even at -2 on block.",
+            "Often used to end pressure sequences or as a whiff punish tool.",
+            "Can be special canceled to maintain safety or extend combos."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b2/Mizuka66c.png/175px-Mizuka66c.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6 / 6.33",
+            "active": "2",
+            "recovery": "25",
+            "advHit": "-3",
+            "advBlock": "-5",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Mizuka swings her cello directly above her while running forward.",
+            "Very fast startup at 6 frames makes it an excellent approach tool.",
+            "The forward momentum combined with the vertical arc makes it excellent for catching jumping opponents.",
+            "Despite being minus on block, the special cancel options make it safe when used properly.",
+            "Often used as a combo starter or to punish opponents jumping away from Mizuka's pressure."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/8/84/Mizuka662a.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Low",
+            "startup": "5",
+            "active": "6",
+            "recovery": "4",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "A running low kick similar to 66A, performed after running for a longer period.",
+            "The added momentum makes this an excellent approach tool against defensive opponents.",
+            "Being neutral on block makes it safe to use in pressure even after maximum run speed.",
+            "Often used to close large distances quickly while maintaining offensive pressure.",
+            "Can catch opponents trying to create space or set up zoning tools."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/3e/Mizuka662b.png/175px-Mizuka662b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Any",
+            "startup": "17",
+            "active": "12.66",
+            "recovery": "0",
+            "advHit": "+11.66",
+            "advBlock": "+9.66",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Mizuka performs a short hopping kick aimed slightly downward after running.",
+            "Extremely plus on both hit and block, providing massive frame advantage for continued offense.",
+            "Can cross up opponents during certain situations, creating ambiguous mixup opportunities.",
+            "Particularly strong as a meaty attack on opponent's wakeup, hitting from either side.",
+            "The air property allows it to jump over low attacks, functioning as a counter to certain defensive options."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7f/Mizuka662c.png/175px-Mizuka662c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "7",
+            "active": "16",
+            "recovery": "31",
+            "advHit": "/",
+            "advBlock": "-35",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Mizuka leaps forward with her body fully extended in a diving motion.",
+            "This move causes wallbounce on airborne opponents, enabling powerful combo extensions.",
+            "Despite the fast startup, it's extremely unsafe on block at -35.",
+            "Must be special canceled to be safe, limiting its usefulness in neutral.",
+            "Primarily used for combo extensions after launching the opponent or as a hard read counter to certain actions."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/f/f0/Mizukaj5a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "24",
+            "recovery": "4",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "Mizuka performs a knee attack in the air with an extremely long active period.",
+            "The 24-frame active duration makes it one of the best air-to-air buttons in the game.",
+            "Excels as a tech trap normal due to the extended active frames catching opponents in various positions.",
+            "Can be chained into other air normals or special canceled for combo extensions.",
+            "Often used to control air space and counter opponent's jumps."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e1/Mizukaj5b.png/175px-Mizukaj5b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "6",
+            "recovery": "12",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "An aerial kick aimed forward and slightly downward.",
+            "Good hitbox makes it useful for air-to-air situations and jump-in pressure.",
+            "Fast startup of 6 frames allows it to challenge other aerial approaches.",
+            "Can chain into j5C for maximum damage or special canceled for combo extensions.",
+            "Excellent for starting air combos or pressure after a jump-in."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/35/Mizukaj5c.png/175px-Mizukaj5c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High",
+            "startup": "9",
+            "active": "2",
+            "recovery": "24",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Mizuka swings her cello in a large arc during a jump, covering significant space.",
+            "Features a massive hitbox that makes it excellent for air-to-air combat.",
+            "Hitting on the last active frame (second hitbox) gives significantly more juggle time, referred to as a \"clean hit.\"",
+            "This clean hit property is crucial for extending air combos and maximizing damage.",
+            "High damage makes it the go-to aerial finisher in most combos."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/9/96/MizukaGroundGrab.png/175px-MizukaGroundGrab.png",
+          "damage": "0 + 1100",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "0.66",
+            "recovery": "18",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mizuka pins the opponent and hits them with her pillow.",
+            "Unlike most throws, this has no invincibility frames and can trade with strikes or lose to other throws.",
+            "Features unique \"negative corner carry,\" moving both characters backward rather than toward the corner.",
+            "The grounded portion of recovery is vulnerable, making it slightly riskier than other characters' throws.",
+            "Has character-specific properties: When throwing Akiko, Ikumi, Kaori or Mai, Mizuka swaps sides before hitting them, allowing for closer positioning afterward and enabling cross-up note setups.",
+            "Despite its quirks, still an essential part of Mizuka's high/low/throw mixup game."
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/2/24/MizukaAirGrab.png/175px-MizukaAirGrab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "A very fast air throw where Mizuka grabs the opponent mid-air and tosses them behind her.",
+            "At 2 frames startup, it's among the fastest air throws in the game.",
+            "Always switches sides, allowing for positioning control and corner escape.",
+            "Excellent for punishing opponents who jump defensively or attempt to escape pressure with air movement.",
+            "The side-switching property makes it useful for corner escape and positioning control."
+          ]
+        },
+        {
+          "moveName": "Slow & Keying",
+          "input": "236*",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b5/Mizuka236a.png/175px-Mizuka236a.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "10.33",
+            "active": "/",
+            "recovery": "36.66",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Mizuka throws her bow, which is her primary tool for detonating notes on the screen.",
+            "While the bow is away, Mizuka loses access to most special moves and her 2C is replaced with a much worse version.",
+            "This move is essential to Mizuka's note-based playstyle and pressure game."
+          ],
+          "variations": [
+            {
+              "version": "236A",
+              "image": "https://wiki.gbl.gg/images/b/b5/Mizuka236a.png",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10.33",
+                "active": "31",
+                "recovery": "36.66",
+                "advHit": "-2",
+                "advBlock": "-4",
+                "cancel": "FIC"
+              },
+              "notes": "Throws the bow straight forward. After reaching its maximum distance, the bow becomes harmless and automatically homes back to Mizuka. Comes out extremely fast, crosses almost the entire screen, and can detonate far-off notes easily. It can also break Mizuka out of a combo by detonating a forte note on its way back. Any notes the bow touches will detonate one subframe after making contact."
+            },
+            {
+              "version": "236B",
+              "image": "https://wiki.gbl.gg/images/2/25/EFZ_Mizuka_236B.png",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8.33",
+                "active": "22",
+                "recovery": "30.66",
+                "advHit": "+3",
+                "advBlock": "+1",
+                "cancel": "FIC"
+              },
+              "notes": "Throws the bow up and about a quarter screen away. The active frames last for all of its forward movement. Any notes the bow touches will detonate. The anti-air version - even faster than the A version, but generally less useful. Still good for hitting high-up notes and attacking jumping opponents."
+            },
+            {
+              "version": "236C",
+              "image": "https://wiki.gbl.gg/images/b/b5/Mizuka236a.png",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10.33",
+                "active": "44",
+                "recovery": "32.66",
+                "advHit": "+1.33",
+                "advBlock": "-1.33",
+                "cancel": "FIC"
+              },
+              "notes": "Similar to the A version, but will start creating notes while returning to Mizuka, up to a maximum of 5 notes. The first note is created on the first frame after active ends and subsequent notes are created on a 30 frame interval. This move is quite useful, letting you fill up the screen with notes while going on the offensive. Functions as a reversal and is safe on block, but has a slow startup and small hitbox. This version will not detonate notes."
+            }
+          ]
+        },
+        {
+          "moveName": "Pitch & Bend",
+          "input": "During Slow & Keying: 236*",
+          "image": "https://wiki.gbl.gg/images/f/fa/EFZ_Mizuka_Nagamori_236a2.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "7",
+            "active": "/",
+            "recovery": "18",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mizuka waves a conductor's baton to change the trajectory of her bow while it's in the air.",
+            "This allows for more complex bow patterns and creative note detonation sequences.",
+            "Can be used to hit opponents or notes at unexpected angles."
+          ],
+          "variations": [
+            {
+              "version": "236A",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "7",
+                "active": "/",
+                "recovery": "18",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Makes the bow move upward from its current trajectory. Useful for hitting opponents or notes positioned above the bow's normal path."
+            },
+            {
+              "version": "236B",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "7",
+                "active": "/",
+                "recovery": "19",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Makes the bow move downward from its current trajectory. Good for hitting crouching opponents or low-positioned notes."
+            },
+            {
+              "version": "236C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "11",
+                "active": "/",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Makes the bow move away from Mizuka, extending its travel distance. Useful for reaching distant opponents or notes."
+            }
+          ]
+        },
+        {
+          "moveName": "Slash & Prologue",
+          "input": "(j)623*",
+          "image": "https://wiki.gbl.gg/images/thumb/c/ca/Mizuka623a.png/175px-Mizuka623a.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "2",
+            "recovery": "38",
+            "advHit": "/",
+            "advBlock": "-17",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Mizuka leaps a number of times up-forward, swinging her cello and bow at the opponent. All versions of this move can detonate notes, but the third hit of (j)623C cannot.",
+            "Has multiple hitting variants and a wallbounce property on the final hit of 623C.",
+            "Can be performed in the air, making it a versatile attack option."
+          ],
+          "variations": [
+            {
+              "version": "623A",
+              "image": "https://wiki.gbl.gg/images/c/ca/Mizuka623a.png",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "38",
+                "advHit": "/",
+                "advBlock": "-17",
+                "cancel": "IC"
+              },
+              "notes": "A fast, single-hit rising attack. Can be followed up with 66C/5C into air combo. Good anti-air option with quick startup but limited vertical range."
+            },
+            {
+              "version": "623B",
+              "image": "https://wiki.gbl.gg/images/1/1c/EFZ_Mizuka_623B.png",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "2",
+                "recovery": "61.66",
+                "advHit": "/",
+                "advBlock": "-41.66",
+                "cancel": "IC"
+              },
+              "notes": "Similar to 623A but with slower startup and longer recovery. The primary difference is this version adds another hit during the rising portion, giving it better anti-air coverage."
+            },
+            {
+              "version": "623C",
+              "image": "https://wiki.gbl.gg/images/1/1a/EFZ_Mizuka_623C.png",
+              "damage": "450, 400, 700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "98",
+                "advHit": "/",
+                "advBlock": "-75",
+                "cancel": "IC"
+              },
+              "notes": "A three-hit rising attack. The first hit has the same properties as 623A, followed by a second mid-air hit, and ending with a powerful third hit that causes wallbounce. Excellent for combo extensions but very unsafe on block without IC."
+            },
+            {
+              "version": "j.623A",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "2",
+                "active": "2",
+                "recovery": "Until landing + 9",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "The aerial version of 623A. Comes out extremely fast, making it useful as an air-to-air option or for converting air hits into combos."
+            },
+            {
+              "version": "j.623B",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "2",
+                "active": "2",
+                "recovery": "Until landing + 9",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "The aerial version of 623B with two hits. Good for air-to-air situations where the opponent is slightly above Mizuka."
+            },
+            {
+              "version": "j.623C",
+              "damage": "450, 450, 700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "2",
+                "active": "2",
+                "recovery": "Until landing + 9",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "The aerial version of 623C with all three hits. The final hit still causes wallbounce, making this an excellent air combo extension tool."
+            }
+          ]
+        },
+        {
+          "moveName": "Tone & Setup",
+          "input": "(j)214*",
+          "image": "https://wiki.gbl.gg/images/3/3d/Mizuka214.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "7.33",
+            "active": "/",
+            "recovery": "16.66",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mizuka plays her cello, creating a note on the screen. These notes are central to her gameplay.",
+            "Notes can be detonated by various moves including 2C, 236*, 623*, 412*, 641236* or other note explosions.",
+            "When detonated, notes create a 600 damage explosion with significant frame advantage (+22 on block).",
+            "Any notes that touch a detonating note's explosion will also detonate, creating chain reactions."
+          ],
+          "variations": [
+            {
+              "version": "214A",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "7.33",
+                "active": "/",
+                "recovery": "16.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Creates a note right in front of Mizuka. Useful for close range pressure and quick setups. Once detonated, creates significant frame advantage for continued pressure."
+            },
+            {
+              "version": "214B",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "7.33",
+                "active": "/",
+                "recovery": "16.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Sends a note forwards about half screen distance. Good for midrange control and setting up approach options. Can be used to force opponents to respect Mizuka's space."
+            },
+            {
+              "version": "214C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "7.33",
+                "active": "/",
+                "recovery": "16.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Sends a note the same distance as 214B but at a 45 degree angle upwards. Useful for controlling air space and catching jumping opponents."
+            },
+            {
+              "version": "j.214A/B/C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0.33",
+                "active": "/",
+                "recovery": "Until landing",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Aerial versions of the note creation moves. j.214C sends the note downwards at a 45 degree angle instead of upwards, making it good for setting up crossup situations and air-to-ground pressure."
+            },
+            {
+              "version": "Note Explosion",
+              "image ": "https://wiki.gbl.gg/images/c/c4/EFZ_Mizuka_Nagamori_Note.png",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "17.33",
+                "active": "3.66",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+22",
+                "cancel": "None"
+              },
+              "notes": "When a note is detonated, it creates this explosion that does 600 damage and provides +22 frame advantage on block. This massive frame advantage is central to Mizuka's pressure game and allows for powerful mixups and continued offense. The explosion also breaks armor."
+            }
+          ]
+        },
+        {
+          "moveName": "Smash & Sympathy",
+          "input": "412*",
+          "image": "https://wiki.gbl.gg/images/thumb/3/39/Mizuka412.png/175px-Mizuka412.png",
+          "damage": "750",
+          "framedata": {
+            "guard": "Any",
+            "startup": "31",
+            "active": "2",
+            "recovery": "18",
+            "advHit": "/",
+            "advBlock": "+2",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Mizuka leaps towards the opponent and swings her bow down to the ground.",
+            "Different versions interact with notes in unique ways and have varying properties.",
+            "A versatile move that can be used for note detonation, note creation, or direct attacks."
+          ],
+          "variations": [
+            {
+              "version": "412A",
+              "damage": "750",
+              "framedata": {
+                "guard": "Any",
+                "startup": "31",
+                "active": "2",
+                "recovery": "18",
+                "advHit": "/",
+                "advBlock": "+2",
+                "cancel": "FIC"
+              },
+              "notes": "Mizuka leaps towards the opponent and swings her bow down. This version will detonate any notes that her body or bow touches during the move. Can be FIC canceled even without hitting the opponent, making it useful for safe note detonation."
+            },
+            {
+              "version": "412B",
+              "damage": "750",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "42",
+                "active": "2",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "+4",
+                "cancel": "FIC"
+              },
+              "notes": "Similar to 412A but hits overhead (must be blocked high). Detonates any notes that only her body touches, and creates a new note where the bow is at the end of the move. Like 412A, it can be FIC canceled without hitting. Good for high/low mixups when combined with lows."
+            },
+            {
+              "version": "412C",
+              "damage": "350, 750",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "12, 2",
+                "recovery": "39",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "A two-hit version where Mizuka first strikes horizontally, then performs a vertical swing. Like 412B, it detonates notes only with her body and creates a new note at the end point. Only IC-able when it connects with the opponent, making it riskier but potentially more rewarding than A/B versions."
+            }
+          ]
+        },
+        {
+          "moveName": "Tone & Setup+",
+          "input": "214214*",
+          "image": "https://wiki.gbl.gg/images/0/03/Mizuka214214a.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "6.33",
+            "active": "/",
+            "recovery": "17",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mizuka's level 1-3 super that creates special musical notes with unique properties.",
+            "Each version creates a different type of note that behaves differently when detonated.",
+            "One of the core supers in Mizuka's arsenal for setups and pressure."
+          ],
+          "variations": [
+            {
+              "version": "214214A",
+              "image": "https://wiki.gbl.gg/images/0/03/Mizuka214214a.png",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "6.33",
+                "active": "/",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Creates a forte note on the screen. It acts like a regular note, but can be detonated multiple times, only disappearing when its time expires (520 frames). One of the best supers in the game, letting Mizuka run mixup after mixup in the corner while still building meter for another forte note after opening the opponent up."
+            },
+            {
+              "version": "214214B",
+              "image": "https://wiki.gbl.gg/images/f/f2/Mizuka214214b.png",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "6.33",
+                "active": "/",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Creates a treble clef note on the screen. When detonated, it creates a much larger explosion with immense damage and untech time. The explosion from a treble clef does substantially more damage than a regular note and has much higher blockstun, making it excellent for combos and pressure."
+            },
+            {
+              "version": "214214C",
+              "image": "https://wiki.gbl.gg/images/c/c2/EFZ_Mizuka_214214C_A.png",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "15",
+                "active": "/",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Creates a triplet note that bounces forward, creating sets of 3 normal notes every 40 frames until it leaves the screen. It cannot be detonated itself. While it creates many notes, the value compared to the A and B versions is questionable, making this the least used of Mizuka's note supers."
+            },
+            {
+              "version": "Treble Clef Explosion",
+              "image": "https://wiki.gbl.gg/images/d/d6/EFZ_Mizuka_214214B_Explosion.png",
+              "damage": "900",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14.33",
+                "active": "12",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+42",
+                "cancel": "/"
+              },
+              "notes": "The explosion created when a treble clef note is detonated. Does 900 damage (compared to 600 for regular notes) and provides even more frame advantage (+42 on block). The larger hitbox and longer active frames make this explosion extremely difficult to avoid."
+            }
+          ]
+        },
+        {
+          "moveName": "Special Mounting Pillow",
+          "input": "236236*",
+          "image": "https://wiki.gbl.gg/images/7/7e/Mizuka236236.png",
+          "damage": "2800",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "16",
+            "active": "32",
+            "recovery": "64",
+            "advHit": "/",
+            "advBlock": "-53",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Mizuka's level 1-3 super where she runs toward the opponent with her pillow.",
+            "If it connects, Mizuka pins the opponent down and hits them repeatedly with her pillow.",
+            "Higher levels do more damage and have longer active frames for easier connecting.",
+            "Has invincibility frames, making it useful as a reversal option."
+          ],
+          "variations": [
+            {
+              "version": "236236A",
+              "damage": "2800",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "16",
+                "active": "32",
+                "recovery": "64",
+                "advHit": "/",
+                "advBlock": "-53",
+                "cancel": "IC"
+              },
+              "notes": "Level 1 version. Has full invulnerability from frames 1-16 before superflash, and frames 1-4 after superflash. Despite the invulnerability, the very long recovery makes it highly punishable if blocked or whiffed unless IC canceled."
+            },
+            {
+              "version": "236236B",
+              "damage": "4900",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "16",
+                "active": "64",
+                "recovery": "64",
+                "advHit": "/",
+                "advBlock": "-53",
+                "cancel": "IC"
+              },
+              "notes": "Level 2 version with nearly double the damage of the A version. Has full invulnerability from frames 1-16 before superflash, but no invulnerability afterward. The doubled active frames make it easier to connect with, but it remains very punishable on block."
+            },
+            {
+              "version": "236236C",
+              "damage": "5500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "16",
+                "active": "64",
+                "recovery": "64",
+                "advHit": "/",
+                "advBlock": "-53",
+                "cancel": "IC"
+              },
+              "notes": "Level 3 version with maximum damage. Has full invulnerability from frames 1-16 before superflash, and frames 1-19 after superflash, giving it the best invulnerability of all versions. The extended active frames combined with the invulnerability make this a powerful reversal option despite being unsafe on block."
+            }
+          ]
+        },
+        {
+          "moveName": "Reverb & Awaking",
+          "input": "641236*",
+          "image": "https://wiki.gbl.gg/images/thumb/6/6d/Mizuka641236a.png/175px-Mizuka641236a.png",
+          "damage": "1800",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "15",
+            "active": "15",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "-17",
+            "cancel": "None"
+          },
+          "properties": [
+            "A super where Mizuka slams her cello into the ground, creating a shockwave.",
+            "Level 1-3 versions increase in damage but maintain similar frame data.",
+            "Notably, this super is bugged in certain ways that affect its gameplay impact."
+          ],
+          "variations": [
+            {
+              "version": "641236A",
+              "damage": "1800",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "15",
+                "active": "15",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-17",
+                "cancel": "None"
+              },
+              "notes": "Level 1 version. This super is bugged - the 13th active frame will scale combos to an extremely low amount, while the 14th active frame does the opposite, setting POWER (damage scaling) to abnormally high values. Use of the latter property is banned in most tournaments."
+            },
+            {
+              "version": "641236B",
+              "image": "https://wiki.gbl.gg/images/e/ec/EFZ_Mizuka_641236B.png",
+              "damage": "2500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "15",
+                "active": "15",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-17",
+                "cancel": "None"
+              },
+              "notes": "Level 2 version with increased damage. Has the same bugged properties as the A version regarding combo scaling and POWER values."
+            },
+            {
+              "version": "641236C",
+              "image": "https://wiki.gbl.gg/images/9/9e/EFZ_Mizuka_641236C.png",
+              "damage": "3200",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "15",
+                "active": "15",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-17",
+                "cancel": "None"
+              },
+              "notes": "Level 3 version with maximum damage. Has the same bugged properties as the other versions. The extreme combo scaling manipulation potential means this move is carefully regulated in competitive play."
+            }
+          ]
+        },
+        {
+          "moveName": "Eternal Poem",
+          "input": "6 B A 6 A (Final Memory)",
+          "image": "https://wiki.gbl.gg/images/thumb/9/9c/MizukaFM.png/175px-MizukaFM.png",
+          "damage": "0 + stun",
+          "framedata": {
+            "guard": "Unblockable",
+            "startup": "140",
+            "active": "/",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mizuka's Final Memory attack, one of the most unique in the game.",
+            "Mizuka clutches her chest, keels over and screams as the screen fades to white.",
+            "No matter where the opponent is on screen, they will be frozen in place and stunned.",
+            "The opponent is stunned for 400 frames (nearly 7 seconds), giving Mizuka time to attack freely.",
+            "When the stun period ends, the opponent is forcibly thrown into a knockdown state.",
+            "During startup, the screen flashes white, and at frame 65.66, all notes detonate without disappearing.",
+            "This move can penetrate through invincibility frames, making it one of few moves that can hit through reversals."
+          ],
+          "notes": "The slowest move in the game by far with its 140-frame startup, making it very difficult to use in most situations. Despite its power, there are almost no reliable setups for landing it, making it more of a hard read option than something to consistently incorporate into gameplay. However, when it does connect, it provides Mizuka with enough time to deal massive damage or set up an unblockable okizeme situation."
+        }
+      ]
+    }
+  ]
+}

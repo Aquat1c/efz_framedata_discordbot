@@ -1,0 +1,1247 @@
+{
+  "name": "Ayu Tsukimiya",
+  "icon": "https://wiki.gbl.gg/images/a/a1/EFZ_Ayu_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/9/9f/Ayu5a.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "5",
+            "recovery": "3",
+            "advHit": "+3",
+            "advBlock": "+2",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Ayu does a short karate chop with her arm."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/40/Ayuc5b.png/175px-Ayuc5b.png",
+          "damage": "340",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "4",
+            "recovery": "10",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP J IC f5B"
+          },
+          "properties": [
+            "Ayu punches with her wing-fist straight forward a short distance."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0d/Ayuf5b.png/175px-Ayuf5b.png",
+          "damage": "350",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "3",
+            "recovery": "14",
+            "advHit": "+0",
+            "advBlock": "-2",
+            "cancel": "N SP JH IC"
+          },
+          "properties": [
+            "Ayu lets a mid-sized wing expand out directly in front of her."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/3e/Ayu5c.png/175px-Ayu5c.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "6",
+            "recovery": "14",
+            "advHit": "+4",
+            "advBlock": "+2",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Ayu turns her backpack-wing into a giant fist, which slams into the ground a medium distance away. The special cancel window on this move is very short."
+          ],
+          "variations": [
+            {
+              "version": "Active Frame 1",
+              "damage": "550",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "7",
+                "active": "6",
+                "recovery": "14",
+                "advHit": "+4",
+                "advBlock": "+2",
+                "cancel": "SP IC"
+              },
+              "notes": "Ayu turns her backpack-wing into a giant fist, which slams into the ground a medium distance away. The special cancel window on this move is very short."
+            },
+            {
+              "version": "Active Frames 2-6",
+              "damage": "600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "7",
+                "active": "6",
+                "recovery": "14",
+                "advHit": "+4",
+                "advBlock": "+2",
+                "cancel": "SP IC"
+              },
+              "notes": "Ayu turns her backpack-wing into a giant fist, which slams into the ground a medium distance away. The special cancel window on this move is very short."
+            }
+          ]
+        },
+        {
+          "moveName": "Step Kick",
+          "input": "6B",
+          "image": "https://wiki.gbl.gg/images/thumb/8/83/Ayu6b.png/175px-Ayu6b.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "19",
+            "active": "5",
+            "recovery": "10",
+            "advHit": "+2",
+            "advBlock": "0",
+            "cancel": "N SP IC"
+          },
+          "properties": [
+            "Ayu hops forward and delivers a kick. While the startup time leaves much to be desired, if you can get this to connect, the quick recovery time and the hit stun should allow you to combo almost anything off of it."
+          ]
+        },
+        {
+          "moveName": "Thumping Wing Upper",
+          "input": "6C",
+          "image": "https://wiki.gbl.gg/images/thumb/6/6c/Ayu6c.png/175px-Ayu6c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "15",
+            "active": "6",
+            "recovery": "16",
+            "advHit": "/",
+            "advBlock": "0",
+            "cancel": "SP JH IC"
+          },
+          "properties": [
+            "Ayu does an uppercut using her backpack wings. This move has guard attack properties during startup, and will launch the opponent if it hits. This move acts as her natural launcher. This move is good for comboing if you lack RF meter."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/5/56/Ayu2a.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "5",
+            "recovery": "3",
+            "advHit": "+3",
+            "advBlock": "+2",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Ayu throws a short straight punch from her crouching position."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/3e/Ayu2b.png/175px-Ayu2b.png",
+          "damage": "350",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "8",
+            "recovery": "6",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP JH IC f5B"
+          },
+          "properties": [
+            "Ayu's wings turn into fists poking diagonally forward-up, in a V-sign hand gesture. The hitbox for this move is very odd, as it does not even hit crouching opponents or point-blank opponents. A very situation-specific move. Mainly used as a combo tool and an anti air."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7f/Ayu2c.png/175px-Ayu2c.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Low",
+            "startup": "14",
+            "active": "4",
+            "recovery": "16",
+            "advHit": "/",
+            "advBlock": "+2",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Ayu claps her wings-turned-giant-hands a medium distance in front of her. It hits low and will knock down the opponent if it hits."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/d/de/Ayuj5a.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "High",
+            "startup": "5",
+            "active": "8",
+            "recovery": "3",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "Ayu does a short kick aimed up and forward. This move is not too great at hitting ground opponents due to the angle of the attack."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/0/0c/Ayuj5b.png",
+          "damage": "350",
+          "framedata": {
+            "guard": "High",
+            "startup": "7",
+            "active": "6",
+            "recovery": "11",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Ayu extends one of her wings into a long mitten and punches diagonally down-towards."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/3c/Ayuj5c.png/175px-Ayuj5c.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "High",
+            "startup": "11",
+            "active": "2",
+            "recovery": "24",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Ayu does a backflip, letting her extended wings cut a mid-sized circle in the air directly in front of her."
+          ]
+        },
+        {
+          "moveName": "Uguu Press",
+          "input": "j2C",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f4/Ayuj2c.png/175px-Ayuj2c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "Until landing",
+            "recovery": "53(whiff), 24(hit)",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Ayu stops in the air and belly flops straight down. If the attack connects or is guarded, Ayu will bounce back into the air. However, if the attack misses completely, Ayu will fall to the ground in a knockdown state, completely vulnerable to attack for about a half-second before entering a mostly invulnerable wakeup."
+          ]
+        },
+        {
+          "moveName": "Flight",
+          "input": "jS",
+          "image": "https://wiki.gbl.gg/images/thumb/2/27/Ayujd.png/175px-Ayujd.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "1",
+            "active": "/",
+            "recovery": "Until landing",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N AD ※"
+          },
+          "properties": [
+            "Ayu's backback spreads its wings and flaps, reducing the gravity affecting Ayu while she is in the air. She also gains some control over her left and right movement while in the air. This move drains the IC bar while active. ※ This move can be cancelled at any time with a 2 input.",
+            "Ayu's backback spreads its wings and flaps, reducing the gravity affecting Ayu while she is in the air. She also gains some control over her left and right movement while in the air.",
+            "This move drains the IC bar while active."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1e/EFZ_Ayu_GroundGrab.png/175px-EFZ_Ayu_GroundGrab.png",
+          "damage": "1100",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "0.66",
+            "recovery": "31",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "/"
+          },
+          "properties": [
+            "Ayu swings the opponent behind her and into the air without allowing them to tech."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1100",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "31",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "Ayu swings the opponent behind her and into the air without allowing them to tech."
+            },
+            {
+              "version": "B",
+              "damage": "1100",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "31",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "Ayu swings the opponent behind her and into the air without allowing them to tech."
+            },
+            {
+              "version": "C",
+              "damage": "1100",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "31",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "Ayu swings the opponent behind her and into the air without allowing them to tech."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/3/30/EFZ_Ayu_AirGrab.png",
+          "damage": "1100",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "/"
+          },
+          "properties": [
+            "Ayu's backpack grabs the opponent and pummels them into the ground."
+          ]
+        },
+        {
+          "moveName": "You there, outta the way~",
+          "input": "236A/B/C",
+          "image": "https://wiki.gbl.gg/images/f/f3/Ayu236.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9",
+            "active": "17",
+            "recovery": "41",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Ayu runs towards the opponent, before faceplanting into the ground. Both the initial tackle and the faceplant count as hits.",
+            "This move will knock down the opponent if it hits. This move isn't too good on it's own. It should be used mainly during a combo."
+          ],
+          "variations": [
+            {
+              "version": "236A (Tackle)",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "17",
+                "recovery": "41",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Ayu runs towards the opponent for about 1/2 the screen, before faceplanting into the ground.",
+              "image": "https://wiki.gbl.gg/images/f/f3/Ayu236.png"
+            },
+            {
+              "version": "236A (Faceplant)",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "31",
+                "active": "15",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "-10",
+                "cancel": "IC"
+              },
+              "notes": "The faceplant hit that follows the tackle.",
+              "image": "https://wiki.gbl.gg/images/0/00/EFZ_Ayu_236_2.png"
+            },
+            {
+              "version": "236B (Tackle)",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "17",
+                "recovery": "41",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Runs for about 2/3 of the screen.",
+              "image": "https://wiki.gbl.gg/images/f/f3/Ayu236.png"
+            },
+            {
+              "version": "236B (Faceplant)",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "34",
+                "active": "15",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "-10",
+                "cancel": "IC"
+              },
+              "notes": "The faceplant hit that follows the tackle.",
+              "image": "https://wiki.gbl.gg/images/0/00/EFZ_Ayu_236_2.png"
+            },
+            {
+              "version": "236C (Tackle)",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "33",
+                "recovery": "41",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Runs the full length of the screen. If the initial tackle hits the opponent against the corner, they will wallbounce.",
+              "image": "https://wiki.gbl.gg/images/f/f3/Ayu236.png"
+            },
+            {
+              "version": "236C (Faceplant)",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "47",
+                "active": "15",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "-10",
+                "cancel": "IC"
+              },
+              "notes": "The faceplant hit that follows the tackle.",
+              "image": "https://wiki.gbl.gg/images/0/00/EFZ_Ayu_236_2.png"
+            }
+          ]
+        },
+        {
+          "moveName": "Shinin' Arrow",
+          "input": "623A/B/C (or j.623A/B/C)",
+          "image": "https://wiki.gbl.gg/images/thumb/2/24/Ayu623.png/175px-Ayu623.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "4",
+            "recovery": "61",
+            "advHit": "/",
+            "advBlock": "-43",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Ayu quickly throws an arrow-shaped feather sharply down at the ground, creating an explosion where the feather lands.",
+            "The A version has upper-body invincibility during startup frames, while B version has lower-body invincibility.",
+            "C version startup is extremely quick and has full invincibility. Also has more hits than the normal versions."
+          ],
+          "variations": [
+            {
+              "version": "623A (Arrow)",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "4",
+                "recovery": "61",
+                "advHit": "/",
+                "advBlock": "-43",
+                "cancel": "IC"
+              },
+              "notes": "Upper-body invincibility during startup frames.",
+              "image": "https://wiki.gbl.gg/images/2/24/Ayu623.png"
+            },
+            {
+              "version": "623A (Explosion)",
+              "damage": "70 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "/",
+                "recovery": "58",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The explosion that follows the arrow.",
+              "image": "https://wiki.gbl.gg/images/e/ec/EFZ_Ayu_623AB_2.png"
+            },
+            {
+              "version": "623B (Arrow)",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "4",
+                "recovery": "61",
+                "advHit": "/",
+                "advBlock": "-43",
+                "cancel": "IC"
+              },
+              "notes": "Lower-body invincibility during startup frames.",
+              "image": "https://wiki.gbl.gg/images/9/92/EFZ_Ayu_623B.png"
+            },
+            {
+              "version": "623B (Explosion)",
+              "damage": "70 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "/",
+                "recovery": "58",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The explosion that follows the arrow.",
+              "image": "https://wiki.gbl.gg/images/e/ec/EFZ_Ayu_623AB_2.png"
+            },
+            {
+              "version": "623C (Arrow)",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "2",
+                "active": "4",
+                "recovery": "67",
+                "advHit": "/",
+                "advBlock": "-49",
+                "cancel": "IC"
+              },
+              "notes": "Full invincibility during startup. Faster startup than other versions.",
+              "image": "https://wiki.gbl.gg/images/thumb/2/24/Ayu623.png/175px-Ayu623.png"
+            },
+            {
+              "version": "623C (Second Arrow)",
+              "damage": "350",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "4",
+                "recovery": "61",
+                "advHit": "/",
+                "advBlock": "-43",
+                "cancel": "IC"
+              },
+              "notes": "Second arrow in the C version sequence.",
+              "image": "https://wiki.gbl.gg/images/thumb/2/24/Ayu623.png/175px-Ayu623.png"
+            },
+            {
+              "version": "623C (Explosion)",
+              "damage": "70 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "/",
+                "recovery": "58",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Multiple explosion hits that follow the arrows.",
+              "image": "https://wiki.gbl.gg/images/e/ec/EFZ_Ayu_623AB_2.png"
+            },
+            {
+              "version": "j.623A (Arrow)",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "4",
+                "recovery": "Until landing",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Upper-body invincibility during startup. Performed in the air.",
+              "image": "https://wiki.gbl.gg/images/2/24/Ayu623.png"
+            },
+            {
+              "version": "j.623A (Explosion)",
+              "damage": "70 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "/",
+                "recovery": "Until landing",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The explosion that follows the arrow.",
+              "image": "https://wiki.gbl.gg/images/e/ec/EFZ_Ayu_623AB_2.png"
+            },
+            {
+              "version": "j.623B (Arrow)",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "4",
+                "recovery": "Until landing",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Lower-body invincibility during startup. Performed in the air.",
+              "image": "https://wiki.gbl.gg/images/9/92/EFZ_Ayu_623B.png"
+            },
+            {
+              "version": "j.623B (Explosion)",
+              "damage": "70 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "/",
+                "recovery": "Until landing",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The explosion that follows the arrow.",
+              "image": "https://wiki.gbl.gg/images/e/ec/EFZ_Ayu_623AB_2.png"
+            },
+            {
+              "version": "j.623C (Arrow Sequence)",
+              "damage": "70 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14",
+                "active": "/",
+                "recovery": "Until landing",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Full invincibility during startup. Multiple arrows fired in sequence.",
+              "image": "https://wiki.gbl.gg/images/c/ca/Ayuj623c.png"
+            },
+            {
+              "version": "j.623C (Final Explosion)",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Any",
+                "startup": "/",
+                "active": "1",
+                "recovery": "Until landing",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "The final large explosion at the end of the C version.",
+              "image": "https://wiki.gbl.gg/images/1/13/Ayuj623c2.png"
+            }
+          ]
+        },
+        {
+          "moveName": "Taiyaki Assault",
+          "input": "214A/B/C (or j.214A/B/C)",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d7/Ayu214.png/175px-Ayu214.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Any(15-22), Ground(23-27), High(28-37)",
+            "startup": "15",
+            "active": "23",
+            "recovery": "30(whiff), until landing+5(hit)",
+            "advHit": "/",
+            "advBlock": "-30",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Ayu rides on a giant taiyaki that launches, moving in an arc.",
+            "Guard properties change as the move progresses. A version covers a small arc, B version covers the entire screen.",
+            "C version hits multiple times and becomes air unblockable, making it useful as an anti-air attack or combo extender."
+          ],
+          "variations": [
+            {
+              "version": "214A",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any(15-22), Ground(23-27), High(28-37)",
+                "startup": "15",
+                "active": "23",
+                "recovery": "30(whiff), until landing+5(hit)",
+                "advHit": "/",
+                "advBlock": "-30",
+                "cancel": "FIC"
+              },
+              "notes": "Moves in a small arc. If it hits, Ayu bounces back into the air. If it misses, Ayu lands in a vulnerable knockdown state.",
+              "image": "https://wiki.gbl.gg/images/thumb/d/d7/Ayu214.png/175px-Ayu214.png"
+            },
+            {
+              "version": "214B",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Any(15-27), Ground(28-32), High(33-48)",
+                "startup": "15",
+                "active": "34",
+                "recovery": "30(whiff), until landing+5(hit)",
+                "advHit": "/",
+                "advBlock": "-38",
+                "cancel": "FIC"
+              },
+              "notes": "Covers the entire screen in its arc.",
+              "image": "https://wiki.gbl.gg/images/thumb/d/d7/Ayu214B.png/175px-Ayu214B.png"
+            },
+            {
+              "version": "214C",
+              "damage": "200 x N",
+              "framedata": {
+                "guard": "Ground(6-12), Any(13-26), Ground(27-31), High(32-47)",
+                "startup": "6",
+                "active": "42",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Hits multiple times until the taiyaki lands. Immediately air unblockable, useful as an anti-air or combo extender.",
+              "image": "https://wiki.gbl.gg/images/thumb/d/d7/Ayu214C.png/175px-Ayu214C.png"
+            },
+            {
+              "version": "j.214A",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any, Ground, High",
+                "startup": "10",
+                "active": "Until landing",
+                "recovery": "30(whiff), until landing+5(hit)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Air version moves in a small arc.",
+              "image": "https://wiki.gbl.gg/images/thumb/d/d7/AyuJ214A.png/175px-AyuJ214A.png"
+            },
+            {
+              "version": "j.214B",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Any, Ground, High",
+                "startup": "10",
+                "active": "Until landing",
+                "recovery": "30(whiff), until landing+5(hit)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Air version covers more horizontal distance.",
+              "image": "https://wiki.gbl.gg/images/thumb/d/d7/AyuJ214B.png/175px-AyuJ214B.png"
+            },
+            {
+              "version": "j.214C",
+              "damage": "200 x N",
+              "framedata": {
+                "guard": "Ground, Any, Ground, High",
+                "startup": "2",
+                "active": "Until landing",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Air version that hits multiple times. Also effective as an air-to-air attack since it becomes air unblockable.",
+              "image": "https://wiki.gbl.gg/images/thumb/d/d7/AyuJ214C.png/175px-AyuJ214C.png"
+            }
+          ]
+        },
+        {
+          "moveName": "Shinin' Swing Wing Punch",
+          "input": "236236A/B/C",
+          "image": "https://wiki.gbl.gg/images/thumb/7/74/Ayu236236.png/175px-Ayu236236.png",
+          "damage": "300 x 4 + 1000",
+          "framedata": {
+            "guard": "Any",
+            "startup": "16",
+            "active": "2 + 3 x 4",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "-13",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Ayu winds up and does a powerful dashing punch with a huge backpack-wing fist.",
+            "This super is easily comboed into and can be chained into other combos with an IC, making it very useful.",
+            "Higher versions hit more times and deal more damage."
+          ],
+          "variations": [
+            {
+              "version": "236236A",
+              "damage": "300 x 4 + 1000",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "2 + 3 x 4",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-13",
+                "cancel": "IC"
+              },
+              "notes": "Standard version with good damage and IC potential.",
+              "image": "https://wiki.gbl.gg/images/thumb/7/74/Ayu236236.png/175px-Ayu236236.png"
+            },
+            {
+              "version": "236236B",
+              "damage": "300 x 7 + 1200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "2 + 3 x 7",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-6",
+                "cancel": "IC"
+              },
+              "notes": "More hits and slightly more damage than the A version.",
+              "image": "https://wiki.gbl.gg/images/thumb/7/74/Ayu236236B.png/175px-Ayu236236B.png"
+            },
+            {
+              "version": "236236C",
+              "damage": "300 x 9 + 2500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "2 + 3 x 9",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "-16",
+                "cancel": "IC"
+              },
+              "notes": "Fastest startup with the most hits and significantly more damage.",
+              "image": "https://wiki.gbl.gg/images/thumb/7/74/Ayu236236C.png/175px-Ayu236236C.png"
+            }
+          ]
+        },
+        {
+          "moveName": "Halo of Immortality",
+          "input": "214214A/B/C (or j.214214A/B/C)",
+          "image": "https://wiki.gbl.gg/images/thumb/e/ee/Ayu214214.png/175px-Ayu214214.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "23",
+            "active": "/",
+            "recovery": "41",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Ayu spins and creates a halo of wind directly in front of her.",
+            "The halo creates a field that influences projectiles and movement through it.",
+            "B version stays active longer, and C version creates three halos at different distances."
+          ],
+          "variations": [
+            {
+              "version": "214214A (Creation)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "23",
+                "active": "/",
+                "recovery": "41",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Ayu creates a halo directly in front of her.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/Ayu214214.png/175px-Ayu214214.png"
+            },
+            {
+              "version": "214214A (Halo)",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "36",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "The halo itself after creation.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/Ayu214214_Halo.png/175px-Ayu214214_Halo.png"
+            },
+            {
+              "version": "214214B (Creation)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "20",
+                "active": "/",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Faster creation with shorter recovery.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/Ayu214214.png/175px-Ayu214214.png"
+            },
+            {
+              "version": "214214B (Halo)",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "72",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Stays active much longer than the A version.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/Ayu214214_Halo.png/175px-Ayu214214_Halo.png"
+            },
+            {
+              "version": "214214C (Creation)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "17",
+                "active": "/",
+                "recovery": "65",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Ayu creates three halos in sequence.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/Ayu214214C.png/175px-Ayu214214C.png"
+            },
+            {
+              "version": "214214C (Halos)",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "17, 41, 67",
+                "active": "90 x 3",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Three halos at different distances that stay active for a long time.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/Ayu214214C_Halos.png/175px-Ayu214214C_Halos.png"
+            },
+            {
+              "version": "j.214214A (Creation)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "11",
+                "active": "/",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Air version with faster startup.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/AyuJ214214.png/175px-AyuJ214214.png"
+            },
+            {
+              "version": "j.214214A (Halo)",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11",
+                "active": "36",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "The halo created from the air version.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/Ayu214214_Halo.png/175px-Ayu214214_Halo.png"
+            },
+            {
+              "version": "j.214214B (Creation)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "9",
+                "active": "/",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Fastest startup of all versions.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/AyuJ214214.png/175px-AyuJ214214.png"
+            },
+            {
+              "version": "j.214214B (Halo)",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "72",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Long-lasting halo created from the air.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/Ayu214214_Halo.png/175px-Ayu214214_Halo.png"
+            },
+            {
+              "version": "j.214214C (Creation)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "11",
+                "active": "/",
+                "recovery": "53",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Air version that creates multiple halos.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/AyuJ214214C.png/175px-AyuJ214214C.png"
+            },
+            {
+              "version": "j.214214C (Halos)",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11, 32, 52",
+                "active": "90 x 3",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Three halos at different distances created from the air.",
+              "image": "https://wiki.gbl.gg/images/thumb/e/ee/Ayu214214C_Halos.png/175px-Ayu214214C_Halos.png"
+            }
+          ]
+        },
+        {
+          "moveName": "Wings of Light",
+          "input": "641236A/B/C",
+          "image": "https://wiki.gbl.gg/images/thumb/9/9a/EFZ_Ayu_641236A.png/175px-EFZ_Ayu_641236A.png",
+          "damage": "1800",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9",
+            "active": "12",
+            "recovery": "40",
+            "advHit": "/",
+            "advBlock": "-30",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Ayu turns her wings into spikes that shoot out of the ground around her.",
+            "A version hits once, B version drills with multiple hits, and C version launches twice before drilling."
+          ],
+          "variations": [
+            {
+              "version": "641236A",
+              "damage": "1800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "12",
+                "recovery": "40",
+                "advHit": "/",
+                "advBlock": "-30",
+                "cancel": "IC"
+              },
+              "notes": "Spikes hit the opponent once with heavy damage.",
+              "image": "https://wiki.gbl.gg/images/thumb/9/9a/EFZ_Ayu_641236A.png/175px-EFZ_Ayu_641236A.png"
+            },
+            {
+              "version": "641236B",
+              "damage": "180 x 18 + 300",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "76",
+                "recovery": "45",
+                "advHit": "/",
+                "advBlock": "-17",
+                "cancel": "IC"
+              },
+              "notes": "Spikes drill into the opponent with many hits.",
+              "image": "https://wiki.gbl.gg/images/7/75/EFZ_Ayu_641236B.png"
+            },
+            {
+              "version": "641236C (First Hit)",
+              "damage": "1600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7",
+                "active": "7",
+                "recovery": "208",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "First spike launch in the C version sequence.",
+              "image": "https://wiki.gbl.gg/images/5/5a/EFZ_Ayu_641236C_1.png"
+            },
+            {
+              "version": "641236C (Second Hit)",
+              "damage": "1600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "45",
+                "active": "6",
+                "recovery": "170",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Second spike launch in the C version sequence.",
+              "image": "https://wiki.gbl.gg/images/3/33/EFZ_Ayu_641236C_2.png"
+            },
+            {
+              "version": "641236C (Final Drill)",
+              "damage": "100 x 19",
+              "framedata": {
+                "guard": "Any",
+                "startup": "113",
+                "active": "76",
+                "recovery": "32",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Final drilling sequence with multiple hits. All hits except the last cause no pushback.",
+              "image": "https://wiki.gbl.gg/images/0/0e/EFZ_Ayu_641236C_3.png"
+            }
+          ]
+        },
+        {
+          "moveName": "Miracle Poem",
+          "input": "FM: A A 4 B C",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e4/EFZ_Ayu_FM.png/175px-EFZ_Ayu_FM.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Any",
+            "startup": "21",
+            "active": "2",
+            "recovery": "292",
+            "advHit": "/",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Ayu holds out a small angel doll and changes outfit in an explosion that launches the opponent.",
+            "Generates feathers that float across the screen and shock the opponent, then causes another explosion midair.",
+            "Completely invincible until Ayu returns to normal appearance. Can whiff cancel most normals into this move."
+          ],
+          "variations": [
+            {
+              "version": "Initial Explosion",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Any",
+                "startup": "21",
+                "active": "2",
+                "recovery": "292",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "First explosion that occurs when Ayu transforms and launches the opponent.",
+              "image": "https://wiki.gbl.gg/images/e/e4/EFZ_Ayu_FM.png"
+            },
+            {
+              "version": "Feather Hits",
+              "damage": "400 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "/",
+                "active": "∞",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Multiple feathers that float across the screen and shock the opponent.",
+              "image": "https://wiki.gbl.gg/images/b/bd/AyuFM.png"
+            },
+            {
+              "version": "Final Explosion",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "318",
+                "active": "2",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Final explosion as Ayu returns to her normal appearance.",
+              "image": "https://wiki.gbl.gg/images/b/bd/AyuFM.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

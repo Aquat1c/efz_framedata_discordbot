@@ -1,0 +1,1099 @@
+{
+  "name": "Mayu Shiina",
+  "icon": "https://wiki.gbl.gg/images/f/f4/EFZ_Mayu_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/9/91/Mayu5a.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "5",
+            "recovery": "2",
+            "advHit": "+3",
+            "advBlock": "+2",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Mayu does a short punch to the opponent's midsection. This is a pretty standard spammable jab. It's a bit low due to Mayu's height so it won't miss short crouching characters, but it will have a harder time acting as an anti-air."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/dd/Mayuc5b.png/175px-Mayuc5b.png",
+          "damage": "370",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "7",
+            "recovery": "6",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP J IC 2B f5B"
+          },
+          "properties": [
+            "Mayu stretches her arms out above and in front of her. This move is the core launching move of Mayu's combos. When it hits an aerial opponent, the opponent will be sent forward-up, at the perfect velocity for Mayu to follow with a forward jump. This is a fantastic anti-air. Be aware that her hurtboxes start extending on frame 3, and are fully extended on frame 5 of startup: what this means is that if you try to time it too close to your opponent as an anti-air, you may find yourself getting cleanly beat!"
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/eb/Mayu5b.png/175px-Mayu5b.png",
+          "damage": "370 (3~7F=330)",
+          "framedata": {
+            "guard": "Any",
+            "startup": "7",
+            "active": "7",
+            "recovery": "7",
+            "advHit": "+2",
+            "advBlock": "0",
+            "cancel": "N SP IC"
+          },
+          "properties": [
+            "Mayu turns around and does a backflip, advancing forward while heel-drop kicking in an arc in front of her. This is a decent move to help keep an opponent under pressure, since it both attacks and moves forward. Good for punishing opponent's low pokes or low mash."
+          ]
+        },
+        {
+          "moveName": "High-Angle Heel Drop  はいあんぐるかかとおとし",
+          "input": "6B",
+          "image": "https://wiki.gbl.gg/images/1/1d/Mayu6b.png",
+          "damage": "370 (3~7F=330)",
+          "framedata": {
+            "guard": "Any",
+            "startup": "15",
+            "active": "7",
+            "recovery": "8",
+            "advHit": "-",
+            "advBlock": "-1",
+            "cancel": "Sp IC"
+          },
+          "properties": [
+            "Mayu does a variation of her f5B, where she hops about one body-height up and forwards while doing her back-flip heel-drop. Can catch the opponent of guard. Use this sparingly. It is NOT an overhead. Also, unlike f5B, this move always knocks the opponent down; in the corner, this can lead to juggle conversions even with no meter."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f7/Mayu5c.png/175px-Mayu5c.png",
+          "damage": "570",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11",
+            "active": "8",
+            "recovery": "17",
+            "advHit": "-2",
+            "advBlock": "-4",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Mayu is lifted off the ground by her ferret as she does a powerful dual-leg kick at the opponent's chest. Interestingly enough, the ferret on the ground is not part of Mayu's hitbox, so this move can cleanly counter attacks with very low hitboxes such as Misaki's 2C or Ikumi's 2C. Can be very good at preemptively catching low air approaches. Mayu's hurtbox is very slightly off the ground even on frame 1, and is high enough on frame 2 to already evade many things!"
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/5/5e/Mayu2a.png",
+          "damage": "175",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "5",
+            "recovery": "2",
+            "advHit": "+4",
+            "advBlock": "+3",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Mayu does a short punch at the opponent's feet. This move is simple to land and start combos with. However, the low and small hitbox means that it's quite vulnerable to overheads and small-hopping attacks."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/3d/Mayu2b.png/175px-Mayu2b.png",
+          "damage": "360",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "9",
+            "recovery": "8",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Mayu slides forward feet first as a kick, moving a small distance forward. Aside from combos, this move can be used as another way to continue pressure on an opponent as part of a blockstring."
+          ]
+        },
+        {
+          "moveName": "Short Leg Kick  しょーとすねキツク",
+          "input": "1B",
+          "image": "https://wiki.gbl.gg/images/1/1e/Mayu1b.png",
+          "damage": "360",
+          "framedata": {
+            "guard": "Low",
+            "startup": "6",
+            "active": "6",
+            "recovery": "7",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP J IC 2B f5B"
+          },
+          "properties": [
+            "Mayu does a short kick, similar to her 2B, but without sliding. It's short enough that it doesn't leave you as committed to an attack as a 2B would. Still, not much range. Used in BnBs."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d2/Mayu2c.png/175px-Mayu2c.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Low",
+            "startup": "9",
+            "active": "20",
+            "recovery": "13",
+            "advHit": "-",
+            "advBlock": "-12",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Mayu slides on the ground arms first, moving forwards a fair distance while attacking the opponent's feet. This move will launch a grounded opponent slightly off the ground, but they will be unable to recover in time before they land. This move is not exactly something that should be used outside of combos very often unless at a certain range. If you let it get blocked, your opponent will have the option of attacking or waiting to see if you cancel it. Without an instant charge, all of the specials at Mayu's disposal are either non-effective against an opponent who is already defending, or wall jump moves that let Mayu retreat, but in turn give up the offensive pressure. However, if space so it hits just at the tip of the attack, it can be a much safer tool. The cancel frames for this attack are very long, so to catch your opponent off guard you can late cancel into 623A if they delay their counter as well."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/f/ff/Mayuj5a.png",
+          "damage": "190",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "6",
+            "active": "6",
+            "recovery": "4",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "Mayu does a small kick. This move should only be used either as a spammed jump-in approach or within a combo to extend it. In very specific matchups, it can be used as an instant overhead."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/6/6e/Mayuj5b.png",
+          "damage": "350",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "7",
+            "active": "7",
+            "recovery": "10",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Mayu does a decent kick forwards, covering an area around the lower half of herself, including slightly behind her as well. This is Mayu's aerial-crossup attack. The spacing needed is tighter than other characters, but you can still hit and directly lead into your basic combo setups. This move is also good for close-in aerial engagements, where j.C might be too slow to hit in time."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c1/Mayuj5c.png/175px-Mayuj5c.png",
+          "damage": "540",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "8",
+            "active": "7",
+            "recovery": "18",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Mayu does a frontal air kick directly in front of her. This is Mayu's longest-range option in the air, and the main damage dealer of her corner loop. It's good for dealing with aerial attacks, but if the enemy is below you, it might be better to use j.B instead. Against an aerial opponent, it knocks them quite far horizontally on hit."
+          ]
+        },
+        {
+          "moveName": "664A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/7/7a/Mayu664a.png",
+          "damage": "150",
+          "framedata": {
+            "guard": "Any",
+            "startup": "5※",
+            "active": "6",
+            "recovery": "2",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "※17F startup when including minimum hop time. Mayu leaps forward and does a j.A close to the ground. This move can't be comboed from or into, it can be blocked in any stance, and it does too little damage to be used as an effective counter for a low attack. However, it's speed and quick recovery makes it a decent approach attack to get in close again during a blockstring routine."
+          ]
+        },
+        {
+          "moveName": "664B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/5/59/Mayu664b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Any",
+            "startup": "8※",
+            "active": "7",
+            "recovery": "2",
+            "advHit": "+7",
+            "advBlock": "+5",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "※20F startup when including minimum hop time. Mayu leaps forward and does a j.B close to the ground. Slightly slower than the A version for use in a pressure blockstring. This move can be linked into the basic combo if timed late."
+          ]
+        },
+        {
+          "moveName": "664C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/6/61/Mayu664c.png/175px-Mayu664c.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Any",
+            "startup": "7※",
+            "active": "7",
+            "recovery": "3",
+            "advHit": "+6",
+            "advBlock": "+4",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "※19F startup when including minimum hop time. Mayu leaps forward and does a j.C close to the ground. This is the fastest way outside of using RF special moves to approach the opponent while attacking. It's got the range of Mayu's normal j.C so even on block, you can be far away enough to not fear direct reprisal."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/1/17/EFZ_Mayu_GroundGrab.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5",
+            "active": "1",
+            "recovery": "21",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mayu latches on to her opponent and kicks them across the screen, knocking them down and launching herself backwards. While Mayu can end up as far as fullscreen away, she recovers before even touching the ground, so she can easily close the distance with an airdash while the opponent is waking up."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mayu latches on to her opponent and kicks them across the screen, knocking them down and launching herself backwards. While Mayu can end up as far as fullscreen away, she recovers before even touching the ground, so she can easily close the distance with an airdash while the opponent is waking up."
+            },
+            {
+              "version": "B",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mayu latches on to her opponent and kicks them across the screen, knocking them down and launching herself backwards. While Mayu can end up as far as fullscreen away, she recovers before even touching the ground, so she can easily close the distance with an airdash while the opponent is waking up."
+            },
+            {
+              "version": "C",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mayu latches on to her opponent and kicks them across the screen, knocking them down and launching herself backwards. While Mayu can end up as far as fullscreen away, she recovers before even touching the ground, so she can easily close the distance with an airdash while the opponent is waking up."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/7/7c/EFZ_Mayu_AirGrab.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mayu takes herself and the opponent straight down, slamming them into the ground."
+          ]
+        },
+        {
+          "moveName": "Roll Roll Roll  ごろごろごろ",
+          "input": "236*",
+          "image": "https://wiki.gbl.gg/images/7/78/Mayu236a.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Any",
+            "startup": "17",
+            "active": "32",
+            "recovery": "11",
+            "advHit": "/",
+            "advBlock": "-22",
+            "cancel": "IC Rekka"
+          },
+          "properties": [
+            "Mayu's special that allows her to roll across the screen in various ways. A key move in her combos and approach game with multiple followup options."
+          ],
+          "variations": [
+            {
+              "version": "236A",
+              "image": "https://wiki.gbl.gg/images/7/78/Mayu236a.png",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "17",
+                "active": "32",
+                "recovery": "11",
+                "advHit": "/",
+                "advBlock": "-22",
+                "cancel": "IC Rekka"
+              },
+              "notes": "Mayu rolls across the ground in a ball. Launches the opponent on hit. Can be cancelled into followups on whiff or hit. This is the move you will be using most in BnB combos, both metered and unmetered."
+            },
+            {
+              "version": "236B",
+              "image": "https://wiki.gbl.gg/images/a/ae/EFZ_Mayu_236B.gif",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "28",
+                "recovery": "14",
+                "advHit": "/",
+                "advBlock": "-21",
+                "cancel": "IC Rekka"
+              },
+              "notes": "Mayu launches herself into the air in a ball. Can be cancelled into Slash Down Kick on whiff or hit. Used in a few combos, but mostly used in blockstrings and pressure. It can crossup quite easily and can be used to start a high/low mixup with IC."
+            },
+            {
+              "version": "236C",
+              "image": "https://wiki.gbl.gg/images/5/51/Mayu236c.png",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Any",
+                "startup": "5",
+                "active": "40",
+                "recovery": "12(whiff), 44(hit/block)",
+                "advHit": "/",
+                "advBlock": "-22",
+                "cancel": "IC"
+              },
+              "notes": "Mayu launches herself quickly across the screen in a ball. On hit, the opponent will be sent flying back a good distance, and will wallbounce if they reach the wall before hitting the floor. Excellent for punishing unsafe moves at a distance."
+            },
+            {
+              "version": "236A~A (Ferret Uppercut)",
+              "image": "https://wiki.gbl.gg/images/9/9e/Mayu236aUpper.png",
+              "damage": "150x3",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "7.33",
+                "active": "19",
+                "recovery": "25+20+n+10",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Linked from Roll Roll Roll A version. Mayu performs a jumping multi-hit uppercut towards the opponent. On hit, it launches the opponent into the air. Has invulnerable startup, useful as a counter when Roll Roll Roll is RGed."
+            },
+            {
+              "version": "236A~B (Roll Roll Hop)",
+              "image": "https://wiki.gbl.gg/images/a/ae/EFZ_Mayu_236B.gif",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "28",
+                "recovery": "12",
+                "advHit": "-19",
+                "advBlock": "-21",
+                "cancel": "IC Rekka"
+              },
+              "notes": "Linked from Roll Roll Roll. Mayu launches herself into the air, similar to 236B. This move is your IC point for various combos, as it is the perfect height to go into her air loop. Can be used in blockstrings and as a mixup starter."
+            },
+            {
+              "version": "236B~jA/236A~B~jA (Slash Down Kick)",
+              "image": "https://wiki.gbl.gg/images/6/6c/Mayu236bDive.png",
+              "damage": "550",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "13",
+                "active": "Until ground",
+                "recovery": "11",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Followup from Roll Roll Hop or 236B. Mayu does a divekick at a fixed angle. This is your meterless BnB combo ender. In the corner, you can almost always get it to connect depending on proration."
+            }
+          ]
+        },
+        {
+          "moveName": "Astro Flying Knee  しんくうとびひざげり",
+          "input": "623*",
+          "image": "https://wiki.gbl.gg/images/9/9c/EFZ_Mayu_623A_A.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9",
+            "active": "8",
+            "recovery": "20",
+            "advHit": "/",
+            "advBlock": "-12",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Mayu's anti-air special that launches her upward with a knee attack. Different versions have different properties and invulnerability frames."
+          ],
+          "variations": [
+            {
+              "version": "623A - Fr1",
+              "image": "https://wiki.gbl.gg/images/9/9c/EFZ_Mayu_623A_A.png",
+              "damage": "600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "9",
+                "active": "8",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "-12",
+                "cancel": "IC"
+              },
+              "notes": "Mayu launches herself knee first into the air, moving about 1/4 of the screen forwards and 1/2 the screen up. Air-unblockable. Low-body invulnerable. If you want to IC it, only the active frames of it can be IC'd (i.e., cannot be IC'd during recovery). A strong move for anti-air and grounded pressure."
+            },
+            {
+              "version": "623A",
+              "image": "https://wiki.gbl.gg/images/0/0a/Mayu623a.png",
+              "damage": "600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "9",
+                "active": "8",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "-12",
+                "cancel": "IC"
+              },
+              "notes": "Mayu launches herself knee first into the air, moving about 1/4 of the screen forwards and 1/2 the screen up. Air-unblockable. Low-body invulnerable. If you want to IC it, only the active frames of it can be IC'd (i.e., cannot be IC'd during recovery). A strong move for anti-air and grounded pressure."
+            },
+            {
+              "version": "623B - Fr1",
+              "image": "https://wiki.gbl.gg/images/9/96/EFZ_Mayu_623B_A.png",
+              "damage": "600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "5",
+                "active": "8",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "-18",
+                "cancel": "IC"
+              },
+              "notes": "An even higher version of A. Excellent anti-air with good hitboxes, fast startup, and extremely hard to punish. High-body invulnerable. Goes higher but also recovers more slowly."
+            },
+            {
+              "version": "623B",
+              "image": "https://wiki.gbl.gg/images/f/fc/Mayu623b.png",
+              "damage": "600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "5",
+                "active": "8",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "-18",
+                "cancel": "IC"
+              },
+              "notes": "An even higher version of A. Excellent anti-air with good hitboxes, fast startup, and extremely hard to punish. High-body invulnerable. Goes higher but also recovers more slowly."
+            },
+            {
+              "version": "623C",
+              "image": "https://wiki.gbl.gg/images/0/0a/Mayu623a.png",
+              "damage": "1300",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "10",
+                "active": "8",
+                "recovery": "31",
+                "advHit": "/",
+                "advBlock": "-24",
+                "cancel": "IC"
+              },
+              "notes": "This version of the Astro Flying Knee is Mayu's full body invulnerable special move. However, it's vulnerable on block like any wakeup DP option, so either have additional RF meter to IC it and retreat. Unlike A and B versions, the C version can be IC'd at any time after it connects!"
+            }
+          ]
+        },
+        {
+          "moveName": "Big Jump!  だいじゃーんぷ！",
+          "input": "214*",
+          "image": "https://wiki.gbl.gg/images/3/31/Mayu214.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "22.33 ~ 49.66",
+            "active": "/",
+            "recovery": "Until landing + 7",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "Rekka"
+          },
+          "properties": [
+            "Mayu's wall jump special that allows her to bounce off walls and attack from different angles. Has many follow-up options that can be used during the aerial recovery."
+          ],
+          "variations": [
+            {
+              "version": "214A",
+              "image": "https://wiki.gbl.gg/images/e/e2/Mayu214roll.png",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "22.33 ~ 49.66",
+                "active": "/",
+                "recovery": "Until landing + 7",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "Rekka"
+              },
+              "notes": "Mayu leaps for the wall behind her. The aerial recovery is cancellable into A/B/C followups for various attacks."
+            },
+            {
+              "version": "214B",
+              "image": "https://wiki.gbl.gg/images/b/b8/Mayu214b.png",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "27.33 ~ 54.33",
+                "active": "Until landing",
+                "recovery": "12",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Mayu leaps for the wall behind her, and then does a fast flying kick towards the opponent. Depending on how close the opponent is to the wall Mayu is jumping off of, she may do 214A/C~A or 214A/C~B instead to compensate."
+            },
+            {
+              "version": "214C",
+              "image": "https://wiki.gbl.gg/images/e/e2/Mayu214roll.png",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "22.33 ~ 49.66",
+                "active": "/",
+                "recovery": "Until landing + 7",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "Rekka"
+              },
+              "notes": "Mayu leaps for the wall in front of her. The aerial recovery is cancellable into A/B/C followups for various attacks."
+            },
+            {
+              "version": "214A/C~(4)A/B",
+              "image": "https://wiki.gbl.gg/images/6/6c/Mayu236bDive.png",
+              "damage": "650",
+              "framedata": {
+                "guard": "High",
+                "startup": "10.33",
+                "active": "Until landing",
+                "recovery": "14",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Mayu flies down with an overhead kick that knocks the opponent down on hit. The A version will have Mayu kick almost straight down, and she will kick at a 45 degree angle in the B version. Can be done in the opposite direction by inputting 4A/B."
+            },
+            {
+              "version": "214A/C~(4)C",
+              "image": "https://wiki.gbl.gg/images/4/4e/Mayu214c.png",
+              "damage": "250 x 4",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "10.33",
+                "active": "Until landing",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Mayu curls into a multihitting ball which is air unblockable. Can be done in the opposite direction by inputting 4C. Mayu is invincible for the first 4 frames after she touches the ground."
+            },
+            {
+              "version": "214S",
+              "image": "https://wiki.gbl.gg/images/d/df/EFZ_Mayu_214S.png",
+              "damage": "0 + 1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "27.33 ~ 54.33",
+                "active": "Until landing",
+                "recovery": "15",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mayu leaps for the wall behind her, and then leaps back in a slow arc, arms outstretched. If the opponent is on the ground when Mayu reaches her, she will latch on to them for a knockdown. Most effective when Mayu herself is trapped in the corner."
+            }
+          ]
+        },
+        {
+          "moveName": "Chain Trampling  れんぞくふみつけ",
+          "input": "j.236*",
+          "image": "https://wiki.gbl.gg/images/c/c1/Mayuj236a.png",
+          "damage": "200 x 6",
+          "framedata": {
+            "guard": "Any",
+            "startup": "16",
+            "active": "Until ground",
+            "recovery": "9",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Mayu's aerial dive kick special that can be performed at different angles. A/B versions have multiple hits while C version is fully invulnerable at startup."
+          ],
+          "variations": [
+            {
+              "version": "j.236A",
+              "image": "https://wiki.gbl.gg/images/c/c1/Mayuj236a.png",
+              "damage": "200 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "Until ground",
+                "recovery": "9",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Mayu pauses in the air, then drops down at a more vertical angle towards the opponent. If it connects, Mayu kicks the opponent multiple times and then slams them to a downed state. Useful after blocked 6B to continue pressure or as a crossup move."
+            },
+            {
+              "version": "j.236B",
+              "image": "https://wiki.gbl.gg/images/c/c1/Mayuj236a.png",
+              "damage": "200 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "Until ground",
+                "recovery": "9",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Similar to A version but drops at a 45-degree angle. Good for corner combos and air recovery punishes, forcing opponents into the corner where pressure can continue."
+            },
+            {
+              "version": "j.236C",
+              "image": "https://wiki.gbl.gg/images/a/a7/Mayuj236c.png",
+              "damage": "100xN",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "Until ground",
+                "recovery": "4",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Mayu immediately drops down at a 45-degree angle, kicking all the way down until she reaches the ground. Gives Mayu an almost unpunishable approach. Fully invulnerable from frames 1-15, making it excellent for beating opponent reversals or challenging aerial opponents."
+            }
+          ]
+        },
+        {
+          "moveName": "Myu~  みゅ～",
+          "input": "41236*",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a2/Mayu41236.png/175px-Mayu41236.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "21.33",
+            "active": "9.66 + 10 x 2※",
+            "recovery": "21",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mayu's command throw special with several versions. Used to surprise opponents during blockstrings or after RG."
+          ],
+          "variations": [
+            {
+              "version": "41236A",
+              "image": "https://wiki.gbl.gg/images/a/a2/Mayu41236.png",
+              "damage": "500",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "21.33",
+                "active": "9.66 + 10 x 2※",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mayu pauses briefly with hands held up, then runs along the ground like an animal for a throw. If the throw connects, Mayu launches the opponent behind her in an untechable state, allowing for a combo. Reaches about 90% of the screen. Best used at close range during blockstrings."
+            },
+            {
+              "version": "41236B",
+              "image": "https://wiki.gbl.gg/images/e/e1/EFZ_Mayu_41236A_1.png",
+              "damage": "500",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "27",
+                "active": "10 x 3",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mayu runs at a faster pace and reaches about 1.5 screen lengths. The added speed and range makes it better at longer distances, though still risky to use from far away."
+            },
+            {
+              "version": "41236C",
+              "image": "https://wiki.gbl.gg/images/b/b3/EFZ_Mayu_41236A_2.png",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "21.33",
+                "active": "9.66 + 10 x 2※",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mayu runs for about 90% of the screen like the A version, but on connect the opponent will wallbounce. This version prorates less, giving better damage in combos after connecting."
+            },
+            {
+              "version": "41236S (Leap Frog)",
+              "image": "https://wiki.gbl.gg/images/e/ef/Mayu41236D.png",
+              "damage": "0",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6",
+                "active": "1",
+                "recovery": "30",
+                "advHit": "+25",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mayu doesn't run in this version, instead doing a normal command throw. Very fast and stuns the opponent for a grounded combo after. Switches sides unless in the corner. -25% Power when it connects, limiting juggles afterward. Powerful option after RG."
+            }
+          ]
+        },
+        {
+          "moveName": "Multiple Punch  まるちぷるぱんち",
+          "input": "214236*",
+          "image": "https://wiki.gbl.gg/images/c/cc/Mayu2141236.png",
+          "damage": "0 x 5 + 800 x 3",
+          "framedata": {
+            "guard": "Any",
+            "startup": "8",
+            "active": "24",
+            "recovery": "34",
+            "advHit": "/",
+            "advBlock": "-11",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Mayu's level 1-3 super that hits multiple times and can be IC'd during the uppercut hits for combo extensions."
+          ],
+          "variations": [
+            {
+              "version": "214236A",
+              "damage": "0 x 5 + 800 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "24",
+                "recovery": "34",
+                "advHit": "/",
+                "advBlock": "-11",
+                "cancel": "IC"
+              },
+              "notes": "Mayu curls into a ball and rolls into the opponent. If it connects, Mayu punches the opponent multiple times and ends with uppercuts that launch the opponent into the air. Great super for combos that pushes the opponent across the screen into the corner."
+            },
+            {
+              "version": "214236B",
+              "damage": "0 x 7 + 150 + 780 x 4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "32",
+                "recovery": "34",
+                "advHit": "/",
+                "advBlock": "-11",
+                "cancel": "IC"
+              },
+              "notes": "Level 2 version with more hits and damage. Also pushes the opponent further across the screen, making it excellent for corner carry."
+            },
+            {
+              "version": "214236C",
+              "damage": "0 x 23 + 30 x 2 + 800 x 2 + 500 x 8",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "32",
+                "recovery": "34",
+                "advHit": "/",
+                "advBlock": "-11",
+                "cancel": "IC"
+              },
+              "notes": "Level 3 version with significantly more hits and damage. Maximum corner carry and damage potential."
+            }
+          ]
+        },
+        {
+          "moveName": "Myu Myu Hurricane  みゅーみゅーはりけーん",
+          "input": "214214*",
+          "image": "https://wiki.gbl.gg/images/thumb/0/00/Mayu214214a.png/175px-Mayu214214a.png",
+          "damage": "120 x 11",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "2 + 4 x 9 + 2",
+            "recovery": "17",
+            "advHit": "/",
+            "advBlock": "-34 ~ -18",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Mayu's multi-hitting hurricane super with several levels. Can be IC'd for safety."
+          ],
+          "variations": [
+            {
+              "version": "214214A",
+              "damage": "120 x 11",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "2 + 4 x 9 + 2",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "-34 ~ -18",
+                "cancel": "IC"
+              },
+              "notes": "Mayu spins rapidly in place, creating a multi-hitting hurricane effect around her. Level 1 version has reasonable startup but can be punished if blocked."
+            },
+            {
+              "version": "214214A (Final Hit)",
+              "damage": "750",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "48",
+                "active": "3",
+                "recovery": "14",
+                "advHit": "/",
+                "advBlock": "-18",
+                "cancel": "IC"
+              },
+              "notes": "The final hit of the 214214A hurricane super, which deals additional damage."
+            },
+            {
+              "version": "214214B",
+              "damage": "120 x 15",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "2 + 4 x 13 + 2",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "-67 ~ -18",
+                "cancel": "IC"
+              },
+              "notes": "Level 2 version with more control and hits. Not significantly better as a reversal than the level 1 version."
+            },
+            {
+              "version": "214214B (Final Hit)",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "64",
+                "active": "3",
+                "recovery": "14",
+                "advHit": "/",
+                "advBlock": "-18",
+                "cancel": "IC"
+              },
+              "notes": "The final hit of the 214214B hurricane super with increased damage."
+            },
+            {
+              "version": "214214C",
+              "damage": "120 x 25",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "2 + 4 x 23 + 2",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "-107 ~ -18",
+                "cancel": "IC"
+              },
+              "notes": "Level 3 version with maximum hits and control. Can almost completely drain the opponent's BIC bar if it hits."
+            },
+            {
+              "version": "214214C (Final Hit)",
+              "damage": "1350",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "104",
+                "active": "3",
+                "recovery": "14",
+                "advHit": "/",
+                "advBlock": "-18",
+                "cancel": "IC"
+              },
+              "notes": "The final hit of the 214214C hurricane super with maximum damage potential."
+            }
+          ]
+        },
+        {
+          "moveName": "Myuuuuuuu  みゅぅぅぅぅぅぅ",
+          "input": "641236*",
+          "image": "https://wiki.gbl.gg/images/thumb/6/63/Mayu641236.png/175px-Mayu641236.png",
+          "damage": "0 + 2350",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "8",
+            "active": "8",
+            "recovery": "70",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mayu's air grab super that sends her diagonally upward to catch opponents. Higher levels have more active frames and invulnerability."
+          ],
+          "variations": [
+            {
+              "version": "641236A",
+              "damage": "0 + 2350",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "8",
+                "active": "8",
+                "recovery": "70",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mayu quickly leaps up at a 45 degree angle to throw her opponent. If successful, she body-slams them into the ground. Level 1 is mostly a combo finisher. Invulnerable for first 2 active frames, but slow startup limits its use as a reversal."
+            },
+            {
+              "version": "641236B",
+              "damage": "0 + 1000 + 2350",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "16",
+                "recovery": "77",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Level 2 version with faster startup and doubled active frames. Invulnerable on frames 1-8, making it useful as a reversal and anti-air option."
+            },
+            {
+              "version": "641236C",
+              "damage": "0 + 1000 + 3600",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "4",
+                "active": "24",
+                "recovery": "83",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Level 3 version with extremely fast startup (4F), maximum active frames, and invulnerability on frames 1-8. One of Mayu's most powerful options for discouraging aerial approaches, though risky if it misses."
+            }
+          ]
+        },
+        {
+          "moveName": "I'm Not Alone  ひとりじゃないもぅん",
+          "input": "2369S/63S",
+          "image": "https://wiki.gbl.gg/images/3/3b/EFZ_Mayu_FM.png",
+          "damage": "0 + 1000 + 250 x 18 + 1000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "1",
+            "active": "1",
+            "recovery": "16",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mayu's Final Memory attack. If the opponent is close, she grabs immediately. If farther away, she leaps forward before attempting the throw. On hit, Mayu and two friends repeatedly jump on the opponent for massive damage."
+          ],
+          "variations": [
+            {
+              "version": "Close Range",
+              "image": "https://wiki.gbl.gg/images/3/3b/EFZ_Mayu_FM.png",
+              "damage": "0 + 1000 + 250 x 18 + 1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "1",
+                "active": "1",
+                "recovery": "16",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "At close range, Mayu immediately attempts the throw during superflash. A great wakeup option against opponents who crowd too close, and can be whiff-canceled from most normals. Learning to cover the \"9\" direction during pressure makes this super extremely effective."
+            },
+            {
+              "version": "Far Range",
+              "image": "https://wiki.gbl.gg/images/5/5e/MayuFM.png",
+              "damage": "0 + 1000 + 250 x 18 + 1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "23",
+                "active": "12",
+                "recovery": "18",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "At longer range, Mayu takes a slow leap forward 1/3 of the screen before attempting the throw. More risky due to the startup, but extends the range of the Final Memory significantly."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

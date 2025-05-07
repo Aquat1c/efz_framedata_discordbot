@@ -1,0 +1,1040 @@
+{
+  "name": "Misaki Kawana",
+  "icon": "https://wiki.gbl.gg/images/4/4a/EFZ_Misaki_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/db/Misaki5a.png/175px-Misaki5a.png",
+          "damage": "210",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "1",
+            "recovery": "7",
+            "advHit": "+6.66",
+            "advBlock": "+5.66",
+            "cancel": "N SP J IC ※"
+          },
+          "properties": [
+            "Misaki does a backhand swipe. A decent pressure tool and a workable anti-air that can't be air blocked. This move has incredible frame advantage, although it ※cannot chain into itself or 2A. Linking into 2A is not too hard, although linking into 5A is subframe-perfect and cannot be done on EfzRevival, which only accepts inputs on full frames. Tends to whiff on crouchers."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/9/9a/Misakic5b.png",
+          "damage": "420",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "1",
+            "recovery": "10",
+            "advHit": "+6",
+            "advBlock": "+4",
+            "cancel": "N SP J IC f5B"
+          },
+          "properties": [
+            "Misaki swings her back arm forward in a standing uppercut. Another decent move in Misaki's arsenal with frame advantage that sees its use as both a combo tool and clutch anti-air. Though it has its occasional use in normal ground strings, most of its combo use is either to relaunch during an air combo with 5C in the corner, or to relaunch midscreen by itself. Its range makes it fairly difficult to combo into without a Blue IC, so your timing with it will be tight. Using it as an anti-air combo starter is also somewhat risky because of the range, but it cannot be air blocked, so if somebody tries an empty jump or does something stupid, this will net you a free 3000+ damage. Be careful with this move, though, because there is gap between the distances where c.B and f.B will activate, where both of them will miss."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/22/Misakif5b.png/175px-Misakif5b.png",
+          "damage": "500 / 450※",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11",
+            "active": "2 + 2",
+            "recovery": "13",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "N SP IC"
+          },
+          "properties": [
+            "Misaki swipes her hand down with a gush of wind. Great for long range poking due to its disjointed hitbox, though it will whiff on close opponents. Cannot be jump cancelled, so in order to combo as an anti-air you'll need to use 2C. ※The second hitbox deals slightly less damage.",
+            "Misaki swipes her hand down with a gush of wind. Great for long range poking due to its disjointed hitbox, though it will whiff on close opponents.",
+            "Cannot be jump cancelled, so in order to combo as an anti-air you'll need to use 2C."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/00/Misaki5c.png/175px-Misaki5c.png",
+          "damage": "670",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "12",
+            "active": "6",
+            "recovery": "29",
+            "advHit": "/",
+            "advBlock": "-13",
+            "cancel": "SP JH IC"
+          },
+          "properties": [
+            "Misaki bursts waves of wind all around her. The pride of hitboxes everywhere, the size of this move is astounding. Misaki will surround herself in a small hurricane of gusts that will knock down anybody who gets hit by this move. Furthermore, it's got Guard Point and an above average active window, so this move will catch people unaware. However, it's also pretty risky to use. It has a slow startup and the Guard Point doesn't start frame 1. It can be airblocked unlike most of Misaki's grounded normals. And even though it looks like the hitbox lingers excessively, it's incredibly unsafe on block (it can only be jump cancelled on hit as well). This move has its use mainly in corner loops and combos, but it can still be a strong anti air if you know the opponent is going to go for a jump in. Otherwise, save it for combos unless you can reliably counter Recoil Guard."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/7/7b/Misaki2a.png",
+          "damage": "230",
+          "framedata": {
+            "guard": "Low",
+            "startup": "5",
+            "active": "5",
+            "recovery": "3",
+            "advHit": "+3",
+            "advBlock": "+2",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Misaki sticks out her arm in a palm, in what looks like a cute little jab. Easily one of Misaki's best moves. Although the range isn't the best, it's Misaki's fastest normal, an amazing pressure tool that hits low, has decent frame advantage, and cancels into itself and everything else. You'll see this move used a lot in both pressure strings, in tick throw setups, and as combo starters."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/36/Misaki2b.png/175px-Misaki2b.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Low",
+            "startup": "7",
+            "active": "4",
+            "recovery": "10",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP J IC f5B"
+          },
+          "properties": [
+            "Misaki does a crouching kick. Yet another good poke. This is slightly slower than Misaki's 2A, but it still has minimal frame advantage, hits with a little more range and still combos nicely into her f.B. It can be comboed into after her A attacks or even after a j.B or j.C when the opponent is grounded, and forgoing the 2A on landing will increase your damage output for relatively little risk if you hit confirm your jump in. Additionally, this move is a universal OTG relauncher after an A Down Burst, so you can get some extra damage afterwards if you don't have the meter for another Down Burst, you just want to end the combo near the ground, or you're not comfortable trying to OTG with a 66A."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e3/Misaki2c.png/175px-Misaki2c.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Low",
+            "startup": "10",
+            "active": "12",
+            "recovery": "16",
+            "advHit": "/",
+            "advBlock": "-6",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Misaki slides forward with a floor hugging kick. Misaki's sweep in an ode to both Bison and Slayer, this move, along with B Assault Gush is what will turn your ground strings into Misaki's true damage potential. The hitbox on this move lingers twice as long as her other non-dashing, grounded normals, and it is comboed into from nearly all of them. IC'ing it from anywhere, whether your IC is Blue or Red, will still yield damage ranging exceeding 3000 on red, and hitting even as high as the 9000s when you have full meter and have the opponent cornered. Don't throw this out wildly, though. It's unsafe on block, is slow to start, and cannot be jump cancelled under any circumstances. It can still be special cancelled though, so a Half Gush for pressure on block will help make it safe unless RG'd, which must be counter RG'd in response."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/3/3d/Misakij5a.png",
+          "damage": "240",
+          "framedata": {
+            "guard": "High",
+            "startup": "6 / 6.33",
+            "active": "10 / 9.66",
+            "recovery": "8",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "Misaki sticks out her foot at a downwards angle. Like most j.A's it can be airdash cancelled or chained into any air normal (including itself). The move is also very active, working as a very good catch for people below you, or as a great, meaty overhead on oki."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/25/Misakij5b.png/175px-Misakij5b.png",
+          "damage": "420",
+          "framedata": {
+            "guard": "High",
+            "startup": "8",
+            "active": "4",
+            "recovery": "17",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Misaki swipes her arm downwards in a sweeping motion. The staple move of both air combat and Misaki's air loop, j.B has a great horizontal hitbox that hits below her on both sides. Airdash cancelling it is essential, since it leads into a continuation of her air combos, and can be used for addtional pressure or mixups when guarded. You will use this move a lot, as it's probably her best jumping normal, which really says something. If you use this on Oki, you can airdash over an opponent as they get up and use it as a crossup attempt, since its hitbox is so wide. One thing to note, however, is that even though there's a wave of air above Misaki, this move seems to have no hitbox above her, so be extremely cautious in air-to-air when the opponent is above you."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a0/Misakij5c.png/175px-Misakij5c.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "High",
+            "startup": "9",
+            "active": "11",
+            "recovery": "12",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Misaki kicks both feet out into a powerful horizontal blow in front of her. Used mostly near or in the corner for combos or for an aerial GTFO, this move has massive blowback on hit. It's active for longer than her other two aerials and does the most damage, with a slightly slower startup. Because of its proration, using it in corner combos is generally best when you don't wish to use meter, and might opt for j.C 66 j.B j.C instead of normally starting from a j.B. You'll also get this if you go for an air throw and miss, and this move's hitbox and damage are not a bad alternative for opponents who tech into it. Overall, it's a good move along with her other two jumping normals."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/74/Misaki66a.png/175px-Misaki66a.png",
+          "damage": "250",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "1",
+            "recovery": "7",
+            "advHit": "+6",
+            "advBlock": "+5",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Misaki dashes forward and does the same swipe as she does in her 5A with slightly higher damage. One of Misaki's many great normals. This move is a staple combo tool used to continue after an IC'd 2C or Assault Gush, since it links into her c5B, which then leads into her staple j.B loop. It also works after nearly any air string, B Hyper Accel (if they're close enough to the corner), B Half Gush, and Reverse Air Raid, though its vertical hitbox is small, so you'll need to time it properly. Furthermore, it can even be used to OTG into a followup after a low or Tiger Knee'd Down Burst. Has the same frame advantage on block as 5A."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f4/Misaki66b.png/175px-Misaki66b.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11",
+            "active": "3",
+            "recovery": "9",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Misaki dashes into the same animation as her f.B. The same problem arises as Misaki's f.B in terms of the move's whiffing when you get in too close, so be careful with this move. It's best used as a dashing punish against people in the air, since you won't be able to cancel it into anything except one of Misaki's specials. Assault Gush might work if you land it on a grounded opponent, while Half Gush can be used for additional pressure or pushback if blocked. It's safe if blocked however (+3), so feel free to go for the punish if you see the opportunity."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c4/Misaki66c.png/175px-Misaki66c.png",
+          "damage": "750",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "17",
+            "active": "10",
+            "recovery": "22",
+            "advHit": "/",
+            "advBlock": "-10",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Misaki dashes into a far reaching Donkey Kick. This great range move is an excellent combo starter and catcher for people trying to jump out if you you can successfully predict it. It's granted a generous amount of guard point. This move causes wallbounce if it hits a grounded opponent along with excessive hitstun, allowing for a decent B Hyper Accel Loop if you catch them while you're deep in the corner. Doing it from further out or midscreen will generally lead to weaker followups if you go for j.B loop, but B Hyper Accel Loop will still work at certain distances. Landing it against an aerial opponent will knock them down and lead to less hitstun, so you can follow up with an IC'd B Assault Gush, or even a tight Half Gush if you can time it properly. Don't get too happy with this move, as -10 on block will force you to use it carefully."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/c/c0/Misaki662a.png",
+          "damage": "300",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "8",
+            "recovery": "3",
+            "advHit": "0",
+            "advBlock": "-1",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Misaki dashes forwards, and crouches into her 2A with some more damage than before. This move doesn't seem to be used as often, due to the lack of its cancel properties, its slower startup than 2A, and its loss of frame advantage. That said, it prorates less than most of her other moves and can be linked into her faster normals, so it may have use as a punisher."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/8b/Misaki662b.png/175px-Misaki662b.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Low",
+            "startup": "7",
+            "active": "4",
+            "recovery": "9",
+            "advHit": "/",
+            "advBlock": "+2",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Misaki dashes into the same animation as her 2B. This move trips the opponent if it hits, leading into B Assault Gush, which can be IC'd for decent damage on Red or Blue IC. It also leads into A and C Hyper Accel (A is relatively easy, C version is a very tight hitconfirm), which ends up being difficult to follow up if you've opted to use RF meter. Its frame advantage and low property makes it an good pressure tool, and the ability to combo into B Assault Gush is nice. When Misaki is able to build up a little guard meter on the opponent, she will be able to combo a raw 662B into 5B, leading to her natural BnB for very good damage."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0e/Misaki662c.png/175px-Misaki662c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "14",
+            "active": "10",
+            "recovery": "13",
+            "advHit": "/",
+            "advBlock": "-4",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Misaki lunges forwards into a larger version of her j.C. A ground normal that goes airborne, leaping over low hitting moves and having guard point. This move knocks down on hit with some pretty intensive blowback that can be linked into a 2A in the corner, but IC'ing it can lead to a more vicious corner loop or Hyper Accel loop. Although this move looks like an overhead, it is very much a mid that can also be airblocked. The frame advantage on block is not bad, but Misaki usually prefers plus options over safe ones."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/8/82/EFZ_Misaki_Kawana_GroundGrab.png/175px-EFZ_Misaki_Kawana_GroundGrab.png",
+          "damage": "1250",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "0.66",
+            "recovery": "23",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Misaki jerkily lifts the opponent with one hand and slams them into the ground."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1250",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Misaki jerkily lifts the opponent with one hand and slams them into the ground."
+            },
+            {
+              "version": "B",
+              "damage": "1250",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Misaki jerkily lifts the opponent with one hand and slams them into the ground."
+            },
+            {
+              "version": "C",
+              "damage": "1250",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Misaki jerkily lifts the opponent with one hand and slams them into the ground."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/c/ce/EFZ_MisakiAirGrab.png/175px-EFZ_MisakiAirGrab.png",
+          "damage": "1300",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Misaki tosses the opponent above and behind her."
+          ]
+        },
+        {
+          "moveName": "Half Gush  ハーフガッシュ",
+          "input": "C (active frame 2)",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e5/EFZ_Misaki_236A.gif/175px-EFZ_Misaki_236A.gif",
+          "damage": "650",
+          "framedata": {
+            "guard": "Any",
+            "startup": "20",
+            "active": "34※",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "+9",
+            "cancel": "/"
+          },
+          "properties": [
+            "A very active projectile that provides great frame advantage when blocked. It travels about a quarter of the screen, having less range than even some normals. A good tool for combos due to its launch. Also useful for pressure, but Misaki needs to scare her opponent into blocking as it's much easier to jump over than its appearance would suggest. Misaki gets a full combo on counterhit, but without it (or some guard gauge) she needs FIC to convert. Hitbox size slightly changes many times throughout the projectile's lifespan. FIC timing is on frames 14-16. ※ Projectile goes inactive if Misaki is hit.",
+            "Slower startup and recovery than the A version, but sports a guard point during startup, and about double the range. Has substantially longer hitstun, letting Misaki meterlessly combo out of this whether it hits point blank or half screen away. The range and combo-starting ability make this version preferred as a projectile in neutral, and Misaki can FIC to anti-air opponents jumping over it. Hitbox size slightly changes many times throughout the projectile's lifespan. FIC timing is on frames 17-20. ※ Projectile goes inactive if Misaki is hit.",
+            "Comes out very fast compared to the other versions and is made up of 5 short-lasting projectiles that appear farther down the screen over time. The positioning of the second projectile is pictured. Misaki can meterlessly combo off of the later projectiles but not the first, since the recovery is longer. Hitboxes are fairly taller than the normal versions. A gimmicky use of RF since it offers little if RG'd by the opponent. Should they block normally, they can be pushed back into the other projectiles, keeping them in blockstun. However, the opponent will need to miss multiple RG opportunities for Misaki to start running a mixup off of this without wasting her BIC on an FIC. Additionally, if used near the corner then the projectiles will start going offscreen and being wasted. Not a terrible move, but there's not really a situation where the investment is warranted. Projectiles come out on a 20 frame interval. FIC timing is on frames 7-10. Unlike the other versions, the projectiles do not go inactive when Misaki is hit.",
+            "A very active projectile that provides great frame advantage when blocked. It travels about a quarter of the screen, having less range than even some normals.",
+            "A good tool for combos due to its launch. Also useful for pressure, but Misaki needs to scare her opponent into blocking as it's much easier to jump over than its appearance would suggest.",
+            "Misaki gets a full combo on counterhit, but without it (or some guard gauge) she needs FIC to convert.",
+            "Hitbox size slightly changes many times throughout the projectile's lifespan.",
+            "FIC timing is on frames 14-16.",
+            "Slower startup and recovery than the A version, but sports a guard point during startup, and about double the range.",
+            "Has substantially longer hitstun, letting Misaki meterlessly combo out of this whether it hits point blank or half screen away.",
+            "The range and combo-starting ability make this version preferred as a projectile in neutral, and Misaki can FIC to anti-air opponents jumping over it.",
+            "FIC timing is on frames 17-20.",
+            "Comes out very fast compared to the other versions and is made up of 5 short-lasting projectiles that appear farther down the screen over time. The positioning of the second projectile is pictured.",
+            "Misaki can meterlessly combo off of the later projectiles but not the first, since the recovery is longer.",
+            "Hitboxes are fairly taller than the normal versions.",
+            "A gimmicky use of RF since it offers little if RG'd by the opponent. Should they block normally, they can be pushed back into the other projectiles, keeping them in blockstun. However, the opponent will need to miss multiple RG opportunities for Misaki to start running a mixup off of this without wasting her BIC on an FIC. Additionally, if used near the corner then the projectiles will start going offscreen and being wasted. Not a terrible move, but there's not really a situation where the investment is warranted.",
+            "Projectiles come out on a 20 frame interval.",
+            "FIC timing is on frames 7-10.",
+            "Unlike the other versions, the projectiles do not go inactive when Misaki is hit."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "34※",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+9",
+                "cancel": "/"
+              },
+              "notes": "A very active projectile that provides great frame advantage when blocked. It travels about a quarter of the screen, having less range than even some normals. A good tool for combos due to its launch. Also useful for pressure, but Misaki needs to scare her opponent into blocking as it's much easier to jump over than its appearance would suggest. Misaki gets a full combo on counterhit, but without it (or some guard gauge) she needs FIC to convert. Hitbox size slightly changes many times throughout the projectile's lifespan. FIC timing is on frames 14-16. ※ Projectile goes inactive if Misaki is hit."
+            },
+            {
+              "version": "Misaki",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "20※",
+                "active": "/",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "A very active projectile that provides great frame advantage when blocked. It travels about a quarter of the screen, having less range than even some normals. A good tool for combos due to its launch. Also useful for pressure, but Misaki needs to scare her opponent into blocking as it's much easier to jump over than its appearance would suggest. Misaki gets a full combo on counterhit, but without it (or some guard gauge) she needs FIC to convert. Hitbox size slightly changes many times throughout the projectile's lifespan. FIC timing is on frames 14-16. ※ Projectile goes inactive if Misaki is hit."
+            },
+            {
+              "version": "B",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "25",
+                "active": "40※",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+2",
+                "cancel": "/"
+              },
+              "notes": "A very active projectile that provides great frame advantage when blocked. It travels about a quarter of the screen, having less range than even some normals. A good tool for combos due to its launch. Also useful for pressure, but Misaki needs to scare her opponent into blocking as it's much easier to jump over than its appearance would suggest. Misaki gets a full combo on counterhit, but without it (or some guard gauge) she needs FIC to convert. Hitbox size slightly changes many times throughout the projectile's lifespan. FIC timing is on frames 14-16. ※ Projectile goes inactive if Misaki is hit."
+            },
+            {
+              "version": "Misaki",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "25※",
+                "active": "/",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "A very active projectile that provides great frame advantage when blocked. It travels about a quarter of the screen, having less range than even some normals. A good tool for combos due to its launch. Also useful for pressure, but Misaki needs to scare her opponent into blocking as it's much easier to jump over than its appearance would suggest. Misaki gets a full combo on counterhit, but without it (or some guard gauge) she needs FIC to convert. Hitbox size slightly changes many times throughout the projectile's lifespan. FIC timing is on frames 14-16. ※ Projectile goes inactive if Misaki is hit."
+            },
+            {
+              "version": "C",
+              "damage": "600 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "5 x 5",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-14.33 ~ +67.33",
+                "cancel": "/"
+              },
+              "notes": "A very active projectile that provides great frame advantage when blocked. It travels about a quarter of the screen, having less range than even some normals. A good tool for combos due to its launch. Also useful for pressure, but Misaki needs to scare her opponent into blocking as it's much easier to jump over than its appearance would suggest. Misaki gets a full combo on counterhit, but without it (or some guard gauge) she needs FIC to convert. Hitbox size slightly changes many times throughout the projectile's lifespan. FIC timing is on frames 14-16. ※ Projectile goes inactive if Misaki is hit."
+            },
+            {
+              "version": "Misaki",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "5.33",
+                "active": "/",
+                "recovery": "39.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "A very active projectile that provides great frame advantage when blocked. It travels about a quarter of the screen, having less range than even some normals. A good tool for combos due to its launch. Also useful for pressure, but Misaki needs to scare her opponent into blocking as it's much easier to jump over than its appearance would suggest. Misaki gets a full combo on counterhit, but without it (or some guard gauge) she needs FIC to convert. Hitbox size slightly changes many times throughout the projectile's lifespan. FIC timing is on frames 14-16. ※ Projectile goes inactive if Misaki is hit."
+            }
+          ]
+        },
+        {
+          "moveName": "Hyper Accel  ハイパーアクセル",
+          "input": "623C",
+          "image": "https://wiki.gbl.gg/images/thumb/6/65/EFZ_Misaki_623AB_2.png/175px-EFZ_Misaki_623AB_2.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "12",
+            "active": "12",
+            "recovery": "22",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Misaki leaps up and hurls the opponent behind her if she catches them. May be used as a combo ender, but the sideswitch may be inconvenient. Provides Misaki with good oki midscreen, and can be comboed after with IC if the opponent is thrown into the corner. Still not nearly as appealing as 623B, but the faster startup makes this version a bit more consistent as an anti-air. ※ Once Misaki leaves the ground (frame 6), she will alternate between full invulnerability and high invulnerability every 3 frames. (Ex: full invuln 6-8, high invuln 9-11, etc. until high invuln 21-23)",
+            "Similar to the A version, except Misaki flings the opponent very high into the air. Slower than the A version, but Misaki can combo after from anywhere on the screen and without needing IC, making this version great in combos and much more rewarding in neutral. ※2 Once Misaki leaves the ground (frame 10), she will alternate between full invulnerability and high invulnerability every 3 frames. The last high invincible state is only 2 frames as Misaki enters recovery partway through. (Ex: full invuln 10-12, high invuln 13-15, etc. until high invuln 31-32)",
+            "Misaki doesn't jump in this version, and on hit she repeatedly slams the opponent into the ground before smacking them into the air. The superior speed and invincibility combine to give Misaki an amazing response after RGing a jump in, as the opponent can't counter RG a throw. Even if it trades, Misaki sometimes still gets a combo. Not useful in neutral or combos like the other versions due to poor range and active frames. ※3 This move will not be able to hit if the opponent isn't airborne when the active frames start. For example, if Nayuki does her 623B and jumps into the throw after it has become active, even though the throw is still active and she is not throw invulnerable, the move will whiff.",
+            "May be used as a combo ender, but the sideswitch may be inconvenient.",
+            "Provides Misaki with good oki midscreen, and can be comboed after with IC if the opponent is thrown into the corner. Still not nearly as appealing as 623B, but the faster startup makes this version a bit more consistent as an anti-air.",
+            "Slower than the A version, but Misaki can combo after from anywhere on the screen and without needing IC, making this version great in combos and much more rewarding in neutral.",
+            "The superior speed and invincibility combine to give Misaki an amazing response after RGing a jump in, as the opponent can't counter RG a throw. Even if it trades, Misaki sometimes still gets a combo.",
+            "Not useful in neutral or combos like the other versions due to poor range and active frames."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "800",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "12",
+                "active": "12",
+                "recovery": "22",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misaki leaps up and hurls the opponent behind her if she catches them. May be used as a combo ender, but the sideswitch may be inconvenient. Provides Misaki with good oki midscreen, and can be comboed after with IC if the opponent is thrown into the corner. Still not nearly as appealing as 623B, but the faster startup makes this version a bit more consistent as an anti-air. ※ Once Misaki leaves the ground (frame 6), she will alternate between full invulnerability and high invulnerability every 3 frames. (Ex: full invuln 6-8, high invuln 9-11, etc. until high invuln 21-23)"
+            },
+            {
+              "version": "B",
+              "damage": "650",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "16",
+                "active": "17",
+                "recovery": "29",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misaki leaps up and hurls the opponent behind her if she catches them. May be used as a combo ender, but the sideswitch may be inconvenient. Provides Misaki with good oki midscreen, and can be comboed after with IC if the opponent is thrown into the corner. Still not nearly as appealing as 623B, but the faster startup makes this version a bit more consistent as an anti-air. ※ Once Misaki leaves the ground (frame 6), she will alternate between full invulnerability and high invulnerability every 3 frames. (Ex: full invuln 6-8, high invuln 9-11, etc. until high invuln 21-23)"
+            },
+            {
+              "version": "C",
+              "damage": "1400",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "8",
+                "active": "2※3",
+                "recovery": "24",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misaki leaps up and hurls the opponent behind her if she catches them. May be used as a combo ender, but the sideswitch may be inconvenient. Provides Misaki with good oki midscreen, and can be comboed after with IC if the opponent is thrown into the corner. Still not nearly as appealing as 623B, but the faster startup makes this version a bit more consistent as an anti-air. ※ Once Misaki leaves the ground (frame 6), she will alternate between full invulnerability and high invulnerability every 3 frames. (Ex: full invuln 6-8, high invuln 9-11, etc. until high invuln 21-23)"
+            }
+          ]
+        },
+        {
+          "moveName": "Assault Gush  アサルトガッシュ",
+          "input": "214C",
+          "image": "https://wiki.gbl.gg/images/thumb/8/86/EFZ_Misaki_214A.png/175px-EFZ_Misaki_214A.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "31",
+            "active": "5",
+            "recovery": "23",
+            "advHit": "+6.66",
+            "advBlock": "+4.66",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Misaki will go a set distance before performing an animation similar to her j.B, complete with the same wonderful width in its hitbox. It can lead into a combo, and is safe on block (~+5), and on oki, it works very well as a crossup due to the delay. Even though this move can't be reliably comboed into, and its cross up option is worthless in the corner, what makes this move great is both its ability to be comboed out of extremely easily, and the tick throw and pressure setups you get when it's blocked.",
+            "What makes the standing B version great is combo-ability, its startup, its active window, and its minor invincibility. This move combos from Misaki's sweep and most of her normals, so it's decent damage although you'll sacrifice knockdown without meter. If you IC it, you can get massive damage with or without meter. If you land it late, you can link it into 2A or 5A on landing. Next, it is tied for the fastest grounded version of this move with 214C. Following, its hitbox stays out for a good amount of time. And lastly, it has great lower body invincibility, so it'll plow through poorly executed lows.",
+            "This is one of your best reversal options period. Decent startup, knockdown on hit, and great invincibility, this move will plow through absolutely anything your opponent attempts to pressure you with on oki, rushdown or otherwise. Furthermore, it's active for nearly half a second, goes airborne, and the followup will definitely turn the tables for you. But as with all reasonable reversals, this move is also incredibly unsafe on block, so don't get predictable, especially if your RF meter has just gone red. If your RF meter is light blue, you can IC it to make it safe or lead to followups, though that's a hit or miss because even though the prorate on this move is extremely light, burning that much meter to make it safe might not be worth the attempt. Second hit only comes out if the first hit connects, hit or block.",
+            "The same animation as her standing A version, except this time Misaki's swipe is an overhead that causes knockdown. It will still cross up the same as the standing A version along with a better startup speed and active window, but because of the knockdown, it won't lead to much of anything. As the only off the ground overhead in your arsenal, you'll need to mix this in with the other versions due to its startup. Relying solely on it will become extremely predictable and unsafe.",
+            "Looks and acts nearly the same as the Standing B Version, but with one major difference and a few minor ones. It's good if you've comboed the opponent into the corner and want to Blue IC into Misaki's Down Burst loop. Tiger Kneeing this move on an opponent waking up midscreen can lead to a crossup hit, and can be ICed for a full combo. However, it can whiff on small crouchers, so you'll need to rely on forcing them to block high with the Aerial A Overhead Version. Used in conjunction with other versions of this move, this will quickly scare opponents into wondering exactly how they need to block or even try to execute a reversal.",
+            "Used best as a combo ender if you didn't IC to start the combo, or managed to keep it going long enough to build up enough meter to get it back to red before the combo ended. This move lacks the invincibility of its ground counterpart, but starts immediately, so no matter how little hitstun the opponent has left, you're pretty much guaranteed your last punch of damage and knockdown if you cancel your last normal into this."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "31",
+                "active": "5",
+                "recovery": "23",
+                "advHit": "+6.66",
+                "advBlock": "+4.66",
+                "cancel": "IC"
+              },
+              "notes": "Misaki will go a set distance before performing an animation similar to her j.B, complete with the same wonderful width in its hitbox. It can lead into a combo, and is safe on block (~+5), and on oki, it works very well as a crossup due to the delay. Even though this move can't be reliably comboed into, and its cross up option is worthless in the corner, what makes this move great is both its ability to be comboed out of extremely easily, and the tick throw and pressure setups you get when it's blocked."
+            },
+            {
+              "version": "B",
+              "damage": "580",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "14",
+                "recovery": "32",
+                "advHit": "/",
+                "advBlock": "-24",
+                "cancel": "IC"
+              },
+              "notes": "Misaki will go a set distance before performing an animation similar to her j.B, complete with the same wonderful width in its hitbox. It can lead into a combo, and is safe on block (~+5), and on oki, it works very well as a crossup due to the delay. Even though this move can't be reliably comboed into, and its cross up option is worthless in the corner, what makes this move great is both its ability to be comboed out of extremely easily, and the tick throw and pressure setups you get when it's blocked."
+            },
+            {
+              "version": "C",
+              "damage": "200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "30",
+                "recovery": "Until landing + 32.33",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misaki will go a set distance before performing an animation similar to her j.B, complete with the same wonderful width in its hitbox. It can lead into a combo, and is safe on block (~+5), and on oki, it works very well as a crossup due to the delay. Even though this move can't be reliably comboed into, and its cross up option is worthless in the corner, what makes this move great is both its ability to be comboed out of extremely easily, and the tick throw and pressure setups you get when it's blocked."
+            },
+            {
+              "version": "-",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "42",
+                "active": "3",
+                "recovery": "48",
+                "advHit": "/",
+                "advBlock": "-29",
+                "cancel": "IC"
+              },
+              "notes": "Misaki will go a set distance before performing an animation similar to her j.B, complete with the same wonderful width in its hitbox. It can lead into a combo, and is safe on block (~+5), and on oki, it works very well as a crossup due to the delay. Even though this move can't be reliably comboed into, and its cross up option is worthless in the corner, what makes this move great is both its ability to be comboed out of extremely easily, and the tick throw and pressure setups you get when it's blocked."
+            },
+            {
+              "version": "jA",
+              "damage": "-",
+              "framedata": {
+                "guard": "High",
+                "startup": "29",
+                "active": "10",
+                "recovery": "Until landing + 6.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misaki will go a set distance before performing an animation similar to her j.B, complete with the same wonderful width in its hitbox. It can lead into a combo, and is safe on block (~+5), and on oki, it works very well as a crossup due to the delay. Even though this move can't be reliably comboed into, and its cross up option is worthless in the corner, what makes this move great is both its ability to be comboed out of extremely easily, and the tick throw and pressure setups you get when it's blocked."
+            },
+            {
+              "version": "jB",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "28",
+                "recovery": "Until landing + 6.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misaki will go a set distance before performing an animation similar to her j.B, complete with the same wonderful width in its hitbox. It can lead into a combo, and is safe on block (~+5), and on oki, it works very well as a crossup due to the delay. Even though this move can't be reliably comboed into, and its cross up option is worthless in the corner, what makes this move great is both its ability to be comboed out of extremely easily, and the tick throw and pressure setups you get when it's blocked."
+            },
+            {
+              "version": "jC",
+              "damage": "200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "0.33",
+                "active": "29",
+                "recovery": "Until landing + 6.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misaki will go a set distance before performing an animation similar to her j.B, complete with the same wonderful width in its hitbox. It can lead into a combo, and is safe on block (~+5), and on oki, it works very well as a crossup due to the delay. Even though this move can't be reliably comboed into, and its cross up option is worthless in the corner, what makes this move great is both its ability to be comboed out of extremely easily, and the tick throw and pressure setups you get when it's blocked."
+            },
+            {
+              "version": "-",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "44",
+                "active": "2.66",
+                "recovery": "Until landing + 6.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misaki will go a set distance before performing an animation similar to her j.B, complete with the same wonderful width in its hitbox. It can lead into a combo, and is safe on block (~+5), and on oki, it works very well as a crossup due to the delay. Even though this move can't be reliably comboed into, and its cross up option is worthless in the corner, what makes this move great is both its ability to be comboed out of extremely easily, and the tick throw and pressure setups you get when it's blocked."
+            }
+          ]
+        },
+        {
+          "moveName": "Reverse Air Raid  リバースエアレイド",
+          "input": "B",
+          "image": "https://wiki.gbl.gg/images/8/85/Misaki22.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "6",
+            "active": "18",
+            "recovery": "10",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Misaki steps backwards slightly and places both hands out in a catching motion. If the opponent's move is caught, Misaki will kick them high up in an untechable state, allowing her to easily start a combo. The B version has a slightly larger hurtbox to counter from farther away with, but also has slightly more recovery than the A version. This move has some crippling setbacks. First, neither version can catch low attacks; this move will only work against mids and overheads, not lows, throws, or projectiles. Second, some characters can IC and block on reaction to being countered, and it can be safejumped, or even just whiff! Third, this move has relatively slow startup for a counter, and cannot be used as a wakeup reversal. Use this intelligently, or maybe just don't use it... Misaki is thankfully invulnerable for the entire counter animation should the opponent not get hit. Since Misaki's collision box steps back with her, throws can sometimes whiff against this move. Sadly, most throws will have the opponent recover before Misaki.",
+            "Misaki steps backwards slightly and places both hands out in a catching motion. If the opponent's move is caught, Misaki will kick them high up in an untechable state, allowing her to easily start a combo.",
+            "The B version has a slightly larger hurtbox to counter from farther away with, but also has slightly more recovery than the A version.",
+            "This move has some crippling setbacks. First, neither version can catch low attacks; this move will only work against mids and overheads, not lows, throws, or projectiles. Second, some characters can IC and block on reaction to being countered, and it can be safejumped, or even just whiff! Third, this move has relatively slow startup for a counter, and cannot be used as a wakeup reversal. Use this intelligently, or maybe just don't use it...",
+            "Misaki is thankfully invulnerable for the entire counter animation should the opponent not get hit.",
+            "Since Misaki's collision box steps back with her, throws can sometimes whiff against this move. Sadly, most throws will have the opponent recover before Misaki."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "6",
+                "active": "18",
+                "recovery": "10",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Misaki steps backwards slightly and places both hands out in a catching motion. If the opponent's move is caught, Misaki will kick them high up in an untechable state, allowing her to easily start a combo. The B version has a slightly larger hurtbox to counter from farther away with, but also has slightly more recovery than the A version. This move has some crippling setbacks. First, neither version can catch low attacks; this move will only work against mids and overheads, not lows, throws, or projectiles. Second, some characters can IC and block on reaction to being countered, and it can be safejumped, or even just whiff! Third, this move has relatively slow startup for a counter, and cannot be used as a wakeup reversal. Use this intelligently, or maybe just don't use it... Misaki is thankfully invulnerable for the entire counter animation should the opponent not get hit. Since Misaki's collision box steps back with her, throws can sometimes whiff against this move. Sadly, most throws will have the opponent recover before Misaki."
+            },
+            {
+              "version": "B",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "6",
+                "active": "18",
+                "recovery": "12",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Misaki steps backwards slightly and places both hands out in a catching motion. If the opponent's move is caught, Misaki will kick them high up in an untechable state, allowing her to easily start a combo. The B version has a slightly larger hurtbox to counter from farther away with, but also has slightly more recovery than the A version. This move has some crippling setbacks. First, neither version can catch low attacks; this move will only work against mids and overheads, not lows, throws, or projectiles. Second, some characters can IC and block on reaction to being countered, and it can be safejumped, or even just whiff! Third, this move has relatively slow startup for a counter, and cannot be used as a wakeup reversal. Use this intelligently, or maybe just don't use it... Misaki is thankfully invulnerable for the entire counter animation should the opponent not get hit. Since Misaki's collision box steps back with her, throws can sometimes whiff against this move. Sadly, most throws will have the opponent recover before Misaki."
+            },
+            {
+              "version": "Activation",
+              "damage": "650",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6.33",
+                "active": "3",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-6",
+                "cancel": "IC"
+              },
+              "notes": "Misaki steps backwards slightly and places both hands out in a catching motion. If the opponent's move is caught, Misaki will kick them high up in an untechable state, allowing her to easily start a combo. The B version has a slightly larger hurtbox to counter from farther away with, but also has slightly more recovery than the A version. This move has some crippling setbacks. First, neither version can catch low attacks; this move will only work against mids and overheads, not lows, throws, or projectiles. Second, some characters can IC and block on reaction to being countered, and it can be safejumped, or even just whiff! Third, this move has relatively slow startup for a counter, and cannot be used as a wakeup reversal. Use this intelligently, or maybe just don't use it... Misaki is thankfully invulnerable for the entire counter animation should the opponent not get hit. Since Misaki's collision box steps back with her, throws can sometimes whiff against this move. Sadly, most throws will have the opponent recover before Misaki."
+            }
+          ]
+        },
+        {
+          "moveName": "High-Speed Lunch  ハイスピードランチ",
+          "input": "236236",
+          "image": "https://wiki.gbl.gg/images/thumb/6/69/EFZ_Misaki_236236.png/175px-EFZ_Misaki_236236.png",
+          "damage": "170 x 15",
+          "framedata": {
+            "guard": "Any",
+            "startup": "7",
+            "active": "79.66※",
+            "recovery": "40.33",
+            "advHit": "/",
+            "advBlock": "-100.66 ~ -21.33※2",
+            "cancel": "None"
+          },
+          "properties": [
+            "Has full invincibility during startup, but is a bad wakeup reversal due to whiffing on crouchers and not being cancellable. 214C is superior in this regard.",
+            "Has full invincibility during startup, but is a bad wakeup reversal due to whiffing on crouchers and not being cancellable. 214C is superior in this regard. The first plate is thrown in the final frame of superflash (but is not active until superflash ends), so the time between the first and second plate throws are only 5.33 frames.",
+            "The first plate is thrown in the final frame of superflash (but is not active until superflash ends), so the time between the first and second plate throws are only 5.33 frames."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "170 x 15",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7",
+                "active": "79.66※",
+                "recovery": "40.33",
+                "advHit": "/",
+                "advBlock": "-100.66 ~ -21.33※2",
+                "cancel": "None"
+              },
+              "notes": "Has full invincibility during startup, but is a bad wakeup reversal due to whiffing on crouchers and not being cancellable. 214C is superior in this regard."
+            },
+            {
+              "version": "B",
+              "damage": "170 x 21",
+              "framedata": {
+                "guard": "Any",
+                "startup": "5",
+                "active": "113.66※",
+                "recovery": "38.33",
+                "advHit": "/",
+                "advBlock": "-132.66 ~ -19.33※2",
+                "cancel": "None"
+              },
+              "notes": "Has full invincibility during startup, but is a bad wakeup reversal due to whiffing on crouchers and not being cancellable. 214C is superior in this regard."
+            },
+            {
+              "version": "C",
+              "damage": "170 x 30",
+              "framedata": {
+                "guard": "Any",
+                "startup": "3.33",
+                "active": "164.33※",
+                "recovery": "40.33",
+                "advHit": "/",
+                "advBlock": "-185.33 ~ -21.33※2",
+                "cancel": "None"
+              },
+              "notes": "Has full invincibility during startup, but is a bad wakeup reversal due to whiffing on crouchers and not being cancellable. 214C is superior in this regard."
+            }
+          ]
+        },
+        {
+          "moveName": "Down Burst  ダウンバースト",
+          "input": "Continuous hits at ground level",
+          "image": "https://wiki.gbl.gg/images/thumb/3/33/EFZ_Misaki_j236236A.png/175px-EFZ_Misaki_j236236A.png",
+          "damage": "0※ x N※2 + 260 x 9",
+          "framedata": {
+            "guard": "Any",
+            "startup": "20.33",
+            "active": "1.66 x N※2 + 6 x 8 + 5.33",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "/"
+          },
+          "properties": [
+            "This really is an excellent super. Used often in combos as it can be easily OTG'd after. Misaki will be +13.33 on block if this move is TK'd (done as early as possible from a jump) against a cornered opponent. ※ The non-damaging hits actually inflict 10 chip damage when blocked. They also prorate a combo by 1% on hit. ※2 The non-damaging hits will continue to appear below each other until they are close enough to the ground, at which time the grounded hits will begin.",
+            "Same as A version, but it lasts longer. This is the least used version, since the A version tends to be easier to OTG out of, and will combo back into itself for much higher damage at the same meter cost. This version still works for a lazy combo ender. Misaki will be +12.66 on block if this move is TK'd against a cornered opponent. ※3 After the grounded hits have begun, a second wave of non-damaging hits will occur, originating where the first one did.",
+            "Has invincible startup and lasts forever, continuing to hit even after Misaki has landed, leading to very easy combos after. Prorates a lot, though, so your combo after won't be long without BIC. When this move is used as a pressure tool in the corner, it almost completely locks the opponent down while doing around 1500 damage in chip and giving a free mixup after landing. Rare due to its meter cost, but should you choose to spend it is remarkable. Misaki will be +57.33 on block if this move is TK'd against a cornered opponent. ※4 After the grounded hits have begun, two more waves of non-damaging hits will occur, originating where the first one did.",
+            "This really is an excellent super. Used often in combos as it can be easily OTG'd after.",
+            "Misaki will be +13.33 on block if this move is TK'd (done as early as possible from a jump) against a cornered opponent.",
+            "Same as A version, but it lasts longer. This is the least used version, since the A version tends to be easier to OTG out of, and will combo back into itself for much higher damage at the same meter cost. This version still works for a lazy combo ender.",
+            "Misaki will be +12.66 on block if this move is TK'd against a cornered opponent.",
+            "Has invincible startup and lasts forever, continuing to hit even after Misaki has landed, leading to very easy combos after. Prorates a lot, though, so your combo after won't be long without BIC. When this move is used as a pressure tool in the corner, it almost completely locks the opponent down while doing around 1500 damage in chip and giving a free mixup after landing. Rare due to its meter cost, but should you choose to spend it is remarkable.",
+            "Misaki will be +57.33 on block if this move is TK'd against a cornered opponent."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0※ x N※2 + 260 x 9",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20.33",
+                "active": "1.66 x N※2 + 6 x 8 + 5.33",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "This really is an excellent super. Used often in combos as it can be easily OTG'd after. Misaki will be +13.33 on block if this move is TK'd (done as early as possible from a jump) against a cornered opponent. ※ The non-damaging hits actually inflict 10 chip damage when blocked. They also prorate a combo by 1% on hit. ※2 The non-damaging hits will continue to appear below each other until they are close enough to the ground, at which time the grounded hits will begin."
+            },
+            {
+              "version": "Misaki",
+              "damage": "100",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "3",
+                "recovery": "Until landing",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "This really is an excellent super. Used often in combos as it can be easily OTG'd after. Misaki will be +13.33 on block if this move is TK'd (done as early as possible from a jump) against a cornered opponent. ※ The non-damaging hits actually inflict 10 chip damage when blocked. They also prorate a combo by 1% on hit. ※2 The non-damaging hits will continue to appear below each other until they are close enough to the ground, at which time the grounded hits will begin."
+            },
+            {
+              "version": "B",
+              "damage": "0※ x N※2 x 2※3 + 200 x 16",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20.33",
+                "active": "1.66 x N※2 x 2※3 + 6 x 15 + 5.33",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "This really is an excellent super. Used often in combos as it can be easily OTG'd after. Misaki will be +13.33 on block if this move is TK'd (done as early as possible from a jump) against a cornered opponent. ※ The non-damaging hits actually inflict 10 chip damage when blocked. They also prorate a combo by 1% on hit. ※2 The non-damaging hits will continue to appear below each other until they are close enough to the ground, at which time the grounded hits will begin."
+            },
+            {
+              "version": "Misaki",
+              "damage": "100",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "3",
+                "recovery": "Until landing",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "This really is an excellent super. Used often in combos as it can be easily OTG'd after. Misaki will be +13.33 on block if this move is TK'd (done as early as possible from a jump) against a cornered opponent. ※ The non-damaging hits actually inflict 10 chip damage when blocked. They also prorate a combo by 1% on hit. ※2 The non-damaging hits will continue to appear below each other until they are close enough to the ground, at which time the grounded hits will begin."
+            },
+            {
+              "version": "C",
+              "damage": "0※ x N※2 x 3※4 + 180 x 29",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20.33",
+                "active": "1.66 x N※2 x 3※4 + 6 x 28 + 5.33",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "This really is an excellent super. Used often in combos as it can be easily OTG'd after. Misaki will be +13.33 on block if this move is TK'd (done as early as possible from a jump) against a cornered opponent. ※ The non-damaging hits actually inflict 10 chip damage when blocked. They also prorate a combo by 1% on hit. ※2 The non-damaging hits will continue to appear below each other until they are close enough to the ground, at which time the grounded hits will begin."
+            },
+            {
+              "version": "Misaki",
+              "damage": "100",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "3",
+                "recovery": "Until landing",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "This really is an excellent super. Used often in combos as it can be easily OTG'd after. Misaki will be +13.33 on block if this move is TK'd (done as early as possible from a jump) against a cornered opponent. ※ The non-damaging hits actually inflict 10 chip damage when blocked. They also prorate a combo by 1% on hit. ※2 The non-damaging hits will continue to appear below each other until they are close enough to the ground, at which time the grounded hits will begin."
+            }
+          ]
+        },
+        {
+          "moveName": "Turbulence  ターヴィランス",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1c/EFZ_Misaki_6321463214A.png/168px-EFZ_Misaki_6321463214A.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "7.33",
+            "active": "89.66",
+            "recovery": "35",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Can be used as a reversal, but the invincibility does not cover the whole startup and Misaki has more reliable options, making it fringe. Can be jumped out of post-flash, so don't use it in pressure.",
+            "Has the fastest startup and can't be jumped post-flash, making it the ideal version to use as an actual command throw. When used in the corner, the opponent will be slightly pulled out, letting Misaki threaten a left/right after. ※ Throws during superflash, but Misaki's invincibility expires one subframe before it connects. Misaki can get hit during this subframe of superflash vulnerability, so while it's great for beating abare, it's not a true reversal.",
+            "Looks super threatening and can throw grounded or aerial opponents but is much slower. Unless the opponent has already expended some air options while close to you, they can avoid it on reaction and punish every time by double jumping and airdashing to stall out the suction. This is just the universal answer, many characters have even better ways to stay in the air or interrupt Misaki. Pretty much a gimmick when considering the meter investment.",
+            "Has the fastest startup and can't be jumped post-flash, making it the ideal version to use as an actual command throw. When used in the corner, the opponent will be slightly pulled out, letting Misaki threaten a left/right after.",
+            "※ Throws during superflash, but Misaki's invincibility expires one subframe before it connects. Misaki can get hit during this subframe of superflash vulnerability, so while it's great for beating abare, it's not a true reversal."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "7.33",
+                "active": "89.66",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Can be used as a reversal, but the invincibility does not cover the whole startup and Misaki has more reliable options, making it fringe. Can be jumped out of post-flash, so don't use it in pressure."
+            },
+            {
+              "version": "B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6※",
+                "active": "89.66",
+                "recovery": "33",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Can be used as a reversal, but the invincibility does not cover the whole startup and Misaki has more reliable options, making it fringe. Can be jumped out of post-flash, so don't use it in pressure."
+            },
+            {
+              "version": "C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "17",
+                "active": "90",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Can be used as a reversal, but the invincibility does not cover the whole startup and Misaki has more reliable options, making it fringe. Can be jumped out of post-flash, so don't use it in pressure."
+            }
+          ]
+        },
+        {
+          "moveName": "High-End Crash  ハイエンドクラッシュ",
+          "input": "222S",
+          "image": "https://wiki.gbl.gg/images/3/37/EFZ_Misaki_FM.png",
+          "damage": "500 + 5100",
+          "framedata": {
+            "guard": "Unblockable",
+            "startup": "0.33",
+            "active": "40",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "A counter with instant startup, massive damage and, unlike Misaki's other counter, will catch low attacks. Unfortunately, this move suffers the same flaw as other counter supers: having a very obvious and reactable superflash that near ensures it will be punished if attempted in neutral. This move may be useful when RGing a multihit attack or reacting to an attack during FIC freeze. Using it as a reversal in read situations is ill-advised. The hitboxes are rather disappointing for a counter, and have an unfortunate capacity for whiffing, especially against crossups. Also, when hitting an extended hurtbox, the counter will do almost nothing, as over 90% of the damage is from the second hit, which has even worse range than the first. Even more disappointing is that this is the only counter in EFZ which is punishable on-trigger. If the first hit whiffs, Misaki will be vulnerable during the last 4 frames of her recovery, and if the first hit connects but the second misses, she will be vulnerable for all recovery frames and significantly minus, despite knocking the opponent down.",
+            "Unfortunately, this move suffers the same flaw as other counter supers: having a very obvious and reactable superflash that near ensures it will be punished if attempted in neutral.",
+            "This move may be useful when RGing a multihit attack or reacting to an attack during FIC freeze. Using it as a reversal in read situations is ill-advised.",
+            "The hitboxes are rather disappointing for a counter, and have an unfortunate capacity for whiffing, especially against crossups. Also, when hitting an extended hurtbox, the counter will do almost nothing, as over 90% of the damage is from the second hit, which has even worse range than the first.",
+            "Even more disappointing is that this is the only counter in EFZ which is punishable on-trigger. If the first hit whiffs, Misaki will be vulnerable during the last 4 frames of her recovery, and if the first hit connects but the second misses, she will be vulnerable for all recovery frames and significantly minus, despite knocking the opponent down."
+          ]
+        }
+      ]
+    }
+  ]
+}

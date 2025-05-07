@@ -1,0 +1,1471 @@
+{
+  "name": "Mishio Amano",
+  "icon": "https://wiki.gbl.gg/images/7/70/EFZ_Mishio_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c0/Mishio5a.png/175px-Mishio5a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Low or Air",
+            "startup": "6",
+            "active": "4",
+            "recovery": "11",
+            "advHit": "-1",
+            "advBlock": "-2",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "A quick poke to the shin. Very far range for a jab. Does not chain into itself and resembles more of a medium-strength attack. The disjointed hitbox can be great in Mishio's pokey corner lockdown."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b0/Mishioc5b.png/175px-Mishioc5b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6 / 6.33",
+            "active": "2 / 1.66",
+            "recovery": "14",
+            "advHit": "+1.33 / +1.66",
+            "advBlock": "-1.33 / -1",
+            "cancel": "N SP J IC f5B 2B"
+          },
+          "properties": [
+            "Mishio hammers down her spear. This move has an INSANE disjointed red wall of pain in front and diagonally above Mishio. Spaced correctly, this beats everything. Anti-airing with this is gives way too much reward for how common it is. That said, there is a blindspot right in front of Mishio's forehead. Doing this too close can whiff it on airborne opponents or someone doing a lower-body invul DP. This move starts up so fast and has so much untech time it airjuggles into itself. Looping this with 2B in the corner leads to her highest damage combos."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/77/Mishiof5b.png/175px-Mishiof5b.png",
+          "damage": "420",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "3",
+            "recovery": "17",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "N SP IC"
+          },
+          "properties": [
+            "Long range spear thrust. This is pretty much her signature move. The entire thrust INCLUDING HER HAND is a disjointed red hitbox. Stops most characters dead in their tracks trying to approach from the ground. In lightning mode this move becomes a very common combo starter. Short whiff animation makes this great to simply throw out there. However, it can be low profiled by certain slides which is basically the only thing of concern regarding this move."
+          ]
+        },
+        {
+          "moveName": "Advancing Thunder  駆雷",
+          "input": "6B",
+          "image": "https://wiki.gbl.gg/images/c/c3/EFZ_Mishio_Lightning_S.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "High",
+            "startup": "21",
+            "active": "7",
+            "recovery": "13",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Hop overhead. Low body invulnerability (along other hurtbox shenanigans) and non-existent recovery. It recovers so fast it can \"safejump\" some EX reversals or make them straight up whiff, such as Ayu's arrows. Hitting this meaty will enable combos without the use of IC. Can be cancelled into lightning j.236236 air super, leading into unblockable setups."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d4/Mishio5c.png/175px-Mishio5c.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9",
+            "active": "4",
+            "recovery": "25",
+            "advHit": "-2",
+            "advBlock": "-4",
+            "cancel": "SP J IC 6C"
+          },
+          "properties": [
+            "Short range upwards thrust. Short range horizontally, that is. Huge disjointed hitbox upwards makes this one of the best anti-airs in the game and leads into huge combos. This move is so good it can go as far as challenging Akiko's washing machine. Even trading with this is fine and still leads to the same combos as if jump cancelled. However, it is quite slow and has to be done early. Have no fear though, the quick recovery makes this fine to be whiffed against doublejump-baits and the like. Hitting a crouching opponent will force them into standing hitstun.",
+            "Hitting a crouching opponent will force them into standing hitstun."
+          ]
+        },
+        {
+          "moveName": "Blazing Delivery  焔送",
+          "input": "6C",
+          "image": "https://wiki.gbl.gg/images/0/0e/EFZ_Mishio_Fire_S.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "12",
+            "active": "2",
+            "recovery": "30",
+            "advHit": "/",
+            "advBlock": "-9",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "Spear uppercut. Straightforward launcher. The range and angle allow this to be used as an anti-air outside of 5C range. This easily whiffs when using too long strings to hitconfirm. Only useful on a close-up hitconfirm when comboing into super is not an option."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/76/Mishio2a.png/175px-Mishio2a.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "3",
+            "recovery": "9",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "A fast kick. Mashable, good for pressure. The short range and bad hurtbox compared to many other 2A of its kind makes it unreliable in RG battles. Can be used in character-specific airjuggles."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/db/Mishio2b.png/175px-Mishio2b.png",
+          "damage": "410",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "12",
+            "active": "2",
+            "recovery": "8",
+            "advHit": "+8",
+            "advBlock": "+6",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Spinning spear attack. This move is pretty slow, chaining into it after getting RG'd is asking to be punished. Despite being slow, it recovers extremely fast and is quite positive on block. Comes with some very decent range for the type of move it is. Covers the area directly above Mishio's head, can anti-air in certain situations but lacks the upwards reach to challenge most things. The quick recovery and huge untech-time make this part of her 5B 2B loop, leading to her most damaging corner juggles."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/91/Mishio2c.png/175px-Mishio2c.png",
+          "damage": "620",
+          "framedata": {
+            "guard": "Low",
+            "startup": "12",
+            "active": "2",
+            "recovery": "21",
+            "advHit": "/",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Long range spear sweep across the floor. The go-to normal after hitconfirming outside of lightning, this sweep will combo into elementless 623A and any fire super."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d0/Mishioj5a.png/175px-Mishioj5a.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "6",
+            "recovery": "11",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Fast downards stab. Similar to 5A, more resembling of a medium strength attack. The great untech time allow very delayed chains to jB to adjust juggle heights freely. A very strong jump-in for situations where you need speed over jC's hitbox. Useful for some basic high/low mixups, but very vulnerable to RG."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a3/Mishioj5b.png/175px-Mishioj5b.png",
+          "damage": "420",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "2",
+            "recovery": "21",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "f5B's aerial brother. GOD LANCE. Quick startup, short recovery, big disjointed range and enough untech time to confirm this into an airdash for a combo. This move is both used in neutral as a zoning tool to poke at opponents and deny air space as well as a combo staple. Because of how Mishio shortens her legs during this move, it will hit almost all the way to the ground before she actually lands. This prevents people from crouching under it and tripguarding Mishio."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a3/Mishioj5c.png/175px-Mishioj5c.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "High",
+            "startup": "11",
+            "active": "2",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Huge downwards spear swing. This move has an INSANE disjointed hitbox anywhere below and in front of Mishio. It also hits really far behind Mishio. No normal means will anti-air this ever. Sends the opponent downwards for a knockdown, but due to the nature of Mishio's juggles the untech-time will be so borderline this can be pretty much immediately airteched. Outside of crossups, the main purpose of this move is as a midscreen or a fire comboender in the corner, as ending a juggle in jC cancelled into Running Flame is an automatic tech-trap setup."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/84/Mishio66a.png/175px-Mishio66a.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Low or Air",
+            "startup": "4",
+            "active": "4",
+            "recovery": "11",
+            "advHit": "-1",
+            "advBlock": "-2",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Looks identical to 5A but carries momentum. Same as 5A but won't cancel into other normals. Arguably Mishio's only bad button. There's no real reason to ever use this over 66B or 662B."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/17/Mishio66b.png/175px-Mishio66b.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "6",
+            "recovery": "15",
+            "advHit": "0",
+            "advBlock": "+1",
+            "cancel": "SP JH IC"
+          },
+          "properties": [
+            "Looks identical to f5B but carries momentum. Used to poke at people from surprising ranges, catching them off-guard. Same as f5B, strong potential to hitconfirm in lightning."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b0/Mishio66c.png/175px-Mishio66c.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "15",
+            "active": "4",
+            "recovery": "26",
+            "advHit": "/",
+            "advBlock": "-5",
+            "cancel": "SP JH IC"
+          },
+          "properties": [
+            "Looks identical to 5C but carries momentum. What's better than an anti-air 5C? An anti-air 5C that slides across the floor while at it. Unlike 5C, this can't be jumpcancelled on block making this rather unsafe when blocked close up. Will launch the opponent on hit."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d4/Mishio662a.png/175px-Mishio662a.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "Low",
+            "startup": "6",
+            "active": "3",
+            "recovery": "9",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Looks identical to 2A but carries momentum. 2A is so stubby even dashing into it doesn't provide it with any range. The main use for this is as a quick whiff to set up a throw or to frametrap them into a DP."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e0/Mishio662b.png/175px-Mishio662b.png",
+          "damage": "420",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "2",
+            "recovery": "9",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Looks identical to 2B (far) but carries momentum. The quick recovery makes this the go-to whiffed normal to close the distance with an accelerated dash after something like a 623A knockdown."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e7/Mishio662c.png/175px-Mishio662c.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Low",
+            "startup": "9",
+            "active": "2",
+            "recovery": "21",
+            "advHit": "/",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Looks identical to 2C but carries momentum. Using this in fire represents a HUGE damage threat starting half screen distance. Primarily used as a very quick way to catch an opponent not watching their feet. This is neutral on block, making it fairly safe to just throw out whenever."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7a/EFZ_Mishio_Amano_GroundGrab.png/175px-EFZ_Mishio_Amano_GroundGrab.png",
+          "damage": "0",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5",
+            "active": "1",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Mishio sideswaps the opponent and leaves them reeling. This throw allows for easy follow-up combos and can potentially lead to a lot of damage with BIC. Mishio's walkspeed makes her throw hard to use but it's a strong option after jA or 662B."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Mishio sideswaps the opponent and leaves them reeling. This throw allows for easy follow-up combos and can potentially lead to a lot of damage with BIC. Mishio's walkspeed makes her throw hard to use but it's a strong option after jA or 662B."
+            },
+            {
+              "version": "B",
+              "damage": "0",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Mishio sideswaps the opponent and leaves them reeling. This throw allows for easy follow-up combos and can potentially lead to a lot of damage with BIC. Mishio's walkspeed makes her throw hard to use but it's a strong option after jA or 662B."
+            },
+            {
+              "version": "C",
+              "damage": "0",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Mishio sideswaps the opponent and leaves them reeling. This throw allows for easy follow-up combos and can potentially lead to a lot of damage with BIC. Mishio's walkspeed makes her throw hard to use but it's a strong option after jA or 662B."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/2/2a/EFZ_Mishio_Amano_AirGrab.png/175px-EFZ_Mishio_Amano_AirGrab.png",
+          "damage": "1150",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Swaps sides with the opponent."
+          ]
+        },
+        {
+          "moveName": "Round Moon  円月",
+          "input": "Second hit of C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/16/Mishio623.png/175px-Mishio623.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "2",
+            "recovery": "40",
+            "advHit": "/",
+            "advBlock": "-19",
+            "cancel": "IC"
+          },
+          "properties": [
+            "A complete circle spear swing. This move functions as a good reversal and a great anti-air. Recovery and pushback on block are good relative to most other reversals, making it slightly harder to punish. Mishio also recovers grounded, so she is less likely to be punished by a juggle combo.",
+            "Much longer startup but has a longer invulnerability to match.",
+            "As fast as the A version and deals two with the second one launching the opponent. The launch does not inflict enough untech time for a combo without IC, so it's not actually very useful. Second hit does not have much range so it can easily whiff on block. When the meterless versions are already invincible, this move is not very desirable when you could spend the RF on ICing those instead.",
+            "A complete circle spear swing.",
+            "This move functions as a good reversal and a great anti-air.",
+            "Recovery and pushback on block are good relative to most other reversals, making it slightly harder to punish. Mishio also recovers grounded, so she is less likely to be punished by a juggle combo.",
+            "As fast as the A version and deals two with the second one launching the opponent. The launch does not inflict enough untech time for a combo without IC, so it's not actually very useful.",
+            "Second hit does not have much range so it can easily whiff on block.",
+            "When the meterless versions are already invincible, this move is not very desirable when you could spend the RF on ICing those instead."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "40",
+                "advHit": "/",
+                "advBlock": "-19",
+                "cancel": "IC"
+              },
+              "notes": "A complete circle spear swing. This move functions as a good reversal and a great anti-air. Recovery and pushback on block are good relative to most other reversals, making it slightly harder to punish. Mishio also recovers grounded, so she is less likely to be punished by a juggle combo."
+            },
+            {
+              "version": "B",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "18",
+                "active": "2",
+                "recovery": "46",
+                "advHit": "/",
+                "advBlock": "-25",
+                "cancel": "IC"
+              },
+              "notes": "A complete circle spear swing. This move functions as a good reversal and a great anti-air. Recovery and pushback on block are good relative to most other reversals, making it slightly harder to punish. Mishio also recovers grounded, so she is less likely to be punished by a juggle combo."
+            },
+            {
+              "version": "C",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "50",
+                "advHit": "/",
+                "advBlock": "-22",
+                "cancel": "IC"
+              },
+              "notes": "A complete circle spear swing. This move functions as a good reversal and a great anti-air. Recovery and pushback on block are good relative to most other reversals, making it slightly harder to punish. Mishio also recovers grounded, so she is less likely to be punished by a juggle combo."
+            },
+            {
+              "version": "-",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "31",
+                "active": "2",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-5",
+                "cancel": "IC"
+              },
+              "notes": "A complete circle spear swing. This move functions as a good reversal and a great anti-air. Recovery and pushback on block are good relative to most other reversals, making it slightly harder to punish. Mishio also recovers grounded, so she is less likely to be punished by a juggle combo."
+            }
+          ]
+        },
+        {
+          "moveName": "Fiery Vehicle  火車",
+          "input": "236",
+          "image": "https://wiki.gbl.gg/images/0/0e/EFZ_Mishio_Fire_S.png",
+          "damage": "100 x 3",
+          "framedata": {
+            "guard": "Any",
+            "startup": "14",
+            "active": "2 x 3",
+            "recovery": "43",
+            "advHit": "-25 ~ -13",
+            "advBlock": "-27 ~ -15",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Mishio stabs out forward 4 times with her spear in rapid succession. One of the few special moves in EFZ that can be cancelled into another special move. This is a decent multi-hit attack that chips well and pushes the opponent away.",
+            "Mishio dashes half the screen with a shoulder tackle. If the tackle hits the opponent, she then stabs out 4 times with her spear in rapid succession. Because the length of the dash is timed, this move will only fully connect at certain distances.",
+            "Mishio dashes half the screen with a multi-hit shoulder tackle. If the tackle hits the opponent, she then stabs out 7 times with her spear in rapid succession.",
+            "Mishio stabs out forward 4 times with her spear in rapid succession. One of the few special moves in EFZ that can be cancelled into another special move.",
+            "This is a decent multi-hit attack that chips well and pushes the opponent away.",
+            "Mishio dashes half the screen with a shoulder tackle. If the tackle hits the opponent, she then stabs out 4 times with her spear in rapid succession.",
+            "Because the length of the dash is timed, this move will only fully connect at certain distances."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "100 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14",
+                "active": "2 x 3",
+                "recovery": "43",
+                "advHit": "-25 ~ -13",
+                "advBlock": "-27 ~ -15",
+                "cancel": "SP IC"
+              },
+              "notes": "Mishio stabs out forward 4 times with her spear in rapid succession. One of the few special moves in EFZ that can be cancelled into another special move. This is a decent multi-hit attack that chips well and pushes the opponent away."
+            },
+            {
+              "version": "-",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32",
+                "active": "2",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-4",
+                "cancel": "SP IC"
+              },
+              "notes": "Mishio stabs out forward 4 times with her spear in rapid succession. One of the few special moves in EFZ that can be cancelled into another special move. This is a decent multi-hit attack that chips well and pushes the opponent away."
+            },
+            {
+              "version": "B",
+              "damage": "300",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "18",
+                "recovery": "32",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Mishio stabs out forward 4 times with her spear in rapid succession. One of the few special moves in EFZ that can be cancelled into another special move. This is a decent multi-hit attack that chips well and pushes the opponent away."
+            },
+            {
+              "version": "-",
+              "damage": "100 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "35",
+                "active": "2 x 3",
+                "recovery": "44",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Mishio stabs out forward 4 times with her spear in rapid succession. One of the few special moves in EFZ that can be cancelled into another special move. This is a decent multi-hit attack that chips well and pushes the opponent away."
+            },
+            {
+              "version": "-",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "53",
+                "active": "2",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "-5",
+                "cancel": "IC"
+              },
+              "notes": "Mishio stabs out forward 4 times with her spear in rapid succession. One of the few special moves in EFZ that can be cancelled into another special move. This is a decent multi-hit attack that chips well and pushes the opponent away."
+            },
+            {
+              "version": "C",
+              "damage": "100 x 3",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "14",
+                "active": "6 x 3",
+                "recovery": "46",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Mishio stabs out forward 4 times with her spear in rapid succession. One of the few special moves in EFZ that can be cancelled into another special move. This is a decent multi-hit attack that chips well and pushes the opponent away."
+            },
+            {
+              "version": "-",
+              "damage": "80 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "36",
+                "active": "2 x 6",
+                "recovery": "83",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Mishio stabs out forward 4 times with her spear in rapid succession. One of the few special moves in EFZ that can be cancelled into another special move. This is a decent multi-hit attack that chips well and pushes the opponent away."
+            },
+            {
+              "version": "-",
+              "damage": "750",
+              "framedata": {
+                "guard": "Any",
+                "startup": "72",
+                "active": "2",
+                "recovery": "47",
+                "advHit": "/",
+                "advBlock": "-26",
+                "cancel": "IC"
+              },
+              "notes": "Mishio stabs out forward 4 times with her spear in rapid succession. One of the few special moves in EFZ that can be cancelled into another special move. This is a decent multi-hit attack that chips well and pushes the opponent away."
+            }
+          ]
+        },
+        {
+          "moveName": "Running Flame  走炎",
+          "input": "jC",
+          "image": "https://wiki.gbl.gg/images/0/0e/EFZ_Mishio_Fire_S.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "15",
+            "active": "30",
+            "recovery": "61",
+            "advHit": "/",
+            "advBlock": "-69",
+            "cancel": "IC ※"
+          },
+          "properties": [
+            "Almost identical to A, but goes backward instead of forward. Does not use RF meter.",
+            "C version does not use RF meter.",
+            "Almost identical to A, but goes backward instead of forward.",
+            "Does not use RF meter."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "30",
+                "recovery": "61",
+                "advHit": "/",
+                "advBlock": "-69",
+                "cancel": "IC ※"
+              },
+              "notes": "Almost identical to A, but goes backward instead of forward. Does not use RF meter."
+            },
+            {
+              "version": "B",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "30",
+                "recovery": "72",
+                "advHit": "/",
+                "advBlock": "-80",
+                "cancel": "IC ※"
+              },
+              "notes": "Almost identical to A, but goes backward instead of forward. Does not use RF meter."
+            },
+            {
+              "version": "C",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "30",
+                "recovery": "61",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC ※"
+              },
+              "notes": "Almost identical to A, but goes backward instead of forward. Does not use RF meter."
+            },
+            {
+              "version": "jA",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "30",
+                "recovery": "Until landing + 22",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC ※"
+              },
+              "notes": "Almost identical to A, but goes backward instead of forward. Does not use RF meter."
+            },
+            {
+              "version": "jB/C",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14",
+                "active": "30",
+                "recovery": "Until landing + 22",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC ※"
+              },
+              "notes": "Almost identical to A, but goes backward instead of forward. Does not use RF meter."
+            },
+            {
+              "version": "Followup",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "30",
+                "recovery": "Until landing + 18",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Almost identical to A, but goes backward instead of forward. Does not use RF meter."
+            }
+          ]
+        },
+        {
+          "moveName": "Flame Moon 炎月",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/0/0e/EFZ_Mishio_Fire_S.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "2",
+            "recovery": "39",
+            "advHit": "/",
+            "advBlock": "-19",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Fully invulnerable for all of startup and active, making this one of, if not the best, reversals in the game while also being meterless.",
+            "Slower and not invincible but hits overhead and can be IC'd for a full combo.",
+            "Mishio takes a small step forward during this move. Second hit knocks down.",
+            "Mishio takes a small step forward during this move.",
+            "Second hit knocks down."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "39",
+                "advHit": "/",
+                "advBlock": "-19",
+                "cancel": "IC"
+              },
+              "notes": "Fully invulnerable for all of startup and active, making this one of, if not the best, reversals in the game while also being meterless."
+            },
+            {
+              "version": "B",
+              "damage": "800",
+              "framedata": {
+                "guard": "High",
+                "startup": "23",
+                "active": "3",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "-1",
+                "cancel": "IC"
+              },
+              "notes": "Fully invulnerable for all of startup and active, making this one of, if not the best, reversals in the game while also being meterless."
+            },
+            {
+              "version": "C",
+              "damage": "585",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "2",
+                "recovery": "50",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Fully invulnerable for all of startup and active, making this one of, if not the best, reversals in the game while also being meterless."
+            },
+            {
+              "version": "-",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32",
+                "active": "3",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "+1.66",
+                "cancel": "IC"
+              },
+              "notes": "Fully invulnerable for all of startup and active, making this one of, if not the best, reversals in the game while also being meterless."
+            }
+          ]
+        },
+        {
+          "moveName": "Purple Lightning  紫電",
+          "input": "A (left) B (right) C (bottom)",
+          "image": "https://wiki.gbl.gg/images/c/c3/EFZ_Mishio_Lightning_S.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "23",
+            "active": "/",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "+1 ~ +22",
+            "cancel": "None"
+          },
+          "properties": [
+            "Creates a small, fast moving wave across the ground that shocks the opponent on hit, giving Mishio a lot of time to combo by IADing towards the opponent. Mishio does NOT lose her element after performing this move. This is a decent fireball, great for frametrapping at mid-range and useful for catching people that want to low profile under your f5B.",
+            "Creates a larger, much slower wave that hits 3 times. Mishio loses her element after fully recovering from this move.",
+            "C version creates a ball of lightning that will do multiple quick hits as long as it exists on screen. Starts off by just floating in place and then slowly accelerates, giving it a lot of screen presence. Mishio loses her element after fully recovering from this move. This move is a fantastic use of RF gauge, doing this after a knockdown can create multiple layers of mixups: an initial left/right by airdashing over them which can be followed up by high/low airdash mixups as the opponent is stuck blocking. If none of your mixups land you can grab a new element with 623A on block while the ball keeps you safe.",
+            "Creates a small, fast moving wave across the ground that shocks the opponent on hit, giving Mishio a lot of time to combo by IADing towards the opponent.",
+            "Mishio does NOT lose her element after performing this move.",
+            "Creates a larger, much slower wave that hits 3 times.",
+            "Mishio loses her element after fully recovering from this move.",
+            "C version creates a ball of lightning that will do multiple quick hits as long as it exists on screen. Starts off by just floating in place and then slowly accelerates, giving it a lot of screen presence."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "/",
+                "recovery": "19",
+                "advHit": "/",
+                "advBlock": "+1 ~ +22",
+                "cancel": "None"
+              },
+              "notes": "Creates a small, fast moving wave across the ground that shocks the opponent on hit, giving Mishio a lot of time to combo by IADing towards the opponent. Mishio does NOT lose her element after performing this move. This is a decent fireball, great for frametrapping at mid-range and useful for catching people that want to low profile under your f5B."
+            },
+            {
+              "version": "B",
+              "damage": "200 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "35",
+                "active": "/",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "+64",
+                "cancel": "FIC"
+              },
+              "notes": "Creates a small, fast moving wave across the ground that shocks the opponent on hit, giving Mishio a lot of time to combo by IADing towards the opponent. Mishio does NOT lose her element after performing this move. This is a decent fireball, great for frametrapping at mid-range and useful for catching people that want to low profile under your f5B."
+            },
+            {
+              "version": "C",
+              "damage": "50 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "26",
+                "active": "/",
+                "recovery": "33",
+                "advHit": "/",
+                "advBlock": "-11 ~ +171",
+                "cancel": "None"
+              },
+              "notes": "Creates a small, fast moving wave across the ground that shocks the opponent on hit, giving Mishio a lot of time to combo by IADing towards the opponent. Mishio does NOT lose her element after performing this move. This is a decent fireball, great for frametrapping at mid-range and useful for catching people that want to low profile under your f5B."
+            }
+          ]
+        },
+        {
+          "moveName": "Thunderbolt Summon  召雷",
+          "input": "22A/B",
+          "image": "https://wiki.gbl.gg/images/c/c3/EFZ_Mishio_Lightning_S.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Any",
+            "startup": "18",
+            "active": "/",
+            "recovery": "46",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Tracks the opponent within half a screen of Mishio. A fantastic lockdown and okizeme tool when FIC'd but generally outclassed by 412C, although as it is cancellable you don't need to risk losing the element. ※Simultaneously active during the first hit (second frame).",
+            "Tracks the opponent if they are half screen or farther away from Mishio. ※Simultaneously active during the first hit (second frame).",
+            "Tracks the opponent within half a screen of Mishio.",
+            "A fantastic lockdown and okizeme tool when FIC'd but generally outclassed by 412C, although as it is cancellable you don't need to risk losing the element.",
+            "Tracks the opponent if they are half screen or farther away from Mishio."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "18",
+                "active": "/",
+                "recovery": "46",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Tracks the opponent within half a screen of Mishio. A fantastic lockdown and okizeme tool when FIC'd but generally outclassed by 412C, although as it is cancellable you don't need to risk losing the element. ※Simultaneously active during the first hit (second frame)."
+            },
+            {
+              "version": "-",
+              "damage": "100 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "65",
+                "active": "4 + 1※ + 1 x 4",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+42",
+                "cancel": "None"
+              },
+              "notes": "Tracks the opponent within half a screen of Mishio. A fantastic lockdown and okizeme tool when FIC'd but generally outclassed by 412C, although as it is cancellable you don't need to risk losing the element. ※Simultaneously active during the first hit (second frame)."
+            },
+            {
+              "version": "B",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "/",
+                "recovery": "45",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Tracks the opponent within half a screen of Mishio. A fantastic lockdown and okizeme tool when FIC'd but generally outclassed by 412C, although as it is cancellable you don't need to risk losing the element. ※Simultaneously active during the first hit (second frame)."
+            },
+            {
+              "version": "-",
+              "damage": "100 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "56",
+                "active": "4 + 1※ + 1 x 4",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+43",
+                "cancel": "None"
+              },
+              "notes": "Tracks the opponent within half a screen of Mishio. A fantastic lockdown and okizeme tool when FIC'd but generally outclassed by 412C, although as it is cancellable you don't need to risk losing the element. ※Simultaneously active during the first hit (second frame)."
+            }
+          ]
+        },
+        {
+          "moveName": "Thunder Moon  雷月",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/c/c3/EFZ_Mishio_Lightning_S.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "2",
+            "recovery": "43",
+            "advHit": "/",
+            "advBlock": "-22",
+            "cancel": "IC"
+          },
+          "properties": [
+            "NOT an invincible reversal unlike the elementless and fire versions. Shocks the opponent on hit for tons of hitstun.",
+            "Creates a massive projectile hitbox that travels forward for multiple hits and covers almost the entire screen horizontally. Lightning 623B is where the magic happens. This move feels like it belongs to Kanna. It's rather fast, has massive range, launches for an easy combo at almost all ranges and isn't punishable in practical scenarios. You can throw this out when you're about to get hit by a projectile to \"cancel\" the move and keep your element. The only downside of this move is that you can't FIC it so you have no other avenue to avoid returning to no element Mishio.",
+            "Is an invincible reversal. The second hit knocks down.",
+            "NOT an invincible reversal unlike the elementless and fire versions.",
+            "Shocks the opponent on hit for tons of hitstun.",
+            "Creates a massive projectile hitbox that travels forward for multiple hits and covers almost the entire screen horizontally.",
+            "Is an invincible reversal.",
+            "The second hit knocks down."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "43",
+                "advHit": "/",
+                "advBlock": "-22",
+                "cancel": "IC"
+              },
+              "notes": "NOT an invincible reversal unlike the elementless and fire versions. Shocks the opponent on hit for tons of hitstun."
+            },
+            {
+              "version": "B",
+              "damage": "150 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11.66",
+                "active": "6 x 10",
+                "recovery": "43",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "NOT an invincible reversal unlike the elementless and fire versions. Shocks the opponent on hit for tons of hitstun."
+            },
+            {
+              "version": "C",
+              "damage": "585",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "44",
+                "advHit": "/",
+                "advBlock": "-29",
+                "cancel": "IC"
+              },
+              "notes": "NOT an invincible reversal unlike the elementless and fire versions. Shocks the opponent on hit for tons of hitstun."
+            },
+            {
+              "version": "-",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32",
+                "active": "3",
+                "recovery": "20",
+                "advHit": "/",
+                "advBlock": "+1",
+                "cancel": "IC"
+              },
+              "notes": "NOT an invincible reversal unlike the elementless and fire versions. Shocks the opponent on hit for tons of hitstun."
+            }
+          ]
+        },
+        {
+          "moveName": "True Moon  真月",
+          "input": "Second hit of C",
+          "image": "https://wiki.gbl.gg/images/6/64/EFZ_Mishio_Awakened_S.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "2",
+            "recovery": "37",
+            "advHit": "/",
+            "advBlock": "-16",
+            "cancel": "IC"
+          },
+          "properties": [],
+          "variations": [
+            {
+              "version": "A/B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "37",
+                "advHit": "/",
+                "advBlock": "-16",
+                "cancel": "IC"
+              },
+              "notes": ""
+            },
+            {
+              "version": "C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "51",
+                "advHit": "/",
+                "advBlock": "-21",
+                "cancel": "IC"
+              },
+              "notes": ""
+            },
+            {
+              "version": "-",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "31",
+                "active": "2",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-4",
+                "cancel": "IC"
+              },
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "moveName": "100-Ogre-Scorching Flash  百鬼焦閃",
+          "input": "236236",
+          "image": "https://wiki.gbl.gg/images/0/0e/EFZ_Mishio_Fire_S.png",
+          "damage": "2451",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9",
+            "active": "18",
+            "recovery": "27",
+            "advHit": "/",
+            "advBlock": "-23",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Super version of 236*.",
+            "Has an auto-guard on frames 3-6 of startup."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2451",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "18",
+                "recovery": "27",
+                "advHit": "/",
+                "advBlock": "-23",
+                "cancel": "IC"
+              },
+              "notes": "Super version of 236*."
+            },
+            {
+              "version": "B",
+              "damage": "3262",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "18",
+                "recovery": "29",
+                "advHit": "/",
+                "advBlock": "-25",
+                "cancel": "IC"
+              },
+              "notes": "Super version of 236*."
+            },
+            {
+              "version": "C",
+              "damage": "4759",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "18",
+                "recovery": "29",
+                "advHit": "/",
+                "advBlock": "-25",
+                "cancel": "IC"
+              },
+              "notes": "Super version of 236*."
+            }
+          ]
+        },
+        {
+          "moveName": "Flame-Dragon-Flight Flash  炎龍翔閃",
+          "input": "214214",
+          "image": "https://wiki.gbl.gg/images/0/0e/EFZ_Mishio_Fire_S.png",
+          "damage": "2024",
+          "framedata": {
+            "guard": "Any",
+            "startup": "16",
+            "active": "30",
+            "recovery": "Until landing + 31",
+            "advHit": "/",
+            "advBlock": "-82",
+            "cancel": "IC"
+          },
+          "properties": [
+            "This super is Mishio's main way of getting damage. Pressing a direction and button executes another flame dash in the specified direction. If timed and spaced correctly, you can continue comboing after this super finishes. Due to the final hit causing an untechable but still juggle-able state you can still regain Element at low proration by ending in 623A/B. Three flame dashes maximum.",
+            "Four flame dashes maximum.",
+            "Five flame dashes maximum."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2024",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "30",
+                "recovery": "Until landing + 31",
+                "advHit": "/",
+                "advBlock": "-82",
+                "cancel": "IC"
+              },
+              "notes": "This super is Mishio's main way of getting damage. Pressing a direction and button executes another flame dash in the specified direction. If timed and spaced correctly, you can continue comboing after this super finishes. Due to the final hit causing an untechable but still juggle-able state you can still regain Element at low proration by ending in 623A/B. Three flame dashes maximum."
+            },
+            {
+              "version": "B",
+              "damage": "2879",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "30",
+                "recovery": "Until landing + 31",
+                "advHit": "/",
+                "advBlock": "-82",
+                "cancel": "IC"
+              },
+              "notes": "This super is Mishio's main way of getting damage. Pressing a direction and button executes another flame dash in the specified direction. If timed and spaced correctly, you can continue comboing after this super finishes. Due to the final hit causing an untechable but still juggle-able state you can still regain Element at low proration by ending in 623A/B. Three flame dashes maximum."
+            },
+            {
+              "version": "C",
+              "damage": "3871",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "30",
+                "recovery": "Until landing + 31",
+                "advHit": "/",
+                "advBlock": "-82",
+                "cancel": "IC"
+              },
+              "notes": "This super is Mishio's main way of getting damage. Pressing a direction and button executes another flame dash in the specified direction. If timed and spaced correctly, you can continue comboing after this super finishes. Due to the final hit causing an untechable but still juggle-able state you can still regain Element at low proration by ending in 623A/B. Three flame dashes maximum."
+            },
+            {
+              "version": "Followup",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "30",
+                "recovery": "Until landing + 31",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "This super is Mishio's main way of getting damage. Pressing a direction and button executes another flame dash in the specified direction. If timed and spaced correctly, you can continue comboing after this super finishes. Due to the final hit causing an untechable but still juggle-able state you can still regain Element at low proration by ending in 623A/B. Three flame dashes maximum."
+            }
+          ]
+        },
+        {
+          "moveName": "Thunder-Fang Lance Flash  雷牙閃穿",
+          "input": "j236236",
+          "image": "https://wiki.gbl.gg/images/c/c3/EFZ_Mishio_Lightning_S.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "Any",
+            "startup": "※16",
+            "active": "/",
+            "recovery": "Until landing + 16",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Fires one bullet.",
+            "Fires three bullets.",
+            "Fires five bullets.",
+            "※2 A version has 2 ground hits per bullet, B/C versions have 3."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "※16",
+                "active": "/",
+                "recovery": "Until landing + 16",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Fires one bullet."
+            },
+            {
+              "version": "B",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "※16, 24, 32",
+                "active": "/",
+                "recovery": "Until landing + 16",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Fires one bullet."
+            },
+            {
+              "version": "C",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "※16, 24, 32, 40, 48",
+                "active": "/",
+                "recovery": "Until landing + 16",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Fires one bullet."
+            },
+            {
+              "version": "Bullet (Air)",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Any",
+                "startup": "※",
+                "active": "Until landing",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Fires one bullet."
+            },
+            {
+              "version": "Bullet (Ground)",
+              "damage": "200 x 2/3※2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "/",
+                "active": "216",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Fires one bullet."
+            }
+          ]
+        },
+        {
+          "moveName": "Descending Thunder Battle Cry  降雷戦吼",
+          "input": "641236 (can be held)",
+          "image": "https://wiki.gbl.gg/images/c/c3/EFZ_Mishio_Lightning_S.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Unblockable",
+            "startup": "16",
+            "active": "11 ~ 119",
+            "recovery": "96",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "800",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "16",
+                "active": "11 ~ 119",
+                "recovery": "96",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "A Laser",
+              "damage": "550 x 3",
+              "framedata": {
+                "guard": "Any/Unblockable※",
+                "startup": "44 ~ 152",
+                "active": "6 x 3",
+                "recovery": "57",
+                "advHit": "/",
+                "advBlock": "-41※",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "B",
+              "damage": "800",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "14",
+                "active": "11 ~ 119",
+                "recovery": "96",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "B Laser",
+              "damage": "950 x 3",
+              "framedata": {
+                "guard": "Any/Unblockable※",
+                "startup": "42 ~ 150",
+                "active": "7 x 3",
+                "recovery": "56",
+                "advHit": "/",
+                "advBlock": "-41※",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "C",
+              "damage": "800",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "12",
+                "active": "11 ~ 119",
+                "recovery": "96",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": ""
+            },
+            {
+              "version": "C Laser",
+              "damage": "1500 x 3",
+              "framedata": {
+                "guard": "Any/Unblockable※",
+                "startup": "40 ~ 148",
+                "active": "8 x 3",
+                "recovery": "55",
+                "advHit": "/",
+                "advBlock": "-41※",
+                "cancel": "None"
+              },
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "moveName": "Fantasy Beast Sky Fox Summoning  幻獣天狐招来",
+          "input": "B 2 B 5 C A",
+          "image": "https://wiki.gbl.gg/images/thumb/9/93/MishioFM.png/175px-MishioFM.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "5",
+            "active": "1",
+            "recovery": "57",
+            "advHit": "/",
+            "advBlock": "-36",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mishio powers up with a nine-tailed shockwave, hitting anyone closeby. She then enters the Awakened state, which gives her unlimited access to both elements, for an entire 15 seconds. This move can be whiff cancelled from most normals, but inputting the command may be a bit tricky, since it won't work if done too quickly. An alternative input would be BB25CA, where the 5 signifies a slight pause in your input. The move is completely invulnerable for all but the last few frames, which can be very surprising if you have blocked its single hit and then try to punish. Also of note is that Mishio has no collision whatsoever during the FM animation, so you might be able to create some entertaining setups on her."
+          ]
+        }
+      ]
+    }
+  ]
+}

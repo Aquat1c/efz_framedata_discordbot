@@ -1,0 +1,2010 @@
+{
+  "name": "Mio Kouzuki",
+  "icon": "https://wiki.gbl.gg/images/d/dc/EFZ_Mio_CSS.png",
+  "movelists": [
+    {
+      "name": "Movelist 1",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7a/EFZ_Mio_SR_5A.png/175px-EFZ_Mio_SR_5A.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5 / 5.33",
+            "active": "5 / 4.66",
+            "recovery": "4",
+            "advHit": "+2 / +2.33",
+            "advBlock": "+1 / +1.33",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Mio extends her arm and smacks the opponent with her notebook. Used to juggle high-falling opponents and/or to set up a tech trap in the corner.",
+            "Used to juggle high-falling opponents and/or to set up a tech trap in the corner."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e9/EFZ_Mio_SR_c5B.png/175px-EFZ_Mio_SR_c5B.png",
+          "damage": "350",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "5",
+            "recovery": "8",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "N SP J IC f5B SB"
+          },
+          "properties": [
+            "Mio extends her arm in an upward motion, hitting the opponent with her notebook. A practical anti-air that allows for good meterless combos.",
+            "A practical anti-air that allows for good meterless combos."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/22/EFZ_Mio_SR_f5B.png/175px-EFZ_Mio_SR_f5B.png",
+          "damage": "370",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "1",
+            "recovery": "13",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N SP JH IC SB"
+          },
+          "properties": [
+            "Mio swings her arm around to hit the opponent with her notebook. Used to manage height in combos but not much else since it doesn't reach much farther than c5B.",
+            "Used to manage height in combos but not much else since it doesn't reach much farther than c5B."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/6/69/EFZ_Mio_SR_5C.png/175px-EFZ_Mio_SR_5C.png",
+          "damage": "580",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "14",
+            "active": "6",
+            "recovery": "16",
+            "advHit": "+2",
+            "advBlock": "0",
+            "cancel": "SP JH IC SB"
+          },
+          "properties": [
+            "Mio uses both arms to thrust her notebook forward. Causes a wallbounce if it hits an aerial opponent. Essential for almost any Mio combo. Obviously not a great anti-air but can be risked against certain jump-ins for good reward.",
+            "Causes a wallbounce if it hits an aerial opponent. Essential for almost any Mio combo.",
+            "Obviously not a great anti-air but can be risked against certain jump-ins for good reward."
+          ]
+        },
+        {
+          "moveName": "Costume - Student Fighter  衣装・幕末貴族",
+          "input": "6C",
+          "image": "https://wiki.gbl.gg/images/e/ec/EFZ_Mio_SR_6C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "17",
+            "active": "12",
+            "recovery": "28",
+            "advHit": "-6",
+            "advBlock": "-8",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio, dressed up like Kyo Kusanagi from The King of Fighters series, delivers a hook punch at the opponent. Despite the guard point, this move is mostly reserved for combos.",
+            "Despite the guard point, this move is mostly reserved for combos."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/8/86/EFZ_Mio_SR_2A.png",
+          "damage": "160",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "5",
+            "recovery": "4",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Mio lifts her notebook from the ground to straight out in front of her. 4 frame startup makes this a strong low, in fact it is tied for Mio's fastest normal with SR 662A. High active and low recovery means this can safely meaty against some reversals.",
+            "4 frame startup makes this a strong low, in fact it is tied for Mio's fastest normal with SR 662A.",
+            "High active and low recovery means this can safely meaty against some reversals."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/8e/EFZ_Mio_SR_2B.png/175px-EFZ_Mio_SR_2B.png",
+          "damage": "80 x 8",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "2 x 8",
+            "recovery": "12",
+            "advHit": "-9 ~ +5",
+            "advBlock": "-11 ~ +3",
+            "cancel": "N SP JH IC f5B SB"
+          },
+          "properties": [
+            "Mio spins her book in front of her momentarily. Safe on block, and 8 hits makes this move very annoying to RG and very easy to hitconfirm from. Hitconfirming with multiple 2A's before chaining into one or two hits from this is still often better for reducing pushback and optimizing proration, however.",
+            "Safe on block, and 8 hits makes this move very annoying to RG and very easy to hitconfirm from. Hitconfirming with multiple 2A's before chaining into one or two hits from this is still often better for reducing pushback and optimizing proration, however."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a1/EFZ_Mio_SR_2C.png/175px-EFZ_Mio_SR_2C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Low",
+            "startup": "10",
+            "active": "12",
+            "recovery": "23",
+            "advHit": "/",
+            "advBlock": "-3",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio slides forward with her foot extended upwards. The large amount of active frames and forward movement means this sweep is very easy to space to be plus on block. Has a very low hurtbox that can dodge many moves.",
+            "The large amount of active frames and forward movement means this sweep is very easy to space to be plus on block.",
+            "Has a very low hurtbox that can dodge many moves."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/4/43/EFZ_Mio_SR_j5A.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "High",
+            "startup": "5",
+            "active": "9",
+            "recovery": "4",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC R j2C"
+          },
+          "properties": [
+            "Mio thrusts her arm and foot out in front of her. Amazing priority for air-to-air, and ability to cancel into j2C enables a mixup in airdash pressure.",
+            "Amazing priority for air-to-air, and ability to cancel into j2C enables a mixup in airdash pressure."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/8/81/EFZ_Mio_SR_j5B.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "8",
+            "recovery": "10",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC"
+          },
+          "properties": [
+            "Mio swings her notebook in a downward arc. Crucial to juggles, good jump in, and can be a niche instant overhead against some characters.",
+            "Crucial to juggles, good jump in, and can be a niche instant overhead against some characters."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/4c/EFZ_Mio_SR_j5C.png/175px-EFZ_Mio_SR_j5C.png",
+          "damage": "200 x 3",
+          "framedata": {
+            "guard": "Any, High※",
+            "startup": "14",
+            "active": "5",
+            "recovery": "12",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "J AD IC"
+          },
+          "properties": [
+            "Mio spins her notebook downwards. Can cross up. ※ Only the first active frame hits high.",
+            "Can cross up."
+          ]
+        },
+        {
+          "moveName": "Costume - Tokugawa Aristocrat  衣装・学生格闘家",
+          "input": "j2C",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d0/EFZ_Mio_SR_j2C.png/175px-EFZ_Mio_SR_j2C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High",
+            "startup": "15",
+            "active": "Until landing",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP FIC ※"
+          },
+          "properties": [
+            "Mio, dressed up like Shinnosuke Kagami from The Last Blade series, flies down from the sky at a 45-degree angle towards the opponent. Mio stops moving during startup. Launches opponent on hit. Can instant overhead, cross up, and bait anti-airs while providing full combos with IC, guard gauge, or a deep landing hit. ※Can only be cancelled after landing, but is cancellable ON WHIFF making this move annoying to punish. Mio cannot counter RG after landing.",
+            "Mio stops moving during startup.",
+            "Launches opponent on hit.",
+            "Can instant overhead, cross up, and bait anti-airs while providing full combos with IC, guard gauge, or a deep landing hit."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/11/EFZ_Mio_SR_66A.png/175px-EFZ_Mio_SR_66A.png",
+          "damage": "150",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "9",
+            "recovery": "3",
+            "advHit": "-1",
+            "advBlock": "-2",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio extends her arm and smacks the opponent with her notebook. When the opponent is on the ground this move should not really be considered when 662A is faster, does more damage, and gives better frame advantage.",
+            "When the opponent is on the ground this move should not really be considered when 662A is faster, does more damage, and gives better frame advantage."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/99/EFZ_Mio_SR_66B.png/175px-EFZ_Mio_SR_66B.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "5",
+            "recovery": "8",
+            "advHit": "+4",
+            "advBlock": "+2",
+            "cancel": "SP JH IC SB"
+          },
+          "properties": [
+            "Mio extends her arm in an upward motion, hitting the opponent with her notebook. Hit/hurtboxes are badly nerfed from c5B, but still useful in combos for its jump cancel. Can also be used in pressure for its frame advantage and reward when catching a jump.",
+            "Hit/hurtboxes are badly nerfed from c5B, but still useful in combos for its jump cancel.",
+            "Can also be used in pressure for its frame advantage and reward when catching a jump."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/0/08/EFZ_Mio_SR_66C.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "4",
+            "recovery": "30",
+            "advHit": "-10",
+            "advBlock": "-12",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio, dressed up like Kyo Kusanagi from The King of Fighters series, does a jumping kick. Launches the opponent backwards. Has lower body invincibility through startup, active, and some of the recovery. Starts full combos if used near the corner.",
+            "Launches the opponent backwards.",
+            "Has lower body invincibility through startup, active, and some of the recovery.",
+            "Starts full combos if used near the corner."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/8/8f/EFZ_Mio_SR_662A.png",
+          "damage": "160",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "5",
+            "recovery": "3",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio lifts her notebook from the ground to straight out in front of her. Low commitment way to approach.",
+            "Low commitment way to approach."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b9/EFZ_Mio_SR_662B.png/175px-EFZ_Mio_SR_662B.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Low",
+            "startup": "7",
+            "active": "2",
+            "recovery": "20",
+            "advHit": "/",
+            "advBlock": "-7",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio, dressed up as Sakura Kusagano from the Street Fighter series, does a sliding low kick. Knocks down the opponent. Generally outclassed by 662C.",
+            "Knocks down the opponent.",
+            "Generally outclassed by 662C."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/10/EFZ_Mio_SR_662C.png/175px-EFZ_Mio_SR_662C.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Low",
+            "startup": "9",
+            "active": "20",
+            "recovery": "12",
+            "advHit": "/",
+            "advBlock": "-10",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio slides forward, head first, with her notebook extended out in front of her. Knocks down the opponent. Like 2C this move has notable capacity for low profiling.",
+            "Knocks down the opponent.",
+            "Like 2C this move has notable capacity for low profiling."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "c6C/4C",
+          "image": "https://wiki.gbl.gg/images/7/71/EFZ_Mio_SR_Ground_Grab.png",
+          "damage": "0 + 100 x 8 + 400",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "1",
+            "recovery": "20(hit) 17(whiff)",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mio puts the opponent into a choke hold and knocks them down close to her. Switches sides. Unlike most throws, Mio is not invincible during the active frames and can trade with the opponent's attacks. Recovery on-hit starts when the opponent is knocked down.",
+            "Unlike most throws, Mio is not invincible during the active frames and can trade with the opponent's attacks.",
+            "Recovery on-hit starts when the opponent is knocked down."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0 + 100 x 8 + 400",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "20(hit) 17(whiff)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mio puts the opponent into a choke hold and knocks them down close to her. Switches sides. Unlike most throws, Mio is not invincible during the active frames and can trade with the opponent's attacks. Recovery on-hit starts when the opponent is knocked down."
+            },
+            {
+              "version": "B",
+              "damage": "0 + 100 x 8 + 400",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "20(hit) 17(whiff)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mio puts the opponent into a choke hold and knocks them down close to her. Switches sides. Unlike most throws, Mio is not invincible during the active frames and can trade with the opponent's attacks. Recovery on-hit starts when the opponent is knocked down."
+            },
+            {
+              "version": "C",
+              "damage": "0 + 100 x 8 + 400",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "20(hit) 17(whiff)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mio puts the opponent into a choke hold and knocks them down close to her. Switches sides. Unlike most throws, Mio is not invincible during the active frames and can trade with the opponent's attacks. Recovery on-hit starts when the opponent is knocked down."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "cj6C",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b9/EFZ_Mio_SR_Air_Grab.png/175px-EFZ_Mio_SR_Air_Grab.png",
+          "damage": "0 + 1000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mio propels a bowl of noodles into the opponent's face with so much force that they fly backwards into a knockdown. This throw's hitbox is improved in Long Range Mode. Although impractical, this can be comboed out of with a prior SR 236236* or LR 236C.",
+            "This throw's hitbox is improved in Long Range Mode.",
+            "Although impractical, this can be comboed out of with a prior SR 236236* or LR 236C."
+          ]
+        },
+        {
+          "moveName": "Mode Switch  モードチェンジ",
+          "input": "5S",
+          "image": "https://wiki.gbl.gg/images/thumb/3/31/EFZ_Mio_SR_5S.png/175px-EFZ_Mio_SR_5S.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "6",
+            "active": "/",
+            "recovery": "10",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mio does a quick pose, and goes into Long Range Mode. Since this move recovers so quickly, Mio can easily and frequently gain frame advantage by cancelling normals into it. Very useful in combos.",
+            "Mio does a quick pose, and goes into Long Range Mode.",
+            "Since this move recovers so quickly, Mio can easily and frequently gain frame advantage by cancelling normals into it. Very useful in combos."
+          ]
+        },
+        {
+          "moveName": "Costume - Onmyoji  衣装・陰陽師",
+          "input": "Second hit and onwards",
+          "image": "https://wiki.gbl.gg/images/thumb/c/cc/EFZ_Mio_SR_623A.png/175px-EFZ_Mio_SR_623A.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Any",
+            "startup": "4",
+            "active": "4",
+            "recovery": "66",
+            "advHit": "/",
+            "advBlock": "-40",
+            "cancel": "IC"
+          },
+          "properties": [
+            "First hit is one of Mio's best anti-airs that stands out for its speed. Airborne from frames 8-63.",
+            "Mio flies faster and about twice as high as the A version. Airborne from frames 8-90.",
+            "Mio flies even faster and about 3 times as high as the A version. Untechable. Airborne from frames 7-131.",
+            "All versions are extremely fast reversals that can be easily comboed out of with IC, only being limited by a lack of horizontal range.",
+            "Mio cannot counter RG during the grounded portion of recovery.",
+            "If the opponent's hurtbox retracts after the first hit, the opponent may fall out and be able to punish Mio on hit.",
+            "First hit is one of Mio's best anti-airs that stands out for its speed.",
+            "Airborne from frames 8-63.",
+            "Mio flies faster and about twice as high as the A version.",
+            "Airborne from frames 8-90.",
+            "Mio flies even faster and about 3 times as high as the A version.",
+            "Untechable.",
+            "Airborne from frames 7-131."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "4",
+                "active": "4",
+                "recovery": "66",
+                "advHit": "/",
+                "advBlock": "-40",
+                "cancel": "IC"
+              },
+              "notes": "First hit is one of Mio's best anti-airs that stands out for its speed. Airborne from frames 8-63."
+            },
+            {
+              "version": "-",
+              "damage": "100 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "4 x 5",
+                "recovery": "56",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "First hit is one of Mio's best anti-airs that stands out for its speed. Airborne from frames 8-63."
+            },
+            {
+              "version": "B",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "4",
+                "active": "4",
+                "recovery": "93",
+                "advHit": "/",
+                "advBlock": "-66",
+                "cancel": "IC"
+              },
+              "notes": "First hit is one of Mio's best anti-airs that stands out for its speed. Airborne from frames 8-63."
+            },
+            {
+              "version": "-",
+              "damage": "80 x 9",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "4 x 9",
+                "recovery": "64",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "First hit is one of Mio's best anti-airs that stands out for its speed. Airborne from frames 8-63."
+            },
+            {
+              "version": "C",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "4",
+                "active": "3",
+                "recovery": "134",
+                "advHit": "/",
+                "advBlock": "-106",
+                "cancel": "IC"
+              },
+              "notes": "First hit is one of Mio's best anti-airs that stands out for its speed. Airborne from frames 8-63."
+            },
+            {
+              "version": "-",
+              "damage": "120 x 14",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7",
+                "active": "3 x 14",
+                "recovery": "105",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "First hit is one of Mio's best anti-airs that stands out for its speed. Airborne from frames 8-63."
+            }
+          ]
+        },
+        {
+          "moveName": "Costume - Red Hood  衣装・あかずきん",
+          "input": "Later half of 214C",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d3/EFZ_Mio_SR_214X.png/175px-EFZ_Mio_SR_214X.png",
+          "damage": "200 x 4",
+          "framedata": {
+            "guard": "Any",
+            "startup": "17.33",
+            "active": "1.66 + 2 x 11※",
+            "recovery": "18",
+            "advHit": "-11",
+            "advBlock": "-13",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Travels about a third of the screen. Airborne from frames 3-17. Slow, not combo friendly at all and can be punished on hit. Just not a very good move. ※After 4 hits connect, the rest of the hitboxes become inactive hitboxes.",
+            "Travels about 80% of the screen. Airborne from frames 3-22. Probably better than A but still has no use case.",
+            "Travels about 90% of the screen. Airborne from frames 3-22. A reversal option with long invincibility, but even longer startup. Not as versatile as the faster 623*, but is plus on block, has great range, and can be linked after.",
+            "Travels about a third of the screen.",
+            "Airborne from frames 3-17.",
+            "Slow, not combo friendly at all and can be punished on hit. Just not a very good move.",
+            "※After 4 hits connect, the rest of the hitboxes become inactive hitboxes.",
+            "Travels about 80% of the screen.",
+            "Airborne from frames 3-22.",
+            "Probably better than A but still has no use case.",
+            "Travels about 90% of the screen.",
+            "A reversal option with long invincibility, but even longer startup. Not as versatile as the faster 623*, but is plus on block, has great range, and can be linked after."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "200 x 4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "17.33",
+                "active": "1.66 + 2 x 11※",
+                "recovery": "18",
+                "advHit": "-11",
+                "advBlock": "-13",
+                "cancel": "IC"
+              },
+              "notes": "Travels about a third of the screen. Airborne from frames 3-17. Slow, not combo friendly at all and can be punished on hit. Just not a very good move. ※After 4 hits connect, the rest of the hitboxes become inactive hitboxes."
+            },
+            {
+              "version": "B",
+              "damage": "120 x 10",
+              "framedata": {
+                "guard": "Any",
+                "startup": "22.33",
+                "active": "35",
+                "recovery": "13",
+                "advHit": "-6",
+                "advBlock": "-8",
+                "cancel": "IC"
+              },
+              "notes": "Travels about a third of the screen. Airborne from frames 3-17. Slow, not combo friendly at all and can be punished on hit. Just not a very good move. ※After 4 hits connect, the rest of the hitboxes become inactive hitboxes."
+            },
+            {
+              "version": "C",
+              "damage": "100 x 10",
+              "framedata": {
+                "guard": "Any",
+                "startup": "22.33",
+                "active": "35",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Travels about a third of the screen. Airborne from frames 3-17. Slow, not combo friendly at all and can be punished on hit. Just not a very good move. ※After 4 hits connect, the rest of the hitboxes become inactive hitboxes."
+            },
+            {
+              "version": "-",
+              "damage": "75 x 9",
+              "framedata": {
+                "guard": "Any",
+                "startup": "58",
+                "active": "12",
+                "recovery": "14",
+                "advHit": "+9",
+                "advBlock": "+6",
+                "cancel": "IC"
+              },
+              "notes": "Travels about a third of the screen. Airborne from frames 3-17. Slow, not combo friendly at all and can be punished on hit. Just not a very good move. ※After 4 hits connect, the rest of the hitboxes become inactive hitboxes."
+            }
+          ]
+        },
+        {
+          "moveName": "Costume - Cat who wore short boots  衣装・長くない靴を履いた猫",
+          "input": "Objects",
+          "image": "https://wiki.gbl.gg/images/thumb/6/65/EFZ_Mio_SR_236236X.png/175px-EFZ_Mio_SR_236236X.png",
+          "damage": "0 + 250/300/400xN",
+          "framedata": {
+            "guard": "High",
+            "startup": "22",
+            "active": "3",
+            "recovery": "141",
+            "advHit": "/",
+            "advBlock": "-125",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "After specific enders this move can set up great okizeme where the opponent builds a lot of guard gauge and any stray hit during the projectile rain will lead into a full combo. Always use the A version for this since new objects stop falling when this move is cancelled, making the B and C versions wasteful to use. Hits before superflash. Can be rarely used as a risky grounded overhead.",
+            "More falling objects. Hits before superflash.",
+            "Even more falling objects. Though it technically has faster startup, this move is not useful as an overhead as it hits post-superflash.",
+            "After specific enders this move can set up great okizeme where the opponent builds a lot of guard gauge and any stray hit during the projectile rain will lead into a full combo. Always use the A version for this since new objects stop falling when this move is cancelled, making the B and C versions wasteful to use.",
+            "Hits before superflash. Can be rarely used as a risky grounded overhead.",
+            "More falling objects.",
+            "Hits before superflash.",
+            "Even more falling objects.",
+            "Though it technically has faster startup, this move is not useful as an overhead as it hits post-superflash."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0 + 250/300/400xN",
+              "framedata": {
+                "guard": "High",
+                "startup": "22",
+                "active": "3",
+                "recovery": "141",
+                "advHit": "/",
+                "advBlock": "-125",
+                "cancel": "FIC"
+              },
+              "notes": "After specific enders this move can set up great okizeme where the opponent builds a lot of guard gauge and any stray hit during the projectile rain will lead into a full combo. Always use the A version for this since new objects stop falling when this move is cancelled, making the B and C versions wasteful to use. Hits before superflash. Can be rarely used as a risky grounded overhead."
+            },
+            {
+              "version": "B",
+              "damage": "0 + 250/300/400xN",
+              "framedata": {
+                "guard": "High",
+                "startup": "22",
+                "active": "3",
+                "recovery": "170",
+                "advHit": "/",
+                "advBlock": "-156",
+                "cancel": "FIC"
+              },
+              "notes": "After specific enders this move can set up great okizeme where the opponent builds a lot of guard gauge and any stray hit during the projectile rain will lead into a full combo. Always use the A version for this since new objects stop falling when this move is cancelled, making the B and C versions wasteful to use. Hits before superflash. Can be rarely used as a risky grounded overhead."
+            },
+            {
+              "version": "C",
+              "damage": "0 + 250/300/400xN",
+              "framedata": {
+                "guard": "High",
+                "startup": "16",
+                "active": "3",
+                "recovery": "179",
+                "advHit": "/",
+                "advBlock": "-159",
+                "cancel": "FIC"
+              },
+              "notes": "After specific enders this move can set up great okizeme where the opponent builds a lot of guard gauge and any stray hit during the projectile rain will lead into a full combo. Always use the A version for this since new objects stop falling when this move is cancelled, making the B and C versions wasteful to use. Hits before superflash. Can be rarely used as a risky grounded overhead."
+            }
+          ]
+        },
+        {
+          "moveName": "Costume - Student Soldier  衣装・学徒兵",
+          "input": "214214",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c0/EFZ_Mio_SR_214214X.png/175px-EFZ_Mio_SR_214214X.png",
+          "damage": "800 + 260 x 7",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "39",
+            "recovery": "33",
+            "advHit": "/",
+            "advBlock": "-48 ~ -27",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Launches. Great as both a reversal and combo tool. Has a tendency to trade but since this is untechable the opponent can often still be comboed. Strangely, the last few blasts of this version always have inactive hitboxes, they are counted as recovery.",
+            "Launches. First hit also wallbounces but the following hits will stop the opponent from reaching the wall. Superior invincibility can get through scenarios where 214214A would trade or lose. Common for opponent to fall out before all hits connect, and since this version's hits are individually weaker, it can sometimes do less damage than 214214A. Last hit is safe on block.",
+            "Does not launch but will briefly freeze an airborne opponent. Does not need IC to combo after. Barely more damage than a full connect 214214B, but since this is 1 hit it is much more consistent in combos. However, being 1 hit makes this a much worse reversal than the cheaper versions.",
+            "Launches.",
+            "Great as both a reversal and combo tool.",
+            "Has a tendency to trade but since this is untechable the opponent can often still be comboed.",
+            "Strangely, the last few blasts of this version always have inactive hitboxes, they are counted as recovery.",
+            "Launches. First hit also wallbounces but the following hits will stop the opponent from reaching the wall.",
+            "Superior invincibility can get through scenarios where 214214A would trade or lose.",
+            "Common for opponent to fall out before all hits connect, and since this version's hits are individually weaker, it can sometimes do less damage than 214214A.",
+            "Last hit is safe on block.",
+            "Does not launch but will briefly freeze an airborne opponent.",
+            "Does not need IC to combo after.",
+            "Barely more damage than a full connect 214214B, but since this is 1 hit it is much more consistent in combos. However, being 1 hit makes this a much worse reversal than the cheaper versions."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "800 + 260 x 7",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6",
+                "active": "39",
+                "recovery": "33",
+                "advHit": "/",
+                "advBlock": "-48 ~ -27",
+                "cancel": "IC"
+              },
+              "notes": "Launches. Great as both a reversal and combo tool. Has a tendency to trade but since this is untechable the opponent can often still be comboed. Strangely, the last few blasts of this version always have inactive hitboxes, they are counted as recovery."
+            },
+            {
+              "version": "B",
+              "damage": "700 + 200 x 15",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6",
+                "active": "48",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "-44 ~ -3",
+                "cancel": "IC"
+              },
+              "notes": "Launches. Great as both a reversal and combo tool. Has a tendency to trade but since this is untechable the opponent can often still be comboed. Strangely, the last few blasts of this version always have inactive hitboxes, they are counted as recovery."
+            },
+            {
+              "version": "C",
+              "damage": "3000",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6",
+                "active": "8",
+                "recovery": "36",
+                "advHit": "+40",
+                "advBlock": "-22",
+                "cancel": "IC"
+              },
+              "notes": "Launches. Great as both a reversal and combo tool. Has a tendency to trade but since this is untechable the opponent can often still be comboed. Strangely, the last few blasts of this version always have inactive hitboxes, they are counted as recovery."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Movelist 2",
+      "moves": [
+        {
+          "moveName": "c5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/5/56/EFZ_Mio_LR_c5A.png/175px-EFZ_Mio_LR_c5A.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6 / 6.33",
+            "active": "5 / 4.66",
+            "recovery": "4",
+            "advHit": "+2 / +2.33",
+            "advBlock": "+1 / +1.33",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Slightly slower than SR 5A."
+          ]
+        },
+        {
+          "moveName": "f5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/86/EFZ_Mio_LR_f5A.png/175px-EFZ_Mio_LR_f5A.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "6",
+            "recovery": "9",
+            "advHit": "-4",
+            "advBlock": "-9",
+            "cancel": "N SP J IC SB"
+          },
+          "properties": [
+            "Mio partially extends her notebook forward. Generally not as useful as f2A for footsies, and as an anti-air is only a frame faster than the vastly superior 2C.",
+            "Generally not as useful as f2A for footsies, and as an anti-air is only a frame faster than the vastly superior 2C."
+          ]
+        },
+        {
+          "moveName": "5B",
+          "input": "Active frames 3-8",
+          "image": "https://wiki.gbl.gg/images/thumb/5/5e/EFZ_Mio_LR_5B.png/175px-EFZ_Mio_LR_5B.png",
+          "damage": "380",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "8",
+            "recovery": "17",
+            "advHit": "-8",
+            "advBlock": "-10",
+            "cancel": "N SP JH IC SB"
+          },
+          "properties": [
+            "Mio fully extends her notebook forward into the air. Perhaps the farthest reaching normal in the game, providing amazing space control from just over half screen. However, its far hitbox will whiff on nearly every croucher, so mix with other normals when covering the ground.",
+            "Perhaps the farthest reaching normal in the game, providing amazing space control from just over half screen. However, its far hitbox will whiff on nearly every croucher, so mix with other normals when covering the ground."
+          ]
+        },
+        {
+          "moveName": "Above Hit  上当て",
+          "input": "4B",
+          "image": "https://wiki.gbl.gg/images/thumb/7/71/EFZ_Mio_LR_4B.png/175px-EFZ_Mio_LR_4B.png",
+          "damage": "380",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "6",
+            "recovery": "16",
+            "advHit": "-5",
+            "advBlock": "-7",
+            "cancel": "N SP JH IC SB 5C 2C"
+          },
+          "properties": [
+            "Mio extends her notebook high into the air. A very disjointed anti-air that excels in catching opponents trying to jump and can be jump cancelled to pick up combos after.",
+            "A very disjointed anti-air that excels in catching opponents trying to jump and can be jump cancelled to pick up combos after."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c0/EFZ_Mio_LR_5C.png/175px-EFZ_Mio_LR_5C.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "2",
+            "recovery": "23",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio swings her notebook in front of her. Does not reach as far as 5B but is more consistent against grounded opponents, even more disjointed too.",
+            "Does not reach as far as 5B but is more consistent against grounded opponents, even more disjointed too."
+          ]
+        },
+        {
+          "moveName": "c2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a7/EFZ_Mio_LR_c2A.png/175px-EFZ_Mio_LR_c2A.png",
+          "damage": "160",
+          "framedata": {
+            "guard": "Low",
+            "startup": "5",
+            "active": "6",
+            "recovery": "3",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Slightly slower than SR 2A."
+          ]
+        },
+        {
+          "moveName": "f2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1b/EFZ_Mio_LR_f2A.png/175px-EFZ_Mio_LR_f2A.png",
+          "damage": "160",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "6",
+            "recovery": "8",
+            "advHit": "-3",
+            "advBlock": "-4",
+            "cancel": "N SP J IC SB"
+          },
+          "properties": [
+            "Mio partially extends her notebook low to the ground. Farther range than f5A, hits low, has better frame advantage and a much better disjoint.",
+            "Farther range than f5A, hits low, has better frame advantage and a much better disjoint."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/13/EFZ_Mio_LR_2B.png/175px-EFZ_Mio_LR_2B.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Any",
+            "startup": "10",
+            "active": "6",
+            "recovery": "15",
+            "advHit": "-4",
+            "advBlock": "-6",
+            "cancel": "N SP J IC 5B SB"
+          },
+          "properties": [
+            "Mio fully extends her notebook across the ground. Useful in combos.",
+            "Useful in combos."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/01/EFZ_Mio_LR_2C_x.png/153px-EFZ_Mio_LR_2C_x.png",
+          "damage": "150",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "2",
+            "recovery": "35",
+            "advHit": "/",
+            "advBlock": "-15",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio swings her notebook in a full circle multiple times above her head. Fantastic anti air and combo tool that strangely has brief strike invincibility on startup. Only the first hit launches and is air unblockable. Small inactive gap between the first and second hit while she raises the notebook higher. If the first hit whiffs it is not uncommon for the rest of the move to whiff on a grounded opponent.",
+            "Fantastic anti air and combo tool that strangely has brief strike invincibility on startup.",
+            "Only the first hit launches and is air unblockable.",
+            "Small inactive gap between the first and second hit while she raises the notebook higher.",
+            "If the first hit whiffs it is not uncommon for the rest of the move to whiff on a grounded opponent."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "150",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "2",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "-15",
+                "cancel": "SP IC SB"
+              },
+              "notes": "Mio swings her notebook in a full circle multiple times above her head. Fantastic anti air and combo tool that strangely has brief strike invincibility on startup. Only the first hit launches and is air unblockable. Small inactive gap between the first and second hit while she raises the notebook higher. If the first hit whiffs it is not uncommon for the rest of the move to whiff on a grounded opponent."
+            },
+            {
+              "version": "B",
+              "damage": "120 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14",
+                "active": "2 x 5",
+                "recovery": "31",
+                "advHit": "-6 ~ +2",
+                "advBlock": "-9 ~ -1",
+                "cancel": "SP IC SB"
+              },
+              "notes": "Mio swings her notebook in a full circle multiple times above her head. Fantastic anti air and combo tool that strangely has brief strike invincibility on startup. Only the first hit launches and is air unblockable. Small inactive gap between the first and second hit while she raises the notebook higher. If the first hit whiffs it is not uncommon for the rest of the move to whiff on a grounded opponent."
+            }
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/47/EFZ_Mio_LR_j5A.png/175px-EFZ_Mio_LR_j5A.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Any",
+            "startup": "8",
+            "active": "6",
+            "recovery": "10",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Mio extends her notebook slightly below her. Amazing poke.",
+            "Amazing poke."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/4d/EFZ_Mio_LR_j5B.png/175px-EFZ_Mio_LR_j5B.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9",
+            "active": "14",
+            "recovery": "14",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Mio extends her notebook slightly above her. Amazing poke. The core of LR Mio's midscreen combos.",
+            "Amazing poke.",
+            "The core of LR Mio's midscreen combos."
+          ]
+        },
+        {
+          "moveName": "Below Hit  下当て",
+          "input": "j2B",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b4/EFZ_Mio_LR_j2B.png/175px-EFZ_Mio_LR_j2B.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Any",
+            "startup": "11",
+            "active": "6",
+            "recovery": "12",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP JH AD IC"
+          },
+          "properties": [
+            "Mio fully extends her notebook below her. Amazing poke. Does not hit point blank. Useful in combos when the opponent is too low for jB.",
+            "Amazing poke.",
+            "Does not hit point blank.",
+            "Useful in combos when the opponent is too low for jB."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d7/EFZ_Mio_LR_j5C.png/175px-EFZ_Mio_LR_j5C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High",
+            "startup": "12",
+            "active": "6",
+            "recovery": "28",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "Mio fully extends her notebook directly in front of her. Sends aerial opponents flying backwards on hit.",
+            "Sends aerial opponents flying backwards on hit."
+          ]
+        },
+        {
+          "moveName": "Right Below Hit  真下当て",
+          "input": "j2C",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f0/EFZ_Mio_LR_j2C.png/153px-EFZ_Mio_LR_j2C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High",
+            "startup": "12",
+            "active": "9",
+            "recovery": "12",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "Mio fully extends her notebook to hit almost directly beneath her. Is techable but sends the opponent so quickly downwards that as a combo ender they should hit the ground before being able to tech. Can also be used as an extremely fast instant overhead but Mio will be minus on hit.",
+            "Is techable but sends the opponent so quickly downwards that as a combo ender they should hit the ground before being able to tech.",
+            "Can also be used as an extremely fast instant overhead but Mio will be minus on hit."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/86/EFZ_Mio_LR_f5A.png/175px-EFZ_Mio_LR_f5A.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "6",
+            "recovery": "9",
+            "advHit": "-4",
+            "advBlock": "-5",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio partially extends her notebook forward."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/5/5e/EFZ_Mio_LR_5B.png/175px-EFZ_Mio_LR_5B.png",
+          "damage": "380",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "6",
+            "recovery": "14",
+            "advHit": "-3",
+            "advBlock": "-5",
+            "cancel": "SP JH IC SB"
+          },
+          "properties": [
+            "Mio fully extends her notebook forward into the air. Insane harassment tool. Allows for combos from extraordinary distances, especially with its jump cancel capability. Can buffer IC when using in neutral to help react to a hit.",
+            "Insane harassment tool. Allows for combos from extraordinary distances, especially with its jump cancel capability. Can buffer IC when using in neutral to help react to a hit."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/4c/EFZ_Mio_LR_66C.png/175px-EFZ_Mio_LR_66C.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "2",
+            "recovery": "23",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio swings her notebook in front of her. Causes a wallbounce when hitting an aerial opponent. Smaller hitbox than 5C.",
+            "Causes a wallbounce when hitting an aerial opponent.",
+            "Smaller hitbox than 5C."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1b/EFZ_Mio_LR_f2A.png/175px-EFZ_Mio_LR_f2A.png",
+          "damage": "160",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "6",
+            "recovery": "7",
+            "advHit": "-3",
+            "advBlock": "-4",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio partially extends her notebook low to the ground. Not really rewarding and puts Mio at disadvantage.",
+            "Not really rewarding and puts Mio at disadvantage."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/13/EFZ_Mio_LR_2B.png/175px-EFZ_Mio_LR_2B.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Any",
+            "startup": "10",
+            "active": "5",
+            "recovery": "16",
+            "advHit": "-4",
+            "advBlock": "-6",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio fully extends her notebook across the ground."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/01/EFZ_Mio_LR_2C_x.png/153px-EFZ_Mio_LR_2C_x.png",
+          "damage": "150",
+          "framedata": {
+            "guard": "Any",
+            "startup": "11",
+            "active": "2",
+            "recovery": "43",
+            "advHit": "/",
+            "advBlock": "-23",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Mio swings her notebook in a full circle multiple times above her head. Hits one more time than 2C. Combo filler.",
+            "Hits one more time than 2C.",
+            "Combo filler."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11",
+                "active": "2",
+                "recovery": "43",
+                "advHit": "/",
+                "advBlock": "-23",
+                "cancel": "SP IC SB"
+              },
+              "notes": "Mio swings her notebook in a full circle multiple times above her head. Hits one more time than 2C. Combo filler."
+            },
+            {
+              "version": "B",
+              "damage": "120 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "17",
+                "active": "2 x 9",
+                "recovery": "37",
+                "advHit": "-15 ~ +2",
+                "advBlock": "-17 ~ -7",
+                "cancel": "SP IC SB"
+              },
+              "notes": "Mio swings her notebook in a full circle multiple times above her head. Hits one more time than 2C. Combo filler."
+            }
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "c6C/4C",
+          "image": "https://wiki.gbl.gg/images/7/71/EFZ_Mio_SR_Ground_Grab.png",
+          "damage": "0 + 100 x 8 + 400",
+          "framedata": {
+            "guard": "Grab",
+            "startup": "5.33",
+            "active": "1",
+            "recovery": "20(hit) 17(whiff)",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Identical to the short range version."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0 + 100 x 8 + 400",
+              "framedata": {
+                "guard": "Grab",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "20(hit) 17(whiff)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Identical to the short range version."
+            },
+            {
+              "version": "B",
+              "damage": "0 + 100 x 8 + 400",
+              "framedata": {
+                "guard": "Grab",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "20(hit) 17(whiff)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Identical to the short range version."
+            },
+            {
+              "version": "C",
+              "damage": "0 + 100 x 8 + 400",
+              "framedata": {
+                "guard": "Grab",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "20(hit) 17(whiff)",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Identical to the short range version."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "cj6C",
+          "image": "https://wiki.gbl.gg/images/thumb/d/da/EFZ_Mio_LR_Air_Grab.png/175px-EFZ_Mio_LR_Air_Grab.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Grab",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Has a larger hitbox than the SR version."
+          ]
+        },
+        {
+          "moveName": "Mode Switch  モードチェンジ",
+          "input": "5S",
+          "image": "https://wiki.gbl.gg/images/thumb/3/31/EFZ_Mio_SR_5S.png/175px-EFZ_Mio_SR_5S.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "6",
+            "active": "/",
+            "recovery": "10",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mio does a quick pose, and goes into Short Range Mode."
+          ]
+        },
+        {
+          "moveName": "Flight  飛行",
+          "input": "j5S",
+          "image": "https://wiki.gbl.gg/images/thumb/0/04/EFZ_Mio_LR_j5S.png/175px-EFZ_Mio_LR_j5S.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "0.33",
+            "active": "/",
+            "recovery": "95",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP AD ※"
+          },
+          "properties": [
+            "Mio greatly reduces her air speed, allowing her to stay airborne much longer. This move drains the RF gauge over time. ※ This move can be cancelled with a 2 input. Cannot be cancelled for the first 12 frames.",
+            "This move drains the RF gauge over time."
+          ]
+        },
+        {
+          "moveName": "Costume - Shikigami Tamer  衣装・式神使い",
+          "input": "236",
+          "image": "https://wiki.gbl.gg/images/thumb/3/30/EFZ_Mio_LR_236A.png/175px-EFZ_Mio_LR_236A.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "22",
+            "active": "/",
+            "recovery": "26",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Mio fires an arrow forwards. Not the fastest startup and the projectile is tiny, but has a LOT of hitstun, allowing Mio to combo after without resources if the opponent is close enough. Not really a space control move but useful in combos and to disrupt things that are normally safe to do from far away such as Kano charging spells or Neyu eating jam. Being only one hit means it will get trumped by a lot of other projectiles head on.",
+            "Mio fires two arrows forwards. The second arrow covers the exact same space as the first while making the move horribly slower than 236A and can't be comboed after without FIC either. Rarely useful but may hit someone expecting only one arrow.",
+            "Mio fires an arrow backwards which reappears on the other side of the screen. Can lead to silly moments but Mio has better ways to spend RF meter. ※~130 frames to make a full lap around screen.",
+            "Mio fires an arrow forwards.",
+            "Not the fastest startup and the projectile is tiny, but has a LOT of hitstun, allowing Mio to combo after without resources if the opponent is close enough. Not really a space control move but useful in combos and to disrupt things that are normally safe to do from far away such as Kano charging spells or Neyu eating jam. Being only one hit means it will get trumped by a lot of other projectiles head on.",
+            "Mio fires two arrows forwards.",
+            "The second arrow covers the exact same space as the first while making the move horribly slower than 236A and can't be comboed after without FIC either. Rarely useful but may hit someone expecting only one arrow.",
+            "Mio fires an arrow backwards which reappears on the other side of the screen.",
+            "Can lead to silly moments but Mio has better ways to spend RF meter."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "22",
+                "active": "/",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Mio fires an arrow forwards. Not the fastest startup and the projectile is tiny, but has a LOT of hitstun, allowing Mio to combo after without resources if the opponent is close enough. Not really a space control move but useful in combos and to disrupt things that are normally safe to do from far away such as Kano charging spells or Neyu eating jam. Being only one hit means it will get trumped by a lot of other projectiles head on."
+            },
+            {
+              "version": "-",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "22",
+                "active": "∞",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+3 ~ +16",
+                "cancel": "FIC"
+              },
+              "notes": "Mio fires an arrow forwards. Not the fastest startup and the projectile is tiny, but has a LOT of hitstun, allowing Mio to combo after without resources if the opponent is close enough. Not really a space control move but useful in combos and to disrupt things that are normally safe to do from far away such as Kano charging spells or Neyu eating jam. Being only one hit means it will get trumped by a lot of other projectiles head on."
+            },
+            {
+              "version": "B",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "26, 42",
+                "active": "/",
+                "recovery": "51, 34",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Mio fires an arrow forwards. Not the fastest startup and the projectile is tiny, but has a LOT of hitstun, allowing Mio to combo after without resources if the opponent is close enough. Not really a space control move but useful in combos and to disrupt things that are normally safe to do from far away such as Kano charging spells or Neyu eating jam. Being only one hit means it will get trumped by a lot of other projectiles head on."
+            },
+            {
+              "version": "-",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "26",
+                "active": "∞",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "Mio fires an arrow forwards. Not the fastest startup and the projectile is tiny, but has a LOT of hitstun, allowing Mio to combo after without resources if the opponent is close enough. Not really a space control move but useful in combos and to disrupt things that are normally safe to do from far away such as Kano charging spells or Neyu eating jam. Being only one hit means it will get trumped by a lot of other projectiles head on."
+            },
+            {
+              "version": "-",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "42",
+                "active": "∞",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-3 ~ +8",
+                "cancel": "FIC"
+              },
+              "notes": "Mio fires an arrow forwards. Not the fastest startup and the projectile is tiny, but has a LOT of hitstun, allowing Mio to combo after without resources if the opponent is close enough. Not really a space control move but useful in combos and to disrupt things that are normally safe to do from far away such as Kano charging spells or Neyu eating jam. Being only one hit means it will get trumped by a lot of other projectiles head on."
+            },
+            {
+              "version": "C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "26",
+                "active": "/",
+                "recovery": "19",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Mio fires an arrow forwards. Not the fastest startup and the projectile is tiny, but has a LOT of hitstun, allowing Mio to combo after without resources if the opponent is close enough. Not really a space control move but useful in combos and to disrupt things that are normally safe to do from far away such as Kano charging spells or Neyu eating jam. Being only one hit means it will get trumped by a lot of other projectiles head on."
+            },
+            {
+              "version": "-",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "26※",
+                "active": "∞",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+10 ~ +52",
+                "cancel": "FIC"
+              },
+              "notes": "Mio fires an arrow forwards. Not the fastest startup and the projectile is tiny, but has a LOT of hitstun, allowing Mio to combo after without resources if the opponent is close enough. Not really a space control move but useful in combos and to disrupt things that are normally safe to do from far away such as Kano charging spells or Neyu eating jam. Being only one hit means it will get trumped by a lot of other projectiles head on."
+            }
+          ]
+        },
+        {
+          "moveName": "Costume - Card Captor  衣装・カードキャプター",
+          "input": "Top layer hitboxes not pictured.",
+          "image": "https://wiki.gbl.gg/images/thumb/6/64/EFZ_Mio_LR_214X.png/175px-EFZ_Mio_LR_214X.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "12",
+            "active": "/",
+            "recovery": "40",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC"
+          },
+          "properties": [],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "12",
+                "active": "/",
+                "recovery": "40",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": ""
+            },
+            {
+              "version": "-",
+              "damage": "250 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "35, 37, 39 ※",
+                "active": "10 x 9",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+12 ~ +22",
+                "cancel": "/"
+              },
+              "notes": ""
+            },
+            {
+              "version": "B",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "12",
+                "active": "/",
+                "recovery": "37",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": ""
+            },
+            {
+              "version": "-",
+              "damage": "250 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "35, 37, 39 ※",
+                "active": "10 x 9",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+15 ~ +25",
+                "cancel": "/"
+              },
+              "notes": ""
+            },
+            {
+              "version": "C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "12",
+                "active": "/",
+                "recovery": "34",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": ""
+            },
+            {
+              "version": "-",
+              "damage": "250 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "35, 37, 39 ※",
+                "active": "10 x 9",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+18 ~ +28",
+                "cancel": "/"
+              },
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "moveName": "Costume - Little Match Girl  衣装・マッチ売りの少女",
+          "input": "(j)412",
+          "image": "https://wiki.gbl.gg/images/thumb/8/87/EFZ_Mio_LR_412X.png/175px-EFZ_Mio_LR_412X.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "19",
+            "active": "/",
+            "recovery": "63",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Used in combos, and can lead to good meterless combos on raw hit.",
+            "Mio moves far backwards, making her harder to punish. Not nearly as combo friendly.",
+            "Moves Mio far backwards. Mio recovers before landing. Most practical reversal option in Long Range, but has a long startup that the invincibility doesn't entirely cover and will almost always whiff on a point blank opponent. Can be meterlessly comboed from.",
+            "Moves Mio far backwards.",
+            "Mio moves far backwards, making her harder to punish.",
+            "Not nearly as combo friendly.",
+            "Mio recovers before landing.",
+            "Most practical reversal option in Long Range, but has a long startup that the invincibility doesn't entirely cover and will almost always whiff on a point blank opponent.",
+            "Can be meterlessly comboed from."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "19",
+                "active": "/",
+                "recovery": "63",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "-",
+              "damage": "120 x 7",
+              "framedata": {
+                "guard": "Any",
+                "startup": "19",
+                "active": "43",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "B",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "23",
+                "active": "/",
+                "recovery": "85",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "-",
+              "damage": "120 x 12",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "63",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "19",
+                "active": "/",
+                "recovery": "59",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "-",
+              "damage": "120 x 14",
+              "framedata": {
+                "guard": "Any",
+                "startup": "19",
+                "active": "71",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "jA",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13",
+                "active": "/",
+                "recovery": "72",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "-",
+              "damage": "120 x 7",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "43",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "jB",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "15",
+                "active": "/",
+                "recovery": "104",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "-",
+              "damage": "120 x 12",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "63",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "jC",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13",
+                "active": "/",
+                "recovery": "60",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            },
+            {
+              "version": "-",
+              "damage": "120 x 14",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "71",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Used in combos, and can lead to good meterless combos on raw hit."
+            }
+          ]
+        },
+        {
+          "moveName": "Costume - Snow Princess  衣装・雪女",
+          "input": "236236C",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b8/EFZ_Mio_LR_236236A.png/175px-EFZ_Mio_LR_236236A.png",
+          "damage": "430 x N",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9",
+            "active": "/",
+            "recovery": "64",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Useful in combos.",
+            "Travels faster than the A version. Untechable. Not so useful.",
+            "Travels faster than the B version and with a bigger hitbox. Untechable. Not so useful.",
+            "Purely used as a damage ender, since this version is techable and returns both players to neutral.",
+            "Travels faster than the A version. This means it hits less times which unfortunately offsets the damage increase to be almost negligible in combos. Being untechable can make this a somewhat appealing ender, but the oki after is still weak.",
+            "Travels faster than the B version and with a bigger hitbox. Untechable. Unless it's the difference between killing or not this should never be worth the meter.",
+            "Travels faster than the A version.",
+            "Untechable.",
+            "Not so useful.",
+            "Travels faster than the B version and with a bigger hitbox.",
+            "Travels faster than the A version. This means it hits less times which unfortunately offsets the damage increase to be almost negligible in combos.",
+            "Being untechable can make this a somewhat appealing ender, but the oki after is still weak.",
+            "Unless it's the difference between killing or not this should never be worth the meter."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "430 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "/",
+                "recovery": "64",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Useful in combos."
+            },
+            {
+              "version": "B",
+              "damage": "600 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "/",
+                "recovery": "64",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Useful in combos."
+            },
+            {
+              "version": "C",
+              "damage": "850 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11",
+                "active": "/",
+                "recovery": "70",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Useful in combos."
+            },
+            {
+              "version": "jA",
+              "damage": "430 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "4",
+                "active": "/",
+                "recovery": "72",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Useful in combos."
+            },
+            {
+              "version": "jB",
+              "damage": "600 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "4",
+                "active": "/",
+                "recovery": "72",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Useful in combos."
+            },
+            {
+              "version": "jC",
+              "damage": "850 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "/",
+                "recovery": "72",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Useful in combos."
+            }
+          ]
+        },
+        {
+          "moveName": "Costume - Vampire Hunter  衣装・ヴァンパイアハンター",
+          "input": "214214",
+          "image": "https://wiki.gbl.gg/images/thumb/4/48/EFZ_Mio_LR_214214X.png/175px-EFZ_Mio_LR_214214X.png",
+          "damage": "200 x 12",
+          "framedata": {
+            "guard": "Any",
+            "startup": "15",
+            "active": "/",
+            "recovery": "75",
+            "advHit": "/",
+            "advBlock": "-44 ~ -7",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mio throws 4 volleys of 3 Black Keys, for a total of 12.",
+            "Mio throws 6 volleys of 3 Black Keys, for a total of 18. All volleys but the last cause no pushback.",
+            "Mio throws 10 volleys of 3 Black Keys, for a total of 30. All volleys but the last cause no pushback.",
+            "Mio throws 6 volleys of 3 Black Keys, for a total of 18.",
+            "All volleys but the last cause no pushback.",
+            "Mio throws 10 volleys of 3 Black Keys, for a total of 30."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "200 x 12",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "/",
+                "recovery": "75",
+                "advHit": "/",
+                "advBlock": "-44 ~ -7",
+                "cancel": "None"
+              },
+              "notes": "Mio throws 4 volleys of 3 Black Keys, for a total of 12."
+            },
+            {
+              "version": "B",
+              "damage": "200 x 18",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "/",
+                "recovery": "79",
+                "advHit": "/",
+                "advBlock": "-7",
+                "cancel": "None"
+              },
+              "notes": "Mio throws 4 volleys of 3 Black Keys, for a total of 12."
+            },
+            {
+              "version": "C",
+              "damage": "200 x 30",
+              "framedata": {
+                "guard": "Any",
+                "startup": "3",
+                "active": "/",
+                "recovery": "98",
+                "advHit": "/",
+                "advBlock": "-7",
+                "cancel": "None"
+              },
+              "notes": "Mio throws 4 volleys of 3 Black Keys, for a total of 12."
+            }
+          ]
+        },
+        {
+          "moveName": "Costume - Doing many things with a Fake Nanase  衣装・アレ以外の何かｗｉｔｈ偽七瀬",
+          "input": "B A 2 A B",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0d/EFZ_Mio_LR_FM.png/175px-EFZ_Mio_LR_FM.png",
+          "damage": "0 + 5000",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "1",
+            "recovery": "22",
+            "advHit": "/",
+            "advBlock": "-9",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mio knocks out the opponent and proceeds to act out several scenes with other ONE characters under spotlights, finishing with an explosion. The 2 does not need to be input after the first A, it can actually be held as soon as the frame after the first B is pressed, making B2AAB a valid input. Letting go of 2 before pressing the first A however would be invalid. Mio can whiff cancel most of her normals into this move. Knocks down both Mio and her opponent, usually leaving her at frame disadvantage due to her slow wakeup speed. While Mio does not take damage, if she has BIC she will lose about 15% of it. Can be comboed into. Lucky Mio! MUCH faster than LR Mio's other \"reversal\" options and doesn't struggle at point blank like her 412C, but extremely dangerous to use due to the cost and FM health requirement. Extremely easy to counter RG thanks to the superflash. Only use as a last resort!",
+            "Knocks down both Mio and her opponent, usually leaving her at frame disadvantage due to her slow wakeup speed. While Mio does not take damage, if she has BIC she will lose about 15% of it.",
+            "Can be comboed into. Lucky Mio!",
+            "MUCH faster than LR Mio's other \"reversal\" options and doesn't struggle at point blank like her 412C, but extremely dangerous to use due to the cost and FM health requirement. Extremely easy to counter RG thanks to the superflash. Only use as a last resort!"
+          ]
+        }
+      ]
+    }
+  ]
+}

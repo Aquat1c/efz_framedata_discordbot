@@ -1,0 +1,976 @@
+{
+  "name": "Akane Satomura",
+  "icon": "https://wiki.gbl.gg/images/1/1b/EFZ_Akane_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/4/40/Akane5a.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "1",
+            "recovery": "7",
+            "advHit": "+3",
+            "advBlock": "+2",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Akane does a quick slap to the opponent's face. Has very short range compared to most characters. Almost impossible to link two 5As together. Using the 2A would be safer."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/19/EFZ_Akane_c5B.png/175px-EFZ_Akane_c5B.png",
+          "damage": "360",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "2",
+            "recovery": "12",
+            "advHit": "+3.33",
+            "advBlock": "+1.33",
+            "cancel": "N SP J IC f5B 2B"
+          },
+          "properties": [
+            "Akane tosses her hair forward into the opponent. Active frames 3-4 Active frames 5-7",
+            "Active frames 3-4",
+            "Active frames 5-7"
+          ],
+          "variations": [
+            {
+              "version": "Active Frames 1-2",
+              "damage": "360",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "5",
+                "active": "2",
+                "recovery": "12",
+                "advHit": "+3.33",
+                "advBlock": "+1.33",
+                "cancel": "N SP J IC f5B 2B"
+              },
+              "notes": "Akane tosses her hair forward into the opponent. Active frames 3-4 Active frames 5-7"
+            },
+            {
+              "version": "Active Frames 3-4",
+              "damage": "350",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "7",
+                "active": "2",
+                "recovery": "10",
+                "advHit": "+5.33",
+                "advBlock": "+3.33",
+                "cancel": "N SP J IC f5B 2B"
+              },
+              "notes": "Akane tosses her hair forward into the opponent. Active frames 3-4 Active frames 5-7"
+            },
+            {
+              "version": "Active Frames 5-7",
+              "damage": "300",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "9",
+                "active": "3",
+                "recovery": "7",
+                "advHit": "+7.33",
+                "advBlock": "+5.33",
+                "cancel": "N SP J IC f5B 2B"
+              },
+              "notes": "Akane tosses her hair forward into the opponent. Active frames 3-4 Active frames 5-7"
+            }
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0c/Akanef5b.png/175px-Akanef5b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "5",
+            "recovery": "12",
+            "advHit": "+0",
+            "advBlock": "-2",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Akane's hair forms into a blade and stabs directly forward."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/5/5d/Akane5c.png/175px-Akane5c.png",
+          "damage": "80x9",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "9",
+            "recovery": "18",
+            "advHit": "-3~+5",
+            "advBlock": "-5~+3",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Akane's hair forms into a large drill in front of her and spins. Since this move hits multiple times and cannot be guarded normally in the air, it can be an effective move against opponents jumping in."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b8/Akane2a.png/175px-Akane2a.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Low",
+            "startup": "5",
+            "active": "5",
+            "recovery": "3",
+            "advHit": "+3",
+            "advBlock": "+2",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Akane does a small kick at the opponent's feet."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/32/Akane2b.png/175px-Akane2b.png",
+          "damage": "370",
+          "framedata": {
+            "guard": "Low",
+            "startup": "6 / 6.33",
+            "active": "10 / 9.66",
+            "recovery": "11",
+            "advHit": "-5",
+            "advBlock": "-7",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Akane slides forward feet first as a kick. As this attack moves you closer to the enemy, it has some uses for tick throwing."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/45/Akane2c.png/175px-Akane2c.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9 / 9.33",
+            "active": "2 / 1.66",
+            "recovery": "25",
+            "advHit": "―",
+            "advBlock": "-6",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "Akane extends her head out almost touching the ground and back again, allowing her hair to cut a wide arc in front of her. This move will knock down the opponent if it connects. It's a good combo starter if you have the meter to IC. Otherwise, you can set up some oki tricks off a non IC'd hit."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/4/43/Akanej5a.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "6",
+            "active": "10",
+            "recovery": "2",
+            "advHit": "―",
+            "advBlock": "―",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "Akane does short diagonal kick that extends more down than forward."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/04/Akanej5b.png/175px-Akanej5b.png",
+          "damage": "380",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "6 / 6.33",
+            "active": "3 / 2.66",
+            "recovery": "15",
+            "advHit": "―",
+            "advBlock": "―",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Akane spins in midair, causing her hair to extend out a good distance horizontally."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1c/Akanej5c.png/175px-Akanej5c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "11",
+            "active": "9",
+            "recovery": "Until landing",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Akane's hair forms into a large hammer, which she then swings down hard. This move will cause the opponent to shoot towards the ground on hit and should only be used for ending an air combo."
+          ]
+        },
+        {
+          "moveName": "Side Hammer  サイドハンマー",
+          "input": "j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/6/61/Akanej6c.png/175px-Akanej6c.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "8",
+            "active": "6",
+            "recovery": "19",
+            "advHit": "―",
+            "advBlock": "―",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Akane's hair forms into a large hammer, which she then swings forward with good horizontal range."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/7/7c/Akane66a.png",
+          "damage": "250",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "1",
+            "recovery": "5",
+            "advHit": "+4",
+            "advBlock": "+3",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Akane does a quick slap to the opponent's face."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/bc/EFZ_Akane_66B.png/175px-EFZ_Akane_66B.png",
+          "damage": "150x3",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "10",
+            "recovery": "11",
+            "advHit": "-5~+1",
+            "advBlock": "-7~-1",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "Akane tosses her hair forward into the opponent with afterimages following her. Hits multiple times. 2nd hit 3rd hit",
+            "2nd hit",
+            "3rd hit"
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/9/98/Akane66c.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "2",
+            "recovery": "16",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "Akane puts all of her body into a two-handed shove. This move causes wallbounce when used on airborne opponents. This property makes this move one of Akane's most useful normal moves to use during combos."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/2/2d/Akane662a.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Low",
+            "startup": "6",
+            "active": "6",
+            "recovery": "1",
+            "advHit": "+3",
+            "advBlock": "+2",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Akane does a small kick at the opponent's feet."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/28/Akane662b.png/175px-Akane662b.png",
+          "damage": "370",
+          "framedata": {
+            "guard": "Low",
+            "startup": "6",
+            "active": "14",
+            "recovery": "8",
+            "advHit": "-4",
+            "advBlock": "-6",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Akane slides forward feet first as a kick."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/93/Akane662c.png/175px-Akane662c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "26",
+            "active": "6.66",
+            "recovery": "11",
+            "advHit": "+6",
+            "advBlock": "+4",
+            "cancel": "SP AD※ IC"
+          },
+          "properties": [
+            "Akane does a short running hop, turns her hair into a large hammer, and swings down hard. Because of the long startup time for this move, it is really only useful as an overhead attack on a waking opponent. ※ Backwards air dash cancel only."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/9/9e/EFZ_Akane_GroundGrab.png",
+          "damage": "0 + 1000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "0.66",
+            "recovery": "22",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Akane grabs the opponent with both hands and then shoves them away. The second hit can be IC'd for a followup combo."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0 + 1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "22",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Akane grabs the opponent with both hands and then shoves them away. The second hit can be IC'd for a followup combo."
+            },
+            {
+              "version": "B",
+              "damage": "0 + 1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "22",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Akane grabs the opponent with both hands and then shoves them away. The second hit can be IC'd for a followup combo."
+            },
+            {
+              "version": "C",
+              "damage": "0 + 1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "22",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Akane grabs the opponent with both hands and then shoves them away. The second hit can be IC'd for a followup combo."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/5/59/EFZ_Akane_AirGrab.png",
+          "damage": "0 + 1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Akane grabs the opponent and throws them over her shoulder once she reaches the floor."
+          ]
+        },
+        {
+          "moveName": "Enter Shiiko-san",
+          "input": "236C",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b9/Akane236a.png/175px-Akane236a.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "Any",
+            "startup": "1",
+            "active": "/",
+            "recovery": "26",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Shiiko appears behind Akane and flies across the upper half of the screen. Situationally useful for anti-airs due to the high angle, usually used in combos to push the opponent back into the corner while Akane steals it. P1 Shiiko will beat out P2 Shiiko in trade situations.",
+            "Shiiko runs from behind Akane and swipes with a marker when she gets close to the opponent. Useful when you have your opponent backed up to the corner for forcing your turn and for okizeme. P1 Shiiko will beat out P2 Shiiko in trade situations.",
+            "Shiiko appears from behind the opponent and rides a scooter across the screen, launching the opponent if she hits them. Useful to catch opponents off-guard and in some midscreen combos. Requires RF to use. P1 and P2 Shiiko are capable of trading during this move.",
+            "P1 Shiiko will beat out P2 Shiiko in trade situations.",
+            "Requires RF to use.",
+            "P1 and P2 Shiiko are capable of trading during this move."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "1",
+                "active": "/",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Shiiko appears behind Akane and flies across the upper half of the screen. Situationally useful for anti-airs due to the high angle, usually used in combos to push the opponent back into the corner while Akane steals it. P1 Shiiko will beat out P2 Shiiko in trade situations."
+            },
+            {
+              "version": "-",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "1",
+                "active": "∞",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Shiiko appears behind Akane and flies across the upper half of the screen. Situationally useful for anti-airs due to the high angle, usually used in combos to push the opponent back into the corner while Akane steals it. P1 Shiiko will beat out P2 Shiiko in trade situations."
+            },
+            {
+              "version": "B",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "2",
+                "active": "/",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Shiiko appears behind Akane and flies across the upper half of the screen. Situationally useful for anti-airs due to the high angle, usually used in combos to push the opponent back into the corner while Akane steals it. P1 Shiiko will beat out P2 Shiiko in trade situations."
+            },
+            {
+              "version": "-",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11 ~ 39",
+                "active": "2",
+                "recovery": "~95",
+                "advHit": "+26",
+                "advBlock": "+24",
+                "cancel": "None"
+              },
+              "notes": "Shiiko appears behind Akane and flies across the upper half of the screen. Situationally useful for anti-airs due to the high angle, usually used in combos to push the opponent back into the corner while Akane steals it. P1 Shiiko will beat out P2 Shiiko in trade situations."
+            },
+            {
+              "version": "C",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "/",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Shiiko appears behind Akane and flies across the upper half of the screen. Situationally useful for anti-airs due to the high angle, usually used in combos to push the opponent back into the corner while Akane steals it. P1 Shiiko will beat out P2 Shiiko in trade situations."
+            },
+            {
+              "version": "-",
+              "damage": "800",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "∞",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "+15",
+                "cancel": "None"
+              },
+              "notes": "Shiiko appears behind Akane and flies across the upper half of the screen. Situationally useful for anti-airs due to the high angle, usually used in combos to push the opponent back into the corner while Akane steals it. P1 Shiiko will beat out P2 Shiiko in trade situations."
+            }
+          ]
+        },
+        {
+          "moveName": "Rainy Spin",
+          "input": "623B/C",
+          "image": "https://wiki.gbl.gg/images/thumb/2/21/Akane623a.png/175px-Akane623a.png",
+          "damage": "400 + 70x6",
+          "framedata": {
+            "guard": "Any",
+            "startup": "5",
+            "active": "2 + 2x6",
+            "recovery": "69",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Akane spins into the air. Very fast startup which can be buffered during RG and allows Akane to combo into 412C~C on a trade. Can be used as a grounded launcher if the first or second hit is IC'd, after which Akane can switch sides with 662B. Despite its looks, it is not an effective anti-air at all.",
+            "Akane skims along the ground and then spins into the air. Mostly used in combos with IC.",
+            "Akane skims a further distance along the ground and then spins into the air. Requires 50% RF to use. This move gives Akane the privilege of having an invincible reversal, but the combination of having a bad hitbox, returning to neutral on hit, not having fast startup, costing RF to use, requiring BIC to make safe or combo after, not being air-unblockable, having the damage be split between many weak hits, having Akane recover airborne and not letting her counter RG after landing make it a mediocre one. IC'ing the 7th hit will launch the opponent while keeping Akane grounded.",
+            "Very fast startup which can be buffered during RG and allows Akane to combo into 412C~C on a trade.",
+            "Can be used as a grounded launcher if the first or second hit is IC'd, after which Akane can switch sides with 662B.",
+            "Despite its looks, it is not an effective anti-air at all.",
+            "Mostly used in combos with IC.",
+            "Requires 50% RF to use.",
+            "This move gives Akane the privilege of having an invincible reversal, but the combination of having a bad hitbox, returning to neutral on hit, not having fast startup, costing RF to use, requiring BIC to make safe or combo after, not being air-unblockable, having the damage be split between many weak hits, having Akane recover airborne and not letting her counter RG after landing make it a mediocre one.",
+            "IC'ing the 7th hit will launch the opponent while keeping Akane grounded."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "400 + 70x6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "5",
+                "active": "2 + 2x6",
+                "recovery": "69",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Akane spins into the air. Very fast startup which can be buffered during RG and allows Akane to combo into 412C~C on a trade. Can be used as a grounded launcher if the first or second hit is IC'd, after which Akane can switch sides with 662B. Despite its looks, it is not an effective anti-air at all."
+            },
+            {
+              "version": "B",
+              "damage": "100x4 + 250 + 100x4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "2x4 + 2 + 2x4",
+                "recovery": "64",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Akane spins into the air. Very fast startup which can be buffered during RG and allows Akane to combo into 412C~C on a trade. Can be used as a grounded launcher if the first or second hit is IC'd, after which Akane can switch sides with 662B. Despite its looks, it is not an effective anti-air at all."
+            },
+            {
+              "version": "C",
+              "damage": "100x6 + 400 + 100x6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "2x6 + 2 + 2x6",
+                "recovery": "73",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Akane spins into the air. Very fast startup which can be buffered during RG and allows Akane to combo into 412C~C on a trade. Can be used as a grounded launcher if the first or second hit is IC'd, after which Akane can switch sides with 662B. Despite its looks, it is not an effective anti-air at all."
+            }
+          ]
+        },
+        {
+          "moveName": "Assault Leap  アサルトリープ",
+          "input": "(j)412",
+          "image": "https://wiki.gbl.gg/images/8/8c/Akane214%2C412.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "19",
+            "active": "-",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Akane somersaults and slowly falls down in an arc. Some versions have an automatic followup. Mainly used in combos and to reset pressure. A: Akane leaps about one character length forward. (Slightly forwards) B: Akane leaps about one character length backwards. (Slightly backwards) C: Akane leaps almost a full screen length forward. Does not require RF to use.",
+            "Akane quickly zips a certain distance forward in the air and briefly hovers there before dropping straight down. 412* is also used in combos but is also useful for left/right setups. 412C~5C is particularly good at building distance on a successful RG, often requiring opponents to develop a special punish for it. A: Akane leaps about one character length forward. (A short distance.) B: Akane leaps about a third of the screen forward. (A medium distance.) C: Akane leaps about half-screen forward. (A long distance.) Does not require RF to use.",
+            "Does not require RF to use."
+          ],
+          "variations": [
+            {
+              "version": "214*",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "19",
+                "active": "-",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Akane somersaults and slowly falls down in an arc. Some versions have an automatic followup. Mainly used in combos and to reset pressure. A: Akane leaps about one character length forward. (Slightly forwards) B: Akane leaps about one character length backwards. (Slightly backwards) C: Akane leaps almost a full screen length forward. Does not require RF to use."
+            },
+            {
+              "version": "Version",
+              "damage": "Damage",
+              "framedata": {
+                "guard": "Guard",
+                "startup": "Startup ¹ ²",
+                "active": "Active",
+                "recovery": "Recovery",
+                "advHit": "Adv Hit",
+                "advBlock": "Adv Block",
+                "cancel": "Cancel"
+              },
+              "notes": "Akane somersaults and slowly falls down in an arc. Some versions have an automatic followup. Mainly used in combos and to reset pressure. A: Akane leaps about one character length forward. (Slightly forwards) B: Akane leaps about one character length backwards. (Slightly backwards) C: Akane leaps almost a full screen length forward. Does not require RF to use."
+            },
+            {
+              "version": "412*",
+              "damage": "-",
+              "framedata": {
+                "guard": "-",
+                "startup": "19",
+                "active": "-",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Akane somersaults and slowly falls down in an arc. Some versions have an automatic followup. Mainly used in combos and to reset pressure. A: Akane leaps about one character length forward. (Slightly forwards) B: Akane leaps about one character length backwards. (Slightly backwards) C: Akane leaps almost a full screen length forward. Does not require RF to use."
+            }
+          ]
+        },
+        {
+          "moveName": "Bad Waffle",
+          "input": "j236",
+          "image": "https://wiki.gbl.gg/images/thumb/2/2f/Akanej236.png/175px-Akanej236.png",
+          "damage": "250xN",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "18",
+            "active": "Until landing",
+            "recovery": "16",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Akane's hair transforms into a giant waffle surrounding Akane, and spins diagonally down-forward until reaching the ground. TK (Tiger Knee) this (2369A) when close to your opponent for a fast overhead that will avoid many low attacks, major staple of her okizeme with IC.",
+            "Similar to above, except with a different angle - goes back a bit before going down. Air dash or jump over a knocked down opponent and use this for an ambiguous left/right overhead.",
+            "Similar to the B version. Fully invincible until the first active frame. The hits tick much faster resulting in higher overall damage if not cancelled."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "250xN",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "18",
+                "active": "Until landing",
+                "recovery": "16",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Akane's hair transforms into a giant waffle surrounding Akane, and spins diagonally down-forward until reaching the ground. TK (Tiger Knee) this (2369A) when close to your opponent for a fast overhead that will avoid many low attacks, major staple of her okizeme with IC."
+            },
+            {
+              "version": "B",
+              "damage": "250xN",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "19",
+                "active": "Until landing",
+                "recovery": "16",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Akane's hair transforms into a giant waffle surrounding Akane, and spins diagonally down-forward until reaching the ground. TK (Tiger Knee) this (2369A) when close to your opponent for a fast overhead that will avoid many low attacks, major staple of her okizeme with IC."
+            },
+            {
+              "version": "C",
+              "damage": "140xN",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "13",
+                "active": "Until landing",
+                "recovery": "16",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Akane's hair transforms into a giant waffle surrounding Akane, and spins diagonally down-forward until reaching the ground. TK (Tiger Knee) this (2369A) when close to your opponent for a fast overhead that will avoid many low attacks, major staple of her okizeme with IC."
+            }
+          ]
+        },
+        {
+          "moveName": "Rain of Tears",
+          "input": "236236",
+          "image": "https://wiki.gbl.gg/images/thumb/0/09/EFZ_Akane_236236X_1.png/175px-EFZ_Akane_236236X_1.png",
+          "damage": "80x16 + 150/200/250x16",
+          "framedata": {
+            "guard": "Any",
+            "startup": "21-24",
+            "active": "Until offscreen, Until landing",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Akane launches several hair swords straight up off screen. A moment later, the swords fall aimed at the opponent. There are three different random angles of falling sword which have increasing damage and chip correlating to how steep the sword falls. The opponent can be hit by both the launched swords going up and the falling swords coming down. The number of swords that fall is directly related to the number of swords Akane launches. If Akane is interrupted by an opponent during the move and only launches 5 swords, only 5 swords will fall. In the corner, this attack can easily be comboed after a 214 4C or a 66C wallbounce. It is usually used for tech trap okizeme setups or just for damage. Don't use this randomly because it is easily punished by throws, the throw invincibility keeps the opponent safe from falling swords."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "80x16 + 150/200/250x16",
+              "framedata": {
+                "guard": "Any",
+                "startup": "21-24",
+                "active": "Until offscreen, Until landing",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Akane launches several hair swords straight up off screen. A moment later, the swords fall aimed at the opponent. There are three different random angles of falling sword which have increasing damage and chip correlating to how steep the sword falls. The opponent can be hit by both the launched swords going up and the falling swords coming down. The number of swords that fall is directly related to the number of swords Akane launches. If Akane is interrupted by an opponent during the move and only launches 5 swords, only 5 swords will fall. In the corner, this attack can easily be comboed after a 214 4C or a 66C wallbounce. It is usually used for tech trap okizeme setups or just for damage. Don't use this randomly because it is easily punished by throws, the throw invincibility keeps the opponent safe from falling swords."
+            },
+            {
+              "version": "B",
+              "damage": "80x24 + 150/200/250x24",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13-16",
+                "active": "Until offscreen, Until landing",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Akane launches several hair swords straight up off screen. A moment later, the swords fall aimed at the opponent. There are three different random angles of falling sword which have increasing damage and chip correlating to how steep the sword falls. The opponent can be hit by both the launched swords going up and the falling swords coming down. The number of swords that fall is directly related to the number of swords Akane launches. If Akane is interrupted by an opponent during the move and only launches 5 swords, only 5 swords will fall. In the corner, this attack can easily be comboed after a 214 4C or a 66C wallbounce. It is usually used for tech trap okizeme setups or just for damage. Don't use this randomly because it is easily punished by throws, the throw invincibility keeps the opponent safe from falling swords."
+            },
+            {
+              "version": "C",
+              "damage": "80x33 + 150/200/250x33",
+              "framedata": {
+                "guard": "Any",
+                "startup": "5-8",
+                "active": "Until offscreen, Until landing",
+                "recovery": "-",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Akane launches several hair swords straight up off screen. A moment later, the swords fall aimed at the opponent. There are three different random angles of falling sword which have increasing damage and chip correlating to how steep the sword falls. The opponent can be hit by both the launched swords going up and the falling swords coming down. The number of swords that fall is directly related to the number of swords Akane launches. If Akane is interrupted by an opponent during the move and only launches 5 swords, only 5 swords will fall. In the corner, this attack can easily be comboed after a 214 4C or a 66C wallbounce. It is usually used for tech trap okizeme setups or just for damage. Don't use this randomly because it is easily punished by throws, the throw invincibility keeps the opponent safe from falling swords."
+            }
+          ]
+        },
+        {
+          "moveName": "Absolute Rejection Barrier",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/18/EFZ_Akane_214214A.png/174px-EFZ_Akane_214214A.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Any",
+            "startup": "19",
+            "active": "120",
+            "recovery": "34",
+            "advHit": "/",
+            "advBlock": "-12",
+            "cancel": "None"
+          },
+          "properties": [
+            "The barrier appears a short distance in front of Akane.",
+            "The barrier appears a medium distance in front of Akane. Metered midscreen oki option when used with trick leap.",
+            "The barrier appears a short distance above Akane."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "19",
+                "active": "120",
+                "recovery": "34",
+                "advHit": "/",
+                "advBlock": "-12",
+                "cancel": "None"
+              },
+              "notes": "The barrier appears a short distance in front of Akane."
+            },
+            {
+              "version": "B",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "19",
+                "active": "120",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "-12",
+                "cancel": "None"
+              },
+              "notes": "The barrier appears a short distance in front of Akane."
+            },
+            {
+              "version": "C",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "19",
+                "active": "120",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "-12",
+                "cancel": "None"
+              },
+              "notes": "The barrier appears a short distance in front of Akane."
+            }
+          ]
+        },
+        {
+          "moveName": "Dempshiiko Roll",
+          "input": "641236C",
+          "image": "https://wiki.gbl.gg/images/thumb/9/99/Akane641236a.png/175px-Akane641236a.png",
+          "damage": "130x8 + 1600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9.33",
+            "active": "2x8 + 2",
+            "recovery": "-",
+            "advHit": "/",
+            "advBlock": "+14",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Shiiko jumps in front of Akane with boxing gloves and performs a Dempsey Roll boxing technique, ending with an uppercut. Can FIC any time after Shiiko arrives until before the final hit, but doing so will cause her to stop attacking and leave.",
+            "Shiiko jumps in front of Akane with boxing gloves and hits the opponent by moving her head in a figure-eight pattern (part of the Dempsey Roll boxing technique). Shiiko then finishes the move with an uppercut. Can FIC any time after Shiiko arrives until before the final hit, but doing so will cause her to stop attacking and leave.",
+            "Shiiko jumps in front of Akane with boxing gloves and moves her head in a figure-eight pattern, but this time it doesn’t hurt the opponent. After a few seconds, Shiiko leaps high up while doing a powerful and unblockable frog uppercut. In this version, Akane is able to move soon after Shiiko arrives. This time should be used to try to lock down the opponent and keep then in the path of Shiiko's uppercut."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "130x8 + 1600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9.33",
+                "active": "2x8 + 2",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "+14",
+                "cancel": "FIC"
+              },
+              "notes": "Shiiko jumps in front of Akane with boxing gloves and performs a Dempsey Roll boxing technique, ending with an uppercut. Can FIC any time after Shiiko arrives until before the final hit, but doing so will cause her to stop attacking and leave."
+            },
+            {
+              "version": "B",
+              "damage": "150x14 + 1500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8.33",
+                "active": "1x14 + 2",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "+12",
+                "cancel": "FIC"
+              },
+              "notes": "Shiiko jumps in front of Akane with boxing gloves and performs a Dempsey Roll boxing technique, ending with an uppercut. Can FIC any time after Shiiko arrives until before the final hit, but doing so will cause her to stop attacking and leave."
+            },
+            {
+              "version": "C",
+              "damage": "3500",
+              "framedata": {
+                "guard": "Unblockable",
+                "startup": "177.33",
+                "active": "Until off screen",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Shiiko jumps in front of Akane with boxing gloves and performs a Dempsey Roll boxing technique, ending with an uppercut. Can FIC any time after Shiiko arrives until before the final hit, but doing so will cause her to stop attacking and leave."
+            },
+            {
+              "version": "C (Akane)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "7",
+                "active": "/",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Shiiko jumps in front of Akane with boxing gloves and performs a Dempsey Roll boxing technique, ending with an uppercut. Can FIC any time after Shiiko arrives until before the final hit, but doing so will cause her to stop attacking and leave."
+            }
+          ]
+        },
+        {
+          "moveName": "Unpleasant Hell Murder",
+          "input": "AA6BC",
+          "image": "https://wiki.gbl.gg/images/b/bf/AkaneFM.png",
+          "damage": "4500",
+          "framedata": {
+            "guard": "Throw※",
+            "startup": "0.33",
+            "active": "59",
+            "recovery": "0",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Akane slowly slides forward and enters a cinematic on contact with the opponent, like any other Raging Demon. ※ Although it targets the opponent's collision box and is unblockable like a throw, this move will hit both grounded and airborne opponents and can be comboed into. Akane can be hit out of it very easily if used outside of combos/setups as it is not invulnerable. As it is active on the first frame, it can function as a (situational at best) reversal, however. If this move kills the opponent, the kanji for \"Unpleasant\" (嫌) appears. Akane can whiff cancel most of her normals into this move.",
+            "Akane can whiff cancel most of her normals into this move."
+          ]
+        }
+      ]
+    }
+  ]
+}

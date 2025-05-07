@@ -1,0 +1,1603 @@
+{
+  "name": "Mai Kawasumi",
+  "icon": "https://wiki.gbl.gg/images/e/ee/EFZ_Mai_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "66",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/06/Mai66.png/175px-Mai66.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "-",
+            "startup": "-",
+            "active": "-",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Unlike most characters, Mai performs a forward step instead of a dash. Step distance is fixed and cannot be adjusted. Can make it difficult for Mai to make spacing adjustments because of this. May result in a full air combo by the opponent if hit by 5A or 2A. Be careful when dashing close to the opponent. Allows buffering of normals.",
+            "May result in a full air combo by the opponent if hit by 5A or 2A. Be careful when dashing close to the opponent.",
+            "Allows buffering of normals."
+          ]
+        },
+        {
+          "moveName": "44",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f7/Mai44.png/175px-Mai44.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "-",
+            "startup": "-",
+            "active": "-",
+            "recovery": "-",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "A normal back step. May result in a full air combo by the opponent when trying to do RG in corner but this move accidently comes out.",
+            "May result in a full air combo by the opponent when trying to do RG in corner but this move accidently comes out."
+          ]
+        },
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/cf/Mai_5A.png/175px-Mai_5A.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "5",
+            "recovery": "6",
+            "advHit": "0",
+            "advBlock": "-1",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Pretty standard jab, can be used as an anti air or to initiate pressure, whiffs on some crouching characters and dps. Thanks to the high hitboxes and fast startup, it's worth using it as a combo starter when confirmed a IAD(instant air dash) or RGed jump normals(usually a 5/6F startup JA). Also can be used to counter standing normals(usually B/C with more than 7F startup) after RG. 2A may do the same thing but 5F startup makes it much harder or impossible. Sometimes RG 5A will not allow for a full combo if it hits, but will surely break the opponent's blockstrings in these circumstances. Rare but helpful to adjust height in combos when the opponent goes too high for 5B to hit.",
+            "2A may do the same thing but 5F startup makes it much harder or impossible.",
+            "Sometimes RG 5A will not allow for a full combo if it hits, but will surely break the opponent's blockstrings in these circumstances."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/b/b3/Maic5B.png",
+          "damage": "380",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "3",
+            "recovery": "10",
+            "advHit": "+10",
+            "advBlock": "+8",
+            "cancel": "N SP J IC f5B SB"
+          },
+          "properties": [
+            "An incredible move with a very fast startup (close to 5A/2As), fantastic frame advantage, and special hitstop for easy hitconfirms. It is also jump cancellable and links into itself on hit for even easier confirms. Can be used in many, many ways including as an anti air, to blow up both A/B dps on oki and to set up her tk j623A overhead. Due to its speed and hitbox, can be better to mash than 5A/2A on defense. But be aware that you won't have any quick startup normal to do if 5B is RGed. Its biggest weakness is its tendency to come out when you want a f5B, at ranges where it cleanly whiffs. And also sometimes whiffs in combo like 5A5B if not close enough to the opponent."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "Active frame 2",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f4/Maif5B_1.png/175px-Maif5B_1.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9 / 9.33",
+            "active": "2 / 1.66",
+            "recovery": "18",
+            "advHit": "-3.33 / -3",
+            "advBlock": "-5.33 / -5",
+            "cancel": "N SP JH IC SB"
+          },
+          "properties": [
+            "One of Mai's best disjointed normals, best used as a poke for the opponent to run into, or to interrupt their actions, or a choice of anti air with distance. Its main followups on a ground hit are 6B (techable), 6C, or a full combo if you have Mini Mai summoned with the right spacing. Also functions as a combo part when there is some distance to reach corner to do c5B."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/cc/Mai5C_1.png/175px-Mai5C_1.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11",
+            "active": "3",
+            "recovery": "30",
+            "advHit": "-9",
+            "advBlock": "-11",
+            "cancel": "N SP IC SB"
+          },
+          "properties": [
+            "Very bad on whiff, and a decent, but hard to use anti air due to its hurtbox (which extends before the move becomes active) and single anti air active frame. Leads to very strong combos when it catches someone trying to escape the corner by jumping. Also can be followed by 623C when succeeded in doing an anti air in neutral. If the opponent RGs your anti air attempt, the long recovery makes it difficult to counter RG, especially when the opponent is doing a forward air dash. IC or 412C can be used if the counter RG timing is missed.",
+            "If the opponent RGs your anti air attempt, the long recovery makes it difficult to counter RG, especially when the opponent is doing a forward air dash. IC or 412C can be used if the counter RG timing is missed."
+          ]
+        },
+        {
+          "moveName": "Iron Breaker",
+          "input": "4C",
+          "image": "https://wiki.gbl.gg/images/thumb/2/2b/Mai4C.png/175px-Mai4C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9",
+            "active": "8",
+            "recovery": "20",
+            "advHit": "/",
+            "advBlock": "-6",
+            "cancel": "SP IC SB 6A 6B"
+          },
+          "properties": [
+            "Mai's only real knockdown normal (6A also knocks down, but will whiff outside of point blank range on a grounded opponent). Can link from a close B (1F link, her only meterless knockdown off a chain combo). Strong hitbox, moves Mai forward, generally advantageous on trade and makes for a good move to throw out as a frame trap. Moves her collision box forward, giving her a left/right teleport mixup midscreen. A good combo and pressure starter in corner. Example: 4C 236A. The move's main weakness is how bad it is when the opponent RGs it.",
+            "Moves her collision box forward, giving her a left/right teleport mixup midscreen.",
+            "A good combo and pressure starter in corner. Example: 4C 236A.",
+            "The move's main weakness is how bad it is when the opponent RGs it."
+          ]
+        },
+        {
+          "moveName": "Scattering - High",
+          "input": "6A",
+          "image": "https://wiki.gbl.gg/images/thumb/1/11/Mai6A.png/175px-Mai6A.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Any",
+            "startup": "12",
+            "active": "2",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "-5",
+            "cancel": "JH IC"
+          },
+          "properties": [
+            "Anti air slash, does not extend Mai's hurtbox, is jump cancellable. A strong anti air with a slow startup, and the cornerstone of her corner loop. Good at knocking down and producing a mixup chance in midscreen by 412AS. Be careful of the opponent's RG as this move has long recovery.",
+            "Be careful of the opponent's RG as this move has long recovery."
+          ]
+        },
+        {
+          "moveName": "Scattering - Middle",
+          "input": "6B",
+          "image": "https://wiki.gbl.gg/images/thumb/6/6a/Mai6B.png/175px-Mai6B.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Any",
+            "startup": "14",
+            "active": "2",
+            "recovery": "28",
+            "advHit": "/",
+            "advBlock": "-8",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Horizontal slash, does not extend Mai's hurtbox. Strong but slow poke, cannot be cancelled without using an IC. Can be crouched by most of the cast. Can also be air teched, even as a single hit. Commonly used as a launcher with red IC (into 6A midscreen for a carry + knockdown, or 665B to a midscreen combo for example), or with Mini Mai instead of IC.",
+            "Can be crouched by most of the cast. Can also be air teched, even as a single hit.",
+            "Commonly used as a launcher with red IC (into 6A midscreen for a carry + knockdown, or 665B to a midscreen combo for example), or with Mini Mai instead of IC."
+          ]
+        },
+        {
+          "moveName": "Scattering - Low",
+          "input": "6C",
+          "image": "https://wiki.gbl.gg/images/thumb/9/99/Mai6C.png/175px-Mai6C.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Low",
+            "startup": "12",
+            "active": "2",
+            "recovery": "35",
+            "advHit": "-11",
+            "advBlock": "-13",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Low slash, hits low, can be cancelled into any of her specials/supers. Very common ender to her blockstrings as it allows her to safely summon and continue pressuring, or to teleport to safety. Be aware that some characters with quick ground dash can run into your face if it's cancelled into 623A/412B. Sometimes it's needed to do S to keep frame advantage. Think twice before using it when Mini Mai is not summoned. Keep a lookout for the opponent's forward IAD. If RGed, cancel timing is quite different from normal block(needs to input the command after RG occurs). While this is the same for other normals too, 6C can only be cancelled into specials or supers, making the cancel harder to input.",
+            "Be aware that some characters with quick ground dash can run into your face if it's cancelled into 623A/412B. Sometimes it's needed to do S to keep frame advantage.",
+            "Think twice before using it when Mini Mai is not summoned. Keep a lookout for the opponent's forward IAD.",
+            "If RGed, cancel timing is quite different from normal block(needs to input the command after RG occurs). While this is the same for other normals too, 6C can only be cancelled into specials or supers, making the cancel harder to input."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f4/Mai2A.png/175px-Mai2A.png",
+          "damage": "170",
+          "framedata": {
+            "guard": "Low",
+            "startup": "5",
+            "active": "3",
+            "recovery": "8",
+            "advHit": "0",
+            "advBlock": "-1",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Standard 2A, hits low, can actually be low profiled by some moves."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/ba/Mai2B.png/175px-Mai2B.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Low",
+            "startup": "10",
+            "active": "4",
+            "recovery": "13",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "N SP JH IC SB"
+          },
+          "properties": [
+            "Hits low with an ok range, easily loses to other character's normals, especially trying to do this after A or 2A is RGed. Pretty good combo starter if you have an IC on deck. Dash 2B(usually after 214S) is fairly good at catching opponents who just stand/hold back at mid range in neutral or pressure (her other long ranged low, 6C does minimal damage by itself and cannot combo at range)."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/ff/Mai2C.png/175px-Mai2C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "13",
+            "active": "2",
+            "recovery": "29",
+            "advHit": "-7",
+            "advBlock": "-9",
+            "cancel": "N SP JH IC SB"
+          },
+          "properties": [
+            "Mai's longest range normal, fairly slow and extends the hurtbox before its active frames appear, meaning it will lose to many 2Bs. Not really used in neutral, more to push the opponent out during blockstrings and in some advanced combos."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/41/MaijA.png/175px-MaijA.png",
+          "damage": "250",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "6",
+            "recovery": "6",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "A pretty standard jA angled downwards, good air to ground, can crossup, dubious air to air. It's dangerous to mash JA in IAD because of its slow startup and how easily it can be countered by 4F startup 5A or dps after being RGed. Although technical, it is possible to adjust your height to make the opponent's 5A whiff."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/31/MaijB.png/175px-MaijB.png",
+          "damage": "410",
+          "framedata": {
+            "guard": "High",
+            "startup": "8",
+            "active": "2",
+            "recovery": "23",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Odd move with fast startup, good hitbox, decent range, but with a really awkward angle, bad recovery on whiff, and sends the opponent further up on hit making full combo conversions extremely finnicky. Full corner conversions off this move are really damaging. Used situationally as a combo part depending on spacing. IAD to jB will whiff on crouching, which can conversely be used to create mixups like IAD jA/jB(whiff) landing 2A or throw or tk623A.",
+            "Full corner conversions off this move are really damaging.",
+            "Used situationally as a combo part depending on spacing.",
+            "IAD to jB will whiff on crouching, which can conversely be used to create mixups like IAD jA/jB(whiff) landing 2A or throw or tk623A."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e4/MaijC.png/175px-MaijC.png",
+          "damage": "580",
+          "framedata": {
+            "guard": "High",
+            "startup": "9",
+            "active": "2",
+            "recovery": "22",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "A weak air to ground move when used as a standalone jump in, very good at crossing up however. Mostly used in her crossup mixups and in combos.",
+            "Mostly used in her crossup mixups and in combos."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/5/51/MaiGroundGrab.png/175px-MaiGroundGrab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5",
+            "active": "1",
+            "recovery": "15",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Puts the opponent in OTG state, making this an excellent unblockable combo starter with BIC or Mini-Mai. However, Mai's slow walking speed limits the situations where she can sneak it in. Mini-Mai pressure helps in this regard (236A oki for example). If Mai is player 1, this throw will knock the opponent down for 0.33 less frames (subtracted from OTG time).",
+            "If Mai is player 1, this throw will knock the opponent down for 0.33 less frames (subtracted from OTG time)."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "15",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Puts the opponent in OTG state, making this an excellent unblockable combo starter with BIC or Mini-Mai. However, Mai's slow walking speed limits the situations where she can sneak it in. Mini-Mai pressure helps in this regard (236A oki for example). If Mai is player 1, this throw will knock the opponent down for 0.33 less frames (subtracted from OTG time)."
+            },
+            {
+              "version": "B",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "15",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Puts the opponent in OTG state, making this an excellent unblockable combo starter with BIC or Mini-Mai. However, Mai's slow walking speed limits the situations where she can sneak it in. Mini-Mai pressure helps in this regard (236A oki for example). If Mai is player 1, this throw will knock the opponent down for 0.33 less frames (subtracted from OTG time)."
+            },
+            {
+              "version": "C",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "15",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Puts the opponent in OTG state, making this an excellent unblockable combo starter with BIC or Mini-Mai. However, Mai's slow walking speed limits the situations where she can sneak it in. Mini-Mai pressure helps in this regard (236A oki for example). If Mai is player 1, this throw will knock the opponent down for 0.33 less frames (subtracted from OTG time)."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7c/MaiAirGrab.png/175px-MaiAirGrab.png",
+          "damage": "1300",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "A quick throw from direction 9 to direction 1. It's not recommended as a tech trap at the end of combos since it throws the opponent out of corner and Mai won't get enough time to set Mini Mai for oki (412A 6S for example)."
+          ]
+        },
+        {
+          "moveName": "Set and Recover Mai",
+          "input": "5S",
+          "image": "https://wiki.gbl.gg/images/thumb/7/76/MaiS.png/175px-MaiS.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "0.33",
+            "active": "/",
+            "recovery": "17.33",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "If Mini Mai is not summoned and the Charge Gauge is full, 4/5/6S respectively summons her behind/on top/in front of Mai. Notice that 1/2/3S will not do the work so it will require accurate input in blockstrings and combos (2C 6C instead of 2C 3C for example) If she is already summoned, unsummons her. This lets her Charge Gauge recover very fast. Any move that is special cancellable can be cancelled into Set/Recover Mai. The summon/unsummon animation is very quick, allowing Mai to be + when cancelling her C normals. Unlike most special moves, Set/Recover Mai CANNOT BE BUFFERED. It must be manually timed, similarly to a link. On summon, Mini Mai actually can act before Mai has recovered from the summoning animation, allowing for some really strong combos and pressure. As explained in 6C section, sometimes it will be a better choice to cancel into this instead of other Mini Mai attacks to keep frame advantage if the opponent has a quick ground dash. Mini Mai can not absorb any hit in her neutral state.",
+            "If Mini Mai is not summoned and the Charge Gauge is full, 4/5/6S respectively summons her behind/on top/in front of Mai.",
+            "Notice that 1/2/3S will not do the work so it will require accurate input in blockstrings and combos (2C 6C instead of 2C 3C for example)",
+            "If she is already summoned, unsummons her. This lets her Charge Gauge recover very fast.",
+            "Any move that is special cancellable can be cancelled into Set/Recover Mai. The summon/unsummon animation is very quick, allowing Mai to be + when cancelling her C normals.",
+            "Unlike most special moves, Set/Recover Mai CANNOT BE BUFFERED. It must be manually timed, similarly to a link.",
+            "On summon, Mini Mai actually can act before Mai has recovered from the summoning animation, allowing for some really strong combos and pressure.",
+            "As explained in 6C section, sometimes it will be a better choice to cancel into this instead of other Mini Mai attacks to keep frame advantage if the opponent has a quick ground dash.",
+            "Mini Mai can not absorb any hit in her neutral state."
+          ],
+          "variations": [
+            {
+              "version": "Mai (summon and unsummon)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0.33",
+                "active": "/",
+                "recovery": "17.33",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "If Mini Mai is not summoned and the Charge Gauge is full, 4/5/6S respectively summons her behind/on top/in front of Mai. Notice that 1/2/3S will not do the work so it will require accurate input in blockstrings and combos (2C 6C instead of 2C 3C for example) If she is already summoned, unsummons her. This lets her Charge Gauge recover very fast. Any move that is special cancellable can be cancelled into Set/Recover Mai. The summon/unsummon animation is very quick, allowing Mai to be + when cancelling her C normals. Unlike most special moves, Set/Recover Mai CANNOT BE BUFFERED. It must be manually timed, similarly to a link. On summon, Mini Mai actually can act before Mai has recovered from the summoning animation, allowing for some really strong combos and pressure. As explained in 6C section, sometimes it will be a better choice to cancel into this instead of other Mini Mai attacks to keep frame advantage if the opponent has a quick ground dash. Mini Mai can not absorb any hit in her neutral state."
+            },
+            {
+              "version": "Mini Mai (unsummon)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "/",
+                "active": "/",
+                "recovery": "73",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "If Mini Mai is not summoned and the Charge Gauge is full, 4/5/6S respectively summons her behind/on top/in front of Mai. Notice that 1/2/3S will not do the work so it will require accurate input in blockstrings and combos (2C 6C instead of 2C 3C for example) If she is already summoned, unsummons her. This lets her Charge Gauge recover very fast. Any move that is special cancellable can be cancelled into Set/Recover Mai. The summon/unsummon animation is very quick, allowing Mai to be + when cancelling her C normals. Unlike most special moves, Set/Recover Mai CANNOT BE BUFFERED. It must be manually timed, similarly to a link. On summon, Mini Mai actually can act before Mai has recovered from the summoning animation, allowing for some really strong combos and pressure. As explained in 6C section, sometimes it will be a better choice to cancel into this instead of other Mini Mai attacks to keep frame advantage if the opponent has a quick ground dash. Mini Mai can not absorb any hit in her neutral state."
+            }
+          ]
+        },
+        {
+          "moveName": "Wielding of Power ・ Combination",
+          "input": "Mini Mai is invincible before the hitbox appears in the C version.",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1a/Mai236.png/175px-Mai236.png",
+          "damage": "150 x 4",
+          "framedata": {
+            "guard": "Any",
+            "startup": "20",
+            "active": "48",
+            "recovery": "68",
+            "advHit": "+22",
+            "advBlock": "+20",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Comes out very fast (enough to combo off her 5B/5C/2C), grants enough frame advantage in the corner that you can dash 2A after it and have it be airtight (RG notwithstanding, although it is hard to RG the last hit since it has 4 hits). Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast. Useful as a frame trap, or to lock the opponent down when you need a bit of time to build IC/BIC. It makes it easy for Mai to set up a throw if the opponent doesn't do any RG, and the opponent will get hit by Mini Mai if they try to mash (2A for example) to escape from the throw, resulting in a powerful tick throw when Mai has BIC or at the end of a round. Mini Mai can absorb one hit during the move. Be careful not to use it as oki when Mai is close to an opponent with multihit invincible moves. This is the same for other Mini Mai moves.",
+            "Comes out slower than the A version, and with less frame advantage afterwards (you'll be minus if you dash in afterwards). Mini Mai will not disappear after the attack is done however, and will stay summoned on the field for followup attacks. Hard to RG the last hit as it has 4 hits and can be used in some advanced combos. Mini Mai can absorb one hit during the move.",
+            "Slower than the A and B versions, but gives massive frame advantage, especially in the corner (enough to easily combo into super) and Mini Mai stays summoned afterwards. Builds tons of Guard Gauge on block if you're aiming for the instant overhead j623C combo. Hard to RG the last hit as it has 16 hits. Mini Mai can absorb one hit during the move, but it's not as reliable as A/B version since her hurtbox appears after her hitbox becomes active in C version, which makes Mai more likely to get hit before being absorbed by Mini Mai.",
+            "Comes out very fast (enough to combo off her 5B/5C/2C), grants enough frame advantage in the corner that you can dash 2A after it and have it be airtight (RG notwithstanding, although it is hard to RG the last hit since it has 4 hits). Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast.",
+            "Useful as a frame trap, or to lock the opponent down when you need a bit of time to build IC/BIC.",
+            "It makes it easy for Mai to set up a throw if the opponent doesn't do any RG, and the opponent will get hit by Mini Mai if they try to mash (2A for example) to escape from the throw, resulting in a powerful tick throw when Mai has BIC or at the end of a round.",
+            "Mini Mai can absorb one hit during the move. Be careful not to use it as oki when Mai is close to an opponent with multihit invincible moves. This is the same for other Mini Mai moves.",
+            "Comes out slower than the A version, and with less frame advantage afterwards (you'll be minus if you dash in afterwards).",
+            "Mini Mai will not disappear after the attack is done however, and will stay summoned on the field for followup attacks.",
+            "Hard to RG the last hit as it has 4 hits and can be used in some advanced combos.",
+            "Mini Mai can absorb one hit during the move.",
+            "Slower than the A and B versions, but gives massive frame advantage, especially in the corner (enough to easily combo into super) and Mini Mai stays summoned afterwards.",
+            "Builds tons of Guard Gauge on block if you're aiming for the instant overhead j623C combo.",
+            "Hard to RG the last hit as it has 16 hits.",
+            "Mini Mai can absorb one hit during the move, but it's not as reliable as A/B version since her hurtbox appears after her hitbox becomes active in C version, which makes Mai more likely to get hit before being absorbed by Mini Mai."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "150 x 4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20",
+                "active": "48",
+                "recovery": "68",
+                "advHit": "+22",
+                "advBlock": "+20",
+                "cancel": "FIC"
+              },
+              "notes": "Comes out very fast (enough to combo off her 5B/5C/2C), grants enough frame advantage in the corner that you can dash 2A after it and have it be airtight (RG notwithstanding, although it is hard to RG the last hit since it has 4 hits). Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast. Useful as a frame trap, or to lock the opponent down when you need a bit of time to build IC/BIC. It makes it easy for Mai to set up a throw if the opponent doesn't do any RG, and the opponent will get hit by Mini Mai if they try to mash (2A for example) to escape from the throw, resulting in a powerful tick throw when Mai has BIC or at the end of a round. Mini Mai can absorb one hit during the move. Be careful not to use it as oki when Mai is close to an opponent with multihit invincible moves. This is the same for other Mini Mai moves."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "12",
+                "active": "/",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Comes out very fast (enough to combo off her 5B/5C/2C), grants enough frame advantage in the corner that you can dash 2A after it and have it be airtight (RG notwithstanding, although it is hard to RG the last hit since it has 4 hits). Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast. Useful as a frame trap, or to lock the opponent down when you need a bit of time to build IC/BIC. It makes it easy for Mai to set up a throw if the opponent doesn't do any RG, and the opponent will get hit by Mini Mai if they try to mash (2A for example) to escape from the throw, resulting in a powerful tick throw when Mai has BIC or at the end of a round. Mini Mai can absorb one hit during the move. Be careful not to use it as oki when Mai is close to an opponent with multihit invincible moves. This is the same for other Mini Mai moves."
+            },
+            {
+              "version": "B",
+              "damage": "150 x 4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "22",
+                "recovery": "16",
+                "advHit": "+13",
+                "advBlock": "+11",
+                "cancel": "FIC"
+              },
+              "notes": "Comes out very fast (enough to combo off her 5B/5C/2C), grants enough frame advantage in the corner that you can dash 2A after it and have it be airtight (RG notwithstanding, although it is hard to RG the last hit since it has 4 hits). Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast. Useful as a frame trap, or to lock the opponent down when you need a bit of time to build IC/BIC. It makes it easy for Mai to set up a throw if the opponent doesn't do any RG, and the opponent will get hit by Mini Mai if they try to mash (2A for example) to escape from the throw, resulting in a powerful tick throw when Mai has BIC or at the end of a round. Mini Mai can absorb one hit during the move. Be careful not to use it as oki when Mai is close to an opponent with multihit invincible moves. This is the same for other Mini Mai moves."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "15",
+                "active": "/",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Comes out very fast (enough to combo off her 5B/5C/2C), grants enough frame advantage in the corner that you can dash 2A after it and have it be airtight (RG notwithstanding, although it is hard to RG the last hit since it has 4 hits). Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast. Useful as a frame trap, or to lock the opponent down when you need a bit of time to build IC/BIC. It makes it easy for Mai to set up a throw if the opponent doesn't do any RG, and the opponent will get hit by Mini Mai if they try to mash (2A for example) to escape from the throw, resulting in a powerful tick throw when Mai has BIC or at the end of a round. Mini Mai can absorb one hit during the move. Be careful not to use it as oki when Mai is close to an opponent with multihit invincible moves. This is the same for other Mini Mai moves."
+            },
+            {
+              "version": "C",
+              "damage": "150 x 16",
+              "framedata": {
+                "guard": "Any",
+                "startup": "28",
+                "active": "88",
+                "recovery": "31",
+                "advHit": "+51",
+                "advBlock": "+49",
+                "cancel": "FIC"
+              },
+              "notes": "Comes out very fast (enough to combo off her 5B/5C/2C), grants enough frame advantage in the corner that you can dash 2A after it and have it be airtight (RG notwithstanding, although it is hard to RG the last hit since it has 4 hits). Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast. Useful as a frame trap, or to lock the opponent down when you need a bit of time to build IC/BIC. It makes it easy for Mai to set up a throw if the opponent doesn't do any RG, and the opponent will get hit by Mini Mai if they try to mash (2A for example) to escape from the throw, resulting in a powerful tick throw when Mai has BIC or at the end of a round. Mini Mai can absorb one hit during the move. Be careful not to use it as oki when Mai is close to an opponent with multihit invincible moves. This is the same for other Mini Mai moves."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "15",
+                "active": "/",
+                "recovery": "56",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Comes out very fast (enough to combo off her 5B/5C/2C), grants enough frame advantage in the corner that you can dash 2A after it and have it be airtight (RG notwithstanding, although it is hard to RG the last hit since it has 4 hits). Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast. Useful as a frame trap, or to lock the opponent down when you need a bit of time to build IC/BIC. It makes it easy for Mai to set up a throw if the opponent doesn't do any RG, and the opponent will get hit by Mini Mai if they try to mash (2A for example) to escape from the throw, resulting in a powerful tick throw when Mai has BIC or at the end of a round. Mini Mai can absorb one hit during the move. Be careful not to use it as oki when Mai is close to an opponent with multihit invincible moves. This is the same for other Mini Mai moves."
+            }
+          ]
+        },
+        {
+          "moveName": "Manipulation of Power ・ Combination",
+          "input": "Only available on summoned Mini Mai as long as Mai is not blocking.",
+          "image": "https://wiki.gbl.gg/images/thumb/3/34/Mai236S.png/175px-Mai236S.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "18",
+            "active": "34",
+            "recovery": "226",
+            "advHit": "+52",
+            "advBlock": "+50",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mini Mai will disappear once the move is done, has a long charge recovery. Similar to her 236A, great move to lock down the opponent, also used in combos (for example to easily combo into her 236236 supers). Also can be used to build Guard Gauge. 236B 5BC 236S can easily build enough Guard Gauge for tk623C if the opponent doesn't do any RG. Mini Mai can not absorb any hit during this move.",
+            "Mini Mai will disappear once the move is done, has a long charge recovery.",
+            "Similar to her 236A, great move to lock down the opponent, also used in combos (for example to easily combo into her 236236 supers).",
+            "Also can be used to build Guard Gauge. 236B 5BC 236S can easily build enough Guard Gauge for tk623C if the opponent doesn't do any RG.",
+            "Mini Mai can not absorb any hit during this move."
+          ],
+          "variations": [
+            {
+              "version": "S",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "18",
+                "active": "34",
+                "recovery": "226",
+                "advHit": "+52",
+                "advBlock": "+50",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will disappear once the move is done, has a long charge recovery. Similar to her 236A, great move to lock down the opponent, also used in combos (for example to easily combo into her 236236 supers). Also can be used to build Guard Gauge. 236B 5BC 236S can easily build enough Guard Gauge for tk623C if the opponent doesn't do any RG. Mini Mai can not absorb any hit during this move."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0",
+                "active": "/",
+                "recovery": "0",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will disappear once the move is done, has a long charge recovery. Similar to her 236A, great move to lock down the opponent, also used in combos (for example to easily combo into her 236236 supers). Also can be used to build Guard Gauge. 236B 5BC 236S can easily build enough Guard Gauge for tk623C if the opponent doesn't do any RG. Mini Mai can not absorb any hit during this move."
+            }
+          ]
+        },
+        {
+          "moveName": "Wielding of Power ・ Tornado",
+          "input": "Only available on unsummoned Mini Mai with full Charge Gauge.",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f4/Mai214.png/175px-Mai214.png",
+          "damage": "100 x 6",
+          "framedata": {
+            "guard": "Any",
+            "startup": "28",
+            "active": "54",
+            "recovery": "77",
+            "advHit": "/",
+            "advBlock": "+4",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "A/B/C version differ on where Mini Mai is summoned. A makes her attack in front of Mai, B at mid range, C at full screen. Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast. Whiffs on crouching characters. A tad slow, but still a decent sniping move in neutral, mostly for when the opponent is trying do stuff at full screen, or as a tech trap. Should be followed up by 412A to get in for a combo. Excellent combo starter (4000+ damage) if the opponent is hit on or close to the ground. Be careful that advanced players would always RG the first hit and do 5A to kill Mini Mai, which will result in a long Charge Gauge recovery time.",
+            "A/B/C version differ on where Mini Mai is summoned. A makes her attack in front of Mai, B at mid range, C at full screen. Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast.",
+            "Whiffs on crouching characters.",
+            "A tad slow, but still a decent sniping move in neutral, mostly for when the opponent is trying do stuff at full screen, or as a tech trap. Should be followed up by 412A to get in for a combo. Excellent combo starter (4000+ damage) if the opponent is hit on or close to the ground.",
+            "Be careful that advanced players would always RG the first hit and do 5A to kill Mini Mai, which will result in a long Charge Gauge recovery time."
+          ],
+          "variations": [
+            {
+              "version": "Any",
+              "damage": "100 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "28",
+                "active": "54",
+                "recovery": "77",
+                "advHit": "/",
+                "advBlock": "+4",
+                "cancel": "FIC"
+              },
+              "notes": "A/B/C version differ on where Mini Mai is summoned. A makes her attack in front of Mai, B at mid range, C at full screen. Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast. Whiffs on crouching characters. A tad slow, but still a decent sniping move in neutral, mostly for when the opponent is trying do stuff at full screen, or as a tech trap. Should be followed up by 412A to get in for a combo. Excellent combo starter (4000+ damage) if the opponent is hit on or close to the ground. Be careful that advanced players would always RG the first hit and do 5A to kill Mini Mai, which will result in a long Charge Gauge recovery time."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "10.33",
+                "active": "/",
+                "recovery": "27",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "A/B/C version differ on where Mini Mai is summoned. A makes her attack in front of Mai, B at mid range, C at full screen. Once Mini Mai is done with the attack she disappears, the Charge Gauge recovers very fast. Whiffs on crouching characters. A tad slow, but still a decent sniping move in neutral, mostly for when the opponent is trying do stuff at full screen, or as a tech trap. Should be followed up by 412A to get in for a combo. Excellent combo starter (4000+ damage) if the opponent is hit on or close to the ground. Be careful that advanced players would always RG the first hit and do 5A to kill Mini Mai, which will result in a long Charge Gauge recovery time."
+            }
+          ]
+        },
+        {
+          "moveName": "Manipulation of Power ・ Rush",
+          "input": "Only available on summoned Mini Mai as long as Mai is not blocking.",
+          "image": "https://wiki.gbl.gg/images/thumb/0/04/Mai214S.png/175px-Mai214S.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9.66 ~ 22 / 22.33",
+            "active": "4",
+            "recovery": "181",
+            "advHit": "+34",
+            "advBlock": "+32",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mini Mai will disappear once the move is done, has a long charge recovery. Fast, Mini Mai will travel a very long distance (more than half the stage). Mostly used to snipe in neutral, and to combo off her j623A without spending IC. Also has its uses in advanced combos. Although it has a great hitbox, it may be defeated by attacks close enough to Mini Mai since she has to travel a bit before the hitbox becomes active. Mini Mai can absorb one hit during this move, which completely negates most reversals. The same as other Mini Mai moves that can absorb one hit.",
+            "Mini Mai will disappear once the move is done, has a long charge recovery.",
+            "Fast, Mini Mai will travel a very long distance (more than half the stage). Mostly used to snipe in neutral, and to combo off her j623A without spending IC. Also has its uses in advanced combos.",
+            "Although it has a great hitbox, it may be defeated by attacks close enough to Mini Mai since she has to travel a bit before the hitbox becomes active.",
+            "Mini Mai can absorb one hit during this move, which completely negates most reversals. The same as other Mini Mai moves that can absorb one hit."
+          ],
+          "variations": [
+            {
+              "version": "S",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9.66 ~ 22 / 22.33",
+                "active": "4",
+                "recovery": "181",
+                "advHit": "+34",
+                "advBlock": "+32",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will disappear once the move is done, has a long charge recovery. Fast, Mini Mai will travel a very long distance (more than half the stage). Mostly used to snipe in neutral, and to combo off her j623A without spending IC. Also has its uses in advanced combos. Although it has a great hitbox, it may be defeated by attacks close enough to Mini Mai since she has to travel a bit before the hitbox becomes active. Mini Mai can absorb one hit during this move, which completely negates most reversals. The same as other Mini Mai moves that can absorb one hit."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0",
+                "active": "/",
+                "recovery": "0",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will disappear once the move is done, has a long charge recovery. Fast, Mini Mai will travel a very long distance (more than half the stage). Mostly used to snipe in neutral, and to combo off her j623A without spending IC. Also has its uses in advanced combos. Although it has a great hitbox, it may be defeated by attacks close enough to Mini Mai since she has to travel a bit before the hitbox becomes active. Mini Mai can absorb one hit during this move, which completely negates most reversals. The same as other Mini Mai moves that can absorb one hit."
+            }
+          ]
+        },
+        {
+          "moveName": "Wielding of Power ・ Explosion",
+          "input": "Only available on unsummoned Mini Mai with full Charge Gauge.",
+          "image": "https://wiki.gbl.gg/images/thumb/3/35/Mai623.png/175px-Mai623.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "31",
+            "active": "26",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "+34",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "A/B/C versions differ on where Mini Mai is summoned. A is in front of Mai, B is at mid range, C at long range. An excellent tool, whether in neutral, in blockstrings or on oki. Mini Mai stays summoned after the attack is done. In Neutral, behaves as a move with tons of active frames that can reach the opponent no matter where he is on the ground. Gives a large frame advantage on block, allowing Mai to dash in or teleport covered by Mini Mai, who is still summoned and ready to attack. In pressure, is one of the most common followups to 6C. Lets Mai keep the initiative due to the + frames, and keeps Mini Mai on screen as backup. Even stronger on oki: Has 2 hits, making it hard to wake up RG (if the opponent RGs the first hit they cannot RG the second). But Mini Mai will be easily killed by 5A after RGing the second hit if she's right in the opponent's face. It is worth trying to adjust the distance against advanced players to make 5A whiff. Mini Mai can absorb one hit during this move. A meaty 623A gives Mai access to some unique and nasty mixups. Mini Mai is still on top of them should your initial mixup fail. As mentioned in 6C section, be aware that some characters with quick ground dash can run into your face if you cancel 6C into this. Sometimes it's needed to do S to keep frame advantage. Whiffs on a few crouching characters in the corner.",
+            "A/B/C versions differ on where Mini Mai is summoned. A is in front of Mai, B is at mid range, C at long range.",
+            "An excellent tool, whether in neutral, in blockstrings or on oki. Mini Mai stays summoned after the attack is done. In Neutral, behaves as a move with tons of active frames that can reach the opponent no matter where he is on the ground. Gives a large frame advantage on block, allowing Mai to dash in or teleport covered by Mini Mai, who is still summoned and ready to attack. In pressure, is one of the most common followups to 6C. Lets Mai keep the initiative due to the + frames, and keeps Mini Mai on screen as backup. Even stronger on oki: Has 2 hits, making it hard to wake up RG (if the opponent RGs the first hit they cannot RG the second). But Mini Mai will be easily killed by 5A after RGing the second hit if she's right in the opponent's face. It is worth trying to adjust the distance against advanced players to make 5A whiff. Mini Mai can absorb one hit during this move. A meaty 623A gives Mai access to some unique and nasty mixups. Mini Mai is still on top of them should your initial mixup fail.",
+            "In Neutral, behaves as a move with tons of active frames that can reach the opponent no matter where he is on the ground. Gives a large frame advantage on block, allowing Mai to dash in or teleport covered by Mini Mai, who is still summoned and ready to attack.",
+            "In pressure, is one of the most common followups to 6C. Lets Mai keep the initiative due to the + frames, and keeps Mini Mai on screen as backup.",
+            "Even stronger on oki: Has 2 hits, making it hard to wake up RG (if the opponent RGs the first hit they cannot RG the second). But Mini Mai will be easily killed by 5A after RGing the second hit if she's right in the opponent's face. It is worth trying to adjust the distance against advanced players to make 5A whiff. Mini Mai can absorb one hit during this move. A meaty 623A gives Mai access to some unique and nasty mixups. Mini Mai is still on top of them should your initial mixup fail.",
+            "Has 2 hits, making it hard to wake up RG (if the opponent RGs the first hit they cannot RG the second). But Mini Mai will be easily killed by 5A after RGing the second hit if she's right in the opponent's face. It is worth trying to adjust the distance against advanced players to make 5A whiff.",
+            "Mini Mai can absorb one hit during this move.",
+            "A meaty 623A gives Mai access to some unique and nasty mixups.",
+            "Mini Mai is still on top of them should your initial mixup fail.",
+            "As mentioned in 6C section, be aware that some characters with quick ground dash can run into your face if you cancel 6C into this. Sometimes it's needed to do S to keep frame advantage.",
+            "Whiffs on a few crouching characters in the corner."
+          ],
+          "variations": [
+            {
+              "version": "Any",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "31",
+                "active": "26",
+                "recovery": "19",
+                "advHit": "/",
+                "advBlock": "+34",
+                "cancel": "FIC"
+              },
+              "notes": "A/B/C versions differ on where Mini Mai is summoned. A is in front of Mai, B is at mid range, C at long range. An excellent tool, whether in neutral, in blockstrings or on oki. Mini Mai stays summoned after the attack is done. In Neutral, behaves as a move with tons of active frames that can reach the opponent no matter where he is on the ground. Gives a large frame advantage on block, allowing Mai to dash in or teleport covered by Mini Mai, who is still summoned and ready to attack. In pressure, is one of the most common followups to 6C. Lets Mai keep the initiative due to the + frames, and keeps Mini Mai on screen as backup. Even stronger on oki: Has 2 hits, making it hard to wake up RG (if the opponent RGs the first hit they cannot RG the second). But Mini Mai will be easily killed by 5A after RGing the second hit if she's right in the opponent's face. It is worth trying to adjust the distance against advanced players to make 5A whiff. Mini Mai can absorb one hit during this move. A meaty 623A gives Mai access to some unique and nasty mixups. Mini Mai is still on top of them should your initial mixup fail. As mentioned in 6C section, be aware that some characters with quick ground dash can run into your face if you cancel 6C into this. Sometimes it's needed to do S to keep frame advantage. Whiffs on a few crouching characters in the corner."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "14.33",
+                "active": "/",
+                "recovery": "27.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "A/B/C versions differ on where Mini Mai is summoned. A is in front of Mai, B is at mid range, C at long range. An excellent tool, whether in neutral, in blockstrings or on oki. Mini Mai stays summoned after the attack is done. In Neutral, behaves as a move with tons of active frames that can reach the opponent no matter where he is on the ground. Gives a large frame advantage on block, allowing Mai to dash in or teleport covered by Mini Mai, who is still summoned and ready to attack. In pressure, is one of the most common followups to 6C. Lets Mai keep the initiative due to the + frames, and keeps Mini Mai on screen as backup. Even stronger on oki: Has 2 hits, making it hard to wake up RG (if the opponent RGs the first hit they cannot RG the second). But Mini Mai will be easily killed by 5A after RGing the second hit if she's right in the opponent's face. It is worth trying to adjust the distance against advanced players to make 5A whiff. Mini Mai can absorb one hit during this move. A meaty 623A gives Mai access to some unique and nasty mixups. Mini Mai is still on top of them should your initial mixup fail. As mentioned in 6C section, be aware that some characters with quick ground dash can run into your face if you cancel 6C into this. Sometimes it's needed to do S to keep frame advantage. Whiffs on a few crouching characters in the corner."
+            }
+          ]
+        },
+        {
+          "moveName": "Manipulation of Power ・ Blitz",
+          "input": "Only available on summoned Mini Mai as long as Mai is not blocking.",
+          "image": "https://wiki.gbl.gg/images/thumb/a/aa/Mai412S_1.png/175px-Mai412S_1.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "22",
+            "active": "9",
+            "recovery": "107",
+            "advHit": "/",
+            "advBlock": "+22",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mini Mai will disappear once the move is done, has a short charge recovery. Electric attack and launcher which reaches farther the longer into its active frames. Fantastic to bait mashing and reversals (4S12S2 set Mini Mai behind you, buffer the attack and block). Also used in some midscreen oki setups. Does not hit point blank. Mini Mai can not absorb any hit during the move.",
+            "Mini Mai will disappear once the move is done, has a short charge recovery.",
+            "Electric attack and launcher which reaches farther the longer into its active frames. Fantastic to bait mashing and reversals (4S12S2 set Mini Mai behind you, buffer the attack and block). Also used in some midscreen oki setups. Does not hit point blank.",
+            "Mini Mai can not absorb any hit during the move."
+          ],
+          "variations": [
+            {
+              "version": "S",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "22",
+                "active": "9",
+                "recovery": "107",
+                "advHit": "/",
+                "advBlock": "+22",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will disappear once the move is done, has a short charge recovery. Electric attack and launcher which reaches farther the longer into its active frames. Fantastic to bait mashing and reversals (4S12S2 set Mini Mai behind you, buffer the attack and block). Also used in some midscreen oki setups. Does not hit point blank. Mini Mai can not absorb any hit during the move."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0",
+                "active": "/",
+                "recovery": "0",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will disappear once the move is done, has a short charge recovery. Electric attack and launcher which reaches farther the longer into its active frames. Fantastic to bait mashing and reversals (4S12S2 set Mini Mai behind you, buffer the attack and block). Also used in some midscreen oki setups. Does not hit point blank. Mini Mai can not absorb any hit during the move."
+            }
+          ]
+        },
+        {
+          "moveName": "Manipulation of Power ・ Tornado",
+          "input": "Only available on summoned Mini Mai as long as Mai is not blocking.",
+          "image": "https://wiki.gbl.gg/images/thumb/8/8e/Mai22S_1.png/175px-Mai22S_1.png",
+          "damage": "100 x 6",
+          "framedata": {
+            "guard": "Any",
+            "startup": "4",
+            "active": "3 + 6 x 13",
+            "recovery": "211",
+            "advHit": "/",
+            "advBlock": "+15 ~ +24",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mini Mai will disappear once the move is done, has a long charge recovery. Unlike her unsummoned 214*, hits crouching opponents. Excellent invincible (for Mini Mai) move with very fast startup (4F), used as an anti air, to combo off her j623A with no IC in the corner, and for oki. 6S 22S also links off her c5B, 5C, 6C and 2C, leading to fantastic meterless damage. Extremely hard to do, see combo section. When Mini Mai is in the opponent's face, being able to confirm any the opponent's RG and do 22S will cover any attempts to mash out. Mini Mai can absorb one hit during this move.",
+            "Mini Mai will disappear once the move is done, has a long charge recovery.",
+            "Unlike her unsummoned 214*, hits crouching opponents.",
+            "Excellent invincible (for Mini Mai) move with very fast startup (4F), used as an anti air, to combo off her j623A with no IC in the corner, and for oki. 6S 22S also links off her c5B, 5C, 6C and 2C, leading to fantastic meterless damage. Extremely hard to do, see combo section.",
+            "When Mini Mai is in the opponent's face, being able to confirm any the opponent's RG and do 22S will cover any attempts to mash out.",
+            "Mini Mai can absorb one hit during this move."
+          ],
+          "variations": [
+            {
+              "version": "S",
+              "damage": "100 x 6",
+              "framedata": {
+                "guard": "Any",
+                "startup": "4",
+                "active": "3 + 6 x 13",
+                "recovery": "211",
+                "advHit": "/",
+                "advBlock": "+15 ~ +24",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will disappear once the move is done, has a long charge recovery. Unlike her unsummoned 214*, hits crouching opponents. Excellent invincible (for Mini Mai) move with very fast startup (4F), used as an anti air, to combo off her j623A with no IC in the corner, and for oki. 6S 22S also links off her c5B, 5C, 6C and 2C, leading to fantastic meterless damage. Extremely hard to do, see combo section. When Mini Mai is in the opponent's face, being able to confirm any the opponent's RG and do 22S will cover any attempts to mash out. Mini Mai can absorb one hit during this move."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0",
+                "active": "/",
+                "recovery": "0",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will disappear once the move is done, has a long charge recovery. Unlike her unsummoned 214*, hits crouching opponents. Excellent invincible (for Mini Mai) move with very fast startup (4F), used as an anti air, to combo off her j623A with no IC in the corner, and for oki. 6S 22S also links off her c5B, 5C, 6C and 2C, leading to fantastic meterless damage. Extremely hard to do, see combo section. When Mini Mai is in the opponent's face, being able to confirm any the opponent's RG and do 22S will cover any attempts to mash out. Mini Mai can absorb one hit during this move."
+            }
+          ]
+        },
+        {
+          "moveName": "Crescent Moon",
+          "input": "j623B",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b2/Maij623A.png/175px-Maij623A.png",
+          "damage": "620",
+          "framedata": {
+            "guard": "High, Air",
+            "startup": "16",
+            "active": "2",
+            "recovery": "Until landing + 14",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Overhead, can combo with IC or a summoned Mini Mai, unsafe on block. A cornerstone of Mai's close range pressure, the tk version (6239A) is a fast overhead from grounded that will also crush low mashing. Has a low hitbox but still loses to some anti airs. Has some i-frames on startup, but not reliable. Whiffs on crouching characters with low hurtbox when not close enough to the opponent.",
+            "Faster and safer on block than the A version, not an overhead. Can be comboed off of without IC or Mini Mai, but doing so will be less damaging. Visually very similar to the A version, will still crush lows and does not require an IC to combo or to stay safe. Has a great hitbox (beats some anti airs), which can surprise players expecting attacks with Mai's underwhelming air normals. Has some i-frames on startup, but not reliable. An offensive choice during a backward air dash if the opponent is performing a ground attack to catch Mai (usually without summoned Mini Mai).",
+            "Very fast, invincible, overhead. Launches the opponent very high up. Will blow up almost all anti air options. Used as an overhead it is extremely fast, basically unreactable. Since it launches the opponent straight up, you can only combo off it after having built up the opponent's Guard Gauge. Also has a gimmick where if you manage to hit with the last active frame only, it will launch in a similar manner to the B version.",
+            "Overhead, can combo with IC or a summoned Mini Mai, unsafe on block.",
+            "A cornerstone of Mai's close range pressure, the tk version (6239A) is a fast overhead from grounded that will also crush low mashing.",
+            "Has a low hitbox but still loses to some anti airs.",
+            "Has some i-frames on startup, but not reliable.",
+            "Whiffs on crouching characters with low hurtbox when not close enough to the opponent.",
+            "Faster and safer on block than the A version, not an overhead. Can be comboed off of without IC or Mini Mai, but doing so will be less damaging.",
+            "Visually very similar to the A version, will still crush lows and does not require an IC to combo or to stay safe. Has a great hitbox (beats some anti airs), which can surprise players expecting attacks with Mai's underwhelming air normals.",
+            "An offensive choice during a backward air dash if the opponent is performing a ground attack to catch Mai (usually without summoned Mini Mai).",
+            "Very fast, invincible, overhead. Launches the opponent very high up.",
+            "Will blow up almost all anti air options. Used as an overhead it is extremely fast, basically unreactable. Since it launches the opponent straight up, you can only combo off it after having built up the opponent's Guard Gauge.",
+            "Also has a gimmick where if you manage to hit with the last active frame only, it will launch in a similar manner to the B version."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "620",
+              "framedata": {
+                "guard": "High, Air",
+                "startup": "16",
+                "active": "2",
+                "recovery": "Until landing + 14",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Overhead, can combo with IC or a summoned Mini Mai, unsafe on block. A cornerstone of Mai's close range pressure, the tk version (6239A) is a fast overhead from grounded that will also crush low mashing. Has a low hitbox but still loses to some anti airs. Has some i-frames on startup, but not reliable. Whiffs on crouching characters with low hurtbox when not close enough to the opponent."
+            },
+            {
+              "version": "B",
+              "damage": "620",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14",
+                "active": "2",
+                "recovery": "Until landing + 11",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Overhead, can combo with IC or a summoned Mini Mai, unsafe on block. A cornerstone of Mai's close range pressure, the tk version (6239A) is a fast overhead from grounded that will also crush low mashing. Has a low hitbox but still loses to some anti airs. Has some i-frames on startup, but not reliable. Whiffs on crouching characters with low hurtbox when not close enough to the opponent."
+            },
+            {
+              "version": "C",
+              "damage": "650 x 2",
+              "framedata": {
+                "guard": "High, Air",
+                "startup": "12",
+                "active": "2",
+                "recovery": "Until landing + 13",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Overhead, can combo with IC or a summoned Mini Mai, unsafe on block. A cornerstone of Mai's close range pressure, the tk version (6239A) is a fast overhead from grounded that will also crush low mashing. Has a low hitbox but still loses to some anti airs. Has some i-frames on startup, but not reliable. Whiffs on crouching characters with low hurtbox when not close enough to the opponent."
+            }
+          ]
+        },
+        {
+          "moveName": "Closing Ground",
+          "input": "412",
+          "image": "https://wiki.gbl.gg/images/thumb/3/33/Mai412A.png/175px-Mai412A.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "/",
+            "active": "/",
+            "recovery": "42",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC ※"
+          },
+          "properties": [
+            "Mai teleports on the ground, A leaves her next to the opponent, B leaves her at mid range. Very useful to cancel option at the end of her pressure strings, from 6C or 4C mostly. Can be beaten by characters with quick ground dash or moves with quick travel. Sometimes it's needed to cancel into S instead of 412* to keep frame advantage.",
+            "Mai reappears a bit in front of where she started the teleport, with a low sliding kick. Not a terrible move, but not easy to master. Hits low, and can combo with IC or Mini Mai. Can be used to pressure in the corner if the opponent is considering dealing with an incoming throw or overhead, or the opponent tends to jump but has Mini Mai in their face. A mixup option midscreen started by 4C and Mini Mai in the opponent's face, or mixup in the corner started by 623A 66. Since Mai disappears from the screen and becomes invincible for a while during move, it can be used to deal with moves having strong hitboxes and long recovery. Unfortunately, the hurtbox appears 4 frames before the hitbox so it's not reliable enough to use frequently.",
+            "Mai reappears above the opponent with a downwards slash. Air unblockable, not an overhead, punishable on block. Tracks the opponent's position, very good to cancel into when you read that the opponent will jump at the end of your pressure string, when trying to escape the corner for example. If you hit them in the air you get a combo on IC. Despite its look does NOT hit behind her. Unfortunately, the hurtbox appears 12 frames before the hitbox so it's not reliable enough to be frequently used. It can be easily beaten and give the opponent a full air combo chance, which is worse than the A version.",
+            "Very different from the previous versions, not a teleport, more of a dash with a hitbox. Mai's main reversal due to its invincible startup (not full invul, can trade). OTG combos are possible on trade. Also used to knockdown off a chain combo, but be careful that it will whiff if the chain pushes the opponent too far away, and the opponent will be able to tech if you chain 4 times or above before this move. Notice that the hitbox goes ahead horizontally but the hurtbox goes ahead vertically, making it strong in ground moves but weak in jumping moves (jA without IAD for example).",
+            "Mai teleports on the ground, A leaves her next to the opponent, B leaves her at mid range.",
+            "Very useful to cancel option at the end of her pressure strings, from 6C or 4C mostly.",
+            "Can be beaten by characters with quick ground dash or moves with quick travel. Sometimes it's needed to cancel into S instead of 412* to keep frame advantage.",
+            "Mai reappears a bit in front of where she started the teleport, with a low sliding kick.",
+            "Not a terrible move, but not easy to master. Hits low, and can combo with IC or Mini Mai.",
+            "Can be used to pressure in the corner if the opponent is considering dealing with an incoming throw or overhead, or the opponent tends to jump but has Mini Mai in their face.",
+            "A mixup option midscreen started by 4C and Mini Mai in the opponent's face, or mixup in the corner started by 623A 66.",
+            "Since Mai disappears from the screen and becomes invincible for a while during move, it can be used to deal with moves having strong hitboxes and long recovery.",
+            "Unfortunately, the hurtbox appears 4 frames before the hitbox so it's not reliable enough to use frequently.",
+            "Mai reappears above the opponent with a downwards slash. Air unblockable, not an overhead, punishable on block.",
+            "Tracks the opponent's position, very good to cancel into when you read that the opponent will jump at the end of your pressure string, when trying to escape the corner for example. If you hit them in the air you get a combo on IC. Despite its look does NOT hit behind her.",
+            "Unfortunately, the hurtbox appears 12 frames before the hitbox so it's not reliable enough to be frequently used. It can be easily beaten and give the opponent a full air combo chance, which is worse than the A version.",
+            "Very different from the previous versions, not a teleport, more of a dash with a hitbox. Mai's main reversal due to its invincible startup (not full invul, can trade). OTG combos are possible on trade.",
+            "Also used to knockdown off a chain combo, but be careful that it will whiff if the chain pushes the opponent too far away, and the opponent will be able to tech if you chain 4 times or above before this move.",
+            "Notice that the hitbox goes ahead horizontally but the hurtbox goes ahead vertically, making it strong in ground moves but weak in jumping moves (jA without IAD for example)."
+          ],
+          "variations": [
+            {
+              "version": "A & B (tap)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "/",
+                "active": "/",
+                "recovery": "42",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC ※"
+              },
+              "notes": "Mai teleports on the ground, A leaves her next to the opponent, B leaves her at mid range. Very useful to cancel option at the end of her pressure strings, from 6C or 4C mostly. Can be beaten by characters with quick ground dash or moves with quick travel. Sometimes it's needed to cancel into S instead of 412* to keep frame advantage."
+            },
+            {
+              "version": "A (hold)Closing Ground Followup Kick 縮地追蹴",
+              "damage": "850",
+              "framedata": {
+                "guard": "Low",
+                "startup": "40",
+                "active": "12",
+                "recovery": "12",
+                "advHit": "/",
+                "advBlock": "-3",
+                "cancel": "IC ※"
+              },
+              "notes": "Mai teleports on the ground, A leaves her next to the opponent, B leaves her at mid range. Very useful to cancel option at the end of her pressure strings, from 6C or 4C mostly. Can be beaten by characters with quick ground dash or moves with quick travel. Sometimes it's needed to cancel into S instead of 412* to keep frame advantage."
+            },
+            {
+              "version": "B (hold)Closing Ground Followup Cut 縮地追斬",
+              "damage": "850",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "48",
+                "active": "10",
+                "recovery": "19.33",
+                "advHit": "/",
+                "advBlock": "-7.33",
+                "cancel": "IC ※"
+              },
+              "notes": "Mai teleports on the ground, A leaves her next to the opponent, B leaves her at mid range. Very useful to cancel option at the end of her pressure strings, from 6C or 4C mostly. Can be beaten by characters with quick ground dash or moves with quick travel. Sometimes it's needed to cancel into S instead of 412* to keep frame advantage."
+            },
+            {
+              "version": "C",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "2",
+                "recovery": "40",
+                "advHit": "/",
+                "advBlock": "-16",
+                "cancel": "IC ※"
+              },
+              "notes": "Mai teleports on the ground, A leaves her next to the opponent, B leaves her at mid range. Very useful to cancel option at the end of her pressure strings, from 6C or 4C mostly. Can be beaten by characters with quick ground dash or moves with quick travel. Sometimes it's needed to cancel into S instead of 412* to keep frame advantage."
+            }
+          ]
+        },
+        {
+          "moveName": "Cutting the Chaff",
+          "input": "236236",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f3/Mai236236_1.png/175px-Mai236236_1.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "21",
+            "active": "8",
+            "recovery": "40",
+            "advHit": "/",
+            "advBlock": "-9",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mai teleports forward, the hitbox follows behind her once she has teleported. One of Mai's few reversals, not that great due to its slow startup, and punishable by 5A/2A after normal block or throw after RG. The higher the level, the slower the startup and the longer the distance traveled. The long invincibility makes it an extremely useful reversal to most ground supers. Also an option to punish the opponent's normals like 2B or 2C after Mai's normals are RGed. Better to prepare Mini Mai in case it is blocked. Can hardly be combo'd into from simple chains(except for fastest chain from 5B or 5C close enough to the opponent for example), needs IC or Mini Mai. A good combo ender to build IC and Charge Gauge. And can be used to gain big damage in midscreen where not easy for Mai to do combo, especially at the end of a round. The hitbox extends pretty far behind her starting position allowing it to crossup against jump ins or as oki. Also better to keep Mini Mai summoned as a backup as mentioned previously. Whiffs on some ground moves due to the narrow vertical hitbox. Will not cause any damage when it hits armor and move to the whiff motion.",
+            "Whiffs on some ground moves due to the narrow vertical hitbox.",
+            "Will not cause any damage when it hits armor and move to the whiff motion."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "21",
+                "active": "8",
+                "recovery": "40",
+                "advHit": "/",
+                "advBlock": "-9",
+                "cancel": "None"
+              },
+              "notes": "Mai teleports forward, the hitbox follows behind her once she has teleported. One of Mai's few reversals, not that great due to its slow startup, and punishable by 5A/2A after normal block or throw after RG. The higher the level, the slower the startup and the longer the distance traveled. The long invincibility makes it an extremely useful reversal to most ground supers. Also an option to punish the opponent's normals like 2B or 2C after Mai's normals are RGed. Better to prepare Mini Mai in case it is blocked. Can hardly be combo'd into from simple chains(except for fastest chain from 5B or 5C close enough to the opponent for example), needs IC or Mini Mai. A good combo ender to build IC and Charge Gauge. And can be used to gain big damage in midscreen where not easy for Mai to do combo, especially at the end of a round. The hitbox extends pretty far behind her starting position allowing it to crossup against jump ins or as oki. Also better to keep Mini Mai summoned as a backup as mentioned previously. Whiffs on some ground moves due to the narrow vertical hitbox. Will not cause any damage when it hits armor and move to the whiff motion."
+            },
+            {
+              "version": "B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "22",
+                "active": "8",
+                "recovery": "40",
+                "advHit": "/",
+                "advBlock": "-9",
+                "cancel": "None"
+              },
+              "notes": "Mai teleports forward, the hitbox follows behind her once she has teleported. One of Mai's few reversals, not that great due to its slow startup, and punishable by 5A/2A after normal block or throw after RG. The higher the level, the slower the startup and the longer the distance traveled. The long invincibility makes it an extremely useful reversal to most ground supers. Also an option to punish the opponent's normals like 2B or 2C after Mai's normals are RGed. Better to prepare Mini Mai in case it is blocked. Can hardly be combo'd into from simple chains(except for fastest chain from 5B or 5C close enough to the opponent for example), needs IC or Mini Mai. A good combo ender to build IC and Charge Gauge. And can be used to gain big damage in midscreen where not easy for Mai to do combo, especially at the end of a round. The hitbox extends pretty far behind her starting position allowing it to crossup against jump ins or as oki. Also better to keep Mini Mai summoned as a backup as mentioned previously. Whiffs on some ground moves due to the narrow vertical hitbox. Will not cause any damage when it hits armor and move to the whiff motion."
+            },
+            {
+              "version": "C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "8",
+                "recovery": "40",
+                "advHit": "/",
+                "advBlock": "-9",
+                "cancel": "None"
+              },
+              "notes": "Mai teleports forward, the hitbox follows behind her once she has teleported. One of Mai's few reversals, not that great due to its slow startup, and punishable by 5A/2A after normal block or throw after RG. The higher the level, the slower the startup and the longer the distance traveled. The long invincibility makes it an extremely useful reversal to most ground supers. Also an option to punish the opponent's normals like 2B or 2C after Mai's normals are RGed. Better to prepare Mini Mai in case it is blocked. Can hardly be combo'd into from simple chains(except for fastest chain from 5B or 5C close enough to the opponent for example), needs IC or Mini Mai. A good combo ender to build IC and Charge Gauge. And can be used to gain big damage in midscreen where not easy for Mai to do combo, especially at the end of a round. The hitbox extends pretty far behind her starting position allowing it to crossup against jump ins or as oki. Also better to keep Mini Mai summoned as a backup as mentioned previously. Whiffs on some ground moves due to the narrow vertical hitbox. Will not cause any damage when it hits armor and move to the whiff motion."
+            }
+          ]
+        },
+        {
+          "moveName": "Wielding of Power ・ Destruction",
+          "input": "Only available on unsummoned Mini Mai with full Charge Gauge.",
+          "image": "https://wiki.gbl.gg/images/thumb/6/68/Mai214214A.png/175px-Mai214214A.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "15.33",
+            "active": "/",
+            "recovery": "298",
+            "advHit": "/",
+            "advBlock": "-2 ~ +26",
+            "cancel": "None"
+          },
+          "properties": [
+            "The higher the level, the larger the fireball and the more hits and damage they do. Mini Mai will disappear once the move is done, has a long charge recovery. Mostly used with its C version along with BIC in her maximum damage combos, and can also be used to give great damage to armored characters. The B version can also do the same job as the C version in BIC if there's not enough meter, but requires higher Power. Mini Mai is invincible during the move in all versions.",
+            "The higher the level, the larger the fireball and the more hits and damage they do.",
+            "Mini Mai will disappear once the move is done, has a long charge recovery.",
+            "Mostly used with its C version along with BIC in her maximum damage combos, and can also be used to give great damage to armored characters.",
+            "The B version can also do the same job as the C version in BIC if there's not enough meter, but requires higher Power.",
+            "Mini Mai is invincible during the move in all versions."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15.33",
+                "active": "/",
+                "recovery": "298",
+                "advHit": "/",
+                "advBlock": "-2 ~ +26",
+                "cancel": "None"
+              },
+              "notes": "The higher the level, the larger the fireball and the more hits and damage they do. Mini Mai will disappear once the move is done, has a long charge recovery. Mostly used with its C version along with BIC in her maximum damage combos, and can also be used to give great damage to armored characters. The B version can also do the same job as the C version in BIC if there's not enough meter, but requires higher Power. Mini Mai is invincible during the move in all versions."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "14.33",
+                "active": "/",
+                "recovery": "52.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The higher the level, the larger the fireball and the more hits and damage they do. Mini Mai will disappear once the move is done, has a long charge recovery. Mostly used with its C version along with BIC in her maximum damage combos, and can also be used to give great damage to armored characters. The B version can also do the same job as the C version in BIC if there's not enough meter, but requires higher Power. Mini Mai is invincible during the move in all versions."
+            },
+            {
+              "version": "B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "17.33",
+                "active": "/",
+                "recovery": "298",
+                "advHit": "/",
+                "advBlock": "-2 ~ +20",
+                "cancel": "None"
+              },
+              "notes": "The higher the level, the larger the fireball and the more hits and damage they do. Mini Mai will disappear once the move is done, has a long charge recovery. Mostly used with its C version along with BIC in her maximum damage combos, and can also be used to give great damage to armored characters. The B version can also do the same job as the C version in BIC if there's not enough meter, but requires higher Power. Mini Mai is invincible during the move in all versions."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "16.33",
+                "active": "/",
+                "recovery": "63.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The higher the level, the larger the fireball and the more hits and damage they do. Mini Mai will disappear once the move is done, has a long charge recovery. Mostly used with its C version along with BIC in her maximum damage combos, and can also be used to give great damage to armored characters. The B version can also do the same job as the C version in BIC if there's not enough meter, but requires higher Power. Mini Mai is invincible during the move in all versions."
+            },
+            {
+              "version": "C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "20.33",
+                "active": "/",
+                "recovery": "298",
+                "advHit": "/",
+                "advBlock": "+5 ~ +23",
+                "cancel": "None"
+              },
+              "notes": "The higher the level, the larger the fireball and the more hits and damage they do. Mini Mai will disappear once the move is done, has a long charge recovery. Mostly used with its C version along with BIC in her maximum damage combos, and can also be used to give great damage to armored characters. The B version can also do the same job as the C version in BIC if there's not enough meter, but requires higher Power. Mini Mai is invincible during the move in all versions."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "19.33",
+                "active": "/",
+                "recovery": "73.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "The higher the level, the larger the fireball and the more hits and damage they do. Mini Mai will disappear once the move is done, has a long charge recovery. Mostly used with its C version along with BIC in her maximum damage combos, and can also be used to give great damage to armored characters. The B version can also do the same job as the C version in BIC if there's not enough meter, but requires higher Power. Mini Mai is invincible during the move in all versions."
+            }
+          ]
+        },
+        {
+          "moveName": "Manipulation of Power ・ Destruction",
+          "input": "Only available on summoned Mini Mai as long as Mai is not blocking.",
+          "image": "https://wiki.gbl.gg/images/thumb/c/cb/Mai214214s.png/175px-Mai214214s.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "16.66",
+            "active": "/",
+            "recovery": "321.33",
+            "advHit": "/",
+            "advBlock": "+27 ~ +50",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mini Mai will fire multiple slow moving single hit fireballs. The higher the level the more she fires. Each fireball's vertical position is random, making it somewhat unreliable in combos. But there are a few stable combos using version A or B (especially A). Great way to lock the opponent down in the corner (especially at level 3), or to force an advantageous situation in neutral. Blocking all fireballs will crank the Guard Gauge and allow Mai to combo off of her lightning fast tk623C. Mini Mai is invincible during the move in all versions. Mini Mai will disappear once the move is done, has a long charge recovery.",
+            "Mini Mai is invincible during the move in all versions.",
+            "Mini Mai will disappear once the move is done, has a long charge recovery."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16.66",
+                "active": "/",
+                "recovery": "321.33",
+                "advHit": "/",
+                "advBlock": "+27 ~ +50",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will fire multiple slow moving single hit fireballs. The higher the level the more she fires. Each fireball's vertical position is random, making it somewhat unreliable in combos. But there are a few stable combos using version A or B (especially A). Great way to lock the opponent down in the corner (especially at level 3), or to force an advantageous situation in neutral. Blocking all fireballs will crank the Guard Gauge and allow Mai to combo off of her lightning fast tk623C. Mini Mai is invincible during the move in all versions. Mini Mai will disappear once the move is done, has a long charge recovery."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "10.33",
+                "active": "/",
+                "recovery": "22.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will fire multiple slow moving single hit fireballs. The higher the level the more she fires. Each fireball's vertical position is random, making it somewhat unreliable in combos. But there are a few stable combos using version A or B (especially A). Great way to lock the opponent down in the corner (especially at level 3), or to force an advantageous situation in neutral. Blocking all fireballs will crank the Guard Gauge and allow Mai to combo off of her lightning fast tk623C. Mini Mai is invincible during the move in all versions. Mini Mai will disappear once the move is done, has a long charge recovery."
+            },
+            {
+              "version": "B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14.66",
+                "active": "/",
+                "recovery": "357.33",
+                "advHit": "/",
+                "advBlock": "+7 ~ +67",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will fire multiple slow moving single hit fireballs. The higher the level the more she fires. Each fireball's vertical position is random, making it somewhat unreliable in combos. But there are a few stable combos using version A or B (especially A). Great way to lock the opponent down in the corner (especially at level 3), or to force an advantageous situation in neutral. Blocking all fireballs will crank the Guard Gauge and allow Mai to combo off of her lightning fast tk623C. Mini Mai is invincible during the move in all versions. Mini Mai will disappear once the move is done, has a long charge recovery."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "10.33",
+                "active": "/",
+                "recovery": "22.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will fire multiple slow moving single hit fireballs. The higher the level the more she fires. Each fireball's vertical position is random, making it somewhat unreliable in combos. But there are a few stable combos using version A or B (especially A). Great way to lock the opponent down in the corner (especially at level 3), or to force an advantageous situation in neutral. Blocking all fireballs will crank the Guard Gauge and allow Mai to combo off of her lightning fast tk623C. Mini Mai is invincible during the move in all versions. Mini Mai will disappear once the move is done, has a long charge recovery."
+            },
+            {
+              "version": "C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10.66",
+                "active": "/",
+                "recovery": "387.66",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will fire multiple slow moving single hit fireballs. The higher the level the more she fires. Each fireball's vertical position is random, making it somewhat unreliable in combos. But there are a few stable combos using version A or B (especially A). Great way to lock the opponent down in the corner (especially at level 3), or to force an advantageous situation in neutral. Blocking all fireballs will crank the Guard Gauge and allow Mai to combo off of her lightning fast tk623C. Mini Mai is invincible during the move in all versions. Mini Mai will disappear once the move is done, has a long charge recovery."
+            },
+            {
+              "version": "Mai",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "10.33",
+                "active": "/",
+                "recovery": "22.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mini Mai will fire multiple slow moving single hit fireballs. The higher the level the more she fires. Each fireball's vertical position is random, making it somewhat unreliable in combos. But there are a few stable combos using version A or B (especially A). Great way to lock the opponent down in the corner (especially at level 3), or to force an advantageous situation in neutral. Blocking all fireballs will crank the Guard Gauge and allow Mai to combo off of her lightning fast tk623C. Mini Mai is invincible during the move in all versions. Mini Mai will disappear once the move is done, has a long charge recovery."
+            }
+          ]
+        },
+        {
+          "moveName": "Awakening",
+          "input": "Only available with Mini Mai charged but unsummoned, 3 SP and less than 1/3rd of HP remaining.",
+          "image": "https://wiki.gbl.gg/images/thumb/5/56/Mai236236S.png/172px-Mai236236S.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "/",
+            "active": "/",
+            "recovery": "15",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mai turns into Awakened Mai. Starts with brief invincibility but nowhere near enough to be a viable \"reversal\". Charge Gauge will recover for 400 frames after leaving the install. Awakened Mai plays fairly differently from normal Mai: A Time gauge appears that slowly drains. Mai will stay in awakened mode as long as Time is left (even on winning/losing a round). Mai loses access to all Mini Mai moves. RF moves no longer cost RF meter, instead they cost about 10% of the Time gauge. Mai's dash becomes extremely fast, lasting only 10F before she can cancel it into block/special/super. Mai becomes unable to build SP meter. Mai gains access to moves listed below.",
+            "Starts with brief invincibility but nowhere near enough to be a viable \"reversal\".",
+            "Charge Gauge will recover for 400 frames after leaving the install.",
+            "Awakened Mai plays fairly differently from normal Mai: A Time gauge appears that slowly drains. Mai will stay in awakened mode as long as Time is left (even on winning/losing a round). Mai loses access to all Mini Mai moves. RF moves no longer cost RF meter, instead they cost about 10% of the Time gauge. Mai's dash becomes extremely fast, lasting only 10F before she can cancel it into block/special/super. Mai becomes unable to build SP meter. Mai gains access to moves listed below.",
+            "A Time gauge appears that slowly drains. Mai will stay in awakened mode as long as Time is left (even on winning/losing a round).",
+            "Mai loses access to all Mini Mai moves.",
+            "RF moves no longer cost RF meter, instead they cost about 10% of the Time gauge.",
+            "Mai's dash becomes extremely fast, lasting only 10F before she can cancel it into block/special/super.",
+            "Mai becomes unable to build SP meter.",
+            "Mai gains access to moves listed below."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "/",
+                "active": "/",
+                "recovery": "15",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mai turns into Awakened Mai. Starts with brief invincibility but nowhere near enough to be a viable \"reversal\". Charge Gauge will recover for 400 frames after leaving the install. Awakened Mai plays fairly differently from normal Mai: A Time gauge appears that slowly drains. Mai will stay in awakened mode as long as Time is left (even on winning/losing a round). Mai loses access to all Mini Mai moves. RF moves no longer cost RF meter, instead they cost about 10% of the Time gauge. Mai's dash becomes extremely fast, lasting only 10F before she can cancel it into block/special/super. Mai becomes unable to build SP meter. Mai gains access to moves listed below."
+            },
+            {
+              "version": "B",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "/",
+                "active": "/",
+                "recovery": "15",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mai turns into Awakened Mai. Starts with brief invincibility but nowhere near enough to be a viable \"reversal\". Charge Gauge will recover for 400 frames after leaving the install. Awakened Mai plays fairly differently from normal Mai: A Time gauge appears that slowly drains. Mai will stay in awakened mode as long as Time is left (even on winning/losing a round). Mai loses access to all Mini Mai moves. RF moves no longer cost RF meter, instead they cost about 10% of the Time gauge. Mai's dash becomes extremely fast, lasting only 10F before she can cancel it into block/special/super. Mai becomes unable to build SP meter. Mai gains access to moves listed below."
+            },
+            {
+              "version": "C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "/",
+                "active": "/",
+                "recovery": "15",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Mai turns into Awakened Mai. Starts with brief invincibility but nowhere near enough to be a viable \"reversal\". Charge Gauge will recover for 400 frames after leaving the install. Awakened Mai plays fairly differently from normal Mai: A Time gauge appears that slowly drains. Mai will stay in awakened mode as long as Time is left (even on winning/losing a round). Mai loses access to all Mini Mai moves. RF moves no longer cost RF meter, instead they cost about 10% of the Time gauge. Mai's dash becomes extremely fast, lasting only 10F before she can cancel it into block/special/super. Mai becomes unable to build SP meter. Mai gains access to moves listed below."
+            }
+          ]
+        },
+        {
+          "moveName": "Scattering Zero Style",
+          "input": "Replaces her Scattering attacks in Awakened mode.",
+          "image": "https://wiki.gbl.gg/images/thumb/6/65/MaiFM6A.png/175px-MaiFM6A.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Any",
+            "startup": "6",
+            "active": "2",
+            "recovery": "17",
+            "advHit": "/",
+            "advBlock": "+2",
+            "cancel": "J IC"
+          },
+          "properties": [
+            "Each slash becomes jump cancellable, untechable, advantageous on block, and has massively improved recovery and startup, at the cost of 10% time guage per slash used. 6C cannot be cancelled into specials anymore, and launches on hit. 412* can be cancelled into this move, making it almost no risk to do 412C 6C as a reversal without consuming RF gauge(412C will consume Time Gauge instead). Any hit into a Scattering Zero Style leads to a very easy 6B x N loop. Not frequently used but 412A(hold) 6B can also lead to a combo without IC.",
+            "6C cannot be cancelled into specials anymore, and launches on hit.",
+            "412* can be cancelled into this move, making it almost no risk to do 412C 6C as a reversal without consuming RF gauge(412C will consume Time Gauge instead).",
+            "Any hit into a Scattering Zero Style leads to a very easy 6B x N loop.",
+            "Not frequently used but 412A(hold) 6B can also lead to a combo without IC."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "+2",
+                "cancel": "J IC"
+              },
+              "notes": "Each slash becomes jump cancellable, untechable, advantageous on block, and has massively improved recovery and startup, at the cost of 10% time guage per slash used. 6C cannot be cancelled into specials anymore, and launches on hit. 412* can be cancelled into this move, making it almost no risk to do 412C 6C as a reversal without consuming RF gauge(412C will consume Time Gauge instead). Any hit into a Scattering Zero Style leads to a very easy 6B x N loop. Not frequently used but 412A(hold) 6B can also lead to a combo without IC."
+            },
+            {
+              "version": "B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "16",
+                "advHit": "/",
+                "advBlock": "+3",
+                "cancel": "J IC"
+              },
+              "notes": "Each slash becomes jump cancellable, untechable, advantageous on block, and has massively improved recovery and startup, at the cost of 10% time guage per slash used. 6C cannot be cancelled into specials anymore, and launches on hit. 412* can be cancelled into this move, making it almost no risk to do 412C 6C as a reversal without consuming RF gauge(412C will consume Time Gauge instead). Any hit into a Scattering Zero Style leads to a very easy 6B x N loop. Not frequently used but 412A(hold) 6B can also lead to a combo without IC."
+            },
+            {
+              "version": "C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "2",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "+2",
+                "cancel": "J IC"
+              },
+              "notes": "Each slash becomes jump cancellable, untechable, advantageous on block, and has massively improved recovery and startup, at the cost of 10% time guage per slash used. 6C cannot be cancelled into specials anymore, and launches on hit. 412* can be cancelled into this move, making it almost no risk to do 412C 6C as a reversal without consuming RF gauge(412C will consume Time Gauge instead). Any hit into a Scattering Zero Style leads to a very easy 6B x N loop. Not frequently used but 412A(hold) 6B can also lead to a combo without IC."
+            }
+          ]
+        },
+        {
+          "moveName": "Closing Cut Zero Style",
+          "input": "Exclusive to Awakened mode.",
+          "image": "https://wiki.gbl.gg/images/thumb/6/69/MaiA214_1.png/175px-MaiA214_1.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "13",
+            "active": "11",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "-3",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Very fast, creates an air unblockable, untechable pillar of light whose position is determined by the button used. Costs about 10% Time Gauge. Extremely good at sniping the opponent when they try to run away, meanwhile can hardly lead to any combo though it can be FICed. Hitbox becomes thinner and taller over time.",
+            "Extremely good at sniping the opponent when they try to run away, meanwhile can hardly lead to any combo though it can be FICed.",
+            "Hitbox becomes thinner and taller over time."
+          ],
+          "variations": [
+            {
+              "version": "A/B",
+              "damage": "-",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "11",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-3",
+                "cancel": "FIC"
+              },
+              "notes": "Very fast, creates an air unblockable, untechable pillar of light whose position is determined by the button used. Costs about 10% Time Gauge. Extremely good at sniping the opponent when they try to run away, meanwhile can hardly lead to any combo though it can be FICed. Hitbox becomes thinner and taller over time."
+            },
+            {
+              "version": "C",
+              "damage": "-",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "11",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+3",
+                "cancel": "FIC"
+              },
+              "notes": "Very fast, creates an air unblockable, untechable pillar of light whose position is determined by the button used. Costs about 10% Time Gauge. Extremely good at sniping the opponent when they try to run away, meanwhile can hardly lead to any combo though it can be FICed. Hitbox becomes thinner and taller over time."
+            },
+            {
+              "version": "Mai (A/B)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13",
+                "active": "/",
+                "recovery": "24",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Very fast, creates an air unblockable, untechable pillar of light whose position is determined by the button used. Costs about 10% Time Gauge. Extremely good at sniping the opponent when they try to run away, meanwhile can hardly lead to any combo though it can be FICed. Hitbox becomes thinner and taller over time."
+            },
+            {
+              "version": "Mai (C)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13",
+                "active": "/",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Very fast, creates an air unblockable, untechable pillar of light whose position is determined by the button used. Costs about 10% Time Gauge. Extremely good at sniping the opponent when they try to run away, meanwhile can hardly lead to any combo though it can be FICed. Hitbox becomes thinner and taller over time."
+            }
+          ]
+        },
+        {
+          "moveName": "The Heart That Has Accepted It All",
+          "input": "Exclusive to Awakened mode.",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d8/MaiA236236_1.png/175px-MaiA236236_1.png",
+          "damage": "-",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "1",
+            "active": "1",
+            "recovery": "53",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Works even when opponent is in prejump or grounded hitstun."
+          ],
+          "variations": [
+            {
+              "version": "Throw",
+              "damage": "-",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "1",
+                "active": "1",
+                "recovery": "53",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Works even when opponent is in prejump or grounded hitstun."
+            },
+            {
+              "version": "Hit",
+              "damage": "-",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "5",
+                "active": "1",
+                "recovery": "49",
+                "advHit": "/",
+                "advBlock": "-28",
+                "cancel": "IC"
+              },
+              "notes": "Works even when opponent is in prejump or grounded hitstun."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

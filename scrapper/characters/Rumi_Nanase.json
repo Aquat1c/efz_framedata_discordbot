@@ -1,0 +1,1680 @@
+{
+  "name": "Rumi Nanase",
+  "icon": "https://wiki.gbl.gg/images/f/fc/EFZ_Rumi_CSS.png",
+  "movelists": [
+    {
+      "name": "Shinai",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/08/EFZ_Rumi_Nanase_5A.png/150px-EFZ_Rumi_Nanase_5A.png",
+          "damage": "300",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "1",
+            "recovery": "10",
+            "advHit": "+4",
+            "advBlock": "+3",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Mostly used for staggers during pressure. This move can be used to beat most characters reversals that are only high or low invulnerable. The combined range and speed of both hitboxes makes it a solid move to use after Recoil Guarding.",
+            "Mostly used for staggers during pressure.",
+            "This move can be used to beat most characters reversals that are only high or low invulnerable.",
+            "The combined range and speed of both hitboxes makes it a solid move to use after Recoil Guarding."
+          ],
+          "variations": [
+            {
+              "version": "Active Frame 1",
+              "damage": "300",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "4",
+                "active": "1",
+                "recovery": "10",
+                "advHit": "+4",
+                "advBlock": "+3",
+                "cancel": "N SP J IC"
+              },
+              "notes": "Mostly used for staggers during pressure. This move can be used to beat most characters reversals that are only high or low invulnerable. The combined range and speed of both hitboxes makes it a solid move to use after Recoil Guarding."
+            },
+            {
+              "version": "Active Frames 2 - 4",
+              "damage": "350",
+              "framedata": {
+                "guard": "Low",
+                "startup": "5",
+                "active": "3",
+                "recovery": "7",
+                "advHit": "+2",
+                "advBlock": "+1",
+                "cancel": "N SP J IC"
+              },
+              "notes": "Mostly used for staggers during pressure. This move can be used to beat most characters reversals that are only high or low invulnerable. The combined range and speed of both hitboxes makes it a solid move to use after Recoil Guarding."
+            }
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/6/68/EFZ_Rumi_Nanase_%28c%295B.png/175px-EFZ_Rumi_Nanase_%28c%295B.png",
+          "damage": "560",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "2",
+            "recovery": "16",
+            "advHit": "-1",
+            "advBlock": "-2",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Fairly useful move after Recoil Guarding a close attack, even including some multi-hit or self-cancelable air normals thanks to its early armored frames."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/25/EFZ_Rumi_Nanase_%28f%295B.png/175px-EFZ_Rumi_Nanase_%28f%295B.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "13",
+            "active": "2",
+            "recovery": "22",
+            "advHit": "-5.33",
+            "advBlock": "-7.33",
+            "cancel": "N SP JH IC"
+          },
+          "properties": [
+            "Highly versatile move with many applications. In neutral it provides a good range attack that can beat most grounded enemy approaches (especially dash attacks). Against opponents who attempt a jump-in it can function as an anti-air move as long as they do not land too close to Rumi. In pressure it can be used to catch an opponent trying to jump out and can beat enemy pokes and many reversals by its decent vertical range or by its long armor duration. While on the defense, it can function as a poke against untight medium ranged pressure by using its armor.",
+            "Highly versatile move with many applications.",
+            "In neutral it provides a good range attack that can beat most grounded enemy approaches (especially dash attacks).",
+            "Against opponents who attempt a jump-in it can function as an anti-air move as long as they do not land too close to Rumi.",
+            "In pressure it can be used to catch an opponent trying to jump out and can beat enemy pokes and many reversals by its decent vertical range or by its long armor duration.",
+            "While on the defense, it can function as a poke against untight medium ranged pressure by using its armor."
+          ],
+          "variations": [
+            {
+              "version": "Active Frames 1 - 2",
+              "damage": "700",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "2",
+                "recovery": "22",
+                "advHit": "-5.33",
+                "advBlock": "-7.33",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Highly versatile move with many applications. In neutral it provides a good range attack that can beat most grounded enemy approaches (especially dash attacks). Against opponents who attempt a jump-in it can function as an anti-air move as long as they do not land too close to Rumi. In pressure it can be used to catch an opponent trying to jump out and can beat enemy pokes and many reversals by its decent vertical range or by its long armor duration. While on the defense, it can function as a poke against untight medium ranged pressure by using its armor."
+            },
+            {
+              "version": "Active Frames 3 - 4",
+              "damage": "600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "15",
+                "active": "2",
+                "recovery": "20",
+                "advHit": "+2.66",
+                "advBlock": "-",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Highly versatile move with many applications. In neutral it provides a good range attack that can beat most grounded enemy approaches (especially dash attacks). Against opponents who attempt a jump-in it can function as an anti-air move as long as they do not land too close to Rumi. In pressure it can be used to catch an opponent trying to jump out and can beat enemy pokes and many reversals by its decent vertical range or by its long armor duration. While on the defense, it can function as a poke against untight medium ranged pressure by using its armor."
+            }
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "The reason you play Rumi.",
+          "image": "https://wiki.gbl.gg/images/thumb/9/97/EFZ_Rumi_Nanase_5C.png/175px-EFZ_Rumi_Nanase_5C.png",
+          "damage": "2200",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "26",
+            "active": "2",
+            "recovery": "30",
+            "advHit": "-7",
+            "advBlock": "-9",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Not only the highest damaging normal in the game, but also has one of the longest horizontal reaches and many armored frames on startup. Mostly used in neutral at longer ranges to trade with opponent's projectiles or high commitment moves. At its maximum range it is difficult to punish even on block and can also serve as an anti-air move against jumping or air-dashing opponents. This move has one unarmored frame before the hitbox becomes active, making it unreliable against multi-hit moves.",
+            "Not only the highest damaging normal in the game, but also has one of the longest horizontal reaches and many armored frames on startup.",
+            "Mostly used in neutral at longer ranges to trade with opponent's projectiles or high commitment moves. At its maximum range it is difficult to punish even on block and can also serve as an anti-air move against jumping or air-dashing opponents.",
+            "This move has one unarmored frame before the hitbox becomes active, making it unreliable against multi-hit moves."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/bf/EFZ_Rumi_Nanase_2A.png/175px-EFZ_Rumi_Nanase_2A.png",
+          "damage": "240",
+          "framedata": {
+            "guard": "Low",
+            "startup": "7",
+            "active": "4",
+            "recovery": "6",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Exceptional range for a 2A at the cost of speed. Mostly used for staggers during pressure.",
+            "Exceptional range for a 2A at the cost of speed.",
+            "Mostly used for staggers during pressure."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f0/EFZ_Rumi_Nanase_2B.png/137px-EFZ_Rumi_Nanase_2B.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "13",
+            "active": "1",
+            "recovery": "30",
+            "advHit": "-14",
+            "advBlock": "-16",
+            "cancel": "N SP JH IC"
+          },
+          "properties": [
+            "Despite its good hitboxes, this move is a terrible anti-air option when trying to react to opponents attacking from above due to its extended hurtboxes, slow startup time and suboptimal armor frames. It should rather be used preemptively against enemy airdashes and jump-outs during pressure. Since the armor starts one frame earlier than f5B while also having a sizable horizontal range, it can open up blockstrings that are more difficult for the opponent to disrespect. This also means it can disrespect opponent blockstrings where f5B cannot.",
+            "Despite its good hitboxes, this move is a terrible anti-air option when trying to react to opponents attacking from above due to its extended hurtboxes, slow startup time and suboptimal armor frames.",
+            "It should rather be used preemptively against enemy airdashes and jump-outs during pressure.",
+            "Since the armor starts one frame earlier than f5B while also having a sizable horizontal range, it can open up blockstrings that are more difficult for the opponent to disrespect. This also means it can disrespect opponent blockstrings where f5B cannot."
+          ],
+          "variations": [
+            {
+              "version": "Active Frame 1",
+              "damage": "600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "1",
+                "recovery": "30",
+                "advHit": "-14",
+                "advBlock": "-16",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Despite its good hitboxes, this move is a terrible anti-air option when trying to react to opponents attacking from above due to its extended hurtboxes, slow startup time and suboptimal armor frames. It should rather be used preemptively against enemy airdashes and jump-outs during pressure. Since the armor starts one frame earlier than f5B while also having a sizable horizontal range, it can open up blockstrings that are more difficult for the opponent to disrespect. This also means it can disrespect opponent blockstrings where f5B cannot."
+            },
+            {
+              "version": "Active Frames 2 - 3",
+              "damage": "700",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "14",
+                "active": "2",
+                "recovery": "29",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Despite its good hitboxes, this move is a terrible anti-air option when trying to react to opponents attacking from above due to its extended hurtboxes, slow startup time and suboptimal armor frames. It should rather be used preemptively against enemy airdashes and jump-outs during pressure. Since the armor starts one frame earlier than f5B while also having a sizable horizontal range, it can open up blockstrings that are more difficult for the opponent to disrespect. This also means it can disrespect opponent blockstrings where f5B cannot."
+            }
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/94/EFZ_Rumi_Nanase_2C.png/175px-EFZ_Rumi_Nanase_2C.png",
+          "damage": "1100",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "19 / 19.33",
+            "active": "2",
+            "recovery": "35.66",
+            "advHit": "-13 / -12.66",
+            "advBlock": "-15 / -14.66",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Mostly used outside of combos to catch opponents at medium ranges. With its armor starting on the second frame and lasting throughout the majority of its startup it can also serve as a tool for disrespecting the opponent's pressure. It is very risky to use for various reasons: It has barely any vertical reach making it very unlikely to catch jumping opponents. It has a massive amount of recovery frames, basically guaranteeing the highest possible damage punish by the opponent on whiff. Even on hit, this move provides a huge frame disadvantage, forcing the player to always cancel it into a special (which mitigates risks only slightly). This issue is further worsened by the move having a very awkward cancel point. Despite these disadvantages the player might prefer using 2C over 5C for it having a faster startup time with earlier armored frames and being cancelable without IC.",
+            "Mostly used outside of combos to catch opponents at medium ranges.",
+            "With its armor starting on the second frame and lasting throughout the majority of its startup it can also serve as a tool for disrespecting the opponent's pressure.",
+            "It is very risky to use for various reasons: It has barely any vertical reach making it very unlikely to catch jumping opponents. It has a massive amount of recovery frames, basically guaranteeing the highest possible damage punish by the opponent on whiff. Even on hit, this move provides a huge frame disadvantage, forcing the player to always cancel it into a special (which mitigates risks only slightly). This issue is further worsened by the move having a very awkward cancel point.",
+            "It has barely any vertical reach making it very unlikely to catch jumping opponents.",
+            "It has a massive amount of recovery frames, basically guaranteeing the highest possible damage punish by the opponent on whiff.",
+            "Even on hit, this move provides a huge frame disadvantage, forcing the player to always cancel it into a special (which mitigates risks only slightly).",
+            "This issue is further worsened by the move having a very awkward cancel point.",
+            "Despite these disadvantages the player might prefer using 2C over 5C for it having a faster startup time with earlier armored frames and being cancelable without IC."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d1/EFZ_Rumi_Nanase_j5A.png/175px-EFZ_Rumi_Nanase_j5A.png",
+          "damage": "280",
+          "framedata": {
+            "guard": "High",
+            "startup": "8",
+            "active": "10",
+            "recovery": "14",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N Sp J IC"
+          },
+          "properties": [
+            "Its many active frames make it a great move for deterring the opponent from jumping while grounded, or from airdashing into Rumi as long as they are not above her. It also serves as a solid tech-trap",
+            "Its many active frames make it a great move for deterring the opponent from jumping while grounded, or from airdashing into Rumi as long as they are not above her.",
+            "It also serves as a solid tech-trap"
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/05/EFZ_Rumi_Nanase_j5B.png/90px-EFZ_Rumi_Nanase_j5B.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "High",
+            "startup": "8",
+            "active": "2 + 2 + 2",
+            "recovery": "30",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N Sp J IC"
+          },
+          "properties": [
+            "A very versatile move that serves as a good air-to-air attack, combo tool, tech-trap and cross-up tool due to it its many active frames and hit boxes in almost all directions."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/00/EFZ_Rumi_Nanase_j5C.png/175px-EFZ_Rumi_Nanase_j5C.png",
+          "damage": "900",
+          "framedata": {
+            "guard": "High",
+            "startup": "18",
+            "active": "2",
+            "recovery": "26",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "Sp J IC"
+          },
+          "properties": [
+            "In neutral this move functions as a bigger, stronger, but slower alternative to j5A. It is very poorly armored which can only rarely be used for air-to-air situations or against opponents anti-air attacks when approaching them from above.",
+            "In neutral this move functions as a bigger, stronger, but slower alternative to j5A.",
+            "It is very poorly armored which can only rarely be used for air-to-air situations or against opponents anti-air attacks when approaching them from above."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/91/EFZ_Rumi_Nanase_66A.png/175px-EFZ_Rumi_Nanase_66A.png",
+          "damage": "350",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "3",
+            "recovery": "8",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Dashing version of 5A. Mostly used for resetting pressure. It does not have the first hitbox of 5A causing it to whiff when used point blank. This can be potentially used to set up throws.",
+            "Dashing version of 5A.",
+            "Mostly used for resetting pressure.",
+            "It does not have the first hitbox of 5A causing it to whiff when used point blank.",
+            "This can be potentially used to set up throws."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/25/EFZ_Rumi_Nanase_%28f%295B.png/175px-EFZ_Rumi_Nanase_%28f%295B.png",
+          "damage": "900",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "13",
+            "active": "2",
+            "recovery": "22.33",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Dashing version of f5B. Has similar uses, but since it has fewer armor frames and cancel options, it should only be used when the enemy is outside of f5B range and 2C/5C seem too slow."
+          ],
+          "variations": [
+            {
+              "version": "Active Frames 1 - 2",
+              "damage": "900",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "2",
+                "recovery": "22.33",
+                "advHit": "0",
+                "advBlock": "-2",
+                "cancel": "SP IC"
+              },
+              "notes": "Dashing version of f5B. Has similar uses, but since it has fewer armor frames and cancel options, it should only be used when the enemy is outside of f5B range and 2C/5C seem too slow."
+            },
+            {
+              "version": "Active Frames 3 - 4",
+              "damage": "800",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "15",
+                "active": "2",
+                "recovery": "20.33",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "SP IC"
+              },
+              "notes": "Dashing version of f5B. Has similar uses, but since it has fewer armor frames and cancel options, it should only be used when the enemy is outside of f5B range and 2C/5C seem too slow."
+            }
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f9/EFZ_Rumi_Nanase_66C.png/175px-EFZ_Rumi_Nanase_66C.png",
+          "damage": "900",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "14",
+            "active": "2",
+            "recovery": "34",
+            "advHit": "/",
+            "advBlock": "-13",
+            "cancel": "IC"
+          },
+          "properties": [
+            "This move offers more horizontal momentum and range over Rumi's other dashing moves. Since this move the longest startup and fewest armored frames out of her dashing moves, it is rather used as a combo tool than a means of approaching the opponent. Wallbounces on hit.",
+            "This move offers more horizontal momentum and range over Rumi's other dashing moves.",
+            "Since this move the longest startup and fewest armored frames out of her dashing moves, it is rather used as a combo tool than a means of approaching the opponent.",
+            "Wallbounces on hit."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/bf/EFZ_Rumi_Nanase_2A.png/175px-EFZ_Rumi_Nanase_2A.png",
+          "damage": "240",
+          "framedata": {
+            "guard": "Low",
+            "startup": "7",
+            "active": "4",
+            "recovery": "9",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Dashing version of 2A."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f0/EFZ_Rumi_Nanase_2B.png/137px-EFZ_Rumi_Nanase_2B.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "13",
+            "active": "1",
+            "recovery": "30",
+            "advHit": "-14",
+            "advBlock": "-16",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Dashing version of 2B. Its nearly identical startup time and armor frames compared to 2B allows it to be used in neutral or pressure against opponents awaiting/baiting 2B to make them misjudge Rumi's attack range. As it cannot be jump-canceled, combo options on hit are somewhat limited.",
+            "Dashing version of 2B.",
+            "Its nearly identical startup time and armor frames compared to 2B allows it to be used in neutral or pressure against opponents awaiting/baiting 2B to make them misjudge Rumi's attack range.",
+            "As it cannot be jump-canceled, combo options on hit are somewhat limited."
+          ],
+          "variations": [
+            {
+              "version": "Active Frame 1",
+              "damage": "600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "1",
+                "recovery": "30",
+                "advHit": "-14",
+                "advBlock": "-16",
+                "cancel": "SP IC"
+              },
+              "notes": "Dashing version of 2B. Its nearly identical startup time and armor frames compared to 2B allows it to be used in neutral or pressure against opponents awaiting/baiting 2B to make them misjudge Rumi's attack range. As it cannot be jump-canceled, combo options on hit are somewhat limited."
+            },
+            {
+              "version": "Active Frames 2 - 3",
+              "damage": "700",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "14",
+                "active": "2",
+                "recovery": "29",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "SP IC"
+              },
+              "notes": "Dashing version of 2B. Its nearly identical startup time and armor frames compared to 2B allows it to be used in neutral or pressure against opponents awaiting/baiting 2B to make them misjudge Rumi's attack range. As it cannot be jump-canceled, combo options on hit are somewhat limited."
+            }
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7f/EFZ_Rumi_Nanase_662C.png/175px-EFZ_Rumi_Nanase_662C.png",
+          "damage": "1500",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "2",
+            "recovery": "37",
+            "advHit": "/",
+            "advBlock": "-16",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Excellent anti-air move due to its relatively fast startup while being well armored. The hitbox reaching behind Rumi also allows it to counter cross-up attempts. Due to its armor starting on the first frame and lasting through most of the move's startup, it makes for a very strong disrespect option as it can be used even in the tiniest gaps of the opponents pressure (sometimes even on wake-up). This move does come with downsides as it has high recovery, and offers worse horizontal range and momentum than 66B or 66C.",
+            "Excellent anti-air move due to its relatively fast startup while being well armored.",
+            "The hitbox reaching behind Rumi also allows it to counter cross-up attempts.",
+            "Due to its armor starting on the first frame and lasting through most of the move's startup, it makes for a very strong disrespect option as it can be used even in the tiniest gaps of the opponents pressure (sometimes even on wake-up).",
+            "This move does come with downsides as it has high recovery, and offers worse horizontal range and momentum than 66B or 66C."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/2/2a/EFZ_Rumi_Nanase_Grab.png/175px-EFZ_Rumi_Nanase_Grab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "1",
+            "recovery": "23",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Because its range is shorter than her command throw while having the same startup time, it should be only used when the player lacks IC meter and desires a higher guaranteed damage output than the bunt."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Because its range is shorter than her command throw while having the same startup time, it should be only used when the player lacks IC meter and desires a higher guaranteed damage output than the bunt."
+            },
+            {
+              "version": "B",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Because its range is shorter than her command throw while having the same startup time, it should be only used when the player lacks IC meter and desires a higher guaranteed damage output than the bunt."
+            },
+            {
+              "version": "C",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Because its range is shorter than her command throw while having the same startup time, it should be only used when the player lacks IC meter and desires a higher guaranteed damage output than the bunt."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f1/EFZ_Rumi_Nanase_Airgrab.png/175px-EFZ_Rumi_Nanase_Airgrab.png",
+          "damage": "1400",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Mainly used for tech-traps. Unlike most throws, this can trade as it isn't invincible during the active frame. The invincibility frame instead occurs later in jC's startup when the throw is whiffed.",
+            "Unlike most throws, this can trade as it isn't invincible during the active frame. The invincibility frame instead occurs later in jC's startup when the throw is whiffed."
+          ]
+        },
+        {
+          "moveName": "Maiden's Fang Assault",
+          "input": "236",
+          "image": "https://wiki.gbl.gg/images/thumb/9/93/EFZ_Rumi_Nanase_236x.png/175px-EFZ_Rumi_Nanase_236x.png",
+          "damage": "100+1200",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "16",
+            "active": "24",
+            "recovery": "40",
+            "advHit": "/",
+            "advBlock": "-4.33",
+            "cancel": "※ IC"
+          },
+          "properties": [
+            "Can be used to frametrap when the opponent is outside of 214A range. Minus on block but has significant pushback, making it safe. Goes about half screen.",
+            "Slower startup than 236A, but is armored all throughout the active frames while travelling faster and further. If this move whiffs, Rumi can run from one corner to the other! Can be used to plow through and potentially punish projectiles. Plus on block.",
+            "Similar to 236A but has a two-hit followup that will wallbounce the opponent if they're close enough to the corner. Armored through almost the entire startup making it an excellent move to be used when on the defense (even on wakeup). Travels almost a whole screen.",
+            "Can be used to frametrap when the opponent is outside of 214A range.",
+            "Minus on block but has significant pushback, making it safe.",
+            "Goes about half screen.",
+            "Slower startup than 236A, but is armored all throughout the active frames while travelling faster and further. If this move whiffs, Rumi can run from one corner to the other!",
+            "Can be used to plow through and potentially punish projectiles.",
+            "Plus on block.",
+            "Similar to 236A but has a two-hit followup that will wallbounce the opponent if they're close enough to the corner.",
+            "Armored through almost the entire startup making it an excellent move to be used when on the defense (even on wakeup).",
+            "Travels almost a whole screen."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "100+1200",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "16",
+                "active": "24",
+                "recovery": "40",
+                "advHit": "/",
+                "advBlock": "-4.33",
+                "cancel": "※ IC"
+              },
+              "notes": "Can be used to frametrap when the opponent is outside of 214A range. Minus on block but has significant pushback, making it safe. Goes about half screen."
+            },
+            {
+              "version": "B",
+              "damage": "100+1750",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "25",
+                "active": "48",
+                "recovery": "75",
+                "advHit": "/",
+                "advBlock": "+0.66",
+                "cancel": "※ IC"
+              },
+              "notes": "Can be used to frametrap when the opponent is outside of 214A range. Minus on block but has significant pushback, making it safe. Goes about half screen."
+            },
+            {
+              "version": "C",
+              "damage": "100+800+800",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "16",
+                "active": "24",
+                "recovery": "41",
+                "advHit": "/",
+                "advBlock": "+0.66",
+                "cancel": "※ IC"
+              },
+              "notes": "Can be used to frametrap when the opponent is outside of 214A range. Minus on block but has significant pushback, making it safe. Goes about half screen."
+            }
+          ]
+        },
+        {
+          "moveName": "Blasting Iron Fist",
+          "input": "214",
+          "image": "https://wiki.gbl.gg/images/thumb/4/4b/EFZ_Rumi_Nanase_214a.png/175px-EFZ_Rumi_Nanase_214a.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Low",
+            "startup": "16",
+            "active": "2",
+            "recovery": "37",
+            "advHit": "/",
+            "advBlock": "-6",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Used either as frame-trap after c5B and f5B or as combo tool as it knocks down or allows for extending the current combo after IC canceling it. Armor breaking. When blocked by a cornered opponent, Player 2 Rumi will receive significantly greater pushback.",
+            "This move is extremely slow and can be used at most against enemy slide attacks or as a very risky anti-crossup tool. When blocked by a cornered opponent, Player 2 Rumi will receive significantly greater pushback.",
+            "Randomly spawns rocks from the ground across one screen's length. Used in neutral to force the enemy to block at long ranges. Has virtually no use in combos. The rocks cancel out nearly all other projectiles in the game on collision. Due to its random nature, the opponent will not be able to Recoil Guard the rocks consistently.",
+            "Used either as frame-trap after c5B and f5B or as combo tool as it knocks down or allows for extending the current combo after IC canceling it.",
+            "Armor breaking.",
+            "When blocked by a cornered opponent, Player 2 Rumi will receive significantly greater pushback.",
+            "This move is extremely slow and can be used at most against enemy slide attacks or as a very risky anti-crossup tool.",
+            "Randomly spawns rocks from the ground across one screen's length.",
+            "Used in neutral to force the enemy to block at long ranges. Has virtually no use in combos.",
+            "The rocks cancel out nearly all other projectiles in the game on collision.",
+            "Due to its random nature, the opponent will not be able to Recoil Guard the rocks consistently."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "700",
+              "framedata": {
+                "guard": "Low",
+                "startup": "16",
+                "active": "2",
+                "recovery": "37",
+                "advHit": "/",
+                "advBlock": "-6",
+                "cancel": "IC"
+              },
+              "notes": "Used either as frame-trap after c5B and f5B or as combo tool as it knocks down or allows for extending the current combo after IC canceling it. Armor breaking. When blocked by a cornered opponent, Player 2 Rumi will receive significantly greater pushback."
+            },
+            {
+              "version": "B",
+              "damage": "850",
+              "framedata": {
+                "guard": "Low",
+                "startup": "35",
+                "active": "2",
+                "recovery": "33",
+                "advHit": "/",
+                "advBlock": "-2",
+                "cancel": "IC"
+              },
+              "notes": "Used either as frame-trap after c5B and f5B or as combo tool as it knocks down or allows for extending the current combo after IC canceling it. Armor breaking. When blocked by a cornered opponent, Player 2 Rumi will receive significantly greater pushback."
+            },
+            {
+              "version": "C",
+              "damage": "250 * N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "23",
+                "active": "28~40 * N",
+                "recovery": "45",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "Used either as frame-trap after c5B and f5B or as combo tool as it knocks down or allows for extending the current combo after IC canceling it. Armor breaking. When blocked by a cornered opponent, Player 2 Rumi will receive significantly greater pushback."
+            }
+          ]
+        },
+        {
+          "moveName": "Blood-Red Shinai",
+          "input": "(j)623",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e6/EFZ_Rumi_Nanase_623x.png/165px-EFZ_Rumi_Nanase_623x.png",
+          "damage": "800 + 100 * N + 450",
+          "framedata": {
+            "guard": "Any",
+            "startup": "11",
+            "active": "2",
+            "recovery": "45",
+            "advHit": "/",
+            "advBlock": "-4.33",
+            "cancel": "IC FIC ※"
+          },
+          "properties": [
+            "Allows for consistent Quake super (214214*) combos on IC. When this move gets IC canceled, Rumi is only allowed to airdash backwards. However, she may air jump after which she is also allowed to airdash forwards.",
+            "Rises higher than 623A and has fully invincible startup, making it a preferred defensive version. Has different combo routes from 623A. Rumi is also allowed to airdash forwards after IC canceling it.",
+            "Almost identical to 623B. Since the startup is faster by one frame over the other two versions, all of Rumi's A normals can combo into it.",
+            "A strong projectile that is able to catch opponents off-guard, even from long range. Good for finishing off low health opponents due to its great startup and the extreme speed it travels at. The risk of losing your shinai doesn't matter as much if the projectile wins the game.",
+            "Similar to j623A, but with a slightly later FIC window.",
+            "As the hitbox of her shinai appears relatively far away from Rumi, this move should not be used as a reversal when the opponent is at point blank range. Upon impact with the ground, the shinai will spawn 4 random 2-hit explosions over a wide area around it.",
+            "Allows for consistent Quake super (214214*) combos on IC.",
+            "When this move gets IC canceled, Rumi is only allowed to airdash backwards. However, she may air jump after which she is also allowed to airdash forwards.",
+            "Rises higher than 623A and has fully invincible startup, making it a preferred defensive version.",
+            "Has different combo routes from 623A.",
+            "Rumi is also allowed to airdash forwards after IC canceling it.",
+            "Almost identical to 623B.",
+            "Since the startup is faster by one frame over the other two versions, all of Rumi's A normals can combo into it.",
+            "A strong projectile that is able to catch opponents off-guard, even from long range.",
+            "Good for finishing off low health opponents due to its great startup and the extreme speed it travels at. The risk of losing your shinai doesn't matter as much if the projectile wins the game.",
+            "As the hitbox of her shinai appears relatively far away from Rumi, this move should not be used as a reversal when the opponent is at point blank range.",
+            "Upon impact with the ground, the shinai will spawn 4 random 2-hit explosions over a wide area around it."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "800 + 100 * N + 450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11",
+                "active": "2",
+                "recovery": "45",
+                "advHit": "/",
+                "advBlock": "-4.33",
+                "cancel": "IC FIC ※"
+              },
+              "notes": "Allows for consistent Quake super (214214*) combos on IC. When this move gets IC canceled, Rumi is only allowed to airdash backwards. However, she may air jump after which she is also allowed to airdash forwards."
+            },
+            {
+              "version": "B",
+              "damage": "800 + 100 * N + 450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11",
+                "active": "2",
+                "recovery": "76",
+                "advHit": "/",
+                "advBlock": "-7.33",
+                "cancel": "IC FIC ※"
+              },
+              "notes": "Allows for consistent Quake super (214214*) combos on IC. When this move gets IC canceled, Rumi is only allowed to airdash backwards. However, she may air jump after which she is also allowed to airdash forwards."
+            },
+            {
+              "version": "C",
+              "damage": "800 + 100 * N + (450 + 250) * 4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "2",
+                "recovery": "76",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC FIC ※"
+              },
+              "notes": "Allows for consistent Quake super (214214*) combos on IC. When this move gets IC canceled, Rumi is only allowed to airdash backwards. However, she may air jump after which she is also allowed to airdash forwards."
+            },
+            {
+              "version": "jA",
+              "damage": "100 * N + 450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "2 * N",
+                "recovery": "Until landing + 34",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Allows for consistent Quake super (214214*) combos on IC. When this move gets IC canceled, Rumi is only allowed to airdash backwards. However, she may air jump after which she is also allowed to airdash forwards."
+            },
+            {
+              "version": "jB",
+              "damage": "100 * N + 450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "2 * N",
+                "recovery": "Until landing + 34",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Allows for consistent Quake super (214214*) combos on IC. When this move gets IC canceled, Rumi is only allowed to airdash backwards. However, she may air jump after which she is also allowed to airdash forwards."
+            },
+            {
+              "version": "jC",
+              "damage": "100 * N + (450 + 250) * 4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "2 * N",
+                "recovery": "Until landing + 34",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Allows for consistent Quake super (214214*) combos on IC. When this move gets IC canceled, Rumi is only allowed to airdash backwards. However, she may air jump after which she is also allowed to airdash forwards."
+            }
+          ]
+        },
+        {
+          "moveName": "Happy Hell Maiden",
+          "input": "A, B, and C versions respectively",
+          "image": "https://wiki.gbl.gg/images/thumb/4/4e/EFZ_Rumi_Nanase_41236x.png/106px-EFZ_Rumi_Nanase_41236x.png",
+          "damage": "0",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5",
+            "active": "1",
+            "recovery": "28",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "※"
+          },
+          "properties": [
+            "The best meterless throw in the game with its combination of great speed, range and reward. Crucial to Rumi's gameplan. An extremely strong option out of RG as it can be guaranteed in situations where the opponent can't jump cancel, such as RGing IAD pressure. Even in normal RG scenarios, it has almost the same speed as 5A with the advantage of being bufferable.",
+            "Has the longest range out of the three versions but is very slow as a trade-off. Mainly used as a gimmick to catch opponents off guard after a blockstring.",
+            "Although slower and shorter than the B version, this version is fully armored during startup. It is reactable if used offensively but is useful after an RG to punish multihit attacks or armor through a grounded DP. Does not require RF to use.",
+            "An extremely strong option out of RG as it can be guaranteed in situations where the opponent can't jump cancel, such as RGing IAD pressure. Even in normal RG scenarios, it has almost the same speed as 5A with the advantage of being bufferable.",
+            "Mainly used as a gimmick to catch opponents off guard after a blockstring.",
+            "Does not require RF to use."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5",
+                "active": "1",
+                "recovery": "28",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "※"
+              },
+              "notes": "The best meterless throw in the game with its combination of great speed, range and reward. Crucial to Rumi's gameplan. An extremely strong option out of RG as it can be guaranteed in situations where the opponent can't jump cancel, such as RGing IAD pressure. Even in normal RG scenarios, it has almost the same speed as 5A with the advantage of being bufferable."
+            },
+            {
+              "version": "B",
+              "damage": "0",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "20",
+                "active": "1",
+                "recovery": "28",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "※"
+              },
+              "notes": "The best meterless throw in the game with its combination of great speed, range and reward. Crucial to Rumi's gameplan. An extremely strong option out of RG as it can be guaranteed in situations where the opponent can't jump cancel, such as RGing IAD pressure. Even in normal RG scenarios, it has almost the same speed as 5A with the advantage of being bufferable."
+            },
+            {
+              "version": "C",
+              "damage": "0",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "29",
+                "active": "1",
+                "recovery": "44",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "※"
+              },
+              "notes": "The best meterless throw in the game with its combination of great speed, range and reward. Crucial to Rumi's gameplan. An extremely strong option out of RG as it can be guaranteed in situations where the opponent can't jump cancel, such as RGing IAD pressure. Even in normal RG scenarios, it has almost the same speed as 5A with the advantage of being bufferable."
+            }
+          ]
+        },
+        {
+          "moveName": "Quit sneaking around!",
+          "input": "AKA Quake",
+          "image": "https://wiki.gbl.gg/images/thumb/3/32/EFZ_Rumi_Nanase_214214x.png/175px-EFZ_Rumi_Nanase_214214x.png",
+          "damage": "2500",
+          "framedata": {
+            "guard": "Low",
+            "startup": "22",
+            "active": "2",
+            "recovery": "58",
+            "advHit": "/",
+            "advBlock": "-37",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Outside of combos, it can be used to snipe opponents trying to use projectiles or other moves at long range. Untechably launches the opponent on hit, can be IC'd to combo after up close.",
+            "Similar to 214214B but the opponent is launched higher and falls slower, allowing combos after without IC if Rumi is close.",
+            "If it hits on the first frame, freezes the opponent in place for 100 frames providing enough time to combo afterwards even when the opponent is far away from Rumi. If it hits on the second frame, the opponent falls to the ground very quickly and will not provide such a followup.",
+            "Outside of combos, it can be used to snipe opponents trying to use projectiles or other moves at long range.",
+            "Untechably launches the opponent on hit, can be IC'd to combo after up close."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2500",
+              "framedata": {
+                "guard": "Low",
+                "startup": "22",
+                "active": "2",
+                "recovery": "58",
+                "advHit": "/",
+                "advBlock": "-37",
+                "cancel": "IC"
+              },
+              "notes": "Outside of combos, it can be used to snipe opponents trying to use projectiles or other moves at long range. Untechably launches the opponent on hit, can be IC'd to combo after up close."
+            },
+            {
+              "version": "B",
+              "damage": "2650",
+              "framedata": {
+                "guard": "Low",
+                "startup": "22",
+                "active": "2",
+                "recovery": "58",
+                "advHit": "/",
+                "advBlock": "-27",
+                "cancel": "IC"
+              },
+              "notes": "Outside of combos, it can be used to snipe opponents trying to use projectiles or other moves at long range. Untechably launches the opponent on hit, can be IC'd to combo after up close."
+            },
+            {
+              "version": "C",
+              "damage": "2800",
+              "framedata": {
+                "guard": "Low",
+                "startup": "22",
+                "active": "2",
+                "recovery": "58",
+                "advHit": "/",
+                "advBlock": "-27",
+                "cancel": "IC"
+              },
+              "notes": "Outside of combos, it can be used to snipe opponents trying to use projectiles or other moves at long range. Untechably launches the opponent on hit, can be IC'd to combo after up close."
+            }
+          ]
+        },
+        {
+          "moveName": "Maiden Cherry Blossom",
+          "input": "4123641236",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f7/EFZ_Rumi_Nanase_4123641236x.png/175px-EFZ_Rumi_Nanase_4123641236x.png",
+          "damage": "300 x 3",
+          "framedata": {
+            "guard": "High",
+            "startup": "14",
+            "active": "10.33",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "/"
+          },
+          "properties": [
+            "Extremely short range. Rumi's 5C reaches farther than this.",
+            "Travels about half of the screen and has a bigger, more damaging explosion.",
+            "Goes fullscreen and the explosion is upgraded again. The explosion launches the opponent higher, so in the corner Rumi can combo out of it with her Bare-Handed moveset, doing more damage and giving the shinai more time to fall.",
+            "Goes fullscreen and the explosion is upgraded again.",
+            "The explosion launches the opponent higher, so in the corner Rumi can combo out of it with her Bare-Handed moveset, doing more damage and giving the shinai more time to fall."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "300 x 3",
+              "framedata": {
+                "guard": "High",
+                "startup": "14",
+                "active": "10.33",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "Extremely short range. Rumi's 5C reaches farther than this."
+            },
+            {
+              "version": "-",
+              "damage": "1400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "27",
+                "active": "1",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-32.33",
+                "cancel": "/"
+              },
+              "notes": "Extremely short range. Rumi's 5C reaches farther than this."
+            },
+            {
+              "version": "Rumi",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13.33",
+                "active": "/",
+                "recovery": "67.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Extremely short range. Rumi's 5C reaches farther than this."
+            },
+            {
+              "version": "B",
+              "damage": "300 x 4",
+              "framedata": {
+                "guard": "High",
+                "startup": "14",
+                "active": "16",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "Extremely short range. Rumi's 5C reaches farther than this."
+            },
+            {
+              "version": "-",
+              "damage": "2200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32.66",
+                "active": "1",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-31.66",
+                "cancel": "/"
+              },
+              "notes": "Extremely short range. Rumi's 5C reaches farther than this."
+            },
+            {
+              "version": "Rumi",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13.33",
+                "active": "/",
+                "recovery": "72.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Extremely short range. Rumi's 5C reaches farther than this."
+            },
+            {
+              "version": "C",
+              "damage": "300 x 9",
+              "framedata": {
+                "guard": "High",
+                "startup": "14",
+                "active": "32.66",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "/"
+              },
+              "notes": "Extremely short range. Rumi's 5C reaches farther than this."
+            },
+            {
+              "version": "-",
+              "damage": "2500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "49.33",
+                "active": "1",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-20",
+                "cancel": "/"
+              },
+              "notes": "Extremely short range. Rumi's 5C reaches farther than this."
+            },
+            {
+              "version": "Rumi",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13.33",
+                "active": "/",
+                "recovery": "77.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Extremely short range. Rumi's 5C reaches farther than this."
+            }
+          ]
+        },
+        {
+          "moveName": "Enduring Maiden's Aesthetic",
+          "input": "4123641236S",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c9/EFZ_Rumi_Nanase_4123641236S.png/175px-EFZ_Rumi_Nanase_4123641236S.png",
+          "damage": "1500",
+          "framedata": {
+            "guard": "Any",
+            "startup": "10.33",
+            "active": "6",
+            "recovery": "72.66",
+            "advHit": "/",
+            "advBlock": "-52.33",
+            "cancel": "None"
+          },
+          "properties": [
+            "Can be used any time during pressure or defense or as anti-crossup tool. After the hitbox becomes active Rumi enters a state where she has constant recoil armor and takes halved damage from opponent attacks, but is not allowed to guard any of them. A “Kimuchi” gauge will appear below her health bar indicating how much time is left until she reverts to her normal state. Very difficult to make use of as most characters in the game can easily stay away from Rumi or have armor breaking moves.",
+            "Can be used any time during pressure or defense or as anti-crossup tool.",
+            "After the hitbox becomes active Rumi enters a state where she has constant recoil armor and takes halved damage from opponent attacks, but is not allowed to guard any of them.",
+            "A “Kimuchi” gauge will appear below her health bar indicating how much time is left until she reverts to her normal state.",
+            "Very difficult to make use of as most characters in the game can easily stay away from Rumi or have armor breaking moves."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Barehanded",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a8/EFZ_Rumi_Nanase_%28no_shinai%29_5A.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_5A.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "4",
+            "recovery": "9",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "A standard jab that can cancel into itself. Used as poke or for staggers during pressure.",
+            "A standard jab that can cancel into itself.",
+            "Used as poke or for staggers during pressure."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f8/EFZ_Rumi_Nanase_%28no_shinai%29_%28c%295B.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_%28c%295B.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "2",
+            "recovery": "13",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "N f5B 2B SP J IC"
+          },
+          "properties": [
+            "Rumi's only armored normal in her bare-handed state. Since its startup is one frame faster than her regular c5B she can use it it in a few more situations after Recoil Guarding. It also cannot be poked out of when canceled from 5A.",
+            "Rumi's only armored normal in her bare-handed state.",
+            "Since its startup is one frame faster than her regular c5B she can use it it in a few more situations after Recoil Guarding.",
+            "It also cannot be poked out of when canceled from 5A."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/34/EFZ_Rumi_Nanase_%28no_shinai%29_%28f%295B.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_%28f%295B.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11",
+            "active": "1",
+            "recovery": "15",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP JH IC"
+          },
+          "properties": [
+            "Knocks down airborne opponents. Can be used to beat some characters' reversals which are only high or low invulnerable due to its hitbox placement.",
+            "Knocks down airborne opponents.",
+            "Can be used to beat some characters' reversals which are only high or low invulnerable due to its hitbox placement."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/5/55/EFZ_Rumi_Nanase_%28no_shinai%29_5C.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_5C.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "13",
+            "active": "2",
+            "recovery": "23",
+            "advHit": "-2",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Knocks down airborne opponents. Moves Rumi slightly forwards, increasing its effective range.",
+            "Knocks down airborne opponents.",
+            "Moves Rumi slightly forwards, increasing its effective range."
+          ]
+        },
+        {
+          "moveName": "Shinai Recovery  竹刀回収",
+          "input": "maximum range for the shinai recovery",
+          "image": "https://wiki.gbl.gg/images/thumb/5/56/EFZ_Rumi_Nanase_%28no_shinai%29_5S.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_5S.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "1",
+            "active": "/",
+            "recovery": "16",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Rumi picks up her shinai and returns to her normal state. This move will not be executed when used within 6 frames after wake-up. This move behaves like a standing normal, so it will not come out if 2 or 8 are held and it cannot be cancelled into or buffered.",
+            "Rumi picks up her shinai and returns to her normal state.",
+            "This move will not be executed when used within 6 frames after wake-up.",
+            "This move behaves like a standing normal, so it will not come out if 2 or 8 are held and it cannot be cancelled into or buffered."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/28/EFZ_Rumi_Nanase_%28no_shinai%29_2A.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_2A.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Low",
+            "startup": "5",
+            "active": "4",
+            "recovery": "9",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Can cancel into itself. Only used for staggers during pressure.",
+            "Can cancel into itself.",
+            "Only used for staggers during pressure."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e7/EFZ_Rumi_Nanase_%28no_shinai%29_2B.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_2B.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Low",
+            "startup": "9",
+            "active": "2",
+            "recovery": "18",
+            "advHit": "-2",
+            "advBlock": "-4",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "A low hitting move with good priority and decent range. Used to beat enemy pokes that hit low when not at point blank range during pressure."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/ac/EFZ_Rumi_Nanase_%28no_shinai%29_2C.png/134px-EFZ_Rumi_Nanase_%28no_shinai%29_2C.png",
+          "damage": "250",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "2",
+            "recovery": "24",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "SP JH IC"
+          },
+          "properties": [
+            "A relatively weak anti-air move. Due to its second hitbox it can be used in pressure against opponents expecting to Recoil Guard a 5C and trying to poke out after it.",
+            "A relatively weak anti-air move.",
+            "Due to its second hitbox it can be used in pressure against opponents expecting to Recoil Guard a 5C and trying to poke out after it."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "250",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "10",
+                "active": "2",
+                "recovery": "24",
+                "advHit": "-1",
+                "advBlock": "-3",
+                "cancel": "SP JH IC"
+              },
+              "notes": "A relatively weak anti-air move. Due to its second hitbox it can be used in pressure against opponents expecting to Recoil Guard a 5C and trying to poke out after it."
+            },
+            {
+              "version": "B",
+              "damage": "450",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "12",
+                "active": "2",
+                "recovery": "22",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "SP JH IC"
+              },
+              "notes": "A relatively weak anti-air move. Due to its second hitbox it can be used in pressure against opponents expecting to Recoil Guard a 5C and trying to poke out after it."
+            }
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7f/EFZ_Rumi_Nanase_%28no_shinai%29_j5A.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_j5A.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "10",
+            "recovery": "11",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC R"
+          },
+          "properties": [
+            "Best used in Pressure against opponents that lack a fast poke with decent vertical reach. Can also deter opponents in neutral from jumping or airdashing into Rumi.",
+            "Best used in Pressure against opponents that lack a fast poke with decent vertical reach.",
+            "Can also deter opponents in neutral from jumping or airdashing into Rumi."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b0/EFZ_Rumi_Nanase_%28no_shinai%29_j5B.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_j5B.png",
+          "damage": "480",
+          "framedata": {
+            "guard": "High",
+            "startup": "9",
+            "active": "10",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC"
+          },
+          "properties": [
+            "Used to hit airborne opponents above Rumi."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/ef/EFZ_Rumi_Nanase_%28no_shinai%29_j5C.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_j5C.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High",
+            "startup": "10",
+            "active": "15",
+            "recovery": "26",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "J AD IC"
+          },
+          "properties": [
+            "The hitbox on this move makes it an excellent air-to-ground move. Very good for okizeme as it can cross-up opponents while beating most high-invulnerable moves and safejump when properly spaced. Applies downwards momentum on airborne opponents on hit which can knock them down.",
+            "The hitbox on this move makes it an excellent air-to-ground move.",
+            "Very good for okizeme as it can cross-up opponents while beating most high-invulnerable moves and safejump when properly spaced.",
+            "Applies downwards momentum on airborne opponents on hit which can knock them down."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a8/EFZ_Rumi_Nanase_%28no_shinai%29_5A.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_5A.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "4",
+            "recovery": "9",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Dashing version of 5A. When correctly timed, this move allows for a tick-throw set-up.",
+            "Dashing version of 5A.",
+            "When correctly timed, this move allows for a tick-throw set-up."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/34/EFZ_Rumi_Nanase_%28no_shinai%29_%28f%295B.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_%28f%295B.png",
+          "damage": "545",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11",
+            "active": "1",
+            "recovery": "12",
+            "advHit": "+4",
+            "advBlock": "+2",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Dashing version of f5B. Does not knock down airborne targets, but offers a decent frame advantage on block or hit.",
+            "Dashing version of f5B.",
+            "Does not knock down airborne targets, but offers a decent frame advantage on block or hit."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/5/55/EFZ_Rumi_Nanase_%28no_shinai%29_5C.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_5C.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "13",
+            "active": "5",
+            "recovery": "23",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Dashing version of 5C. Mostly a combo tool. Can be used at best to catch opponents trying to jump when outside the range of Rumis other bare-handed moves.",
+            "Dashing version of 5C.",
+            "Mostly a combo tool.",
+            "Can be used at best to catch opponents trying to jump when outside the range of Rumis other bare-handed moves."
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/28/EFZ_Rumi_Nanase_%28no_shinai%29_2A.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_2A.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "4",
+            "recovery": "9",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Dashing version of 2A. Its extremely fast startup time makes it a great tool to reset pressure.",
+            "Dashing version of 2A.",
+            "Its extremely fast startup time makes it a great tool to reset pressure."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e7/EFZ_Rumi_Nanase_%28no_shinai%29_2B.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_2B.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Low",
+            "startup": "9",
+            "active": "2",
+            "recovery": "18",
+            "advHit": "-2",
+            "advBlock": "-4",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Dashing version of 2B. An excellent move to approach the opponent with in neutral.",
+            "Dashing version of 2B.",
+            "An excellent move to approach the opponent with in neutral."
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c2/EFZ_Rumi_Nanase_%28no_shinai%29_662C.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_662C.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "2",
+            "recovery": "28",
+            "advHit": "/",
+            "advBlock": "-7",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "Relatively fast anti-air move. Launches the opponent on hit making it a great tool to start or continue combos.",
+            "Relatively fast anti-air move.",
+            "Launches the opponent on hit making it a great tool to start or continue combos."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/7/77/EFZ_Rumi_Nanase_%28no_shinai%29_Grab.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_Grab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "1",
+            "recovery": "23",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Identical to her regular throw with the shinai held."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Identical to her regular throw with the shinai held."
+            },
+            {
+              "version": "B",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Identical to her regular throw with the shinai held."
+            },
+            {
+              "version": "C",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Identical to her regular throw with the shinai held."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/3/3b/EFZ_Rumi_Nanase_%28no_shinai%29_Airgrab.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_Airgrab.png",
+          "damage": "1400",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Identical to her regular throw with the shinai held."
+          ]
+        },
+        {
+          "moveName": "Happy Hell Maiden (Bare handed)  乙女富嶽",
+          "input": "41236",
+          "image": "https://wiki.gbl.gg/images/thumb/4/41/EFZ_Rumi_Nanase_%28no_shinai%29_41236x.png/175px-EFZ_Rumi_Nanase_%28no_shinai%29_41236x.png",
+          "damage": "0",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Throws the opponent behind her into the air. This allows her to start a combo which can offer a chance at recovering her shinai",
+            "Throws the opponent behind her into the air.",
+            "This allows her to start a combo which can offer a chance at recovering her shinai"
+          ]
+        },
+        {
+          "moveName": "True Maiden's Fist  真の乙女の拳",
+          "input": "236236",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b4/EFZ_Rumi_Nanase_236236x.png/175px-EFZ_Rumi_Nanase_236236x.png",
+          "damage": "2300",
+          "framedata": {
+            "guard": "High",
+            "startup": "26",
+            "active": "7",
+            "recovery": "62",
+            "advHit": "/",
+            "advBlock": "-20.33",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Does more damage and nothing else.",
+            "Wallbounces the opponent, allowing for further combos."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2300",
+              "framedata": {
+                "guard": "High",
+                "startup": "26",
+                "active": "7",
+                "recovery": "62",
+                "advHit": "/",
+                "advBlock": "-20.33",
+                "cancel": "IC"
+              },
+              "notes": "Does more damage and nothing else."
+            },
+            {
+              "version": "B",
+              "damage": "3200",
+              "framedata": {
+                "guard": "High",
+                "startup": "26",
+                "active": "7",
+                "recovery": "62",
+                "advHit": "/",
+                "advBlock": "-20.33",
+                "cancel": "IC"
+              },
+              "notes": "Does more damage and nothing else."
+            },
+            {
+              "version": "C",
+              "damage": "4000",
+              "framedata": {
+                "guard": "High",
+                "startup": "26",
+                "active": "7",
+                "recovery": "62",
+                "advHit": "/",
+                "advBlock": "-20.33",
+                "cancel": "IC"
+              },
+              "notes": "Does more damage and nothing else."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1640 @@
+{
+  "name": "Ikumi Amasawa",
+  "icon": "https://wiki.gbl.gg/images/b/be/EFZ_Ikumi_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/6/69/Ikumi5a.png/175px-Ikumi5a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "2",
+            "recovery": "6",
+            "advHit": "+3",
+            "advBlock": "+2",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Ikumi quickly swipes her open hand at the opponent's face. A typical 5A attack. Short, quick, and comboable. Once further than point-blank range, it will whiff over some crouching opponents due to the angle of the arm. Angled excellently for anti-air after an RG."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/5/58/Ikumic5b.png",
+          "damage": "390",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "2",
+            "recovery": "14",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP JH IC f5B 2B"
+          },
+          "properties": [
+            "Ikumi slashes her hand downward at the opponent's torso. This move spills about a quarter of a blood bar on hit. Useful on oki if the opponent has only low/high invulerable DPs available, as it will catch both."
+          ],
+          "variations": [
+            {
+              "version": "c5B",
+              "damage": "390",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6",
+                "active": "2",
+                "recovery": "14",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "N SP JH IC f5B 2B"
+              },
+              "notes": "Ikumi slashes her hand downward at the opponent's torso. This move spills about a quarter of a blood bar on hit. Useful on oki if the opponent has only low/high invulerable DPs available, as it will catch both."
+            },
+            {
+              "version": "c5B (Genocide)",
+              "damage": "390",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6",
+                "active": "2",
+                "recovery": "14",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "N SP JH IC f5B 2B"
+              },
+              "notes": "Ikumi slashes her hand downward at the opponent's torso. This move spills about a quarter of a blood bar on hit. Useful on oki if the opponent has only low/high invulerable DPs available, as it will catch both."
+            }
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/45/Ikumif5b.png/175px-Ikumif5b.png",
+          "damage": "410",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8 / 8.33",
+            "active": "3 / 2.66",
+            "recovery": "13",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP JH IC"
+          },
+          "properties": [
+            "Ikumi stabs out her hand at the opponent's face. This move spills about a quarter of a blood bar on hit. It's not much of a poke and is usually only used in combos."
+          ],
+          "variations": [
+            {
+              "version": "f5B",
+              "damage": "410",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8 / 8.33",
+                "active": "3 / 2.66",
+                "recovery": "13",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Ikumi stabs out her hand at the opponent's face. This move spills about a quarter of a blood bar on hit. It's not much of a poke and is usually only used in combos."
+            },
+            {
+              "version": "f5B (Genocide)",
+              "damage": "410",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8 / 8.33",
+                "active": "3 / 2.66",
+                "recovery": "10",
+                "advHit": "+4",
+                "advBlock": "+2",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Ikumi stabs out her hand at the opponent's face. This move spills about a quarter of a blood bar on hit. It's not much of a poke and is usually only used in combos."
+            }
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "Active frames 3-4",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b3/Ikumi5c.png/175px-Ikumi5c.png",
+          "damage": "580",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "12",
+            "active": "4",
+            "recovery": "20",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "Ikumi does an axe kick. If the first 2 active frames hit an aerial opponent, they will be slammed to the ground at a 45-degree angle. If the opponent hits the corner before hitting the ground, they will wallbounce. This makes the move absolutely critical for Ikumi's corner juggles, but it is also used in non-juggle combos."
+          ],
+          "variations": [
+            {
+              "version": "5C",
+              "damage": "580",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "12",
+                "active": "4",
+                "recovery": "20",
+                "advHit": "0",
+                "advBlock": "-2",
+                "cancel": "SP J IC"
+              },
+              "notes": "Ikumi does an axe kick. If the first 2 active frames hit an aerial opponent, they will be slammed to the ground at a 45-degree angle. If the opponent hits the corner before hitting the ground, they will wallbounce. This makes the move absolutely critical for Ikumi's corner juggles, but it is also used in non-juggle combos."
+            },
+            {
+              "version": "5C (Genocide)",
+              "damage": "580",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "12",
+                "active": "4",
+                "recovery": "16",
+                "advHit": "+4",
+                "advBlock": "+2",
+                "cancel": "SP J IC"
+              },
+              "notes": "Ikumi does an axe kick. If the first 2 active frames hit an aerial opponent, they will be slammed to the ground at a 45-degree angle. If the opponent hits the corner before hitting the ground, they will wallbounce. This makes the move absolutely critical for Ikumi's corner juggles, but it is also used in non-juggle combos."
+            }
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/4b/Ikumi2a.png/175px-Ikumi2a.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "3",
+            "recovery": "8",
+            "advHit": "0",
+            "advBlock": "-1",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Ikumi claws out with her hand down at the opponent's feet. A typical 2A attack. Weaker than 5A but hits low and is the starter for many of Ikumi's combos. Essential for the high-low mixup."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/22/Ikumi2b.png/175px-Ikumi2b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "2",
+            "recovery": "15",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Ikumi stabs her open hand out at the opponent's shins. This move spills about a quarter of a blood bar on hit. Doesn't hit low, and like f5B this move is mostly combo fodder."
+          ],
+          "variations": [
+            {
+              "version": "2B",
+              "damage": "400",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "7",
+                "active": "2",
+                "recovery": "15",
+                "advHit": "0",
+                "advBlock": "-2",
+                "cancel": "N SP J IC"
+              },
+              "notes": "Ikumi stabs her open hand out at the opponent's shins. This move spills about a quarter of a blood bar on hit. Doesn't hit low, and like f5B this move is mostly combo fodder."
+            },
+            {
+              "version": "2B (Genocide)",
+              "damage": "400",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "7",
+                "active": "2",
+                "recovery": "12",
+                "advHit": "+3",
+                "advBlock": "+1",
+                "cancel": "N SP J IC"
+              },
+              "notes": "Ikumi stabs her open hand out at the opponent's shins. This move spills about a quarter of a blood bar on hit. Doesn't hit low, and like f5B this move is mostly combo fodder."
+            }
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f6/Ikumi2c.png/175px-Ikumi2c.png",
+          "damage": "580",
+          "framedata": {
+            "guard": "Low",
+            "startup": "13",
+            "active": "8",
+            "recovery": "21",
+            "advHit": "/",
+            "advBlock": "-7",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Ikumi does a sliding sweep across about 1/3 of the screen. Knocks down the opponent on hit, like any sweep. This move is okay to throw out in neutral, but her dashing buttons are far better."
+          ],
+          "variations": [
+            {
+              "version": "2C",
+              "damage": "580",
+              "framedata": {
+                "guard": "Low",
+                "startup": "13",
+                "active": "8",
+                "recovery": "21",
+                "advHit": "/",
+                "advBlock": "-7",
+                "cancel": "SP IC"
+              },
+              "notes": "Ikumi does a sliding sweep across about 1/3 of the screen. Knocks down the opponent on hit, like any sweep. This move is okay to throw out in neutral, but her dashing buttons are far better."
+            },
+            {
+              "version": "2C (Genocide)",
+              "damage": "580",
+              "framedata": {
+                "guard": "Low",
+                "startup": "11",
+                "active": "12",
+                "recovery": "16",
+                "advHit": "/",
+                "advBlock": "-6",
+                "cancel": "SP IC"
+              },
+              "notes": "Ikumi does a sliding sweep across about 1/3 of the screen. Knocks down the opponent on hit, like any sweep. This move is okay to throw out in neutral, but her dashing buttons are far better."
+            }
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/99/Ikumij5a.png/175px-Ikumij5a.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "3",
+            "recovery": "6",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC R"
+          },
+          "properties": [
+            "Ikumi stabs down with her hand. Probably Ikumi's most reliable jump-in normal."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d0/Ikumij5b.png/175px-Ikumij5b.png",
+          "damage": "300",
+          "framedata": {
+            "guard": "High",
+            "startup": "6",
+            "active": "2",
+            "recovery": "27",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC"
+          },
+          "properties": [
+            "Ikumi slashes her hand below her, and then stabs it out above her. This move spills 1/4 bars of blood if it hits. Has two hits, but Ikumi usually cancels this move after the first to keep the opponent level with her."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "300",
+              "framedata": {
+                "guard": "High",
+                "startup": "6",
+                "active": "2",
+                "recovery": "27",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N J AD IC"
+              },
+              "notes": "Ikumi slashes her hand below her, and then stabs it out above her. This move spills 1/4 bars of blood if it hits. Has two hits, but Ikumi usually cancels this move after the first to keep the opponent level with her."
+            },
+            {
+              "version": "B",
+              "damage": "250",
+              "framedata": {
+                "guard": "High",
+                "startup": "15",
+                "active": "2",
+                "recovery": "14",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N J AD IC"
+              },
+              "notes": "Ikumi slashes her hand below her, and then stabs it out above her. This move spills 1/4 bars of blood if it hits. Has two hits, but Ikumi usually cancels this move after the first to keep the opponent level with her."
+            }
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/7/71/Ikumij5c.png/175px-Ikumij5c.png",
+          "damage": "620",
+          "framedata": {
+            "guard": "High",
+            "startup": "8",
+            "active": "6",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "J AD IC"
+          },
+          "properties": [
+            "Ikumi flips around and kicks above her. If this move hits a midair opponent it will launch them far away and slightly up. This is a vitally important move in any Ikumi juggle due to both the damage it deals and the way the opponent is launched when in the corner."
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/3/31/Ikumi66a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "2",
+            "recovery": "8",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Ikumi stabs out her hand at the opponent's face. This move is neutral on block, meaning that with Ikumi's quick 2A/5A you can beat out characters with slower buttons. This move can be comboed into Ikumi's command throw."
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f2/Ikumi66b.png/175px-Ikumi66b.png",
+          "damage": "430",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "3",
+            "recovery": "12",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "SP JH IC"
+          },
+          "properties": [
+            "Ikumi stabs out her hand at the opponent's face. This move spills about a quarter of a blood bar on hit. Used as a quick dashing poke that you can confirm into IC 662C, or to complete her BnB into her command throw. In order to combo to the command throw, you must delay the throw a little bit. In GENOCIDE, this move will launch on hit.",
+            "In GENOCIDE, this move will launch on hit."
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/bd/Ikumi66c.png/175px-Ikumi66c.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "High",
+            "startup": "21 / 21.33",
+            "active": "2 / 1.66",
+            "recovery": "24",
+            "advHit": "-2 / -1.66",
+            "advBlock": "-4 / -3.66",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Ikumi raises her foot slowly for a vicious axe kick. This move works as a very deceptive overhead, as the animation is rather subtle. However, the opponent may be able to recognize Ikumi's dash, which looks distinct even if cancelled on the first frame. Unlike 5C, this move doesn't do anything special if it hits an aerial opponent. In GENOCIDE this move has less recovery and can be special cancelled, letting Ikumi combo after her safe-on-block overhead that she can also cancel into a second overhead (623B).",
+            "In GENOCIDE this move has less recovery and can be special cancelled, letting Ikumi combo after her safe-on-block overhead that she can also cancel into a second overhead (623B)."
+          ],
+          "variations": [
+            {
+              "version": "66C",
+              "damage": "450",
+              "framedata": {
+                "guard": "High",
+                "startup": "21 / 21.33",
+                "active": "2 / 1.66",
+                "recovery": "24",
+                "advHit": "-2 / -1.66",
+                "advBlock": "-4 / -3.66",
+                "cancel": "IC"
+              },
+              "notes": "Ikumi raises her foot slowly for a vicious axe kick. This move works as a very deceptive overhead, as the animation is rather subtle. However, the opponent may be able to recognize Ikumi's dash, which looks distinct even if cancelled on the first frame. Unlike 5C, this move doesn't do anything special if it hits an aerial opponent. In GENOCIDE this move has less recovery and can be special cancelled, letting Ikumi combo after her safe-on-block overhead that she can also cancel into a second overhead (623B)."
+            },
+            {
+              "version": "66C (Genocide)",
+              "damage": "450",
+              "framedata": {
+                "guard": "High",
+                "startup": "21 / 21.33",
+                "active": "2 / 1.66",
+                "recovery": "15",
+                "advHit": "+7 / +7.33",
+                "advBlock": "+5 / +5.33",
+                "cancel": "SP IC"
+              },
+              "notes": "Ikumi raises her foot slowly for a vicious axe kick. This move works as a very deceptive overhead, as the animation is rather subtle. However, the opponent may be able to recognize Ikumi's dash, which looks distinct even if cancelled on the first frame. Unlike 5C, this move doesn't do anything special if it hits an aerial opponent. In GENOCIDE this move has less recovery and can be special cancelled, letting Ikumi combo after her safe-on-block overhead that she can also cancel into a second overhead (623B)."
+            }
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1d/Ikumi662a.png/175px-Ikumi662a.png",
+          "damage": "180",
+          "framedata": {
+            "guard": "Low",
+            "startup": "5",
+            "active": "3",
+            "recovery": "10",
+            "advHit": "-2",
+            "advBlock": "-3",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Ikumi claws out with her hand at the opponent's shin. Like Ikumi's 66A, this is a lightning fast poke and is comboable into 41236C, but it hits low at the cost of worse damage and frame advantage."
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/8/8b/Ikumi662b.png/175px-Ikumi662b.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "3",
+            "recovery": "16",
+            "advHit": "-2",
+            "advBlock": "-4",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Ikumi stabs her hand out at the opponent's shins. This move spills about a quarter of a blood bar on hit. Similar usefulness with the 66B."
+          ],
+          "variations": [
+            {
+              "version": "662B",
+              "damage": "400",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "3",
+                "recovery": "16",
+                "advHit": "-2",
+                "advBlock": "-4",
+                "cancel": "SP IC"
+              },
+              "notes": "Ikumi stabs her hand out at the opponent's shins. This move spills about a quarter of a blood bar on hit. Similar usefulness with the 66B."
+            },
+            {
+              "version": "662B (Genocide)",
+              "damage": "400",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "3",
+                "recovery": "12",
+                "advHit": "+2",
+                "advBlock": "0",
+                "cancel": "SP IC"
+              },
+              "notes": "Ikumi stabs her hand out at the opponent's shins. This move spills about a quarter of a blood bar on hit. Similar usefulness with the 66B."
+            }
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/22/Ikumi662c.png/175px-Ikumi662c.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "6",
+            "recovery": "30.66",
+            "advHit": "/",
+            "advBlock": "-21.33",
+            "cancel": "JH IC"
+          },
+          "properties": [
+            "Ikumi does a running hop and kicks up very quickly. If this move hits a grounded opponent, they will be launched far away and slightly up. This move comes out extremely fast, has a huge hitbox, and starts combos in the corner, but has ridiculously long recovery and is not jump-cancellable when blocked. Using this move by itself is an all-or-nothing gamble, and chances are you will be heavily punished. It is much better to use this move only for launching someone in the middle of a corner combo. Jump cancelling this move counts as a double jump. In GENOCIDE this move can be jump cancelled on block and leaves the opponent much closer on hit, giving it safety and midscreen combo potential.",
+            "In GENOCIDE this move can be jump cancelled on block and leaves the opponent much closer on hit, giving it safety and midscreen combo potential."
+          ],
+          "variations": [
+            {
+              "version": "662C",
+              "damage": "450",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "7",
+                "active": "6",
+                "recovery": "30.66",
+                "advHit": "/",
+                "advBlock": "-21.33",
+                "cancel": "JH IC"
+              },
+              "notes": "Ikumi does a running hop and kicks up very quickly. If this move hits a grounded opponent, they will be launched far away and slightly up. This move comes out extremely fast, has a huge hitbox, and starts combos in the corner, but has ridiculously long recovery and is not jump-cancellable when blocked. Using this move by itself is an all-or-nothing gamble, and chances are you will be heavily punished. It is much better to use this move only for launching someone in the middle of a corner combo. Jump cancelling this move counts as a double jump. In GENOCIDE this move can be jump cancelled on block and leaves the opponent much closer on hit, giving it safety and midscreen combo potential."
+            },
+            {
+              "version": "662C (Genocide)",
+              "damage": "450",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "7",
+                "active": "6",
+                "recovery": "28.66",
+                "advHit": "/",
+                "advBlock": "-19.33",
+                "cancel": "J IC"
+              },
+              "notes": "Ikumi does a running hop and kicks up very quickly. If this move hits a grounded opponent, they will be launched far away and slightly up. This move comes out extremely fast, has a huge hitbox, and starts combos in the corner, but has ridiculously long recovery and is not jump-cancellable when blocked. Using this move by itself is an all-or-nothing gamble, and chances are you will be heavily punished. It is much better to use this move only for launching someone in the middle of a corner combo. Jump cancelling this move counts as a double jump. In GENOCIDE this move can be jump cancelled on block and leaves the opponent much closer on hit, giving it safety and midscreen combo potential."
+            }
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1c/EFZ_Ikumi_Amawasa_GroundGrab.png/163px-EFZ_Ikumi_Amawasa_GroundGrab.png",
+          "damage": "0 + 900",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "1",
+            "recovery": "30",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Ikumi grabs the opponent by the neck, wrings it, and tosses them away. If this throw is done immediately after summoning 214214B clone, the clone will hit the opponent after the throw and Ikumi can continue the combo."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0 + 900",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Ikumi grabs the opponent by the neck, wrings it, and tosses them away. If this throw is done immediately after summoning 214214B clone, the clone will hit the opponent after the throw and Ikumi can continue the combo."
+            },
+            {
+              "version": "B",
+              "damage": "0 + 900",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Ikumi grabs the opponent by the neck, wrings it, and tosses them away. If this throw is done immediately after summoning 214214B clone, the clone will hit the opponent after the throw and Ikumi can continue the combo."
+            },
+            {
+              "version": "C",
+              "damage": "0 + 900",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "1",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Ikumi grabs the opponent by the neck, wrings it, and tosses them away. If this throw is done immediately after summoning 214214B clone, the clone will hit the opponent after the throw and Ikumi can continue the combo."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a7/EFZ_Ikumi_Amawasa_AirGrab.png/175px-EFZ_Ikumi_Amawasa_AirGrab.png",
+          "damage": "0 + 1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Ikumi grabs the opponent, stabs them, and they explode in a red burst. Both Ikumi and the opponent are flung away from each other at high speeds. Ikumi can very easily dash up in time for oki, though. Average range on this throw, but combined with Ikumi's fast movement, becomes very threatening."
+          ]
+        },
+        {
+          "moveName": "Red Line of Impulse",
+          "input": "236",
+          "image": "https://wiki.gbl.gg/images/thumb/2/20/Ikumi236.png/175px-Ikumi236.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "20.33~56",
+            "active": "3",
+            "recovery": "23",
+            "advHit": "-2",
+            "advBlock": "-4",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Does not cost blood to use. A decent move to use in the middle of combos, as it helps push the opponent closer to the corner. Not too useful when used alone. It's pretty easy to counter if blocked, and even on hit, you are at a slight frame disadvantage.",
+            "Hits 2 times, uses up 1 blood bar, and spills around 1.5 bars of blood if it hits. Not very useful. It does less damage than the A version, still minus on block, and it uses up 1 whole bar of blood too.",
+            "Hits 3 times. An excellent move. The player has frame advantage even if the move is blocked, and there is enough advantage on hit to link back to 5A, restarting the move string in the same combo. It is even possible to combo into \"Separation\" after this move.",
+            "Same as the A version, except this move spills around 1.5 bars of blood if it hits. Not useful at all. If you have the chance to use this in a combo, you should probably be using the RF meter to do an IC instead.",
+            "Has some invulnerability, and will launch the opponent if it hits. Useful if you have BIC and need to carry the opponent to the corner.",
+            "Once the invincibility ends, the rest of the move is almost fully armored. A very shoddy reversal option, but Ikumi doesn't have much better. Doesn't launch the opponent.",
+            "Does not cost blood to use.",
+            "A decent move to use in the middle of combos, as it helps push the opponent closer to the corner.",
+            "Not too useful when used alone. It's pretty easy to counter if blocked, and even on hit, you are at a slight frame disadvantage.",
+            "Hits 2 times, uses up 1 blood bar, and spills around 1.5 bars of blood if it hits.",
+            "Not very useful. It does less damage than the A version, still minus on block, and it uses up 1 whole bar of blood too.",
+            "Hits 3 times.",
+            "An excellent move. The player has frame advantage even if the move is blocked, and there is enough advantage on hit to link back to 5A, restarting the move string in the same combo.",
+            "It is even possible to combo into \"Separation\" after this move.",
+            "Once the invincibility ends, the rest of the move is almost fully armored. A very shoddy reversal option, but Ikumi doesn't have much better.",
+            "Doesn't launch the opponent."
+          ],
+          "variations": [
+            {
+              "version": "A/B (Lv.1)",
+              "damage": "550",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "20.33~56",
+                "active": "3",
+                "recovery": "23",
+                "advHit": "-2",
+                "advBlock": "-4",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. A decent move to use in the middle of combos, as it helps push the opponent closer to the corner. Not too useful when used alone. It's pretty easy to counter if blocked, and even on hit, you are at a slight frame disadvantage."
+            },
+            {
+              "version": "A (Genocide)",
+              "damage": "550",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "20.33~56",
+                "active": "3",
+                "recovery": "19",
+                "advHit": "+2",
+                "advBlock": "0",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. A decent move to use in the middle of combos, as it helps push the opponent closer to the corner. Not too useful when used alone. It's pretty easy to counter if blocked, and even on hit, you are at a slight frame disadvantage."
+            },
+            {
+              "version": "B (Lv.2)",
+              "damage": "250 x 2",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "20.33~56",
+                "active": "3 x 2",
+                "recovery": "23",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. A decent move to use in the middle of combos, as it helps push the opponent closer to the corner. Not too useful when used alone. It's pretty easy to counter if blocked, and even on hit, you are at a slight frame disadvantage."
+            },
+            {
+              "version": "B (Lv.3/Genocide)",
+              "damage": "250 x 3",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "20.33~56",
+                "active": "3 x 3",
+                "recovery": "21",
+                "advHit": "+6",
+                "advBlock": "+4",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. A decent move to use in the middle of combos, as it helps push the opponent closer to the corner. Not too useful when used alone. It's pretty easy to counter if blocked, and even on hit, you are at a slight frame disadvantage."
+            },
+            {
+              "version": "C (Lv.1)",
+              "damage": "720",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "20.33~56",
+                "active": "3",
+                "recovery": "23",
+                "advHit": "-2",
+                "advBlock": "-4",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. A decent move to use in the middle of combos, as it helps push the opponent closer to the corner. Not too useful when used alone. It's pretty easy to counter if blocked, and even on hit, you are at a slight frame disadvantage."
+            },
+            {
+              "version": "C (Lv.2)",
+              "damage": "800",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "20.33~56",
+                "active": "3",
+                "recovery": "23",
+                "advHit": "/",
+                "advBlock": "-4",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. A decent move to use in the middle of combos, as it helps push the opponent closer to the corner. Not too useful when used alone. It's pretty easy to counter if blocked, and even on hit, you are at a slight frame disadvantage."
+            },
+            {
+              "version": "C (Lv.3/Genocide)",
+              "damage": "850",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "20.33~56",
+                "active": "3",
+                "recovery": "23",
+                "advHit": "-2",
+                "advBlock": "-4",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. A decent move to use in the middle of combos, as it helps push the opponent closer to the corner. Not too useful when used alone. It's pretty easy to counter if blocked, and even on hit, you are at a slight frame disadvantage."
+            }
+          ]
+        },
+        {
+          "moveName": "Bloodstained Cross",
+          "input": "623",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c8/Ikumi623.png/175px-Ikumi623.png",
+          "damage": "520",
+          "framedata": {
+            "guard": "High",
+            "startup": "36",
+            "active": "10",
+            "recovery": "17.66",
+            "advHit": "/",
+            "advBlock": "-5.66",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Does not cost blood to use. Spills 0.5 to 1 bars of blood on hit. The only version that is unsafe on block. VERY slow for an overhead. Ikumi jumps high enough to actually leap over most crouches in this version, turning an overhead into a crossup-overhead. However, Ikumi should never attempt this, as standing up denies the crossup (unless in the very last frames of startup), making it no harder to react to. The only character this gimmick is \"okay\" on is Mayu who gets crossed up even while standing. In GENOCIDE Ikumi can be combo out of this with IC... but she won't be using this version over 623B/C.",
+            "Faster, does more damage, and plus on block.",
+            "Comes out even quicker and lower to the ground. This is the fastest version of the move. It's still not very good. In GENOCIDE this version's damage is reduced but it can be meterlessly comboed out of.",
+            "Much faster than the A version and spills more blood on hit (around 2 bars).",
+            "Startup is no faster, but less recovery and almost double the damage Actually still faster than the B version at this blood level, but the EX sound effect probably won't do you any favors. Has some invincibility but the move is too slow for it to matter.",
+            "Slightly slower than the B version, but Ikumi has invulnerability and then armor through startup. Can be used as a very slow reversal... but you'd better not. Lots of frame advantage on block. In GENOCIDE this version's damage is reduced but it can be meterlessly comboed out of. It also gains the special knockdown property.",
+            "Does not cost blood to use.",
+            "Spills 0.5 to 1 bars of blood on hit.",
+            "The only version that is unsafe on block.",
+            "VERY slow for an overhead.",
+            "Ikumi jumps high enough to actually leap over most crouches in this version, turning an overhead into a crossup-overhead. However, Ikumi should never attempt this, as standing up denies the crossup (unless in the very last frames of startup), making it no harder to react to. The only character this gimmick is \"okay\" on is Mayu who gets crossed up even while standing.",
+            "In GENOCIDE Ikumi can be combo out of this with IC... but she won't be using this version over 623B/C.",
+            "Comes out even quicker and lower to the ground.",
+            "This is the fastest version of the move. It's still not very good.",
+            "In GENOCIDE this version's damage is reduced but it can be meterlessly comboed out of.",
+            "Startup is no faster, but less recovery and almost double the damage",
+            "Actually still faster than the B version at this blood level, but the EX sound effect probably won't do you any favors.",
+            "Has some invincibility but the move is too slow for it to matter.",
+            "Slightly slower than the B version, but Ikumi has invulnerability and then armor through startup. Can be used as a very slow reversal... but you'd better not.",
+            "Lots of frame advantage on block.",
+            "In GENOCIDE this version's damage is reduced but it can be meterlessly comboed out of. It also gains the special knockdown property."
+          ],
+          "variations": [
+            {
+              "version": "A/A (Genocide)/B (Lv.1)",
+              "damage": "520",
+              "framedata": {
+                "guard": "High",
+                "startup": "36",
+                "active": "10",
+                "recovery": "17.66",
+                "advHit": "/",
+                "advBlock": "-5.66",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. Spills 0.5 to 1 bars of blood on hit. The only version that is unsafe on block. VERY slow for an overhead. Ikumi jumps high enough to actually leap over most crouches in this version, turning an overhead into a crossup-overhead. However, Ikumi should never attempt this, as standing up denies the crossup (unless in the very last frames of startup), making it no harder to react to. The only character this gimmick is \"okay\" on is Mayu who gets crossed up even while standing. In GENOCIDE Ikumi can be combo out of this with IC... but she won't be using this version over 623B/C."
+            },
+            {
+              "version": "B (Lv.2)",
+              "damage": "1000",
+              "framedata": {
+                "guard": "High",
+                "startup": "31",
+                "active": "10",
+                "recovery": "10.33",
+                "advHit": "/",
+                "advBlock": "+1.66",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. Spills 0.5 to 1 bars of blood on hit. The only version that is unsafe on block. VERY slow for an overhead. Ikumi jumps high enough to actually leap over most crouches in this version, turning an overhead into a crossup-overhead. However, Ikumi should never attempt this, as standing up denies the crossup (unless in the very last frames of startup), making it no harder to react to. The only character this gimmick is \"okay\" on is Mayu who gets crossed up even while standing. In GENOCIDE Ikumi can be combo out of this with IC... but she won't be using this version over 623B/C."
+            },
+            {
+              "version": "B (Lv.3/Genocide)",
+              "damage": "1250/520",
+              "framedata": {
+                "guard": "High",
+                "startup": "25",
+                "active": "10",
+                "recovery": "8.66",
+                "advHit": "/",
+                "advBlock": "+3",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. Spills 0.5 to 1 bars of blood on hit. The only version that is unsafe on block. VERY slow for an overhead. Ikumi jumps high enough to actually leap over most crouches in this version, turning an overhead into a crossup-overhead. However, Ikumi should never attempt this, as standing up denies the crossup (unless in the very last frames of startup), making it no harder to react to. The only character this gimmick is \"okay\" on is Mayu who gets crossed up even while standing. In GENOCIDE Ikumi can be combo out of this with IC... but she won't be using this version over 623B/C."
+            },
+            {
+              "version": "C (Lv.1)",
+              "damage": "650",
+              "framedata": {
+                "guard": "High",
+                "startup": "28",
+                "active": "10",
+                "recovery": "13.66",
+                "advHit": "/",
+                "advBlock": "-2.66",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. Spills 0.5 to 1 bars of blood on hit. The only version that is unsafe on block. VERY slow for an overhead. Ikumi jumps high enough to actually leap over most crouches in this version, turning an overhead into a crossup-overhead. However, Ikumi should never attempt this, as standing up denies the crossup (unless in the very last frames of startup), making it no harder to react to. The only character this gimmick is \"okay\" on is Mayu who gets crossed up even while standing. In GENOCIDE Ikumi can be combo out of this with IC... but she won't be using this version over 623B/C."
+            },
+            {
+              "version": "C (Lv.2)",
+              "damage": "1200",
+              "framedata": {
+                "guard": "High",
+                "startup": "28",
+                "active": "9.66",
+                "recovery": "8",
+                "advHit": "/",
+                "advBlock": "+4",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. Spills 0.5 to 1 bars of blood on hit. The only version that is unsafe on block. VERY slow for an overhead. Ikumi jumps high enough to actually leap over most crouches in this version, turning an overhead into a crossup-overhead. However, Ikumi should never attempt this, as standing up denies the crossup (unless in the very last frames of startup), making it no harder to react to. The only character this gimmick is \"okay\" on is Mayu who gets crossed up even while standing. In GENOCIDE Ikumi can be combo out of this with IC... but she won't be using this version over 623B/C."
+            },
+            {
+              "version": "C (Lv.3/Genocide)",
+              "damage": "1500/650",
+              "framedata": {
+                "guard": "High",
+                "startup": "26",
+                "active": "7",
+                "recovery": "7",
+                "advHit": "/",
+                "advBlock": "+8",
+                "cancel": "IC"
+              },
+              "notes": "Does not cost blood to use. Spills 0.5 to 1 bars of blood on hit. The only version that is unsafe on block. VERY slow for an overhead. Ikumi jumps high enough to actually leap over most crouches in this version, turning an overhead into a crossup-overhead. However, Ikumi should never attempt this, as standing up denies the crossup (unless in the very last frames of startup), making it no harder to react to. The only character this gimmick is \"okay\" on is Mayu who gets crossed up even while standing. In GENOCIDE Ikumi can be combo out of this with IC... but she won't be using this version over 623B/C."
+            }
+          ]
+        },
+        {
+          "moveName": "Skyscraper",
+          "input": "Later hits",
+          "image": "https://wiki.gbl.gg/images/thumb/e/ed/EFZ_Ikumi_214X.png/123px-EFZ_Ikumi_214X.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Any",
+            "startup": "16.66",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "-28.66/-30.66※",
+            "cancel": "/"
+          },
+          "properties": [
+            "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time.",
+            "Marginally better than Blood Level 1 but uses up a blood bar. Less useful than before due to the blood loss.",
+            "Hits three times. Massive frame advantage, Ikumi can reliably start combos off of this.",
+            "Ikumi spawns the projectile 3 frames earlier than Blood Level 3, and in total her animation is 6 frames shorter.",
+            "This move spills 0.5 bars of blood if it hits.",
+            "This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time.",
+            "Marginally better than Blood Level 1 but uses up a blood bar.",
+            "Less useful than before due to the blood loss.",
+            "Hits three times.",
+            "Massive frame advantage, Ikumi can reliably start combos off of this."
+          ],
+          "variations": [
+            {
+              "version": "A/B/C (Lv.1)",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16.66",
+                "active": "1",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-28.66/-30.66※",
+                "cancel": "/"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "-",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "38.66",
+                "active": "23.33",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-6.66/-8.66※",
+                "cancel": "/"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "Ikumi (A)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "12",
+                "active": "/",
+                "recovery": "55",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "Ikumi (B/C)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "12",
+                "active": "/",
+                "recovery": "57",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "A/B/C (Lv.2)",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14.66",
+                "active": "1",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-25.66/-28.66※",
+                "cancel": "/"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "-",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "36.66",
+                "active": "37.66",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-3.33/-6.66※",
+                "cancel": "/"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "Ikumi (A)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "10",
+                "active": "/",
+                "recovery": "52",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "Ikumi (B/C)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "10",
+                "active": "/",
+                "recovery": "55",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "A/B/C (Lv.3)",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14.66",
+                "active": "1",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-25.66",
+                "cancel": "/"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "-",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "36.66",
+                "active": "19.33",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-3.66",
+                "cancel": "/"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "-",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "56",
+                "active": "47",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+16.33",
+                "cancel": "/"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "Ikumi (A/B/C)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "10",
+                "active": "/",
+                "recovery": "52",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "A/B/C (Genocide)",
+              "damage": "450",
+              "framedata": {
+                "guard": "Any",
+                "startup": "11.66",
+                "active": "1",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-22.66",
+                "cancel": "/"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "-",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "33.66",
+                "active": "19.33",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-0.33",
+                "cancel": "/"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "-",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "53",
+                "active": "47",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+19.33",
+                "cancel": "/"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            },
+            {
+              "version": "Ikumi",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7",
+                "active": "/",
+                "recovery": "49",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "This move spills 0.5 bars of blood if it hits. This move is okay as a zoning tool. Be extra careful about judging which distance to use, since a wrong move leaves you quite open for a long time."
+            }
+          ]
+        },
+        {
+          "moveName": "Feast's Omen",
+          "input": "41236C",
+          "image": "https://wiki.gbl.gg/images/thumb/0/03/Ikumi41236c.png/175px-Ikumi41236c.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "7.33",
+            "active": "0.66",
+            "recovery": "30",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Ikumi reaches out to grab the opponent's neck. If successful, she plunges her free hand into the opponents torso, pulls it out, and releases the opponent in an explosion of blood. This move spills 2.5 bars of blood if it hits. Command throws are always useful to have in a character, this one even more so since it is your primary source of blood. The easiest way to land this is to combo into it after a 66A or 66B, but randomly dashing in and doing it is quite effective too. It is also possible to combo after the throw when in the corner.",
+            "Starts up faster, does more damage and prorates less (30% down from 40%). However, the animation takes a long time and Ikumi is likely to exit the install before the damage occurs, in which case the latter benefits will not apply."
+          ],
+          "variations": [
+            {
+              "version": "41236C",
+              "damage": "500",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "7.33",
+                "active": "0.66",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Ikumi reaches out to grab the opponent's neck. If successful, she plunges her free hand into the opponents torso, pulls it out, and releases the opponent in an explosion of blood. This move spills 2.5 bars of blood if it hits. Command throws are always useful to have in a character, this one even more so since it is your primary source of blood. The easiest way to land this is to combo into it after a 66A or 66B, but randomly dashing in and doing it is quite effective too. It is also possible to combo after the throw when in the corner."
+            },
+            {
+              "version": "41236C (Genocide)",
+              "damage": "750",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6.33",
+                "active": "1",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Ikumi reaches out to grab the opponent's neck. If successful, she plunges her free hand into the opponents torso, pulls it out, and releases the opponent in an explosion of blood. This move spills 2.5 bars of blood if it hits. Command throws are always useful to have in a character, this one even more so since it is your primary source of blood. The easiest way to land this is to combo into it after a 66A or 66B, but randomly dashing in and doing it is quite effective too. It is also possible to combo after the throw when in the corner."
+            }
+          ]
+        },
+        {
+          "moveName": "Rampage",
+          "input": "Activates automatically when the blood gauge is full",
+          "image": "https://wiki.gbl.gg/images/thumb/1/17/EFZ_Ikumi_Amasawa_Genocide.png/175px-EFZ_Ikumi_Amasawa_Genocide.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "3",
+            "active": "12",
+            "recovery": "54",
+            "advHit": "/",
+            "advBlock": "-44.33",
+            "cancel": "None"
+          },
+          "properties": [
+            "Ikumi does her best crazy-person impression and emits a powerful shockwave. Afterwards, Ikumi enters Genocide Mode, glowing golden and leaving afterimages until the GENOCIDE gauge is depleted. The gauge will drain naturally in 420 frames and will even deplete during superflash and hitstop but collecting blood will add slightly more time. While Ikumi is in this frenzied state: Ikumi has constant recoil armor which lets her skip neutral (but also prevents her from blocking or RGing). Using special moves will not drain the gauge. Many moves have altered frame data, usually in the form of less recovery. Some new combo routes are made possible. 66B launches the opponent. 66C is special cancellable. 662C is jump cancellable on block and can be comboed after midscreen. All versions of Bloodstained Cross can be comboed after. Feast's Omen is boosted to 750 base damage and scales less in combos. All versions of Separation have significantly higher damage. Invasion of Blood is changed to explode as soon as Ikumi plunges her hand into the ground, with no need for reactivation. Mirror of Lies becomes inaccessible. Sword of Friendship becomes inaccessible. Rampage becomes inaccessible. When Genocide Mode is over, Ikumi's blood gauge will be empty. This move is a double-edged sword. The benefits are great but the install is too short for Ikumi to justify going back to her weak 0 blood self in most cases. Losing the ability to block also makes installing riskier if Ikumi is at low health or her opponent has strong armor breaking moves. Thankfully, unwanted activations after a combo can be avoided by buffering a special move to use up some blood before Ikumi returns to neutral.",
+            "Ikumi has constant recoil armor which lets her skip neutral (but also prevents her from blocking or RGing).",
+            "Using special moves will not drain the gauge.",
+            "Many moves have altered frame data, usually in the form of less recovery. Some new combo routes are made possible.",
+            "66B launches the opponent.",
+            "66C is special cancellable.",
+            "662C is jump cancellable on block and can be comboed after midscreen.",
+            "All versions of Bloodstained Cross can be comboed after.",
+            "Feast's Omen is boosted to 750 base damage and scales less in combos.",
+            "All versions of Separation have significantly higher damage.",
+            "Invasion of Blood is changed to explode as soon as Ikumi plunges her hand into the ground, with no need for reactivation.",
+            "Mirror of Lies becomes inaccessible.",
+            "Sword of Friendship becomes inaccessible.",
+            "Rampage becomes inaccessible."
+          ]
+        },
+        {
+          "moveName": "Separation",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/5/57/EFZ_Ikumi_4123641236A.png",
+          "damage": "2000/2800",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "6",
+            "active": "0.33",
+            "recovery": "34.66/37※",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Spills around 2.5 bars of blood.",
+            "Spills around 3 bars of blood.",
+            "Spills around 6 bars of blood. Has invincible startup so it can function as a reversal.",
+            "Spills around 6 bars of blood.",
+            "Has invincible startup so it can function as a reversal."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2000/2800",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6",
+                "active": "0.33",
+                "recovery": "34.66/37※",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Spills around 2.5 bars of blood."
+            },
+            {
+              "version": "B",
+              "damage": "3000/3800",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6",
+                "active": "0.33",
+                "recovery": "34.66/37※",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Spills around 2.5 bars of blood."
+            },
+            {
+              "version": "C",
+              "damage": "4100/5500",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "4",
+                "active": "0.33",
+                "recovery": "34.66/37※",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Spills around 2.5 bars of blood."
+            }
+          ]
+        },
+        {
+          "moveName": "Invasion of Blood",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/thumb/f/ff/Ikumi2141236p2.png/175px-Ikumi2141236p2.png",
+          "damage": "2000",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11.66",
+            "active": "7",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "-14.66",
+            "cancel": "/"
+          },
+          "properties": [
+            "Gives the opponent time to tech on hit.",
+            "Untechable.",
+            "The first time this move is performed, Ikumi plunges her hand into the floor and plants a blood bomb, using up the appropriate amount of SP. This step does not damage the opponent in any way. The next time this move is performed, regardless of the button used, Ikumi raises two fingers upwards, and a geyser of blood will spray up directly underneath the opponent. Damage and size of the geyser increase with button strength. This move can be useful for whiff punishing from full screen and is worth considering if you're sitting on full SP in neutral as you can continue to build meter while it is planted. Something to keep in mind is that while this move is technically air unblockable, it's extremely easy to air RG thanks to the superflash. Has a small amount of invincibility when planting and enough to be a (bad) reversal when detonating. Do not let the inactive hitboxes (made of dashed lines) in the B and C pictures fool you. Only the solid red box can hit the opponent. ※ Time at which the explosion's location is set, meaning the opponent only has 3.66 frames to dodge it.",
+            "In GENOCIDE this projectile is not split between planting and detonating and cannot be FIC'd. Hits 8 frames later than detonating a planted bomb would and has much more recovery, but takes less time overall. Bombs planted before entering GENOCIDE will not be consumed and can be used after leaving GENOCIDE. A version is untechable in GENOCIDE.",
+            "Do not let the inactive hitboxes (made of dashed lines) in the B and C pictures fool you. Only the solid red box can hit the opponent.",
+            "A version is untechable in GENOCIDE."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2000",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "11.66",
+                "active": "7",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-14.66",
+                "cancel": "/"
+              },
+              "notes": "Gives the opponent time to tech on hit."
+            },
+            {
+              "version": "B/C",
+              "damage": "2700/4300",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "11.66",
+                "active": "7",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-13.66",
+                "cancel": "/"
+              },
+              "notes": "Gives the opponent time to tech on hit."
+            },
+            {
+              "version": "Ikumi (A Plant)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "16",
+                "active": "/",
+                "recovery": "45",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Gives the opponent time to tech on hit."
+            },
+            {
+              "version": "Ikumi (B Plant)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "14",
+                "active": "/",
+                "recovery": "44",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Gives the opponent time to tech on hit."
+            },
+            {
+              "version": "Ikumi (C Plant)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13",
+                "active": "/",
+                "recovery": "44",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Gives the opponent time to tech on hit."
+            },
+            {
+              "version": "Ikumi (A Detonate)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "8※",
+                "active": "/",
+                "recovery": "40",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Gives the opponent time to tech on hit."
+            },
+            {
+              "version": "Ikumi (B/C Detonate)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "8※",
+                "active": "/",
+                "recovery": "39",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Gives the opponent time to tech on hit."
+            },
+            {
+              "version": "A/B/C (Genocide)",
+              "damage": "2000/2700/4300",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "19.66",
+                "active": "7",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-40.66",
+                "cancel": "/"
+              },
+              "notes": "Gives the opponent time to tech on hit."
+            },
+            {
+              "version": "Ikumi (Genocide)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "16",
+                "active": "/",
+                "recovery": "66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Gives the opponent time to tech on hit."
+            }
+          ]
+        },
+        {
+          "moveName": "Mirror of Lies",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e2/Ikumi214214.png/175px-Ikumi214214.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "/",
+            "active": "/",
+            "recovery": "21.66",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks.",
+            "Ikumi's shadow poses and waits idly until the opponent comes close or enough time has passed, then performs a c5B f5B 662C combo.",
+            "Ikumi's shadow walks toward the opponent until it is close and then performs an upgraded Skyscraper, capable of hitting 5 times."
+          ],
+          "variations": [
+            {
+              "version": "Ikumi (A/B/C)",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "/",
+                "active": "/",
+                "recovery": "21.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks."
+            },
+            {
+              "version": "A",
+              "damage": "400 x 3",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "70~117.66 + 6.33",
+                "active": "2 + 3 x 2",
+                "recovery": "/",
+                "advHit": "+34 ~ +58.33",
+                "advBlock": "+32 ~ +56.33",
+                "cancel": "/"
+              },
+              "notes": "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks."
+            },
+            {
+              "version": "B",
+              "damage": "400",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "108~899.66 + 8.33",
+                "active": "2",
+                "recovery": "/",
+                "advHit": "-",
+                "advBlock": "+32",
+                "cancel": "/"
+              },
+              "notes": "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks."
+            },
+            {
+              "version": "-",
+              "damage": "400",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "132.33~924",
+                "active": "3",
+                "recovery": "/",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks."
+            },
+            {
+              "version": "-",
+              "damage": "620",
+              "framedata": {
+                "guard": "Any",
+                "startup": "150.33~942",
+                "active": "6",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "~ +85.33",
+                "cancel": "/"
+              },
+              "notes": "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks."
+            },
+            {
+              "version": "C",
+              "damage": "400",
+              "framedata": {
+                "guard": "Any",
+                "startup": "114~419 + 21",
+                "active": "1",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks."
+            },
+            {
+              "version": "-",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "157",
+                "active": "19.66",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks."
+            },
+            {
+              "version": "-",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "176.66",
+                "active": "14.33",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks."
+            },
+            {
+              "version": "-",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "191",
+                "active": "14.33",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks."
+            },
+            {
+              "version": "-",
+              "damage": "150",
+              "framedata": {
+                "guard": "Any",
+                "startup": "205.33",
+                "active": "18",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "/"
+              },
+              "notes": "Ikumi's shadow sprints forward and performs a Red Line of Impulse when close to the opponent. It can be used to create a left/right mixup by setting one after the opponent has been knocked down and jumping over the opponent as the shadow attacks."
+            }
+          ]
+        },
+        {
+          "moveName": "Sword of Friendship",
+          "input": "Relative duration of frames not accurate. Full active duration and range not pictured.",
+          "image": "https://wiki.gbl.gg/images/thumb/2/2f/EFZ_Ikumi_Amasawa_236236236C.gif/175px-EFZ_Ikumi_Amasawa_236236236C.gif",
+          "damage": "5200",
+          "framedata": {
+            "guard": "Any",
+            "startup": "5",
+            "active": "30",
+            "recovery": "18(hit) 35(block/whiff)",
+            "advHit": "/",
+            "advBlock": "-12",
+            "cancel": "None"
+          },
+          "properties": [
+            "Ikumi charges quicker than the human eye about a full screen towards the opponent. If the move hits, four of Ikumi's friends will jump in for a cinematic attack sequence and group with her for a pose. This FM is very easy to insert into combos for high damage. It also has invincibility on startup which can be valuable for Ikumi who lacks in reversals. If blocked, Ikumi will immediately enter recovery. Ikumi can whiff cancel most of her normals into this move.",
+            "Ikumi can whiff cancel most of her normals into this move."
+          ]
+        }
+      ]
+    }
+  ]
+}

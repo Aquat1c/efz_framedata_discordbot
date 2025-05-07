@@ -1,0 +1,1177 @@
+{
+  "name": "Nayuki Minase (asleep)",
+  "icon": "https://wiki.gbl.gg/images/9/94/EFZ_NayukiAsleep_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/04/EFZ_Neyuki_5A.png/175px-EFZ_Neyuki_5A.png",
+          "damage": "190",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4 / 4.33",
+            "active": "2 / 1.66",
+            "recovery": "7",
+            "advHit": "+2",
+            "advBlock": "+1",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Nayuki turns to her back and brings up her heel, for a quick hit. Spammable and hits middle while being pretty safe on whiff, but has short range."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/2a/EFZ_Neyuki_5B.png/175px-EFZ_Neyuki_5B.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5 ~ 7 ※",
+            "active": "4",
+            "recovery": "10",
+            "advHit": "+4",
+            "advBlock": "+2",
+            "cancel": "N SP J IC f5B 2B※2 SB"
+          },
+          "properties": [
+            "Nayuki leans forward and attacks with a chop. Can link into itself in juggles but will cancel into f5B if B is pushed too soon. ※ Startup starts at 7 frames and is reduced by 2 frames at jam level 4. ※2 Jam Level 1+ is required to cancel into 2B."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "Jam Level 5+",
+          "image": "https://wiki.gbl.gg/images/9/9e/EFZ_Neyuki_f5B.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Any",
+            "startup": "10.33",
+            "active": "1.66",
+            "recovery": "54",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP IC SB"
+          },
+          "properties": [
+            "Nayuki leans her head forward, leaps headfirst in a drilling charge, then faceplants. This move travels further the higher level her jam level is. Useful to reset pressure, as the leap causes Nayuki to move forward while allowing her to attack at the same time. ※1 The first subframe of this hit's active will have an inactive hitbox until Jam Level 6. ※2 The aerial hits of this can be cancelled into air backdash but not a forward airdash. At Jam Level 5 and above, they can also be cancelled into jC."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10.33",
+                "active": "1.66",
+                "recovery": "54",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N SP IC SB"
+              },
+              "notes": "Nayuki leans her head forward, leaps headfirst in a drilling charge, then faceplants. This move travels further the higher level her jam level is. Useful to reset pressure, as the leap causes Nayuki to move forward while allowing her to attack at the same time. ※1 The first subframe of this hit's active will have an inactive hitbox until Jam Level 6. ※2 The aerial hits of this can be cancelled into air backdash but not a forward airdash. At Jam Level 5 and above, they can also be cancelled into jC."
+            },
+            {
+              "version": "B",
+              "damage": "200",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12 / 12.33※1",
+                "active": "3 / 2.66※1",
+                "recovery": "51",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N IC AD ※2"
+              },
+              "notes": "Nayuki leans her head forward, leaps headfirst in a drilling charge, then faceplants. This move travels further the higher level her jam level is. Useful to reset pressure, as the leap causes Nayuki to move forward while allowing her to attack at the same time. ※1 The first subframe of this hit's active will have an inactive hitbox until Jam Level 6. ※2 The aerial hits of this can be cancelled into air backdash but not a forward airdash. At Jam Level 5 and above, they can also be cancelled into jC."
+            },
+            {
+              "version": "C",
+              "damage": "50 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "19.33",
+                "recovery": "48",
+                "advHit": "-17",
+                "advBlock": "-19",
+                "cancel": "N IC AD jC ※2"
+              },
+              "notes": "Nayuki leans her head forward, leaps headfirst in a drilling charge, then faceplants. This move travels further the higher level her jam level is. Useful to reset pressure, as the leap causes Nayuki to move forward while allowing her to attack at the same time. ※1 The first subframe of this hit's active will have an inactive hitbox until Jam Level 6. ※2 The aerial hits of this can be cancelled into air backdash but not a forward airdash. At Jam Level 5 and above, they can also be cancelled into jC."
+            },
+            {
+              "version": "Version 4",
+              "damage": "350",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "36",
+                "active": "2",
+                "recovery": "28",
+                "advHit": "-13",
+                "advBlock": "-15",
+                "cancel": "N SP IC SB"
+              },
+              "notes": "Nayuki leans her head forward, leaps headfirst in a drilling charge, then faceplants. This move travels further the higher level her jam level is. Useful to reset pressure, as the leap causes Nayuki to move forward while allowing her to attack at the same time. ※1 The first subframe of this hit's active will have an inactive hitbox until Jam Level 6. ※2 The aerial hits of this can be cancelled into air backdash but not a forward airdash. At Jam Level 5 and above, they can also be cancelled into jC."
+            }
+          ]
+        },
+        {
+          "moveName": "Nayu Leap",
+          "input": "Jam Level 2+",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e7/EFZ_Neyu_6B.png/175px-EFZ_Neyu_6B.png",
+          "damage": "440",
+          "framedata": {
+            "guard": "High",
+            "startup": "29",
+            "active": "4",
+            "recovery": "18",
+            "advHit": "+2",
+            "advBlock": "0",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Nayuki takes a short but high leap and quickly extends her leg for a kick as she comes down. This move is an overhead, but a very slow one. Going for a tick throw is generally a safer bet than using this, however this can be IC'd into significant damage unlike a throw."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "All levels",
+          "image": "https://wiki.gbl.gg/images/thumb/6/65/EFZ_Neyuki_5C.png/175px-EFZ_Neyuki_5C.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "14",
+            "active": "1",
+            "recovery": "30",
+            "advHit": "/",
+            "advBlock": "-9",
+            "cancel": "SP IC SB"
+          },
+          "properties": [
+            "Nayuki pulls Keropii from behind her and slams it into the ground in front of her. Hits a very wide area. If not cancelled into anything Nayuki will flip over Keropii and fly forward, completely defenseless. At 6 jams or higher, the first hitbox is active and will knock airborne or tall standing opponents (Akiko, Mai, Misaki, Minagi, and Kanna) to the ground. ※ Jump cancellable starting at jam level 7."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "650",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "14",
+                "active": "1",
+                "recovery": "30",
+                "advHit": "/",
+                "advBlock": "-9",
+                "cancel": "SP IC SB"
+              },
+              "notes": "Nayuki pulls Keropii from behind her and slams it into the ground in front of her. Hits a very wide area. If not cancelled into anything Nayuki will flip over Keropii and fly forward, completely defenseless. At 6 jams or higher, the first hitbox is active and will knock airborne or tall standing opponents (Akiko, Mai, Misaki, Minagi, and Kanna) to the ground. ※ Jump cancellable starting at jam level 7."
+            },
+            {
+              "version": "B",
+              "damage": "650",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "15",
+                "active": "5",
+                "recovery": "29",
+                "advHit": "-6",
+                "advBlock": "-8",
+                "cancel": "SP IC SB J※"
+              },
+              "notes": "Nayuki pulls Keropii from behind her and slams it into the ground in front of her. Hits a very wide area. If not cancelled into anything Nayuki will flip over Keropii and fly forward, completely defenseless. At 6 jams or higher, the first hitbox is active and will knock airborne or tall standing opponents (Akiko, Mai, Misaki, Minagi, and Kanna) to the ground. ※ Jump cancellable starting at jam level 7."
+            }
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/6/66/EFZ_Neyuki_2A.png/175px-EFZ_Neyuki_2A.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "2",
+            "recovery": "8",
+            "advHit": "+1",
+            "advBlock": "0",
+            "cancel": "N SP J IC R SB"
+          },
+          "properties": [
+            "Nayuki will turn away and flick her cat tail forward for a quick hit. Just like 5A, spammable and pretty safe on whiff, but has a slightly longer range."
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/ae/EFZ_Neyuki_2B.png/175px-EFZ_Neyuki_2B.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8 ~ 12※",
+            "active": "10",
+            "recovery": "11",
+            "advHit": "-4",
+            "advBlock": "-6",
+            "cancel": "N SP J IC f5B※2 SB"
+          },
+          "properties": [
+            "Nayuki collapses and stretches her legs. Hits low, and moves Nayuki forward a bit. Very useful to cancel into 2C for an easy launch as f5B will push the opponent too far for 2C to hit reliably. ※ Has a base startup of 12 frames and is reduced by 1 frame each at jam levels 1, 2, 4, and 6. ※2 Needs Jam Level 2 to cancel into f5B. This cancel can be done on whiff."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/5/56/EFZ_Neyuki_2C.png/175px-EFZ_Neyuki_2C.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "11 ~ 15※",
+            "active": "2",
+            "recovery": "22",
+            "advHit": "/",
+            "advBlock": "-1",
+            "cancel": "SP J IC SB"
+          },
+          "properties": [
+            "Nayuki grabs Keropii's head out from the ground and pulls him upward. Launches on hit and hits a tall vertical area. ※ Has a base startup of 15 frames and is reduced by 2 frames at Jam Level 5 and then by 1 frame at Jam Levels 7 and 8."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/18/EFZ_Neyuki_j5A.png/175px-EFZ_Neyuki_j5A.png",
+          "damage": "250",
+          "framedata": {
+            "guard": "High/Any※",
+            "startup": "6",
+            "active": "15",
+            "recovery": "13",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC"
+          },
+          "properties": [
+            "Nayuki positions herself in a body slam pose and jabs the opponent with her body. Not really a body slam; this move is a quick attack that can be spammed in the air. ※Will not be an overhead if Neyu's hop dash is cancelled into this. Air normals chained after the first will not be altered."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0b/EFZ_Neyuki_j5B.png/175px-EFZ_Neyuki_j5B.png",
+          "damage": "150 x (2 ~ 4)※",
+          "framedata": {
+            "guard": "High/Any※2",
+            "startup": "6",
+            "active": "5 x (2 ~ 4)※",
+            "recovery": "20",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N J AD IC"
+          },
+          "properties": [
+            "Nayuki spins around in the air, hitting multiple times with her arms and legs. A multi-hit attack with a long active time. ※Gains a third hit at Jam Level 2 and a fourth hit at Jam Level 4. ※2Will not be an overhead if Neyu's hop dash is cancelled into this. Air normals chained after the first will not be altered."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/ea/EFZ_Neyuki_j5C.png/175px-EFZ_Neyuki_j5C.png",
+          "damage": "680",
+          "framedata": {
+            "guard": "High/Any※",
+            "startup": "10 ~ 14※2",
+            "active": "2",
+            "recovery": "19",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "J AD IC"
+          },
+          "properties": [
+            "Nayuki pulls out Keropii from behind her and swings it quickly in front of her. Hits a wide area, and causes high knockback to aerial opponents. ※ Will not be an overhead if Neyu's hop dash is cancelled into this. ※2 Startup time starts at 14 frames and is reduced by 1 frame each at Jam Levels 4, 5, 6, and 7."
+          ]
+        },
+        {
+          "moveName": "Air Dash",
+          "input": "j66/j44",
+          "image": "https://wiki.gbl.gg/images/thumb/7/74/EFZ_Neyuki_AirDash.png/175px-EFZ_Neyuki_AirDash.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "Any",
+            "startup": "9.66",
+            "active": "9",
+            "recovery": "Until landing + 70 ※",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N AD IC"
+          },
+          "properties": [
+            "Nayuki gets kicked at a 30 degree angle toward the ground by Keropii. Can be cancelled into additional airdashes. Even if Nayuki is not high enough level for the airdash to be an attack, the move cannot be cancelled until the \"active frames\" are over. ※ Landing from an uncancelled airdash will result in Nayuki entering a unique self-knockdown state. It has the same animation as a normal knockdown and Nayuki is still invincible during it, but she does not lose a Jam Level and wakes up 0.33 frames faster."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9.66",
+                "active": "9",
+                "recovery": "Until landing + 70 ※",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N AD IC"
+              },
+              "notes": "Nayuki gets kicked at a 30 degree angle toward the ground by Keropii. Can be cancelled into additional airdashes. Even if Nayuki is not high enough level for the airdash to be an attack, the move cannot be cancelled until the \"active frames\" are over. ※ Landing from an uncancelled airdash will result in Nayuki entering a unique self-knockdown state. It has the same animation as a normal knockdown and Nayuki is still invincible during it, but she does not lose a Jam Level and wakes up 0.33 frames faster."
+            },
+            {
+              "version": "B",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9.66",
+                "active": "9",
+                "recovery": "Until landing + 70 ※",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N AD IC"
+              },
+              "notes": "Nayuki gets kicked at a 30 degree angle toward the ground by Keropii. Can be cancelled into additional airdashes. Even if Nayuki is not high enough level for the airdash to be an attack, the move cannot be cancelled until the \"active frames\" are over. ※ Landing from an uncancelled airdash will result in Nayuki entering a unique self-knockdown state. It has the same animation as a normal knockdown and Nayuki is still invincible during it, but she does not lose a Jam Level and wakes up 0.33 frames faster."
+            },
+            {
+              "version": "C",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9.66",
+                "active": "9",
+                "recovery": "Until landing + 70 ※",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N AD IC"
+              },
+              "notes": "Nayuki gets kicked at a 30 degree angle toward the ground by Keropii. Can be cancelled into additional airdashes. Even if Nayuki is not high enough level for the airdash to be an attack, the move cannot be cancelled until the \"active frames\" are over. ※ Landing from an uncancelled airdash will result in Nayuki entering a unique self-knockdown state. It has the same animation as a normal knockdown and Nayuki is still invincible during it, but she does not lose a Jam Level and wakes up 0.33 frames faster."
+            }
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/4/47/EFZ_Neyuki_GroundGrab.png/175px-EFZ_Neyuki_GroundGrab.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "6.33",
+            "active": "0.66",
+            "recovery": "27.66",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Nayuki picks the opponent up by their feet and tosses them behind her for a sideswitch. Tied for the slowest normal throw, but can be comboed off of if Black Demon is set up. This throw has a unique glitch: if Nayuki whiffs it and is hit between frames 27-29, no pushback will occur and she'll restart the throw from the beginning instead of taking hitstun. The repeated throw can still hit the opponent and can trigger the glitch again (with possibility of an infinite) but anything that impactful should almost never happen in a match. The most practical effect it might have is reducing scaling on a punish combo since the first hit technically doesn't put Nayuki into hitstun."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6.33",
+                "active": "0.66",
+                "recovery": "27.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki picks the opponent up by their feet and tosses them behind her for a sideswitch. Tied for the slowest normal throw, but can be comboed off of if Black Demon is set up. This throw has a unique glitch: if Nayuki whiffs it and is hit between frames 27-29, no pushback will occur and she'll restart the throw from the beginning instead of taking hitstun. The repeated throw can still hit the opponent and can trigger the glitch again (with possibility of an infinite) but anything that impactful should almost never happen in a match. The most practical effect it might have is reducing scaling on a punish combo since the first hit technically doesn't put Nayuki into hitstun."
+            },
+            {
+              "version": "B",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6.33",
+                "active": "0.66",
+                "recovery": "27.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki picks the opponent up by their feet and tosses them behind her for a sideswitch. Tied for the slowest normal throw, but can be comboed off of if Black Demon is set up. This throw has a unique glitch: if Nayuki whiffs it and is hit between frames 27-29, no pushback will occur and she'll restart the throw from the beginning instead of taking hitstun. The repeated throw can still hit the opponent and can trigger the glitch again (with possibility of an infinite) but anything that impactful should almost never happen in a match. The most practical effect it might have is reducing scaling on a punish combo since the first hit technically doesn't put Nayuki into hitstun."
+            },
+            {
+              "version": "C",
+              "damage": "1000",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6.33",
+                "active": "0.66",
+                "recovery": "27.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki picks the opponent up by their feet and tosses them behind her for a sideswitch. Tied for the slowest normal throw, but can be comboed off of if Black Demon is set up. This throw has a unique glitch: if Nayuki whiffs it and is hit between frames 27-29, no pushback will occur and she'll restart the throw from the beginning instead of taking hitstun. The repeated throw can still hit the opponent and can trigger the glitch again (with possibility of an infinite) but anything that impactful should almost never happen in a match. The most practical effect it might have is reducing scaling on a punish combo since the first hit technically doesn't put Nayuki into hitstun."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b7/EFZ_Neyuki_AirGrab.png/175px-EFZ_Neyuki_AirGrab.png",
+          "damage": "1300",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Nayuki grabs the opponent and throws them behind her and down at a 45 degree angle. Unlike most throws, this is not invincible during active and can trade.",
+            "Unlike most throws, this is not invincible during active and can trade."
+          ]
+        },
+        {
+          "moveName": "Strawberry jam is delicious",
+          "input": "5S  Jam Level 0 - 8",
+          "image": "https://wiki.gbl.gg/images/thumb/3/3b/EFZ_Neyuki_5S.png/175px-EFZ_Neyuki_5S.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "28",
+            "active": "/",
+            "recovery": "18",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "None"
+          },
+          "properties": [
+            "Nayuki raises a jar of jam above her head with a jingle, sits down with her back toward the opponent, and eats a spoon of jam. Raises Nayuki's Jam Level by 1 after startup. Nayuki will want to use this move whenever possible.",
+            "Nayuki raises a jar of jam above her head with a jingle, but does not level up. A feint move."
+          ],
+          "variations": [
+            {
+              "version": "5S",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "28",
+                "active": "/",
+                "recovery": "18",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Nayuki raises a jar of jam above her head with a jingle, sits down with her back toward the opponent, and eats a spoon of jam. Raises Nayuki's Jam Level by 1 after startup. Nayuki will want to use this move whenever possible."
+            },
+            {
+              "version": "2SFeint Jam フェイントジャム",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0.33",
+                "active": "/",
+                "recovery": "24.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki raises a jar of jam above her head with a jingle, sits down with her back toward the opponent, and eats a spoon of jam. Raises Nayuki's Jam Level by 1 after startup. Nayuki will want to use this move whenever possible."
+            }
+          ]
+        },
+        {
+          "moveName": "Keropii is here",
+          "input": "236",
+          "image": "https://wiki.gbl.gg/images/thumb/f/fe/EFZ_Neyuki_236.png/175px-EFZ_Neyuki_236.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "Any",
+            "startup": "34 ~ 43※",
+            "active": "∞",
+            "recovery": "22",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Nayuki drops Keropii in front of her and kicks it directly forward, almost parallel to the ground. This move can be used to keep opponents away, hindering ground advances. The long startup makes this move less useful than most other character's projectiles.",
+            "Nayuki kicks Keropii diagonally, hindering aerial opponents instead. It's just as slow as the A version.",
+            "Keropii is kicked in an arc similar to the A version's but goes further and hits up to 5 times, while Nayuki is also invincible during startup. A slow reversal, but keeps the opponent blocking long enough that Nayuki can eat a free jam.",
+            "Feint version where Nayuki drops Keropii but doesn't kick him. It has almost the same opportunity cost as eating jam with none of the benefit, so it's hard to justify using."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "550",
+              "framedata": {
+                "guard": "Any",
+                "startup": "34 ~ 43※",
+                "active": "∞",
+                "recovery": "22",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "Nayuki drops Keropii in front of her and kicks it directly forward, almost parallel to the ground. This move can be used to keep opponents away, hindering ground advances. The long startup makes this move less useful than most other character's projectiles."
+            },
+            {
+              "version": "B",
+              "damage": "550",
+              "framedata": {
+                "guard": "Any",
+                "startup": "34 ~ 43※",
+                "active": "∞",
+                "recovery": "22",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "Nayuki drops Keropii in front of her and kicks it directly forward, almost parallel to the ground. This move can be used to keep opponents away, hindering ground advances. The long startup makes this move less useful than most other character's projectiles."
+            },
+            {
+              "version": "C",
+              "damage": "180x5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "34 ~ 43※",
+                "active": "∞",
+                "recovery": "22",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "Nayuki drops Keropii in front of her and kicks it directly forward, almost parallel to the ground. This move can be used to keep opponents away, hindering ground advances. The long startup makes this move less useful than most other character's projectiles."
+            },
+            {
+              "version": "S",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "34 ~ 43※",
+                "active": "/",
+                "recovery": "4",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki drops Keropii in front of her and kicks it directly forward, almost parallel to the ground. This move can be used to keep opponents away, hindering ground advances. The long startup makes this move less useful than most other character's projectiles."
+            }
+          ]
+        },
+        {
+          "moveName": "Nayu-chan Kick",
+          "input": "623C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1f/EFZ_Neyuki_623A.png/175px-EFZ_Neyuki_623A.png",
+          "damage": "700 ~ 1000※2",
+          "framedata": {
+            "guard": "Any",
+            "startup": "5",
+            "active": "15 ~ 20※3",
+            "recovery": "31 ~ 34※3",
+            "advHit": "/",
+            "advBlock": "-26 ~ -32※3",
+            "cancel": "IC"
+          },
+          "properties": [
+            "A single quick kick flying up at around a 40 degree angle, higher Jam Levels make Nayuki travel faster and further. Wallbounces the opponent at Jam Level 9. ※ This version can be done at Jam Level 1 via 214*~623A. ※2 Damage starts at 700 and increases by 100 at Jam Levels 3, 6, and 9. ※3 Because of differences in trajectory and speed, the active and recovery frames for this move vary. Recovery starts at 34 at jam level 2, is reduced by 3 at jam level 3, increases by 2 at jam level 6, and increases by 1 at jam level 9.",
+            "Nayuki leaps forward while kicking. Does a different amount of kicks depending on jam level. This move has low invuln all throughout startup. Jam Level 2: Does only the first kick. A decent grounded combo ender that knocks down opponents and allows time to eat one jam. Jam Level 5: Does two kicks. An even better grounded combo ender which allows time to eat one jam, or can be IC'd into 5B in order to eat two. Jam Level 7: Does three kicks. The worst version of this move. The third hit knocks enemies upward enough to allow them time to tech, which means Nayuki cannot eat jam when ending a combo with this move.",
+            "Nayuki leaps forward and slowly ascends kicking rapidly, before finishing with a more powerful kick that knocks down. One of Nayuki's many reversal options. Extremely unsafe on block or whiff. ※4 Nayuki kicks N+2 times before the final hit, where N is Nayuki's current Jam Level. All marked cells increase per Jam Level as each kick makes the move take significantly longer.",
+            "Wallbounces the opponent at Jam Level 9.",
+            "Jam Level 2: Does only the first kick. A decent grounded combo ender that knocks down opponents and allows time to eat one jam.",
+            "Jam Level 5: Does two kicks. An even better grounded combo ender which allows time to eat one jam, or can be IC'd into 5B in order to eat two.",
+            "Jam Level 7: Does three kicks. The worst version of this move. The third hit knocks enemies upward enough to allow them time to tech, which means Nayuki cannot eat jam when ending a combo with this move.",
+            "One of Nayuki's many reversal options.",
+            "Extremely unsafe on block or whiff."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "700 ~ 1000※2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "5",
+                "active": "15 ~ 20※3",
+                "recovery": "31 ~ 34※3",
+                "advHit": "/",
+                "advBlock": "-26 ~ -32※3",
+                "cancel": "IC"
+              },
+              "notes": "A single quick kick flying up at around a 40 degree angle, higher Jam Levels make Nayuki travel faster and further. Wallbounces the opponent at Jam Level 9. ※ This version can be done at Jam Level 1 via 214*~623A. ※2 Damage starts at 700 and increases by 100 at Jam Levels 3, 6, and 9. ※3 Because of differences in trajectory and speed, the active and recovery frames for this move vary. Recovery starts at 34 at jam level 2, is reduced by 3 at jam level 3, increases by 2 at jam level 6, and increases by 1 at jam level 9."
+            },
+            {
+              "version": "B",
+              "damage": "600",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "3",
+                "recovery": "28 ~ 51",
+                "advHit": "/",
+                "advBlock": "-9",
+                "cancel": "IC"
+              },
+              "notes": "A single quick kick flying up at around a 40 degree angle, higher Jam Levels make Nayuki travel faster and further. Wallbounces the opponent at Jam Level 9. ※ This version can be done at Jam Level 1 via 214*~623A. ※2 Damage starts at 700 and increases by 100 at Jam Levels 3, 6, and 9. ※3 Because of differences in trajectory and speed, the active and recovery frames for this move vary. Recovery starts at 34 at jam level 2, is reduced by 3 at jam level 3, increases by 2 at jam level 6, and increases by 1 at jam level 9."
+            },
+            {
+              "version": "-",
+              "damage": "550",
+              "framedata": {
+                "guard": "Any",
+                "startup": "26",
+                "active": "10",
+                "recovery": "12 ~ 34",
+                "advHit": "/",
+                "advBlock": "0",
+                "cancel": "IC"
+              },
+              "notes": "A single quick kick flying up at around a 40 degree angle, higher Jam Levels make Nayuki travel faster and further. Wallbounces the opponent at Jam Level 9. ※ This version can be done at Jam Level 1 via 214*~623A. ※2 Damage starts at 700 and increases by 100 at Jam Levels 3, 6, and 9. ※3 Because of differences in trajectory and speed, the active and recovery frames for this move vary. Recovery starts at 34 at jam level 2, is reduced by 3 at jam level 3, increases by 2 at jam level 6, and increases by 1 at jam level 9."
+            },
+            {
+              "version": "-",
+              "damage": "350",
+              "framedata": {
+                "guard": "Any",
+                "startup": "49",
+                "active": "10",
+                "recovery": "11",
+                "advHit": "/",
+                "advBlock": "+1",
+                "cancel": "IC"
+              },
+              "notes": "A single quick kick flying up at around a 40 degree angle, higher Jam Levels make Nayuki travel faster and further. Wallbounces the opponent at Jam Level 9. ※ This version can be done at Jam Level 1 via 214*~623A. ※2 Damage starts at 700 and increases by 100 at Jam Levels 3, 6, and 9. ※3 Because of differences in trajectory and speed, the active and recovery frames for this move vary. Recovery starts at 34 at jam level 2, is reduced by 3 at jam level 3, increases by 2 at jam level 6, and increases by 1 at jam level 9."
+            },
+            {
+              "version": "C",
+              "damage": "140 x 4~11※4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "2 x 4~11※4",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "A single quick kick flying up at around a 40 degree angle, higher Jam Levels make Nayuki travel faster and further. Wallbounces the opponent at Jam Level 9. ※ This version can be done at Jam Level 1 via 214*~623A. ※2 Damage starts at 700 and increases by 100 at Jam Levels 3, 6, and 9. ※3 Because of differences in trajectory and speed, the active and recovery frames for this move vary. Recovery starts at 34 at jam level 2, is reduced by 3 at jam level 3, increases by 2 at jam level 6, and increases by 1 at jam level 9."
+            },
+            {
+              "version": "-",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "48 ~ 120※4",
+                "active": "10",
+                "recovery": "37 ~ 51※4",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "A single quick kick flying up at around a 40 degree angle, higher Jam Levels make Nayuki travel faster and further. Wallbounces the opponent at Jam Level 9. ※ This version can be done at Jam Level 1 via 214*~623A. ※2 Damage starts at 700 and increases by 100 at Jam Levels 3, 6, and 9. ※3 Because of differences in trajectory and speed, the active and recovery frames for this move vary. Recovery starts at 34 at jam level 2, is reduced by 3 at jam level 3, increases by 2 at jam level 6, and increases by 1 at jam level 9."
+            }
+          ]
+        },
+        {
+          "moveName": "Zzz~",
+          "input": "A/B/C~4/6S",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f9/EFZ_Neyuki_214.png/175px-EFZ_Neyuki_214.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "16",
+            "active": "100",
+            "recovery": "16",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "※ 44 66"
+          },
+          "properties": [
+            "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own.",
+            "Nayuki leaps forward in a body slam pose. Flies over a wide area. Unsafe on block.",
+            "Nayuki kicks Keropii as a projectile in the same manner as her 236A/B.",
+            "Nayuki does a jumping kick similar to her 623A, but slightly slower. All of the same Jam Level changes still apply.",
+            "Nayuki grabs a Keropii out of the ground and flings it upward. Knocks the opponent down on hit, and its angle can be controlled by holding 4 or 6. Covers a large area and is great for anti air or slowing approaches. You are very vulnerable if it is RG'd due to the long recovery time of the move. Use in tandem with rolling and become a mobile cannon. ※2 Recovery starts at 49 frames and is reduced by 1 for every jam level.",
+            "Similar to 5C, but slightly slower and lacking the eventual anti-air hitbox and jump cancel. When used with rolling you can bait the opponent to attack and counter hit or catch them jumping. ※3 Startup starts at 24.33 frames and is reduced by 1 for every jam level.",
+            "Nayuki does an inferior version of her 2C, unable to be jump cancelled.",
+            "Nayuki eats a spoon of jam. Increases jam level by 1. The animation is subtler and it makes a different (much quieter) sound than her normal 5S.",
+            "Nayuki feints a level up, ableit less effectively since she is feinting 5S and not 214*~5S. One subframe slower than normal 2S, including when it makes the sound effect.",
+            "Nayuki stands up, quickly exiting the stance. If she cancels her 214*~4/6S roll into this, she will continue to slide while standing.",
+            "Nayuki rolls forward or backward, significantly slower than in her 41236*. ※4 This move can be cancelled at any point into grounded specials, including the other 214* stance moves (except for 214*~5S before level 9 which gets trumped by 5S, and 214*~623A which either returns 214*~A or 623A depending on level) but not 214* itself. At Jam Level 7 and above, this move can be cancelled into 214*, resetting the stance."
+          ],
+          "variations": [
+            {
+              "version": "214*",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "16",
+                "active": "100",
+                "recovery": "16",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "※ 44 66"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            },
+            {
+              "version": "214*~5AUnyu? うにゅ？",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12.33",
+                "active": "29",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-34",
+                "cancel": "IC"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            },
+            {
+              "version": "214*~236A/BJam Level 1+",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "-",
+                "active": "-",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            },
+            {
+              "version": "214*~623AJam Level 1+",
+              "damage": "700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "5.33",
+                "active": "15 ~ 20",
+                "recovery": "31 ~ 34.66",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            },
+            {
+              "version": "214*~5B~4/5/6Keropii is there けろぴーはあそこ",
+              "damage": "550",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14.33",
+                "active": "∞",
+                "recovery": "40 ~ 49※2",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            },
+            {
+              "version": "214*~5CUnyuu うにゅうう",
+              "damage": "650",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "15.33 ~ 24.33※3",
+                "active": "5",
+                "recovery": "16",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "SP IC SB"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            },
+            {
+              "version": "214*~2CUnyu~ うにゅ～",
+              "damage": "550",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "10.33",
+                "active": "2",
+                "recovery": "29",
+                "advHit": "/",
+                "advBlock": "-12",
+                "cancel": "SP IC SB"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            },
+            {
+              "version": "214*~5SJam Level 0 - 8",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "13.66",
+                "active": "/",
+                "recovery": "31.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            },
+            {
+              "version": "214*~2SJam Level 0 - 8",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0.33",
+                "active": "/",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            },
+            {
+              "version": "214*~5SJam Level 9",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0.33",
+                "active": "/",
+                "recovery": "16",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            },
+            {
+              "version": "214*~4/6SRolling Movement ローリング移動",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "0.33",
+                "active": "/",
+                "recovery": "55",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "SP ※4"
+              },
+              "notes": "Nayuki lies down on Keropi, entering her sleep stance. ※ A large variety of followups are available from this move. Looks similar to her downed state, but does not decrease jam level. Has some invincibility frames, making it useful for baiting wakeups and countering. While in this stance, Nayuki is low to the ground and able to low profile some projectiles. Cancel blockstrings into this in an attempt to dodge a possible reversal, then roll or counter with a move of your own."
+            }
+          ]
+        },
+        {
+          "moveName": "Rolling~",
+          "input": "C multihits",
+          "image": "https://wiki.gbl.gg/images/thumb/4/47/EFZ_Neyuki_j236.png/175px-EFZ_Neyuki_j236.png",
+          "damage": "350",
+          "framedata": {
+            "guard": "Any",
+            "startup": "30 ~ 32※",
+            "active": "2",
+            "recovery": "17 ~ 28※2",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC 214*"
+          },
+          "properties": [
+            "Nayuki rolls forward. ※ Startup is reduced by 1 frame each at Jam Levels 3 and 5. ※2 Recovery is reduced by 1 frame each at Jam Levels 2 and 3, and reduced by 9 frames at Jam Level 4.",
+            "Nayuki rolls backwards and attacks in the opposite direction of the opponent. ※ Startup is reduced by 1 frame each at Jam Levels 3 and 5. ※2 Recovery is reduced by 1 frame each at Jam Levels 2 and 3, and reduced by 9 frames at Jam Level 4.",
+            "Nayuki rolls forward, attacking throughout the roll before finishing with the hits from her normal rolls. This move will fail to fully combo until Jam Level 4. ※ Startup is reduced by 1 frame each at Jam Levels 3 and 5. ※3 N is equal to Jam Level. ※4 Recovery is reduced by 1 frame for each Jam Level.",
+            "This move will fail to fully combo until Jam Level 4."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "350",
+              "framedata": {
+                "guard": "Any",
+                "startup": "30 ~ 32※",
+                "active": "2",
+                "recovery": "17 ~ 28※2",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC 214*"
+              },
+              "notes": "Nayuki rolls forward. ※ Startup is reduced by 1 frame each at Jam Levels 3 and 5. ※2 Recovery is reduced by 1 frame each at Jam Levels 2 and 3, and reduced by 9 frames at Jam Level 4."
+            },
+            {
+              "version": "-",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32 ~ 34※",
+                "active": "3",
+                "recovery": "14 ~ 25※2",
+                "advHit": "/",
+                "advBlock": "-13 ~ -2※2",
+                "cancel": "IC 214*"
+              },
+              "notes": "Nayuki rolls forward. ※ Startup is reduced by 1 frame each at Jam Levels 3 and 5. ※2 Recovery is reduced by 1 frame each at Jam Levels 2 and 3, and reduced by 9 frames at Jam Level 4."
+            },
+            {
+              "version": "B",
+              "damage": "350",
+              "framedata": {
+                "guard": "Any",
+                "startup": "30 ~ 32※",
+                "active": "2",
+                "recovery": "23 ~ 39※2",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC 214*"
+              },
+              "notes": "Nayuki rolls forward. ※ Startup is reduced by 1 frame each at Jam Levels 3 and 5. ※2 Recovery is reduced by 1 frame each at Jam Levels 2 and 3, and reduced by 9 frames at Jam Level 4."
+            },
+            {
+              "version": "-",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32 ~ 34※",
+                "active": "3",
+                "recovery": "20 ~ 36※2",
+                "advHit": "/",
+                "advBlock": "-13 ~ -2※2",
+                "cancel": "IC 214*"
+              },
+              "notes": "Nayuki rolls forward. ※ Startup is reduced by 1 frame each at Jam Levels 3 and 5. ※2 Recovery is reduced by 1 frame each at Jam Levels 2 and 3, and reduced by 9 frames at Jam Level 4."
+            },
+            {
+              "version": "C",
+              "damage": "50 x N※3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8 ~ 10※",
+                "active": "2 x N※3",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Nayuki rolls forward. ※ Startup is reduced by 1 frame each at Jam Levels 3 and 5. ※2 Recovery is reduced by 1 frame each at Jam Levels 2 and 3, and reduced by 9 frames at Jam Level 4."
+            },
+            {
+              "version": "-",
+              "damage": "350",
+              "framedata": {
+                "guard": "Any",
+                "startup": "28 ~ 30※",
+                "active": "2",
+                "recovery": "24 ~ 16※4",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Nayuki rolls forward. ※ Startup is reduced by 1 frame each at Jam Levels 3 and 5. ※2 Recovery is reduced by 1 frame each at Jam Levels 2 and 3, and reduced by 9 frames at Jam Level 4."
+            },
+            {
+              "version": "-",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "30 ~ 32※",
+                "active": "3",
+                "recovery": "21 ~ 13※4",
+                "advHit": "/",
+                "advBlock": "-9 ~ -1※4",
+                "cancel": "IC"
+              },
+              "notes": "Nayuki rolls forward. ※ Startup is reduced by 1 frame each at Jam Levels 3 and 5. ※2 Recovery is reduced by 1 frame each at Jam Levels 2 and 3, and reduced by 9 frames at Jam Level 4."
+            }
+          ]
+        },
+        {
+          "moveName": "Black Demon",
+          "input": "236236",
+          "image": "https://wiki.gbl.gg/images/thumb/5/52/EFZ_Neyuki_236236.png/175px-EFZ_Neyuki_236236.png",
+          "damage": "1700",
+          "framedata": {
+            "guard": "Any",
+            "startup": "164",
+            "active": "1",
+            "recovery": "27 ~ 45",
+            "advHit": "/",
+            "advBlock": "+22.33",
+            "cancel": "None"
+          },
+          "properties": [
+            "Nayuki drops a black Keropii bomb in front of her, which explodes after a short delay. There is a brief time after the bomb is dropped where Nayuki can act, which allows for mixups to pressure a cornered opponent, but this is not a terribly reliable user of meter."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1700",
+              "framedata": {
+                "guard": "Any",
+                "startup": "164",
+                "active": "1",
+                "recovery": "27 ~ 45",
+                "advHit": "/",
+                "advBlock": "+22.33",
+                "cancel": "None"
+              },
+              "notes": "Nayuki drops a black Keropii bomb in front of her, which explodes after a short delay. There is a brief time after the bomb is dropped where Nayuki can act, which allows for mixups to pressure a cornered opponent, but this is not a terribly reliable user of meter."
+            },
+            {
+              "version": "B",
+              "damage": "1350 x 2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "164",
+                "active": "1 x 2",
+                "recovery": "27 ~ 45",
+                "advHit": "/",
+                "advBlock": "+22.33 ~ 24.33",
+                "cancel": "None"
+              },
+              "notes": "Nayuki drops a black Keropii bomb in front of her, which explodes after a short delay. There is a brief time after the bomb is dropped where Nayuki can act, which allows for mixups to pressure a cornered opponent, but this is not a terribly reliable user of meter."
+            },
+            {
+              "version": "C",
+              "damage": "1400 x 3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "164",
+                "active": "1 x 3",
+                "recovery": "27 ~ 45",
+                "advHit": "/",
+                "advBlock": "+22.33 ~ 26",
+                "cancel": "None"
+              },
+              "notes": "Nayuki drops a black Keropii bomb in front of her, which explodes after a short delay. There is a brief time after the bomb is dropped where Nayuki can act, which allows for mixups to pressure a cornered opponent, but this is not a terribly reliable user of meter."
+            }
+          ]
+        },
+        {
+          "moveName": "Beam",
+          "input": "214214",
+          "image": "https://wiki.gbl.gg/images/thumb/3/30/EFZ_Neyuki_214214.png/175px-EFZ_Neyuki_214214.png",
+          "damage": "(425 x 2) x 4",
+          "framedata": {
+            "guard": "Any",
+            "startup": "15",
+            "active": "1 x 4",
+            "recovery": "174",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Nayuki switches from playing a fighting game to a shoot 'em up, arming herself with two Keropiis that fire fullscreen lasers periodically. Nayuki can slowly fly in any direction via directional input, and the number and frequency of lasers is based on the level of the super. The lasers knock opponents upward faster than Nayuki can move, so a particular rhythm is required to get the most hits out of each version. A Version: Hold up and hit with all 4 sets of beams. You can start holding down halfway between the 3rd and 4th hits. B Version: Hit with first beams, drop altitude and whiff 2nd, hit with 3rd and 4th, drop and whiff 5th, hit with 6th, 7th, and 8th, then immediately lower altitude. C Version: This version is difficult to control and not worth using the meter on.",
+            "A Version: Hold up and hit with all 4 sets of beams. You can start holding down halfway between the 3rd and 4th hits.",
+            "B Version: Hit with first beams, drop altitude and whiff 2nd, hit with 3rd and 4th, drop and whiff 5th, hit with 6th, 7th, and 8th, then immediately lower altitude.",
+            "C Version: This version is difficult to control and not worth using the meter on."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "(425 x 2) x 4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "1 x 4",
+                "recovery": "174",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki switches from playing a fighting game to a shoot 'em up, arming herself with two Keropiis that fire fullscreen lasers periodically. Nayuki can slowly fly in any direction via directional input, and the number and frequency of lasers is based on the level of the super. The lasers knock opponents upward faster than Nayuki can move, so a particular rhythm is required to get the most hits out of each version. A Version: Hold up and hit with all 4 sets of beams. You can start holding down halfway between the 3rd and 4th hits. B Version: Hit with first beams, drop altitude and whiff 2nd, hit with 3rd and 4th, drop and whiff 5th, hit with 6th, 7th, and 8th, then immediately lower altitude. C Version: This version is difficult to control and not worth using the meter on."
+            },
+            {
+              "version": "B",
+              "damage": "(425 x 2) x 8",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "1 x 8",
+                "recovery": "246",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki switches from playing a fighting game to a shoot 'em up, arming herself with two Keropiis that fire fullscreen lasers periodically. Nayuki can slowly fly in any direction via directional input, and the number and frequency of lasers is based on the level of the super. The lasers knock opponents upward faster than Nayuki can move, so a particular rhythm is required to get the most hits out of each version. A Version: Hold up and hit with all 4 sets of beams. You can start holding down halfway between the 3rd and 4th hits. B Version: Hit with first beams, drop altitude and whiff 2nd, hit with 3rd and 4th, drop and whiff 5th, hit with 6th, 7th, and 8th, then immediately lower altitude. C Version: This version is difficult to control and not worth using the meter on."
+            },
+            {
+              "version": "C",
+              "damage": "(425 x 2) x 16",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "1 x 16",
+                "recovery": "246",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki switches from playing a fighting game to a shoot 'em up, arming herself with two Keropiis that fire fullscreen lasers periodically. Nayuki can slowly fly in any direction via directional input, and the number and frequency of lasers is based on the level of the super. The lasers knock opponents upward faster than Nayuki can move, so a particular rhythm is required to get the most hits out of each version. A Version: Hold up and hit with all 4 sets of beams. You can start holding down halfway between the 3rd and 4th hits. B Version: Hit with first beams, drop altitude and whiff 2nd, hit with 3rd and 4th, drop and whiff 5th, hit with 6th, 7th, and 8th, then immediately lower altitude. C Version: This version is difficult to control and not worth using the meter on."
+            }
+          ]
+        },
+        {
+          "moveName": "Super Electric Shadow Bullet",
+          "input": "C236236",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c3/EFZ_Neyuki_AA6BC.png/175px-EFZ_Neyuki_AA6BC.png",
+          "damage": "50 x 44",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "5",
+            "active": "3 x 44",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Nayuki gets picked up by Keropii and is spun around at high speeds, before cannonballing across the stage and exploding at the wall. After the explosion, Nayuki is blown away from the wall at a very high speed and angle. This move does a crazy high amount of damage when it is comboed into, and does more the farther away Nayuki is from the wall. Nayuki can airdash forward and continue a combo after the explosion. A strong reversal as despite the long recovery, this move is almost unpunishable on block due to the combination of the fullscreen pushback and Nayuki's ability to cancel her recovery very early (frame 19 of recovery) with FIC or an airdash to make pinning her down difficult. Even on whiff, the space that Nayuki flies through during recovery is difficult for the opponent to cover after dodging the attack, and even if they do it's another challenge to turn that punish into a combo. As you may expect from the input, this move can be whiff cancelled into from most normals.",
+            "This move does a crazy high amount of damage when it is comboed into, and does more the farther away Nayuki is from the wall. Nayuki can airdash forward and continue a combo after the explosion.",
+            "A strong reversal as despite the long recovery, this move is almost unpunishable on block due to the combination of the fullscreen pushback and Nayuki's ability to cancel her recovery very early (frame 19 of recovery) with FIC or an airdash to make pinning her down difficult. Even on whiff, the space that Nayuki flies through during recovery is difficult for the opponent to cover after dodging the attack, and even if they do it's another challenge to turn that punish into a combo.",
+            "As you may expect from the input, this move can be whiff cancelled into from most normals."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "50 x 44",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "5",
+                "active": "3 x 44",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki gets picked up by Keropii and is spun around at high speeds, before cannonballing across the stage and exploding at the wall. After the explosion, Nayuki is blown away from the wall at a very high speed and angle. This move does a crazy high amount of damage when it is comboed into, and does more the farther away Nayuki is from the wall. Nayuki can airdash forward and continue a combo after the explosion. A strong reversal as despite the long recovery, this move is almost unpunishable on block due to the combination of the fullscreen pushback and Nayuki's ability to cancel her recovery very early (frame 19 of recovery) with FIC or an airdash to make pinning her down difficult. Even on whiff, the space that Nayuki flies through during recovery is difficult for the opponent to cover after dodging the attack, and even if they do it's another challenge to turn that punish into a combo. As you may expect from the input, this move can be whiff cancelled into from most normals."
+            },
+            {
+              "version": "B",
+              "damage": "200 x N",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "137",
+                "active": "3 x N",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Nayuki gets picked up by Keropii and is spun around at high speeds, before cannonballing across the stage and exploding at the wall. After the explosion, Nayuki is blown away from the wall at a very high speed and angle. This move does a crazy high amount of damage when it is comboed into, and does more the farther away Nayuki is from the wall. Nayuki can airdash forward and continue a combo after the explosion. A strong reversal as despite the long recovery, this move is almost unpunishable on block due to the combination of the fullscreen pushback and Nayuki's ability to cancel her recovery very early (frame 19 of recovery) with FIC or an airdash to make pinning her down difficult. Even on whiff, the space that Nayuki flies through during recovery is difficult for the opponent to cover after dodging the attack, and even if they do it's another challenge to turn that punish into a combo. As you may expect from the input, this move can be whiff cancelled into from most normals."
+            },
+            {
+              "version": "C",
+              "damage": "1350 x 2",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "/",
+                "active": "1 x 2",
+                "recovery": "45.66",
+                "advHit": "/",
+                "advBlock": "-24.66",
+                "cancel": "N AD FIC"
+              },
+              "notes": "Nayuki gets picked up by Keropii and is spun around at high speeds, before cannonballing across the stage and exploding at the wall. After the explosion, Nayuki is blown away from the wall at a very high speed and angle. This move does a crazy high amount of damage when it is comboed into, and does more the farther away Nayuki is from the wall. Nayuki can airdash forward and continue a combo after the explosion. A strong reversal as despite the long recovery, this move is almost unpunishable on block due to the combination of the fullscreen pushback and Nayuki's ability to cancel her recovery very early (frame 19 of recovery) with FIC or an airdash to make pinning her down difficult. Even on whiff, the space that Nayuki flies through during recovery is difficult for the opponent to cover after dodging the attack, and even if they do it's another challenge to turn that punish into a combo. As you may expect from the input, this move can be whiff cancelled into from most normals."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

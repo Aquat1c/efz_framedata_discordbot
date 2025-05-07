@@ -1,0 +1,934 @@
+{
+  "name": "Misuzu Kamio",
+  "icon": "https://wiki.gbl.gg/images/1/19/EFZ_Misuzu_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/94/EFZ_Misuzu_5A.png/175px-EFZ_Misuzu_5A.png",
+          "damage": "210",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "6",
+            "recovery": "5",
+            "advHit": "0",
+            "advBlock": "-1",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Misuzu does a quick punch straight out at shoulder level. This move has good range and deals good damage for a 5A."
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/0/09/EFZ_Misuzu_c5B.png",
+          "damage": "405",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "4",
+            "recovery": "8",
+            "advHit": "+5",
+            "advBlock": "+3",
+            "cancel": "N SP J IC f5B"
+          },
+          "properties": [
+            "Misuzu shoves the opponent away with her open hand. Has noticeably short range. It has shorter range than her 5A, does less damage than the alternative 2B in combos, and worst of all, has a shorter range than the boundary distance where c5B becomes f5B. This means you can easily find yourself whiffing c5B after connecting an A attack somewhere, stopping your combo/pressure cold. It's mostly used as a corner combo filler, since you cannot convert out of a midscreen anti air c5B or anti air 5A c5B."
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f0/EFZ_Misuzu_f5B.png/175px-EFZ_Misuzu_f5B.png",
+          "damage": "400",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "9",
+            "active": "2",
+            "recovery": "15",
+            "advHit": "0",
+            "advBlock": "-2",
+            "cancel": "N SP JH IC"
+          },
+          "properties": [
+            "Misuzu swings her arm while squeezing a juice box, causing the juice to spill and hit the opponent. The juice is quickly sucked back into the box afterwards. It has a nice range of almost 1/2 the screen. This move sees most use as a poke. Can combo into 2C if close to the opponent, but in most situations will only combo into 5C."
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/3/35/EFZ_Misuzu_5C.png/175px-EFZ_Misuzu_5C.png",
+          "damage": "580",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "12",
+            "active": "2",
+            "recovery": "23",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Misuzu swings a long laundry pole (with Yukito's clothes still hanging on) horizontally at the opponent. This move reaches just less than 1/2 of the screen. This move is mainly used as a way to inflicit a large amount of hitstun within a combo in order to link a super. It also serves a limited role as a poke, due to its range."
+          ]
+        },
+        {
+          "moveName": "Misuzu Crush",
+          "input": "6C",
+          "image": "https://wiki.gbl.gg/images/thumb/6/61/EFZ_Misuzu_6C.png/175px-EFZ_Misuzu_6C.png",
+          "damage": "590",
+          "framedata": {
+            "guard": "High",
+            "startup": "23.66",
+            "active": "2",
+            "recovery": "17",
+            "advHit": "+5.33",
+            "advBlock": "+3.33",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Misuzu does a small hop with her laundry pole held high, and then smashes it down on top of the opponent. This move acts as an overhead. This move is one of the longer-range overheads in the game, and is quite damaging for an command overhead as well. This move is ill-suited to combos, so its sole purpose is to be used within a blockstring to try and land some spare damage on the opponent."
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/c/ce/EFZ_Misuzu_2A.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "6",
+            "recovery": "5",
+            "advHit": "0",
+            "advBlock": "-1",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Misuzu does a short kick right along the ground. Shorter range than 5A. Sometimes whiffs on certain characters because of their retracting hurtbox if you press 2A > 2A too quickly"
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e9/EFZ_Misuzu_2B.png/175px-EFZ_Misuzu_2B.png",
+          "damage": "410",
+          "framedata": {
+            "guard": "Low",
+            "startup": "8",
+            "active": "8",
+            "recovery": "8",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP JH IC f5B"
+          },
+          "properties": [
+            "Misuzu kicks out her leg while doing a near-split. This move is the B move of choice within combos, due to the c5B's lack of range. It also has enough range to be used from the same position as her dash crossup, unlike the 2A."
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/9/97/EFZ_Misuzu_2C.png/175px-EFZ_Misuzu_2C.png",
+          "damage": "580",
+          "framedata": {
+            "guard": "Low",
+            "startup": "9",
+            "active": "4",
+            "recovery": "26",
+            "advHit": "/",
+            "advBlock": "-8",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Misuzu smashes a juice box into the ground, creating a small explosion of juice around her. This move launches the opponent for a short time if it hits, which will certainly knock down the opponent if left alone."
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/b/bc/EFZ_Misuzu_j5A.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "High",
+            "startup": "5",
+            "active": "7",
+            "recovery": "6",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC R"
+          },
+          "properties": [
+            "Misuzu flicks her ponytail out in front of her. This move does not have too much use other than for jump-in pressure."
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/7/7d/EFZ_Misuzu_j5B.png",
+          "damage": "420",
+          "framedata": {
+            "guard": "High",
+            "startup": "9",
+            "active": "10",
+            "recovery": "4",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "N SP J AD IC"
+          },
+          "properties": [
+            "Misuzu kicks out both her legs diagonally down-forwards at the opponent. The actual hitbox of this move actually extends along her entire lower body. Because of the generous hitbox, this move can be used for aerial crossups along with j.C."
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/bd/EFZ_Misuzu_j5C.png/175px-EFZ_Misuzu_j5C.png",
+          "damage": "550",
+          "framedata": {
+            "guard": "High",
+            "startup": "10",
+            "active": "12",
+            "recovery": "11",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "SP J AD IC"
+          },
+          "properties": [
+            "Misuzu swings her hands wildly around her body, creating a barrier of juice which hits in all directions. This move is Misuzu's aerial pride and joy, allowing her to hit people above her, below, on either side. It can be used to cross up the opponent, and if successful, there is enough hitstun dealt for Misuzu to continue the combo on the ground."
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/3/30/EFZ_Misuzu_GroundGrab.png/175px-EFZ_Misuzu_GroundGrab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "0.66",
+            "recovery": "24",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Misuzu picks up her opponent and tosses them backwards over her shoulder."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "24",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Misuzu picks up her opponent and tosses them backwards over her shoulder."
+            },
+            {
+              "version": "B",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "24",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Misuzu picks up her opponent and tosses them backwards over her shoulder."
+            },
+            {
+              "version": "C",
+              "damage": "1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "24",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Misuzu picks up her opponent and tosses them backwards over her shoulder."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/thumb/e/e7/EFZ_Misuzu_AirGrab.png/175px-EFZ_Misuzu_AirGrab.png",
+          "damage": "1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Misuzu throws her opponent into the ground far behind her."
+          ]
+        },
+        {
+          "moveName": "Picture Diary",
+          "input": "C",
+          "image": "https://wiki.gbl.gg/images/5/51/EFZ_Misuzu_236_A.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "23.66",
+            "active": "/",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Will be destroyed if Misuzu is hit. Launches the opponent straight up on hit, giving Misuzu plenty of time to jump up and combo. There is no difference between the A and B versions, except for the appearance of the trap (A version is Misuzu waving, and B version is Haruko drinking). This move is quite useful. It forces the opponent to be careful about their movements and adds more to their mental burden.",
+            "Deletes any existing A and B traps when created, though they can be placed after. Has a larger hitbox (and activation range), an untechable launch, is air unblockable, and cannot be destroyed by attacking Misuzu."
+          ],
+          "variations": [
+            {
+              "version": "A/B/C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "23.66",
+                "active": "/",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Will be destroyed if Misuzu is hit. Launches the opponent straight up on hit, giving Misuzu plenty of time to jump up and combo. There is no difference between the A and B versions, except for the appearance of the trap (A version is Misuzu waving, and B version is Haruko drinking). This move is quite useful. It forces the opponent to be careful about their movements and adds more to their mental burden."
+            },
+            {
+              "version": "A/B Trap",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "4",
+                "recovery": "83",
+                "advHit": "/",
+                "advBlock": "+8.33 ~ +22",
+                "cancel": "None"
+              },
+              "notes": "Will be destroyed if Misuzu is hit. Launches the opponent straight up on hit, giving Misuzu plenty of time to jump up and combo. There is no difference between the A and B versions, except for the appearance of the trap (A version is Misuzu waving, and B version is Haruko drinking). This move is quite useful. It forces the opponent to be careful about their movements and adds more to their mental burden."
+            },
+            {
+              "version": "C Trap",
+              "damage": "800",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "12",
+                "active": "2",
+                "recovery": "53",
+                "advHit": "/",
+                "advBlock": "+8.33 ~ +22",
+                "cancel": "None"
+              },
+              "notes": "Will be destroyed if Misuzu is hit. Launches the opponent straight up on hit, giving Misuzu plenty of time to jump up and combo. There is no difference between the A and B versions, except for the appearance of the trap (A version is Misuzu waving, and B version is Haruko drinking). This move is quite useful. It forces the opponent to be careful about their movements and adds more to their mental burden."
+            }
+          ]
+        },
+        {
+          "moveName": "Wings",
+          "input": "Second hitbox (j623B)",
+          "image": "https://wiki.gbl.gg/images/thumb/7/7b/EFZ_Misuzu_623X.png/175px-EFZ_Misuzu_623X.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Any",
+            "startup": "13",
+            "active": "5",
+            "recovery": "31",
+            "advHit": "/",
+            "advBlock": "-14",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Misuzu does a forward somersault leap at the opponent, her wings extending to hit the space in front of her. It starts up quickly but has loads of recovery time if blocked. This move will launch the opponent a medium distance horizontally if it hits. Its main use is to add damage to combos, usually after a C attack. It's not too good on its own because of the recovery time if the opponent blocks it. When comboing into this move on an enemy in juggle state, particularly from 2C, it is best to delay the cancel into 623A to ensure the knockdown occurs before the juggle meter depletes. If done too early, the opponent may have a chance to air tech without an opportunity for Misuzu to punish.",
+            "Same as the A version, except that it starts up late and has no disadvantage on block. This move has too much startup time to be chained into. It is more useful to use as part of a blockstring.",
+            "Same as the A version, except that it has invincibility for the most of the startup frames, and if the launched opponent hits the corner before hitting the ground, they will wallbounce. The added wallbounce property makes this move a lot more useful than the A version, since it can lead to longer combos. Normally, the opponent will only be wallbounced by this move if they are already close to the corner, since they are only thrown half a screen away. However there is a way to force a wallbounce from any location as long as you yourself are not against a corner. By performing an IC right after you hit this move and jumping backwards or air backdashing, the screen will stay where it is to keep both players on screen, and the opponent will hit the edge and wallbounce. After that you can airdash forward and continue the combo.",
+            "Is an overhead",
+            "Has the same uses and properties as the grounded 623C."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "5",
+                "recovery": "31",
+                "advHit": "/",
+                "advBlock": "-14",
+                "cancel": "IC"
+              },
+              "notes": "Misuzu does a forward somersault leap at the opponent, her wings extending to hit the space in front of her. It starts up quickly but has loads of recovery time if blocked. This move will launch the opponent a medium distance horizontally if it hits. Its main use is to add damage to combos, usually after a C attack. It's not too good on its own because of the recovery time if the opponent blocks it. When comboing into this move on an enemy in juggle state, particularly from 2C, it is best to delay the cancel into 623A to ensure the knockdown occurs before the juggle meter depletes. If done too early, the opponent may have a chance to air tech without an opportunity for Misuzu to punish."
+            },
+            {
+              "version": "B",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "28",
+                "active": "5",
+                "recovery": "17",
+                "advHit": "/",
+                "advBlock": "0",
+                "cancel": "IC"
+              },
+              "notes": "Misuzu does a forward somersault leap at the opponent, her wings extending to hit the space in front of her. It starts up quickly but has loads of recovery time if blocked. This move will launch the opponent a medium distance horizontally if it hits. Its main use is to add damage to combos, usually after a C attack. It's not too good on its own because of the recovery time if the opponent blocks it. When comboing into this move on an enemy in juggle state, particularly from 2C, it is best to delay the cancel into 623A to ensure the knockdown occurs before the juggle meter depletes. If done too early, the opponent may have a chance to air tech without an opportunity for Misuzu to punish."
+            },
+            {
+              "version": "C",
+              "damage": "850",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "5",
+                "recovery": "31",
+                "advHit": "/",
+                "advBlock": "-14",
+                "cancel": "IC"
+              },
+              "notes": "Misuzu does a forward somersault leap at the opponent, her wings extending to hit the space in front of her. It starts up quickly but has loads of recovery time if blocked. This move will launch the opponent a medium distance horizontally if it hits. Its main use is to add damage to combos, usually after a C attack. It's not too good on its own because of the recovery time if the opponent blocks it. When comboing into this move on an enemy in juggle state, particularly from 2C, it is best to delay the cancel into 623A to ensure the knockdown occurs before the juggle meter depletes. If done too early, the opponent may have a chance to air tech without an opportunity for Misuzu to punish."
+            },
+            {
+              "version": "jA",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13",
+                "active": "4",
+                "recovery": "Until landing + 11",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misuzu does a forward somersault leap at the opponent, her wings extending to hit the space in front of her. It starts up quickly but has loads of recovery time if blocked. This move will launch the opponent a medium distance horizontally if it hits. Its main use is to add damage to combos, usually after a C attack. It's not too good on its own because of the recovery time if the opponent blocks it. When comboing into this move on an enemy in juggle state, particularly from 2C, it is best to delay the cancel into 623A to ensure the knockdown occurs before the juggle meter depletes. If done too early, the opponent may have a chance to air tech without an opportunity for Misuzu to punish."
+            },
+            {
+              "version": "jB",
+              "damage": "650",
+              "framedata": {
+                "guard": "High, Air",
+                "startup": "19",
+                "active": "5",
+                "recovery": "Until landing + 15",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misuzu does a forward somersault leap at the opponent, her wings extending to hit the space in front of her. It starts up quickly but has loads of recovery time if blocked. This move will launch the opponent a medium distance horizontally if it hits. Its main use is to add damage to combos, usually after a C attack. It's not too good on its own because of the recovery time if the opponent blocks it. When comboing into this move on an enemy in juggle state, particularly from 2C, it is best to delay the cancel into 623A to ensure the knockdown occurs before the juggle meter depletes. If done too early, the opponent may have a chance to air tech without an opportunity for Misuzu to punish."
+            },
+            {
+              "version": "jC",
+              "damage": "-",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "4",
+                "recovery": "Until landing + 11",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "IC"
+              },
+              "notes": "Misuzu does a forward somersault leap at the opponent, her wings extending to hit the space in front of her. It starts up quickly but has loads of recovery time if blocked. This move will launch the opponent a medium distance horizontally if it hits. Its main use is to add damage to combos, usually after a C attack. It's not too good on its own because of the recovery time if the opponent blocks it. When comboing into this move on an enemy in juggle state, particularly from 2C, it is best to delay the cancel into 623A to ensure the knockdown occurs before the juggle meter depletes. If done too early, the opponent may have a chance to air tech without an opportunity for Misuzu to punish."
+            }
+          ]
+        },
+        {
+          "moveName": "Rich and Pulpy",
+          "input": "214",
+          "image": "https://wiki.gbl.gg/images/a/ab/EFZ_Misuzu_214_A.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "12.33",
+            "active": "/",
+            "recovery": "22",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "A/B versions suspend the opponent in the air briefly, allowing Misuzu to combo. Both versions function identically. C version destroys any existing A and B webs when placed (although they can be placed after a C web is up), but suspends opponents for longer and cannot be destroyed by the opponent's attacks. In addition to being useful in neutral, these traps also allow Misuzu to combo off of her throws or juggles, such as 2C, or occasionally interrupt her opponent's combos and movement."
+          ],
+          "variations": [
+            {
+              "version": "A/B/C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "12.33",
+                "active": "/",
+                "recovery": "22",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "A/B versions suspend the opponent in the air briefly, allowing Misuzu to combo. Both versions function identically. C version destroys any existing A and B webs when placed (although they can be placed after a C web is up), but suspends opponents for longer and cannot be destroyed by the opponent's attacks. In addition to being useful in neutral, these traps also allow Misuzu to combo off of her throws or juggles, such as 2C, or occasionally interrupt her opponent's combos and movement."
+            },
+            {
+              "version": "Trap",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "32",
+                "active": "480",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "A/B versions suspend the opponent in the air briefly, allowing Misuzu to combo. Both versions function identically. C version destroys any existing A and B webs when placed (although they can be placed after a C web is up), but suspends opponents for longer and cannot be destroyed by the opponent's attacks. In addition to being useful in neutral, these traps also allow Misuzu to combo off of her throws or juggles, such as 2C, or occasionally interrupt her opponent's combos and movement."
+            },
+            {
+              "version": "Trap Activation",
+              "damage": "300",
+              "framedata": {
+                "guard": "Any",
+                "startup": "8",
+                "active": "4",
+                "recovery": "8",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "A/B versions suspend the opponent in the air briefly, allowing Misuzu to combo. Both versions function identically. C version destroys any existing A and B webs when placed (although they can be placed after a C web is up), but suspends opponents for longer and cannot be destroyed by the opponent's attacks. In addition to being useful in neutral, these traps also allow Misuzu to combo off of her throws or juggles, such as 2C, or occasionally interrupt her opponent's combos and movement."
+            }
+          ]
+        },
+        {
+          "moveName": "Lump of Misfortune",
+          "input": "421",
+          "image": "https://wiki.gbl.gg/images/d/d6/EFZ_Misuzu_421_A.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "/",
+            "active": "/",
+            "recovery": "35",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Shoots a lump that becomes active once it is above the opponent. The lump travels at a 45 degree angle until then, so the farther away the opponent is the higher it will travel. Once active, the lump will slowly float down while moving side to side, disappearing when it comes close enough to the ground. Only properly tracks the opponent if they are about halfscreen away or further from Misuzu, regardless if she's close to the corner or not. Cursing an already cursed opponent will refresh 334 frames of curse and raise their invisible \"curse level\". Curse damage ignores damage scaling, defense modifiers, and invulnerability but it cannot kill the opponent. Curse level 1 - 750 total damage Curse level 2 - 950 total damage Curse level 3 - 1200 total damage Curse level 4 - 1650 total damage Curse level 5 - 2720 total damage",
+            "Shoots a lump forwards that becomes active after traveling about a full screen away from Misuzu. Once active, the lump will slowly float backwards while moving up and down, disappearing after travelling back to where Misuzu first shot it.",
+            "Creates 2 lumps at the same time that behave similar to the A version. One lump will outpace the other downwards, however.",
+            "Curse level 1 - 750 total damage",
+            "Curse level 2 - 950 total damage",
+            "Curse level 3 - 1200 total damage",
+            "Curse level 4 - 1650 total damage",
+            "Curse level 5 - 2720 total damage"
+          ],
+          "variations": [
+            {
+              "version": "A/B/C",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "/",
+                "active": "/",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Shoots a lump that becomes active once it is above the opponent. The lump travels at a 45 degree angle until then, so the farther away the opponent is the higher it will travel. Once active, the lump will slowly float down while moving side to side, disappearing when it comes close enough to the ground. Only properly tracks the opponent if they are about halfscreen away or further from Misuzu, regardless if she's close to the corner or not. Cursing an already cursed opponent will refresh 334 frames of curse and raise their invisible \"curse level\". Curse damage ignores damage scaling, defense modifiers, and invulnerability but it cannot kill the opponent. Curse level 1 - 750 total damage Curse level 2 - 950 total damage Curse level 3 - 1200 total damage Curse level 4 - 1650 total damage Curse level 5 - 2720 total damage"
+            },
+            {
+              "version": "A projectile",
+              "damage": "100 + Curse",
+              "framedata": {
+                "guard": "Any",
+                "startup": "55.33 ~ -",
+                "active": "122 ~ -",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+22",
+                "cancel": "None"
+              },
+              "notes": "Shoots a lump that becomes active once it is above the opponent. The lump travels at a 45 degree angle until then, so the farther away the opponent is the higher it will travel. Once active, the lump will slowly float down while moving side to side, disappearing when it comes close enough to the ground. Only properly tracks the opponent if they are about halfscreen away or further from Misuzu, regardless if she's close to the corner or not. Cursing an already cursed opponent will refresh 334 frames of curse and raise their invisible \"curse level\". Curse damage ignores damage scaling, defense modifiers, and invulnerability but it cannot kill the opponent. Curse level 1 - 750 total damage Curse level 2 - 950 total damage Curse level 3 - 1200 total damage Curse level 4 - 1650 total damage Curse level 5 - 2720 total damage"
+            },
+            {
+              "version": "B projectile",
+              "damage": "100 + Curse",
+              "framedata": {
+                "guard": "Any",
+                "startup": "70",
+                "active": "287",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+22",
+                "cancel": "None"
+              },
+              "notes": "Shoots a lump that becomes active once it is above the opponent. The lump travels at a 45 degree angle until then, so the farther away the opponent is the higher it will travel. Once active, the lump will slowly float down while moving side to side, disappearing when it comes close enough to the ground. Only properly tracks the opponent if they are about halfscreen away or further from Misuzu, regardless if she's close to the corner or not. Cursing an already cursed opponent will refresh 334 frames of curse and raise their invisible \"curse level\". Curse damage ignores damage scaling, defense modifiers, and invulnerability but it cannot kill the opponent. Curse level 1 - 750 total damage Curse level 2 - 950 total damage Curse level 3 - 1200 total damage Curse level 4 - 1650 total damage Curse level 5 - 2720 total damage"
+            },
+            {
+              "version": "C fast",
+              "damage": "100 + Curse",
+              "framedata": {
+                "guard": "Any",
+                "startup": "55.33 ~ -",
+                "active": "83.33 ~ -",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+22",
+                "cancel": "None"
+              },
+              "notes": "Shoots a lump that becomes active once it is above the opponent. The lump travels at a 45 degree angle until then, so the farther away the opponent is the higher it will travel. Once active, the lump will slowly float down while moving side to side, disappearing when it comes close enough to the ground. Only properly tracks the opponent if they are about halfscreen away or further from Misuzu, regardless if she's close to the corner or not. Cursing an already cursed opponent will refresh 334 frames of curse and raise their invisible \"curse level\". Curse damage ignores damage scaling, defense modifiers, and invulnerability but it cannot kill the opponent. Curse level 1 - 750 total damage Curse level 2 - 950 total damage Curse level 3 - 1200 total damage Curse level 4 - 1650 total damage Curse level 5 - 2720 total damage"
+            },
+            {
+              "version": "C slow",
+              "damage": "100 + Curse",
+              "framedata": {
+                "guard": "Any",
+                "startup": "55.33 ~ -",
+                "active": "203.66 ~ -",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+22",
+                "cancel": "None"
+              },
+              "notes": "Shoots a lump that becomes active once it is above the opponent. The lump travels at a 45 degree angle until then, so the farther away the opponent is the higher it will travel. Once active, the lump will slowly float down while moving side to side, disappearing when it comes close enough to the ground. Only properly tracks the opponent if they are about halfscreen away or further from Misuzu, regardless if she's close to the corner or not. Cursing an already cursed opponent will refresh 334 frames of curse and raise their invisible \"curse level\". Curse damage ignores damage scaling, defense modifiers, and invulnerability but it cannot kill the opponent. Curse level 1 - 750 total damage Curse level 2 - 950 total damage Curse level 3 - 1200 total damage Curse level 4 - 1650 total damage Curse level 5 - 2720 total damage"
+            }
+          ]
+        },
+        {
+          "moveName": "Sora Attack",
+          "input": "Cannot be performed if Misuzu has a feather.",
+          "image": "https://wiki.gbl.gg/images/3/33/EFZ_Misuzu_41236A.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "12",
+            "active": "/",
+            "recovery": "29",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Misuzu motions both her arms forward, and her crow Sora moves down vertically and then quickly flies horizontally straight across the screen, acting as a low projectile.",
+            "Same as the A version, except Sora moves less down before attacking, acting as a high projectile.",
+            "Same as the A version, except Sora flies forward directly from her current position with a slight angle downwards. This move attacks multiple times and will burn the opponent if it hits."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "12",
+                "active": "/",
+                "recovery": "29",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Misuzu motions both her arms forward, and her crow Sora moves down vertically and then quickly flies horizontally straight across the screen, acting as a low projectile."
+            },
+            {
+              "version": "-",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "37",
+                "active": "30",
+                "recovery": "※",
+                "advHit": "+30 ~ +34",
+                "advBlock": "+28 ~ +32",
+                "cancel": "/"
+              },
+              "notes": "Misuzu motions both her arms forward, and her crow Sora moves down vertically and then quickly flies horizontally straight across the screen, acting as a low projectile."
+            },
+            {
+              "version": "B",
+              "damage": "/",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "/",
+                "recovery": "29",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "FIC"
+              },
+              "notes": "Misuzu motions both her arms forward, and her crow Sora moves down vertically and then quickly flies horizontally straight across the screen, acting as a low projectile."
+            },
+            {
+              "version": "-",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "26",
+                "active": "30",
+                "recovery": "※",
+                "advHit": "+19 ~ +34",
+                "advBlock": "+17 ~ +32",
+                "cancel": "/"
+              },
+              "notes": "Misuzu motions both her arms forward, and her crow Sora moves down vertically and then quickly flies horizontally straight across the screen, acting as a low projectile."
+            },
+            {
+              "version": "C",
+              "damage": "200 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "21",
+                "active": "2 x 20",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "Misuzu motions both her arms forward, and her crow Sora moves down vertically and then quickly flies horizontally straight across the screen, acting as a low projectile."
+            }
+          ]
+        },
+        {
+          "moveName": "Gao Gao Fire",
+          "input": "236236C",
+          "image": "https://wiki.gbl.gg/images/thumb/4/42/EFZ_Misuzu_236236A.png/175px-EFZ_Misuzu_236236A.png",
+          "damage": "190 x 21",
+          "framedata": {
+            "guard": "Any",
+            "startup": "16.33",
+            "active": "83",
+            "recovery": "-",
+            "advHit": "/",
+            "advBlock": "-13",
+            "cancel": "None"
+          },
+          "properties": [
+            "Misuzu points forward and summons a Stegosaurus in front of her, which breathes fire originating from the ground forwards. This move is only useful when at the end of a combo. Knocks down.",
+            "Misuzu points forward and summons a Pteranodon in front of her, which breathes fire from its mouth originating from the head-height forwards. Just like the A version, this move is usually only useful at the end of a combo. Because of the low damage increase of 1000 and some framedata for an extra level of SP, it would be better to use the A version unless you really need the extra damage to kill. Does not knock down, unlike all other versions.",
+            "Misuzu points forward and summons an Apatosaurus behind her, which breathes fire from its mouth aimed diagonally down, moving to forwards-up. This move has complete invincibility during startup frames. It also knocks down. This move is harder to combo into since the flames have farther to travel now, usually will only work in the corner. The startup invincibility also allows this move to be used as a reversal, if you anticipate the opponent's attack. However, if this move is blocked, Misuzu is extremely vulnerable to attack once the flames aim upwards, more so than the A or B versions.",
+            "The hitboxes for the flames have semi random trajectories.",
+            "This move is only useful when at the end of a combo.",
+            "Knocks down."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "190 x 21",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16.33",
+                "active": "83",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "-13",
+                "cancel": "None"
+              },
+              "notes": "Misuzu points forward and summons a Stegosaurus in front of her, which breathes fire originating from the ground forwards. This move is only useful when at the end of a combo. Knocks down."
+            },
+            {
+              "version": "B",
+              "damage": "230 x 21",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16.33",
+                "active": "89",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "+1",
+                "cancel": "None"
+              },
+              "notes": "Misuzu points forward and summons a Stegosaurus in front of her, which breathes fire originating from the ground forwards. This move is only useful when at the end of a combo. Knocks down."
+            },
+            {
+              "version": "C",
+              "damage": "240 x 32",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16.33",
+                "active": "125",
+                "recovery": "-",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Misuzu points forward and summons a Stegosaurus in front of her, which breathes fire originating from the ground forwards. This move is only useful when at the end of a combo. Knocks down."
+            }
+          ]
+        },
+        {
+          "moveName": "Misuzu-chin's in a pinch!",
+          "input": "214214",
+          "image": "https://wiki.gbl.gg/images/b/b1/EFZ_Misuzu_214214_A.png",
+          "damage": "1000/1600/2500 + Curse",
+          "framedata": {
+            "guard": "Unblockable",
+            "startup": "0.33",
+            "active": "25",
+            "recovery": "24",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Misuzu covers her head with her arms and braces for impact. If Misuzu is attacked by a physical move during her pose, she will vanish behind an unblockable explosion of juice, and reappear from the ground afterwards. The A, B, and C versions will apply 1, 3, and 5 levels of curse respectively, and completely refresh the curse gauge if the opponent was already cursed. Misuzu will open one eye once she's entered recovery. This move has a lot of seemingly unintentional things holding it back. The superflash gives away the intent to counter, so this move will only work on opponents who have already committed to an attack of some sort. Additionally, Misuzu's hurtbox is significantly smaller than it normally is while she's standing, during the one move where she wants to get hit. Once triggered, the hitbox is also much smaller than you would expect, and some characters can IC to retract their hurtbox on a poke. If they triggered it with an invincible move, they will most likely also not get hit as the counter's hitbox is only active for a single frame. Even on a successful hit, the damage is very low unless you maximize the curse damage, which is not guaranteed. Thankfully, Misuzu is fully invincible after the hit, so she can't be punished if it whiffs. Cursing an already cursed opponent will refresh the curse's duration and raise their invisible \"curse level\". Curse damage ignores damage scaling, defense modifiers, and invulnerability but it cannot kill the opponent. Curse level 1 - 750 total damage Curse level 2 - 950 total damage Curse level 3 - 1200 total damage Curse level 4 - 1650 total damage Curse level 5 - 2720 total damage",
+            "Curse level 1 - 750 total damage",
+            "Curse level 2 - 950 total damage",
+            "Curse level 3 - 1200 total damage",
+            "Curse level 4 - 1650 total damage",
+            "Curse level 5 - 2720 total damage"
+          ]
+        },
+        {
+          "moveName": "Fate",
+          "input": "463214",
+          "image": "https://wiki.gbl.gg/images/6/63/EFZ_Misuzu_463214X.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "7.33 ※",
+            "active": "/",
+            "recovery": "40.66",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Misuzu spreads her arms out like a bird and gains 1 feather in exchange for 1 SP bar. The button used doesn't matter for this move. Misuzu can stock up to 3 feathers, and they are consumed one at a time when using the \"Activation\" supers with Yukito. While Misuzu has one or more feathers, her \"Sora Attack\" move becomes unavailable as the new supers have the same input. This move is absolutely essential in order to do Misuzu's most damaging supers. The recovery time is quite long however, so it should only be done as soon as the opponent is knocked down, or while the opponent is in an long hitstun. ※ The time it takes to actually gain a feather. If Misuzu is hit before this frame, she will lose 1 SP bar and will not gain a feather."
+          ]
+        },
+        {
+          "moveName": "Activation",
+          "input": "41236",
+          "image": "https://wiki.gbl.gg/images/thumb/c/c7/EFZ_Misuzu_F_41236A.png/175px-EFZ_Misuzu_F_41236A.png",
+          "damage": "10 x 12",
+          "framedata": {
+            "guard": "Any",
+            "startup": "16",
+            "active": "84",
+            "recovery": "15",
+            "advHit": "+106",
+            "advBlock": "+104",
+            "cancel": "None"
+          },
+          "properties": [
+            "A version - Concentrate Squeezing (濃厚絞り) Misuzu summons Yukito, who immediately starts squeezing a juice box, letting the juice pour out a short distance in front of Misuzu. Yukito does this independently for 2 seconds, leaving Misuzu free to get close again and restart a combo. This does minimal damage by itself, but is mainly used either to extend combos, to keep the opponent in block stun for a free mixup, or to regain the initiative by using this right after RGing an opponent's attack. B version - Potato Kick (芋シュート) Misuzu summons Yukito, who kicks Potato in a straight line horizontally across the screen. Potato will drill through opponents, acting as a multi-hit projectile. This move is the best damage dealer for Misuzu for the amount of SP needed. It's almost useless when used outside of combos, though. C version - Uppercut (アッパー) Misuzu summons Yukito, who immediately does a rising uppercut. It's quite cumbersome to combo into this, so this move is mostly used as a low-risk wakeup or anti-air attack.",
+            "Misuzu summons Yukito, who immediately starts squeezing a juice box, letting the juice pour out a short distance in front of Misuzu. Yukito does this independently for 2 seconds, leaving Misuzu free to get close again and restart a combo.",
+            "This does minimal damage by itself, but is mainly used either to extend combos, to keep the opponent in block stun for a free mixup, or to regain the initiative by using this right after RGing an opponent's attack.",
+            "Misuzu summons Yukito, who kicks Potato in a straight line horizontally across the screen. Potato will drill through opponents, acting as a multi-hit projectile.",
+            "This move is the best damage dealer for Misuzu for the amount of SP needed. It's almost useless when used outside of combos, though.",
+            "Misuzu summons Yukito, who immediately does a rising uppercut.",
+            "It's quite cumbersome to combo into this, so this move is mostly used as a low-risk wakeup or anti-air attack."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "10 x 12",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "84",
+                "recovery": "15",
+                "advHit": "+106",
+                "advBlock": "+104",
+                "cancel": "None"
+              },
+              "notes": "A version - Concentrate Squeezing (濃厚絞り) Misuzu summons Yukito, who immediately starts squeezing a juice box, letting the juice pour out a short distance in front of Misuzu. Yukito does this independently for 2 seconds, leaving Misuzu free to get close again and restart a combo. This does minimal damage by itself, but is mainly used either to extend combos, to keep the opponent in block stun for a free mixup, or to regain the initiative by using this right after RGing an opponent's attack. B version - Potato Kick (芋シュート) Misuzu summons Yukito, who kicks Potato in a straight line horizontally across the screen. Potato will drill through opponents, acting as a multi-hit projectile. This move is the best damage dealer for Misuzu for the amount of SP needed. It's almost useless when used outside of combos, though. C version - Uppercut (アッパー) Misuzu summons Yukito, who immediately does a rising uppercut. It's quite cumbersome to combo into this, so this move is mostly used as a low-risk wakeup or anti-air attack."
+            },
+            {
+              "version": "B",
+              "damage": "200 x N",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32",
+                "active": "2 x N",
+                "recovery": "0",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "FIC"
+              },
+              "notes": "A version - Concentrate Squeezing (濃厚絞り) Misuzu summons Yukito, who immediately starts squeezing a juice box, letting the juice pour out a short distance in front of Misuzu. Yukito does this independently for 2 seconds, leaving Misuzu free to get close again and restart a combo. This does minimal damage by itself, but is mainly used either to extend combos, to keep the opponent in block stun for a free mixup, or to regain the initiative by using this right after RGing an opponent's attack. B version - Potato Kick (芋シュート) Misuzu summons Yukito, who kicks Potato in a straight line horizontally across the screen. Potato will drill through opponents, acting as a multi-hit projectile. This move is the best damage dealer for Misuzu for the amount of SP needed. It's almost useless when used outside of combos, though. C version - Uppercut (アッパー) Misuzu summons Yukito, who immediately does a rising uppercut. It's quite cumbersome to combo into this, so this move is mostly used as a low-risk wakeup or anti-air attack."
+            },
+            {
+              "version": "C",
+              "damage": "500",
+              "framedata": {
+                "guard": "Any",
+                "startup": "6",
+                "active": "3",
+                "recovery": "28",
+                "advHit": "/",
+                "advBlock": "-9",
+                "cancel": "None"
+              },
+              "notes": "A version - Concentrate Squeezing (濃厚絞り) Misuzu summons Yukito, who immediately starts squeezing a juice box, letting the juice pour out a short distance in front of Misuzu. Yukito does this independently for 2 seconds, leaving Misuzu free to get close again and restart a combo. This does minimal damage by itself, but is mainly used either to extend combos, to keep the opponent in block stun for a free mixup, or to regain the initiative by using this right after RGing an opponent's attack. B version - Potato Kick (芋シュート) Misuzu summons Yukito, who kicks Potato in a straight line horizontally across the screen. Potato will drill through opponents, acting as a multi-hit projectile. This move is the best damage dealer for Misuzu for the amount of SP needed. It's almost useless when used outside of combos, though. C version - Uppercut (アッパー) Misuzu summons Yukito, who immediately does a rising uppercut. It's quite cumbersome to combo into this, so this move is mostly used as a low-risk wakeup or anti-air attack."
+            },
+            {
+              "version": "-",
+              "damage": "490",
+              "framedata": {
+                "guard": "Any",
+                "startup": "9",
+                "active": "3",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-6",
+                "cancel": "None"
+              },
+              "notes": "A version - Concentrate Squeezing (濃厚絞り) Misuzu summons Yukito, who immediately starts squeezing a juice box, letting the juice pour out a short distance in front of Misuzu. Yukito does this independently for 2 seconds, leaving Misuzu free to get close again and restart a combo. This does minimal damage by itself, but is mainly used either to extend combos, to keep the opponent in block stun for a free mixup, or to regain the initiative by using this right after RGing an opponent's attack. B version - Potato Kick (芋シュート) Misuzu summons Yukito, who kicks Potato in a straight line horizontally across the screen. Potato will drill through opponents, acting as a multi-hit projectile. This move is the best damage dealer for Misuzu for the amount of SP needed. It's almost useless when used outside of combos, though. C version - Uppercut (アッパー) Misuzu summons Yukito, who immediately does a rising uppercut. It's quite cumbersome to combo into this, so this move is mostly used as a low-risk wakeup or anti-air attack."
+            },
+            {
+              "version": "-",
+              "damage": "100 x 5",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12",
+                "active": "24",
+                "recovery": "22",
+                "advHit": "/",
+                "advBlock": "-3",
+                "cancel": "None"
+              },
+              "notes": "A version - Concentrate Squeezing (濃厚絞り) Misuzu summons Yukito, who immediately starts squeezing a juice box, letting the juice pour out a short distance in front of Misuzu. Yukito does this independently for 2 seconds, leaving Misuzu free to get close again and restart a combo. This does minimal damage by itself, but is mainly used either to extend combos, to keep the opponent in block stun for a free mixup, or to regain the initiative by using this right after RGing an opponent's attack. B version - Potato Kick (芋シュート) Misuzu summons Yukito, who kicks Potato in a straight line horizontally across the screen. Potato will drill through opponents, acting as a multi-hit projectile. This move is the best damage dealer for Misuzu for the amount of SP needed. It's almost useless when used outside of combos, though. C version - Uppercut (アッパー) Misuzu summons Yukito, who immediately does a rising uppercut. It's quite cumbersome to combo into this, so this move is mostly used as a low-risk wakeup or anti-air attack."
+            }
+          ]
+        },
+        {
+          "moveName": "Mother's Poem",
+          "input": "AA2BC",
+          "image": "https://wiki.gbl.gg/images/e/ec/EFZ_Misuzu_FM.png",
+          "damage": "5000",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "38.33",
+            "active": "0.33",
+            "recovery": "118.33(whiff)",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Misuzu concentrates for half a second with sparks gathering around, and then stops time while reappearing in some pajamas. She takes three steps towards the frozen opponent, and if the opponent is on the ground within arms-length of Misuzu on the third step, she will grab them and say \"Goal...\". It is essentially a ground throw with a medium range and a long startup time. It is medium-range only, and can actually whiff if the opponent is too close. She is completely invincible for the entire startup, so the opponent cannot hit you out of it. The most interesting thing is how this move is one of the very few moves in EFZ that ignores all damage scaling. If landed, it will deal 5000 damage precisely, no questions asked, making it the only move capable of killing the opponent who is at 1/2 health single-handedly. If Misuzu manages to win the match with this move, she adds on \"Let happy memories reside at the end...\" (最後にはどうか幸せな記憶を…) with some added music. However, if the throw fails, Misuzu will fall to the ground in a knockdown state, completely vulnerable to attack for two seconds. The sheer power of this move makes it a move to be feared by the opponent, but it is quite easy to see and evade if the opponent is actively looking for it, since all they need to do is jump when they see the tell-tale sparks. However, since it only takes a half-second to activate and cannot be interrupted, the opponent may change their playing style to increase their chances of evasion. They may refrain from attacks with long recovery times, and might even jump more often if they lack confidence in their reaction time. If the opponent is noticably affected by the threat of your FM, you can try to take advantage of their weakness. Misuzu can whiff cancel most of her normals into this move.",
+            "Misuzu can whiff cancel most of her normals into this move."
+          ]
+        }
+      ]
+    }
+  ]
+}

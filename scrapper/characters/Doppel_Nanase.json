@@ -1,0 +1,1461 @@
+{
+  "name": "Doppel Nanase",
+  "icon": "https://wiki.gbl.gg/images/d/d7/EFZ_Doppel_CSS.png",
+  "movelists": [
+    {
+      "name": "Moves",
+      "moves": [
+        {
+          "moveName": "5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/ab/Doppel5a.png/175px-Doppel5a.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "4",
+            "active": "4",
+            "recovery": "5",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Doppel does a quick horizontal jab with her left hand, prone to being low-profiled. Mainly used to check jump-ins after a RG or in combos, 2A is preferred in every other situation."
+          ],
+          "variations": [
+            {
+              "version": "5A",
+              "damage": "220",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "4",
+                "active": "4",
+                "recovery": "5",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "N SP J IC R"
+              },
+              "notes": "Doppel does a quick horizontal jab with her left hand, prone to being low-profiled. Mainly used to check jump-ins after a RG or in combos, 2A is preferred in every other situation."
+            },
+            {
+              "version": "5A (FM)",
+              "damage": "220",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "2.66",
+                "active": "2.66",
+                "recovery": "4.66",
+                "advHit": "+3.33",
+                "advBlock": "+2.33",
+                "cancel": "N SP J IC R"
+              },
+              "notes": "Doppel does a quick horizontal jab with her left hand, prone to being low-profiled. Mainly used to check jump-ins after a RG or in combos, 2A is preferred in every other situation."
+            }
+          ]
+        },
+        {
+          "moveName": "c5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/3/37/Doppelc5b.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "7",
+            "recovery": "8",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP J IC f5B/2B"
+          },
+          "properties": [
+            "Doppel does an uppercut. Large safe hitbox, fast startup, and great untech. Used in most of her combos. Prone to whiffing on crouching opponents."
+          ],
+          "variations": [
+            {
+              "version": "c5B",
+              "damage": "500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6",
+                "active": "7",
+                "recovery": "8",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "N SP J IC f5B/2B"
+              },
+              "notes": "Doppel does an uppercut. Large safe hitbox, fast startup, and great untech. Used in most of her combos. Prone to whiffing on crouching opponents."
+            },
+            {
+              "version": "c5B (FM)",
+              "damage": "500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "4",
+                "active": "5.66",
+                "recovery": "7.66",
+                "advHit": "+3.33",
+                "advBlock": "+1.33",
+                "cancel": "N SP J IC f5B/2B"
+              },
+              "notes": "Doppel does an uppercut. Large safe hitbox, fast startup, and great untech. Used in most of her combos. Prone to whiffing on crouching opponents."
+            }
+          ]
+        },
+        {
+          "moveName": "f5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/f/f9/Doppelf5b.png/175px-Doppelf5b.png",
+          "damage": "500",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "6",
+            "active": "5",
+            "recovery": "10",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "N SP JH IC"
+          },
+          "properties": [
+            "Doppel does a punch with her right hand. Completely disjointed hitbox with great juggle and startup, hits where c5B can't. Used in optimal juggles due to it incurring less scaling than c5B, although it requires awkward spacing."
+          ],
+          "variations": [
+            {
+              "version": "f5B",
+              "damage": "500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6",
+                "active": "5",
+                "recovery": "10",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Doppel does a punch with her right hand. Completely disjointed hitbox with great juggle and startup, hits where c5B can't. Used in optimal juggles due to it incurring less scaling than c5B, although it requires awkward spacing."
+            },
+            {
+              "version": "f5B (FM)",
+              "damage": "500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "3.33",
+                "active": "4.33",
+                "recovery": "9",
+                "advHit": "+3.33",
+                "advBlock": "+1.33",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Doppel does a punch with her right hand. Completely disjointed hitbox with great juggle and startup, hits where c5B can't. Used in optimal juggles due to it incurring less scaling than c5B, although it requires awkward spacing."
+            }
+          ]
+        },
+        {
+          "moveName": "5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/16/Doppel5c.png/175px-Doppel5c.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "13",
+            "active": "5",
+            "recovery": "18",
+            "advHit": "+0",
+            "advBlock": "-2",
+            "cancel": "N SP IC"
+          },
+          "properties": [
+            "Doppel headbutts the opponent, moving her forward."
+          ],
+          "variations": [
+            {
+              "version": "5C",
+              "damage": "650",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "5",
+                "recovery": "18",
+                "advHit": "+0",
+                "advBlock": "-2",
+                "cancel": "N SP IC"
+              },
+              "notes": "Doppel headbutts the opponent, moving her forward."
+            },
+            {
+              "version": "5C (FM)",
+              "damage": "650",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "10.33",
+                "active": "4.33",
+                "recovery": "16.33",
+                "advHit": "+3",
+                "advBlock": "+1",
+                "cancel": "N SP IC"
+              },
+              "notes": "Doppel headbutts the opponent, moving her forward."
+            }
+          ]
+        },
+        {
+          "moveName": "Maiden Straight  乙女ストレート",
+          "input": "6C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/1e/Doppel6c.png/175px-Doppel6c.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "16",
+            "active": "10",
+            "recovery": "24",
+            "advHit": "-",
+            "advBlock": "-13",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Doppel twists her body in a long punch to the gut, punching forward with a large hitbox. This is Doppel's preferred launcher with IC and hard knockdown without. Although it's extremely punishable, when spaced correctly it's very safe and hard to contest, you can couple it with 2B and 214A to make it harder to punish. Ideal ender midscreen for setting up spacing for jC/2A mixups."
+          ],
+          "variations": [
+            {
+              "version": "6C",
+              "damage": "700",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "16",
+                "active": "10",
+                "recovery": "24",
+                "advHit": "-",
+                "advBlock": "-13",
+                "cancel": "SP IC"
+              },
+              "notes": "Doppel twists her body in a long punch to the gut, punching forward with a large hitbox. This is Doppel's preferred launcher with IC and hard knockdown without. Although it's extremely punishable, when spaced correctly it's very safe and hard to contest, you can couple it with 2B and 214A to make it harder to punish. Ideal ender midscreen for setting up spacing for jC/2A mixups."
+            },
+            {
+              "version": "6C (FM)",
+              "damage": "700",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "12",
+                "active": "9.33",
+                "recovery": "22.33",
+                "advHit": "/",
+                "advBlock": "-9.33",
+                "cancel": "SP IC"
+              },
+              "notes": "Doppel twists her body in a long punch to the gut, punching forward with a large hitbox. This is Doppel's preferred launcher with IC and hard knockdown without. Although it's extremely punishable, when spaced correctly it's very safe and hard to contest, you can couple it with 2B and 214A to make it harder to punish. Ideal ender midscreen for setting up spacing for jC/2A mixups."
+            }
+          ]
+        },
+        {
+          "moveName": "2A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/a/a4/Doppel2a.png/175px-Doppel2a.png",
+          "damage": "200",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "4",
+            "recovery": "6",
+            "advHit": "+1",
+            "advBlock": "+0",
+            "cancel": "N SP J IC R"
+          },
+          "properties": [
+            "Doppel throws a short straight jab from her crouching position. Safe, privileged jab that beats 4.33+ (3f in Gold) startup jabs (like half the cast normally, or EVERYONE in Gold) and usually hits both high and low-profile moves."
+          ],
+          "variations": [
+            {
+              "version": "2A",
+              "damage": "200",
+              "framedata": {
+                "guard": "Low",
+                "startup": "4",
+                "active": "4",
+                "recovery": "6",
+                "advHit": "+1",
+                "advBlock": "+0",
+                "cancel": "N SP J IC R"
+              },
+              "notes": "Doppel throws a short straight jab from her crouching position. Safe, privileged jab that beats 4.33+ (3f in Gold) startup jabs (like half the cast normally, or EVERYONE in Gold) and usually hits both high and low-profile moves."
+            },
+            {
+              "version": "2A (FM)",
+              "damage": "200",
+              "framedata": {
+                "guard": "Low",
+                "startup": "2",
+                "active": "3.33",
+                "recovery": "4.66",
+                "advHit": "+1.66",
+                "advBlock": "+1.66",
+                "cancel": "N SP J IC R"
+              },
+              "notes": "Doppel throws a short straight jab from her crouching position. Safe, privileged jab that beats 4.33+ (3f in Gold) startup jabs (like half the cast normally, or EVERYONE in Gold) and usually hits both high and low-profile moves."
+            }
+          ]
+        },
+        {
+          "moveName": "2B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/4/40/Doppel2b.png/175px-Doppel2b.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Low",
+            "startup": "9",
+            "active": "2",
+            "recovery": "16",
+            "advHit": "-2",
+            "advBlock": "-4",
+            "cancel": "N SP J IC"
+          },
+          "properties": [
+            "Doppel extends her body and punches at the opponent's feet. Has lower forward invincibility which makes it a potent poking and general pressure tool."
+          ],
+          "variations": [
+            {
+              "version": "2B",
+              "damage": "450",
+              "framedata": {
+                "guard": "Low",
+                "startup": "9",
+                "active": "2",
+                "recovery": "16",
+                "advHit": "-2",
+                "advBlock": "-4",
+                "cancel": "N SP J IC"
+              },
+              "notes": "Doppel extends her body and punches at the opponent's feet. Has lower forward invincibility which makes it a potent poking and general pressure tool."
+            },
+            {
+              "version": "2B (FM)",
+              "damage": "450",
+              "framedata": {
+                "guard": "Low",
+                "startup": "6.33",
+                "active": "1.33",
+                "recovery": "14.33",
+                "advHit": "+1",
+                "advBlock": "-0.33",
+                "cancel": "N SP J IC"
+              },
+              "notes": "Doppel extends her body and punches at the opponent's feet. Has lower forward invincibility which makes it a potent poking and general pressure tool."
+            }
+          ]
+        },
+        {
+          "moveName": "2C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d3/Doppel2c.png/175px-Doppel2c.png",
+          "damage": "250",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "2",
+            "recovery": "23",
+            "advHit": "-1",
+            "advBlock": "-3",
+            "cancel": "N SP JH IC"
+          },
+          "properties": [
+            "Doppel does a multi hitting uppercut, launches the opponent upwards, scales terribly, and has poor untech time. Very slow and hard to apply as an anti-air despite how it looks and is terrible in combos."
+          ],
+          "variations": [
+            {
+              "version": "2C",
+              "damage": "250",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "10",
+                "active": "2",
+                "recovery": "23",
+                "advHit": "-1",
+                "advBlock": "-3",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Doppel does a multi hitting uppercut, launches the opponent upwards, scales terribly, and has poor untech time. Very slow and hard to apply as an anti-air despite how it looks and is terrible in combos."
+            },
+            {
+              "version": "-",
+              "damage": "450",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "13",
+                "active": "2",
+                "recovery": "21",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Doppel does a multi hitting uppercut, launches the opponent upwards, scales terribly, and has poor untech time. Very slow and hard to apply as an anti-air despite how it looks and is terrible in combos."
+            },
+            {
+              "version": "2C (FM)",
+              "damage": "250",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "7.33",
+                "active": "1.33",
+                "recovery": "19.66",
+                "advHit": "+2.66",
+                "advBlock": "+0.66",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Doppel does a multi hitting uppercut, launches the opponent upwards, scales terribly, and has poor untech time. Very slow and hard to apply as an anti-air despite how it looks and is terrible in combos."
+            },
+            {
+              "version": "-",
+              "damage": "450",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8.66",
+                "active": "1.33",
+                "recovery": "18.33",
+                "advHit": "+4",
+                "advBlock": "+2",
+                "cancel": "N SP JH IC"
+              },
+              "notes": "Doppel does a multi hitting uppercut, launches the opponent upwards, scales terribly, and has poor untech time. Very slow and hard to apply as an anti-air despite how it looks and is terrible in combos."
+            }
+          ]
+        },
+        {
+          "moveName": "j5A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/0/0e/Doppelj5a.png/175px-Doppelj5a.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "6",
+            "active": "10",
+            "recovery": "5",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "N J AD IC"
+          },
+          "properties": [
+            "Doppel does a quick, downward aerial jab. The size of the hitbox and length of the active frames make this move superb at contesting for aerial space."
+          ],
+          "variations": [
+            {
+              "version": "j5A",
+              "damage": "220",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "6",
+                "active": "10",
+                "recovery": "5",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "N J AD IC"
+              },
+              "notes": "Doppel does a quick, downward aerial jab. The size of the hitbox and length of the active frames make this move superb at contesting for aerial space."
+            },
+            {
+              "version": "j5A (FM)",
+              "damage": "220",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "4",
+                "active": "9.33",
+                "recovery": "5.33",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N J AD IC"
+              },
+              "notes": "Doppel does a quick, downward aerial jab. The size of the hitbox and length of the active frames make this move superb at contesting for aerial space."
+            }
+          ]
+        },
+        {
+          "moveName": "j5B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/d3/Doppelj5b.png/175px-Doppelj5b.png",
+          "damage": "480",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "9",
+            "active": "10",
+            "recovery": "9",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "N J AD IC"
+          },
+          "properties": [
+            "Doppel does a quick aerial uppercut, sends the opponent upward on air connect. Useful for air-to-air situations where the opponent is above you or in niche combos."
+          ],
+          "variations": [
+            {
+              "version": "j5B",
+              "damage": "480",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "9",
+                "active": "10",
+                "recovery": "9",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "N J AD IC"
+              },
+              "notes": "Doppel does a quick aerial uppercut, sends the opponent upward on air connect. Useful for air-to-air situations where the opponent is above you or in niche combos."
+            },
+            {
+              "version": "j5B (FM)",
+              "damage": "480",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "6.33",
+                "active": "9.33",
+                "recovery": "8.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "N J AD IC"
+              },
+              "notes": "Doppel does a quick aerial uppercut, sends the opponent upward on air connect. Useful for air-to-air situations where the opponent is above you or in niche combos."
+            }
+          ]
+        },
+        {
+          "moveName": "j5C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/2/2e/Doppelj5c.png",
+          "damage": "600",
+          "framedata": {
+            "guard": "High/Air",
+            "startup": "10",
+            "active": "15",
+            "recovery": "11",
+            "advHit": "-",
+            "advBlock": "-",
+            "cancel": "J AD IC"
+          },
+          "properties": [
+            "Doppel punches towards the ground. Sends the opponent directly down at a fast speed on aerial hit with a large untech time. The hitbox on this move is gigantic and boasts long active frames which makes this an excellent mixup tool. A staple of Doppel oki."
+          ],
+          "variations": [
+            {
+              "version": "j5C",
+              "damage": "600",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "10",
+                "active": "15",
+                "recovery": "11",
+                "advHit": "-",
+                "advBlock": "-",
+                "cancel": "J AD IC"
+              },
+              "notes": "Doppel punches towards the ground. Sends the opponent directly down at a fast speed on aerial hit with a large untech time. The hitbox on this move is gigantic and boasts long active frames which makes this an excellent mixup tool. A staple of Doppel oki."
+            },
+            {
+              "version": "j5C (FM)",
+              "damage": "600",
+              "framedata": {
+                "guard": "High/Air",
+                "startup": "6.66",
+                "active": "14.33",
+                "recovery": "10.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "J AD IC"
+              },
+              "notes": "Doppel punches towards the ground. Sends the opponent directly down at a fast speed on aerial hit with a large untech time. The hitbox on this move is gigantic and boasts long active frames which makes this an excellent mixup tool. A staple of Doppel oki."
+            }
+          ]
+        },
+        {
+          "moveName": "66A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/d/df/Doppel66a.png/175px-Doppel66a.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "4",
+            "recovery": "6",
+            "advHit": "+0",
+            "advBlock": "-1",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Doppel does a dashing version of 5A. Better to use 662A as 66A has less travel distance, has longer startup, and is far less advantageous."
+          ],
+          "variations": [
+            {
+              "version": "66A",
+              "damage": "220",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "4",
+                "recovery": "6",
+                "advHit": "+0",
+                "advBlock": "-1",
+                "cancel": "SP IC"
+              },
+              "notes": "Doppel does a dashing version of 5A. Better to use 662A as 66A has less travel distance, has longer startup, and is far less advantageous."
+            },
+            {
+              "version": "66A (FM)",
+              "damage": "220",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "6",
+                "active": "2.33",
+                "recovery": "6.66",
+                "advHit": "+1.66",
+                "advBlock": "+0.66",
+                "cancel": "SP IC"
+              },
+              "notes": "Doppel does a dashing version of 5A. Better to use 662A as 66A has less travel distance, has longer startup, and is far less advantageous."
+            }
+          ]
+        },
+        {
+          "moveName": "66B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/6/63/Doppel66b.png/175px-Doppel66b.png",
+          "damage": "545",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "8",
+            "active": "1",
+            "recovery": "13",
+            "advHit": "+3",
+            "advBlock": "+1",
+            "cancel": "SP IC 6C"
+          },
+          "properties": [
+            "Doppel performs a quick leaning downward punch. This move can whiff at point blank and on crouchers, mostly used for juggle combos and pressure strings."
+          ],
+          "variations": [
+            {
+              "version": "66B",
+              "damage": "545",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "8",
+                "active": "1",
+                "recovery": "13",
+                "advHit": "+3",
+                "advBlock": "+1",
+                "cancel": "SP IC 6C"
+              },
+              "notes": "Doppel performs a quick leaning downward punch. This move can whiff at point blank and on crouchers, mostly used for juggle combos and pressure strings."
+            },
+            {
+              "version": "66B (FM)",
+              "damage": "545",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "5.33",
+                "active": "0.33",
+                "recovery": "9.66",
+                "advHit": "+6.66",
+                "advBlock": "+4.66",
+                "cancel": "SP IC 6C"
+              },
+              "notes": "Doppel performs a quick leaning downward punch. This move can whiff at point blank and on crouchers, mostly used for juggle combos and pressure strings."
+            }
+          ]
+        },
+        {
+          "moveName": "66C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/2/2c/Doppel66c.png/175px-Doppel66c.png",
+          "damage": "700",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "10",
+            "active": "5",
+            "recovery": "18",
+            "advHit": "+1",
+            "advBlock": "-1",
+            "cancel": "SP IC 6C"
+          },
+          "properties": [
+            "Slightly faster 5C, travels and causes a wall bounces on air hit. Used in her corner combos for its high damage and wall bounce."
+          ],
+          "variations": [
+            {
+              "version": "66C",
+              "damage": "700",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "10",
+                "active": "5",
+                "recovery": "18",
+                "advHit": "+1",
+                "advBlock": "-1",
+                "cancel": "SP IC 6C"
+              },
+              "notes": "Slightly faster 5C, travels and causes a wall bounces on air hit. Used in her corner combos for its high damage and wall bounce."
+            },
+            {
+              "version": "66C (FM)",
+              "damage": "700",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "7.33",
+                "active": "4.33",
+                "recovery": "16.33",
+                "advHit": "+3.66",
+                "advBlock": "+1.66",
+                "cancel": "SP IC 6C"
+              },
+              "notes": "Slightly faster 5C, travels and causes a wall bounces on air hit. Used in her corner combos for its high damage and wall bounce."
+            }
+          ]
+        },
+        {
+          "moveName": "662A",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/6/6c/Doppel662a.png/175px-Doppel662a.png",
+          "damage": "220",
+          "framedata": {
+            "guard": "Low",
+            "startup": "4",
+            "active": "4",
+            "recovery": "5",
+            "advHit": "+1",
+            "advBlock": "+0",
+            "cancel": "SP IC 6C"
+          },
+          "properties": [
+            "Doppel does a dashing version of 2A. Mostly used in pressure and for positioning during wallbounce loops."
+          ],
+          "variations": [
+            {
+              "version": "662A",
+              "damage": "220",
+              "framedata": {
+                "guard": "Low",
+                "startup": "4",
+                "active": "4",
+                "recovery": "5",
+                "advHit": "+1",
+                "advBlock": "+0",
+                "cancel": "SP IC 6C"
+              },
+              "notes": "Doppel does a dashing version of 2A. Mostly used in pressure and for positioning during wallbounce loops."
+            },
+            {
+              "version": "662A (FM)",
+              "damage": "220",
+              "framedata": {
+                "guard": "Low",
+                "startup": "2",
+                "active": "3.33",
+                "recovery": "5",
+                "advHit": "+4.33",
+                "advBlock": "+1.66",
+                "cancel": "SP IC 6C"
+              },
+              "notes": "Doppel does a dashing version of 2A. Mostly used in pressure and for positioning during wallbounce loops."
+            }
+          ]
+        },
+        {
+          "moveName": "662B",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/1/10/Doppel662b.png/175px-Doppel662b.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Low",
+            "startup": "9",
+            "active": "2",
+            "recovery": "16",
+            "advHit": "-2",
+            "advBlock": "-4",
+            "cancel": "SP IC"
+          },
+          "properties": [
+            "Identical to 2B except it travels, amazing poke. Used mostly as a poke with red IC in stock to convert into combos."
+          ],
+          "variations": [
+            {
+              "version": "662B",
+              "damage": "450",
+              "framedata": {
+                "guard": "Low",
+                "startup": "9",
+                "active": "2",
+                "recovery": "16",
+                "advHit": "-2",
+                "advBlock": "-4",
+                "cancel": "SP IC"
+              },
+              "notes": "Identical to 2B except it travels, amazing poke. Used mostly as a poke with red IC in stock to convert into combos."
+            },
+            {
+              "version": "662B (FM)",
+              "damage": "450",
+              "framedata": {
+                "guard": "Low",
+                "startup": "6.33",
+                "active": "1.33",
+                "recovery": "14.33",
+                "advHit": "+1",
+                "advBlock": "-0.33",
+                "cancel": "SP IC"
+              },
+              "notes": "Identical to 2B except it travels, amazing poke. Used mostly as a poke with red IC in stock to convert into combos."
+            }
+          ]
+        },
+        {
+          "moveName": "662C",
+          "input": "",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b9/Doppel662c.png/175px-Doppel662c.png",
+          "damage": "450",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "7",
+            "active": "2",
+            "recovery": "26",
+            "advHit": "-",
+            "advBlock": "-7",
+            "cancel": "SP J IC"
+          },
+          "properties": [
+            "Similar to 2C, but the hitbox on Doppel's body is a lot bigger. Launches on hit and is a crucial part of her combos, often used to cheaply combo into 214214A or for her optimal blue IC midscreen combos."
+          ],
+          "variations": [
+            {
+              "version": "662C",
+              "damage": "450",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "7",
+                "active": "2",
+                "recovery": "26",
+                "advHit": "-",
+                "advBlock": "-7",
+                "cancel": "SP J IC"
+              },
+              "notes": "Similar to 2C, but the hitbox on Doppel's body is a lot bigger. Launches on hit and is a crucial part of her combos, often used to cheaply combo into 214214A or for her optimal blue IC midscreen combos."
+            },
+            {
+              "version": "662C (FM)",
+              "damage": "450",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "3.66",
+                "active": "1.33",
+                "recovery": "24",
+                "advHit": "/",
+                "advBlock": "-3.33",
+                "cancel": "SP J IC"
+              },
+              "notes": "Similar to 2C, but the hitbox on Doppel's body is a lot bigger. Launches on hit and is a crucial part of her combos, often used to cheaply combo into 214214A or for her optimal blue IC midscreen combos."
+            }
+          ]
+        },
+        {
+          "moveName": "Ground Throw",
+          "input": "Close 6C/4C",
+          "image": "https://wiki.gbl.gg/images/thumb/3/38/EFZ_Doppel_GroundGrab.png/175px-EFZ_Doppel_GroundGrab.png",
+          "damage": "0 + 1200",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "5.33",
+            "active": "0.66",
+            "recovery": "21.33",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Doppel leaps forward holding her opponent and slams their head into the ground. Deals more damage than raw 41236* and has faster startup than 41236C, but is slower out of a dash."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0 + 1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "21.33",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Doppel leaps forward holding her opponent and slams their head into the ground. Deals more damage than raw 41236* and has faster startup than 41236C, but is slower out of a dash."
+            },
+            {
+              "version": "B",
+              "damage": "0 + 1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "21.33",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Doppel leaps forward holding her opponent and slams their head into the ground. Deals more damage than raw 41236* and has faster startup than 41236C, but is slower out of a dash."
+            },
+            {
+              "version": "C",
+              "damage": "0 + 1200",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "5.33",
+                "active": "0.66",
+                "recovery": "21.33",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Doppel leaps forward holding her opponent and slams their head into the ground. Deals more damage than raw 41236* and has faster startup than 41236C, but is slower out of a dash."
+            }
+          ]
+        },
+        {
+          "moveName": "Air Throw",
+          "input": "Close j6C",
+          "image": "https://wiki.gbl.gg/images/c/c3/EFZ_Doppel_AirGrab.png",
+          "damage": "0 + 1400",
+          "framedata": {
+            "guard": "Throw",
+            "startup": "2",
+            "active": "1",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Doppel falls forward with her opponent in an almost identical manner to her ground throw. Unlike most throws, this is not invincible during active and can trade."
+          ]
+        },
+        {
+          "moveName": "Maiden Typhoon",
+          "input": "623C",
+          "image": "https://wiki.gbl.gg/images/thumb/8/81/Doppel623a.png/175px-Doppel623a.png",
+          "damage": "250x3",
+          "framedata": {
+            "guard": "Any",
+            "startup": "16",
+            "active": "36",
+            "recovery": "33",
+            "advHit": "/",
+            "advBlock": "-20",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Doppel transforms into a fire tornado with a disembodied head and travels a short distance towards the opponent. This move has lower-body invincibility which is great for matchups with lots of low pokes, like Nayuki (Awake). Best used with IC.",
+            "Travels further than the A version and has upper-body invincibility instead. Very good anti-air and approach tool with IC in stock.",
+            "Doppel doesn't move in this version and has full invincibility. Doppel's main fully invincible reversal. Leaves Doppel very vulnerable if this move is baited. Costs 50% RF to use (25% if the gauge is light blue).",
+            "This move has lower-body invincibility which is great for matchups with lots of low pokes, like Nayuki (Awake).",
+            "Best used with IC.",
+            "Very good anti-air and approach tool with IC in stock.",
+            "Doppel's main fully invincible reversal. Leaves Doppel very vulnerable if this move is baited.",
+            "Costs 50% RF to use (25% if the gauge is light blue)."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "250x3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "16",
+                "active": "36",
+                "recovery": "33",
+                "advHit": "/",
+                "advBlock": "-20",
+                "cancel": "IC"
+              },
+              "notes": "Doppel transforms into a fire tornado with a disembodied head and travels a short distance towards the opponent. This move has lower-body invincibility which is great for matchups with lots of low pokes, like Nayuki (Awake). Best used with IC."
+            },
+            {
+              "version": "A (FM)",
+              "damage": "250x2",
+              "framedata": {
+                "guard": "Any",
+                "startup": "13.33",
+                "active": "27",
+                "recovery": "24",
+                "advHit": "/",
+                "advBlock": "-13.33",
+                "cancel": "IC"
+              },
+              "notes": "Doppel transforms into a fire tornado with a disembodied head and travels a short distance towards the opponent. This move has lower-body invincibility which is great for matchups with lots of low pokes, like Nayuki (Awake). Best used with IC."
+            },
+            {
+              "version": "B",
+              "damage": "200x3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "15",
+                "active": "60",
+                "recovery": "33",
+                "advHit": "/",
+                "advBlock": "-44",
+                "cancel": "IC"
+              },
+              "notes": "Doppel transforms into a fire tornado with a disembodied head and travels a short distance towards the opponent. This move has lower-body invincibility which is great for matchups with lots of low pokes, like Nayuki (Awake). Best used with IC."
+            },
+            {
+              "version": "B (FM)",
+              "damage": "200x3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "12.33",
+                "active": "42.66",
+                "recovery": "24",
+                "advHit": "/",
+                "advBlock": "-14.33",
+                "cancel": "IC"
+              },
+              "notes": "Doppel transforms into a fire tornado with a disembodied head and travels a short distance towards the opponent. This move has lower-body invincibility which is great for matchups with lots of low pokes, like Nayuki (Awake). Best used with IC."
+            },
+            {
+              "version": "C",
+              "damage": "100x15",
+              "framedata": {
+                "guard": "Any",
+                "startup": "10",
+                "active": "58",
+                "recovery": "33",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Doppel transforms into a fire tornado with a disembodied head and travels a short distance towards the opponent. This move has lower-body invincibility which is great for matchups with lots of low pokes, like Nayuki (Awake). Best used with IC."
+            },
+            {
+              "version": "C (FM)",
+              "damage": "100x15",
+              "framedata": {
+                "guard": "Any",
+                "startup": "7.33",
+                "active": "32",
+                "recovery": "36",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "IC"
+              },
+              "notes": "Doppel transforms into a fire tornado with a disembodied head and travels a short distance towards the opponent. This move has lower-body invincibility which is great for matchups with lots of low pokes, like Nayuki (Awake). Best used with IC."
+            }
+          ]
+        },
+        {
+          "moveName": "Maiden Fire",
+          "input": "214C",
+          "image": "https://wiki.gbl.gg/images/thumb/1/14/Doppel214a.png/175px-Doppel214a.png",
+          "damage": "650",
+          "framedata": {
+            "guard": "Any",
+            "startup": "21",
+            "active": "8",
+            "recovery": "25",
+            "advHit": "/",
+            "advBlock": "-12",
+            "cancel": "FIC"
+          },
+          "properties": [
+            "Doppel pours spicy kimchi into her mouth and breathes fire. Great disjoint for poking that lingers even when Doppel is hit. Often trades in Doppel's favour. Unsafe on block unlike 214B so it's best used at a safe distance to prevent being punished. Works as a combo starter as well with IC or a difficult 662A > 5AB link at point blank/corner. Ridiculously good in Gold, can easily be cancelled into off of 66C/662B and converted off of with 66C/662C/66B.",
+            "Safe on block, but slower. Decent meaty if spaced correctly. Not as versatile as a combo starter since it launches far higher, requires IC to convert.",
+            "Slightly slower than the A version, longer active frames than B version, and a larger flame. Can be combo'd off of without IC or meter thanks to having infinite untech time, although heavily scaled. Requires RF to use.",
+            "Works as a combo starter as well with IC or a difficult 662A > 5AB link at point blank/corner.",
+            "Ridiculously good in Gold, can easily be cancelled into off of 66C/662B and converted off of with 66C/662C/66B.",
+            "Requires RF to use."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "21",
+                "active": "8",
+                "recovery": "25",
+                "advHit": "/",
+                "advBlock": "-12",
+                "cancel": "FIC"
+              },
+              "notes": "Doppel pours spicy kimchi into her mouth and breathes fire. Great disjoint for poking that lingers even when Doppel is hit. Often trades in Doppel's favour. Unsafe on block unlike 214B so it's best used at a safe distance to prevent being punished. Works as a combo starter as well with IC or a difficult 662A > 5AB link at point blank/corner. Ridiculously good in Gold, can easily be cancelled into off of 66C/662B and converted off of with 66C/662C/66B."
+            },
+            {
+              "version": "A (FM)",
+              "damage": "650",
+              "framedata": {
+                "guard": "Any",
+                "startup": "14.33",
+                "active": "8",
+                "recovery": "18.33",
+                "advHit": "/",
+                "advBlock": "-4",
+                "cancel": "FIC"
+              },
+              "notes": "Doppel pours spicy kimchi into her mouth and breathes fire. Great disjoint for poking that lingers even when Doppel is hit. Often trades in Doppel's favour. Unsafe on block unlike 214B so it's best used at a safe distance to prevent being punished. Works as a combo starter as well with IC or a difficult 662A > 5AB link at point blank/corner. Ridiculously good in Gold, can easily be cancelled into off of 66C/662B and converted off of with 66C/662C/66B."
+            },
+            {
+              "version": "B",
+              "damage": "250x3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "36",
+                "active": "24",
+                "recovery": "13",
+                "advHit": "/",
+                "advBlock": "+2",
+                "cancel": "FIC"
+              },
+              "notes": "Doppel pours spicy kimchi into her mouth and breathes fire. Great disjoint for poking that lingers even when Doppel is hit. Often trades in Doppel's favour. Unsafe on block unlike 214B so it's best used at a safe distance to prevent being punished. Works as a combo starter as well with IC or a difficult 662A > 5AB link at point blank/corner. Ridiculously good in Gold, can easily be cancelled into off of 66C/662B and converted off of with 66C/662C/66B."
+            },
+            {
+              "version": "B (FM)",
+              "damage": "250x3",
+              "framedata": {
+                "guard": "Any",
+                "startup": "31.66",
+                "active": "21.33",
+                "recovery": "8",
+                "advHit": "/",
+                "advBlock": "+5.66",
+                "cancel": "FIC"
+              },
+              "notes": "Doppel pours spicy kimchi into her mouth and breathes fire. Great disjoint for poking that lingers even when Doppel is hit. Often trades in Doppel's favour. Unsafe on block unlike 214B so it's best used at a safe distance to prevent being punished. Works as a combo starter as well with IC or a difficult 662A > 5AB link at point blank/corner. Ridiculously good in Gold, can easily be cancelled into off of 66C/662B and converted off of with 66C/662C/66B."
+            },
+            {
+              "version": "C",
+              "damage": "500x4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "24",
+                "active": "32",
+                "recovery": "26",
+                "advHit": "/",
+                "advBlock": "-12",
+                "cancel": "FIC"
+              },
+              "notes": "Doppel pours spicy kimchi into her mouth and breathes fire. Great disjoint for poking that lingers even when Doppel is hit. Often trades in Doppel's favour. Unsafe on block unlike 214B so it's best used at a safe distance to prevent being punished. Works as a combo starter as well with IC or a difficult 662A > 5AB link at point blank/corner. Ridiculously good in Gold, can easily be cancelled into off of 66C/662B and converted off of with 66C/662C/66B."
+            },
+            {
+              "version": "C (FM)",
+              "damage": "500x4",
+              "framedata": {
+                "guard": "Any",
+                "startup": "18.66",
+                "active": "28",
+                "recovery": "22",
+                "advHit": "/",
+                "advBlock": "-7.66",
+                "cancel": "FIC"
+              },
+              "notes": "Doppel pours spicy kimchi into her mouth and breathes fire. Great disjoint for poking that lingers even when Doppel is hit. Often trades in Doppel's favour. Unsafe on block unlike 214B so it's best used at a safe distance to prevent being punished. Works as a combo starter as well with IC or a difficult 662A > 5AB link at point blank/corner. Ridiculously good in Gold, can easily be cancelled into off of 66C/662B and converted off of with 66C/662C/66B."
+            }
+          ]
+        },
+        {
+          "moveName": "Maiden Capture",
+          "input": "41236C",
+          "image": "https://wiki.gbl.gg/images/thumb/5/56/Doppel41236a.png/175px-Doppel41236a.png",
+          "damage": "0",
+          "framedata": {
+            "guard": "Throw※",
+            "startup": "20",
+            "active": "2",
+            "recovery": "35",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "A slow command throw that ※can be comboed into but requires a very close confirm. Mainly used as a gimmick to catch opponents off guard due to its significant range, being able to throw even after a blockstring.",
+            "An anti-air throw that ※can be comboed into. Doppel's main combo ender, it's very easy to combo into and grants a left/right mix-up even in the corner. Despite how it looks, it's a poor anti-air as it targets the smaller collision box.",
+            "A standard command throw, cannot be combo'd into and has very poor range. Powerful after RGing a jump-in that the opponent cannot double jump cancel. Does not require RF to use.",
+            "Doppel's main combo ender, it's very easy to combo into and grants a left/right mix-up even in the corner.",
+            "Despite how it looks, it's a poor anti-air as it targets the smaller collision box.",
+            "Powerful after RGing a jump-in that the opponent cannot double jump cancel.",
+            "Does not require RF to use."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "0",
+              "framedata": {
+                "guard": "Throw※",
+                "startup": "20",
+                "active": "2",
+                "recovery": "35",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "A slow command throw that ※can be comboed into but requires a very close confirm. Mainly used as a gimmick to catch opponents off guard due to its significant range, being able to throw even after a blockstring."
+            },
+            {
+              "version": "B",
+              "damage": "0",
+              "framedata": {
+                "guard": "Throw※",
+                "startup": "13",
+                "active": "2",
+                "recovery": "44",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "A slow command throw that ※can be comboed into but requires a very close confirm. Mainly used as a gimmick to catch opponents off guard due to its significant range, being able to throw even after a blockstring."
+            },
+            {
+              "version": "C",
+              "damage": "0",
+              "framedata": {
+                "guard": "Throw",
+                "startup": "6",
+                "active": "1",
+                "recovery": "36",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "A slow command throw that ※can be comboed into but requires a very close confirm. Mainly used as a gimmick to catch opponents off guard due to its significant range, being able to throw even after a blockstring."
+            }
+          ]
+        },
+        {
+          "moveName": "Maiden Finger",
+          "input": "236236",
+          "image": "https://wiki.gbl.gg/images/thumb/9/98/Doppel236236a.png/175px-Doppel236236a.png",
+          "damage": "2300",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "16.33~40※",
+            "active": "10",
+            "recovery": "49(hit), 22(whiff/block)",
+            "advHit": "/",
+            "advBlock": "-0.33",
+            "cancel": "None"
+          },
+          "properties": [
+            "Doppel rushes forward to grab the opponent. Has a few invulnerable frames on startup. Occasionally useful at point blank against armor (like Rumi) or specific moves (like Kano's Soul Strike). Also sometimes useful as a combo-ender in the corner, such as after 2AAA 5B 5C 6C. This is true for all variants.",
+            "Same as the A version, except higher damage and range. Fully invincible until recovery. Can be used as a catch-all reversal, unlike 236236A, it also OS'es with 214214B against cross-up okizeme.",
+            "Same as the B version, except higher damage and range. Fully invincible until recovery. Can be used to punish moves like Shiori's 236* at fullscreen thanks to the extra range and invincibility it has."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "2300",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "16.33~40※",
+                "active": "10",
+                "recovery": "49(hit), 22(whiff/block)",
+                "advHit": "/",
+                "advBlock": "-0.33",
+                "cancel": "None"
+              },
+              "notes": "Doppel rushes forward to grab the opponent. Has a few invulnerable frames on startup. Occasionally useful at point blank against armor (like Rumi) or specific moves (like Kano's Soul Strike). Also sometimes useful as a combo-ender in the corner, such as after 2AAA 5B 5C 6C. This is true for all variants."
+            },
+            {
+              "version": "B",
+              "damage": "3300",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "16.33~52※",
+                "active": "10",
+                "recovery": "49(hit), 22(whiff/block)",
+                "advHit": "/",
+                "advBlock": "-0.33",
+                "cancel": "None"
+              },
+              "notes": "Doppel rushes forward to grab the opponent. Has a few invulnerable frames on startup. Occasionally useful at point blank against armor (like Rumi) or specific moves (like Kano's Soul Strike). Also sometimes useful as a combo-ender in the corner, such as after 2AAA 5B 5C 6C. This is true for all variants."
+            },
+            {
+              "version": "C",
+              "damage": "4900",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "16.33~64※",
+                "active": "10",
+                "recovery": "49(hit), 22(whiff/block)",
+                "advHit": "/",
+                "advBlock": "-0.33",
+                "cancel": "None"
+              },
+              "notes": "Doppel rushes forward to grab the opponent. Has a few invulnerable frames on startup. Occasionally useful at point blank against armor (like Rumi) or specific moves (like Kano's Soul Strike). Also sometimes useful as a combo-ender in the corner, such as after 2AAA 5B 5C 6C. This is true for all variants."
+            }
+          ]
+        },
+        {
+          "moveName": "Maiden Volcannon",
+          "input": "214214",
+          "image": "https://wiki.gbl.gg/images/thumb/b/b8/Doppel214214.png/175px-Doppel214214.png",
+          "damage": "1800",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "18",
+            "active": "6",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "-28.66",
+            "cancel": "None"
+          },
+          "properties": [
+            "Doppel causes an eruption of fire to burst from the ground. This move is Doppel's bread and butter. Used in her juggles when the opponent is too far away for other juggle options.",
+            "Same as A version, now with one extra eruption. Has the worst damage efficiency of the three versions.",
+            "Same as A version, now with two extra eruptions, extremely hard to combo out of. Has niche use as a meter dump after a heavily scaled combo to forcefully corner carry or close out a round, or some rare BIC combos. This has the least proration of all three 214214* moves, but costs the most along with being very slow. Notes about 214214B/C: The extra eruptions give Doppel more recovery, making her far more punishable and making follow-ups impossible outside of the corner. The extra eruptions can occasionally whiff due to launch height and some character's air hurtboxes, especially in the corner.",
+            "Has the worst damage efficiency of the three versions.",
+            "The extra eruptions give Doppel more recovery, making her far more punishable and making follow-ups impossible outside of the corner.",
+            "The extra eruptions can occasionally whiff due to launch height and some character's air hurtboxes, especially in the corner."
+          ],
+          "variations": [
+            {
+              "version": "A",
+              "damage": "1800",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "18",
+                "active": "6",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-28.66",
+                "cancel": "None"
+              },
+              "notes": "Doppel causes an eruption of fire to burst from the ground. This move is Doppel's bread and butter. Used in her juggles when the opponent is too far away for other juggle options."
+            },
+            {
+              "version": "Doppel",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "18",
+                "active": "/",
+                "recovery": "50.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Doppel causes an eruption of fire to burst from the ground. This move is Doppel's bread and butter. Used in her juggles when the opponent is too far away for other juggle options."
+            },
+            {
+              "version": "B",
+              "damage": "1500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "18",
+                "active": "6",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Doppel causes an eruption of fire to burst from the ground. This move is Doppel's bread and butter. Used in her juggles when the opponent is too far away for other juggle options."
+            },
+            {
+              "version": "-",
+              "damage": "1500",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "38",
+                "active": "6",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-28.66",
+                "cancel": "None"
+              },
+              "notes": "Doppel causes an eruption of fire to burst from the ground. This move is Doppel's bread and butter. Used in her juggles when the opponent is too far away for other juggle options."
+            },
+            {
+              "version": "Doppel",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "18",
+                "active": "/",
+                "recovery": "70.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Doppel causes an eruption of fire to burst from the ground. This move is Doppel's bread and butter. Used in her juggles when the opponent is too far away for other juggle options."
+            },
+            {
+              "version": "C",
+              "damage": "1600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "18",
+                "active": "6",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None"
+              },
+              "notes": "Doppel causes an eruption of fire to burst from the ground. This move is Doppel's bread and butter. Used in her juggles when the opponent is too far away for other juggle options."
+            },
+            {
+              "version": "-",
+              "damage": "1600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "38",
+                "active": "6",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-48.66",
+                "cancel": "None"
+              },
+              "notes": "Doppel causes an eruption of fire to burst from the ground. This move is Doppel's bread and butter. Used in her juggles when the opponent is too far away for other juggle options."
+            },
+            {
+              "version": "-",
+              "damage": "1600",
+              "framedata": {
+                "guard": "Ground",
+                "startup": "58",
+                "active": "6",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-28.66",
+                "cancel": "None"
+              },
+              "notes": "Doppel causes an eruption of fire to burst from the ground. This move is Doppel's bread and butter. Used in her juggles when the opponent is too far away for other juggle options."
+            },
+            {
+              "version": "Doppel",
+              "damage": "/",
+              "framedata": {
+                "guard": "/",
+                "startup": "18",
+                "active": "/",
+                "recovery": "90.66",
+                "advHit": "/",
+                "advBlock": "/",
+                "cancel": "None"
+              },
+              "notes": "Doppel causes an eruption of fire to burst from the ground. This move is Doppel's bread and butter. Used in her juggles when the opponent is too far away for other juggle options."
+            }
+          ]
+        },
+        {
+          "moveName": "Maiden Enlightenment",
+          "input": "Known as \"Gold Doppel\"",
+          "image": "https://wiki.gbl.gg/images/thumb/7/75/DoppelFM.png/175px-DoppelFM.png",
+          "damage": "/",
+          "framedata": {
+            "guard": "/",
+            "startup": "/",
+            "active": "/",
+            "recovery": "0",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "None"
+          },
+          "properties": [
+            "Doppel enters her \"Enlightened\" install for the rest of the match. This Final Memory has no input and activates automatically when Doppel has met these five requirements: Doppel has 1/6th health or less (half of the normal FM threshold) Doppel has 3 SP bars Doppel is on the ground Doppel has returned to her idle stance (not dashing, attacking, or in hit/block/RG stun) It is the final round (both players are one round away from victory) While enlightened, Doppel gains numerous benefits: Faster movement (increase varies across movement types but her walk is especially faster) Faster moves (all normals and 623/214 specials are faster) Passively generates super meter, even during superflash, hitstop, and cinematics (1 bar every 333.33 frames, just over 5 seconds) Almost always plus (6C is her only normal negative enough to be punished on block and her 2f 2A can give her the advantage even when she's slightly minus) Can do infinites (66B & 662A can 1f link into themselves forever, although extremely difficult) Still, this Final Memory is very rarely impactful due to how close to death you have to be to trigger it.",
+            "Faster movement (increase varies across movement types but her walk is especially faster)",
+            "Faster moves (all normals and 623/214 specials are faster)",
+            "Passively generates super meter, even during superflash, hitstop, and cinematics (1 bar every 333.33 frames, just over 5 seconds)",
+            "Almost always plus (6C is her only normal negative enough to be punished on block and her 2f 2A can give her the advantage even when she's slightly minus)",
+            "Can do infinites (66B & 662A can 1f link into themselves forever, although extremely difficult)"
+          ]
+        }
+      ]
+    }
+  ]
+}
