@@ -420,12 +420,12 @@
             "cancel": "FIC"
           },
           "properties": [
-            "Shiori shoots an instant 3-hit beam straight across the entire screen. This move will freeze the opponent for a second if it hits.",
-            "Same as the A version, except that Shiori does a slight delay before firing, and recovers faster.",
-            "Shiori shoots 3 instant hit beams straight across the entire screen, with slight differences in height. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
-            "Same as the corresponding ground versions, except the beam stays parallel to Shiori's jump arc. Also, if she reaches the ground before the move finishes, she will hover at ground level with the same momentum of her initial jump until she recovers.",
-            "Shiori shoots 3 instant hit beams straight across the entire screen, with slight differences in height. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards.",
-            "Allows the player to continue the combo even after the opponent's ice block state hits the ground."
+            "Shiori shoots an instant-hit beam straight across the entire screen.",
+            "All versions shoot three beams that will freeze the opponent if they hit.",
+            "A version has fast startup but poor recovery, B has slower startup but better recovery.",
+            "C version causes a special frozen state that enables combo follow-ups.",
+            "Aerial versions maintain the beam parallel to Shiori's jump arc.",
+            "If used in air, Shiori will hover at ground level with the same momentum until recovery."
           ],
           "variations": [
             {
@@ -440,7 +440,7 @@
                 "advBlock": "-23",
                 "cancel": "FIC"
               },
-              "notes": "Shiori shoots an instant 3-hit beam straight across the entire screen. This move will freeze the opponent for a second if it hits."
+              "notes": "Fast startup 3-hit beam with poor recovery. Freezes opponent briefly on hit, giving time for IC follow-ups but not for normal combos."
             },
             {
               "version": "B",
@@ -454,7 +454,7 @@
                 "advBlock": "-7",
                 "cancel": "FIC"
               },
-              "notes": "Shiori shoots an instant 3-hit beam straight across the entire screen. This move will freeze the opponent for a second if it hits."
+              "notes": "Delayed startup but better recovery. Much safer on block than A version (-7 vs -23). Good for zoning at a distance."
             },
             {
               "version": "C",
@@ -468,7 +468,7 @@
                 "advBlock": "-15",
                 "cancel": "None"
               },
-              "notes": "Shiori shoots an instant 3-hit beam straight across the entire screen. This move will freeze the opponent for a second if it hits."
+              "notes": "Places opponent in a special frozen state that allows for direct combo follow-ups. Can lead to combos even after the ice block hits the ground. No FIC available."
             },
             {
               "version": "Aerial",
@@ -482,7 +482,7 @@
                 "advBlock": "-",
                 "cancel": "FIC(jA/B) None(jC)"
               },
-              "notes": "Shiori shoots an instant 3-hit beam straight across the entire screen. This move will freeze the opponent for a second if it hits."
+              "notes": "Same properties as ground versions but beam stays parallel to jump arc. Shiori will hover at ground level if she reaches ground before recovery ends."
             }
           ]
         },
@@ -501,13 +501,11 @@
             "cancel": "None"
           },
           "properties": [
-            "The snowman floats around Shiori for about 2 seconds before punching towards the opponent 3 times.",
-            "The snowman floats around Shiori for about 2 seconds before firing a thin instant-hit ice beam straight forward. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The aerial version is only slightly different in that the snowman will stay in the place it was created. Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
-            "The snowman quickly moves about 1/3 of the screen in front of her and creates a large circular zone of coldness. This move will freeze the opponent if it hits. There's really no reason to FIC this though, but if you wanted to, really the only way to do so is with the command 214 2C.",
-            "The snowman floats around Shiori for about 2 seconds before firing a thin instant-hit ice beam straight forward. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The aerial version is only slightly different in that the snowman will stay in the place it was created.",
-            "Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
-            "The snowman quickly moves about 1/3 of the screen in front of her and creates a large circular zone of coldness. This move will freeze the opponent if it hits.",
-            "There's really no reason to FIC this though, but if you wanted to, really the only way to do so is with the command 214 2C."
+            "Shiori summons a snowman that performs different actions based on button pressed.",
+            "A version makes the snowman float around Shiori before punching three times.",
+            "B version makes the snowman fire an ice beam that freezes opponents for combo follow-ups.",
+            "C version creates a large circular freeze zone about 1/3 screen away from Shiori.",
+            "Aerial version has the snowman stay where it was created rather than following Shiori."
           ],
           "variations": [
             {
@@ -522,7 +520,7 @@
                 "advBlock": "/",
                 "cancel": "None"
               },
-              "notes": "The snowman floats around Shiori for about 2 seconds before punching towards the opponent 3 times."
+              "notes": "Snowman floats around Shiori for about 2 seconds before punching toward the opponent 3 times. Good for okizeme and pressure."
             },
             {
               "version": "B",
@@ -536,7 +534,7 @@
                 "advBlock": "/",
                 "cancel": "None"
               },
-              "notes": "The snowman floats around Shiori for about 2 seconds before punching towards the opponent 3 times."
+              "notes": "Snowman fires a thin instant-hit ice beam that places opponent in a special frozen state. Allows for combo follow-ups even after the ice block hits the ground."
             },
             {
               "version": "C",
@@ -550,13 +548,13 @@
                 "advBlock": "/",
                 "cancel": "None"
               },
-              "notes": "The snowman floats around Shiori for about 2 seconds before punching towards the opponent 3 times."
+              "notes": "Snowman moves about 1/3 screen forward and creates a large circular freeze zone. Can be FIC'd using 214 2C, though there's rarely a reason to do so."
             }
           ]
         },
         {
           "moveName": "It's a spinning shawl",
-          "input": "C",
+          "input": "623*",
           "image": "https://wiki.gbl.gg/images/thumb/d/d0/EFZ_Shiori_Misaka_623.png/175px-EFZ_Shiori_Misaka_623.png",
           "damage": "100 x 5",
           "framedata": {
@@ -569,9 +567,11 @@
             "cancel": "IC"
           },
           "properties": [
-            "Shiori spins her shawl in a large circle in front of her, hitting the opponent a maximum of 5 times. This move will launch the opponent if it hits, but it generally not possible to follow up without IC.",
-            "Same as the A version, except it hits a maximum of 9 times.",
-            "Startup invincibility, more hits, and knocks down the opponent. Shiori's main reversal, although not a fantastic one."
+            "Shiori spins her shawl in a large circle in front of her, hitting multiple times.",
+            "All versions will launch the opponent if they hit, but generally require IC to follow up.",
+            "Frame advantage on block varies widely based on which hits connect.",
+            "A version hits up to 5 times, B version up to 9 times, and C version up to 18 times.",
+            "C version has startup invincibility and serves as Shiori's main reversal."
           ],
           "variations": [
             {
@@ -586,7 +586,7 @@
                 "advBlock": "-9 ~ +11",
                 "cancel": "IC"
               },
-              "notes": "Shiori spins her shawl in a large circle in front of her, hitting the opponent a maximum of 5 times. This move will launch the opponent if it hits, but it generally not possible to follow up without IC."
+              "notes": "Spins shawl for up to 5 hits. Launch property makes it useful as an anti-air or combo starter with IC. Block advantage varies greatly depending on which hits connect."
             },
             {
               "version": "B",
@@ -600,7 +600,7 @@
                 "advBlock": "-13 ~ +10",
                 "cancel": "IC"
               },
-              "notes": "Shiori spins her shawl in a large circle in front of her, hitting the opponent a maximum of 5 times. This move will launch the opponent if it hits, but it generally not possible to follow up without IC."
+              "notes": "Spins shawl for up to 9 hits. Longer active frames and higher damage than A version, but with increased recovery. Similar applications requiring IC to convert."
             },
             {
               "version": "C",
@@ -614,7 +614,7 @@
                 "advBlock": "-12 ~ +2",
                 "cancel": "IC"
               },
-              "notes": "Shiori spins her shawl in a large circle in front of her, hitting the opponent a maximum of 5 times. This move will launch the opponent if it hits, but it generally not possible to follow up without IC."
+              "notes": "Has startup invincibility and knocks down on hit. Shiori's main reversal option, though not the strongest. 18 potential hits with IC cancel gives good damage potential."
             }
           ]
         },
@@ -651,9 +651,11 @@
             "cancel": "FIC"
           },
           "properties": [
-            "Shiori throws two ice-boxcutters in a straight line diagonally down-forwards.",
-            "Same as the A version, except Shiori does a slight delay before firing.",
-            "Same as the A version, except Shiori is invincible during startup frames and each boxcutter hits more and does more damage."
+            "Shiori throws ice-boxcutters in a straight line diagonally down-forwards.",
+            "All versions are plus on block, making them excellent pressure tools.",
+            "A version throws two boxcutters with quick startup.",
+            "B version has delayed startup but better frame advantage.",
+            "C version has startup invincibility and each boxcutter hits multiple times for more damage."
           ],
           "variations": [
             {
@@ -668,7 +670,7 @@
                 "advBlock": "+1 ~ +3",
                 "cancel": "FIC"
               },
-              "notes": "Shiori throws two ice-boxcutters in a straight line diagonally down-forwards."
+              "notes": "Throws two ice-boxcutters diagonally downward. Quick startup and plus on block makes this excellent for pressure, especially when combined with FIC."
             },
             {
               "version": "B",
@@ -682,7 +684,7 @@
                 "advBlock": "+4 ~ +6",
                 "cancel": "FIC"
               },
-              "notes": "Shiori throws two ice-boxcutters in a straight line diagonally down-forwards."
+              "notes": "Delayed startup but higher frame advantage on block (+4~+6). Useful for altering timing in pressure strings or safe jump setups."
             },
             {
               "version": "C",
@@ -696,7 +698,7 @@
                 "advBlock": "+5 ~ +10",
                 "cancel": "FIC"
               },
-              "notes": "Shiori throws two ice-boxcutters in a straight line diagonally down-forwards."
+              "notes": "Has startup invincibility and each boxcutter hits 4 times. Most advantageous on block (+5~+10) and deals the most damage, making it Shiori's best aerial pressure tool."
             }
           ]
         },
@@ -715,9 +717,11 @@
             "cancel": "None"
           },
           "properties": [
-            "Shiori rapidly fires 15 cartons of ice cream (most likely vanilla) out randomly across a wide angle in front of her. The best position to use the super is at point-blank range, in the air slightly above the opponent. Getting all 15 cartons to hit is usually possible.",
-            "Same as the A version, except that Shiori fires 27 cartons. On average, only 24 will hit when in the best position.",
-            "Same as the A version, except that Shiori fires 50 cartons. On average, only 35 will hit when in the best position."
+            "Shiori rapidly fires cartons of ice cream across a wide angle in front of her.",
+            "Best position is point-blank range in the air slightly above opponent.",
+            "A version fires 15 cartons, B version fires 27 cartons, C version fires 50 cartons.",
+            "Higher versions have more projectiles but also significantly longer recovery.",
+            "Not all projectiles will hit even at optimal positioning due to their spread pattern."
           ],
           "variations": [
             {
@@ -732,7 +736,7 @@
                 "advBlock": "-14.33",
                 "cancel": "None"
               },
-              "notes": "Shiori rapidly fires 15 cartons of ice cream (most likely vanilla) out randomly across a wide angle in front of her. The best position to use the super is at point-blank range, in the air slightly above the opponent. Getting all 15 cartons to hit is usually possible."
+              "notes": "Fires 15 ice cream cartons in a wide spread. At optimal positioning (point-blank, slightly above opponent), all 15 can connect for good damage with the least recovery of all versions."
             },
             {
               "version": "B",
@@ -746,7 +750,7 @@
                 "advBlock": "-18.66",
                 "cancel": "None"
               },
-              "notes": "Shiori rapidly fires 15 cartons of ice cream (most likely vanilla) out randomly across a wide angle in front of her. The best position to use the super is at point-blank range, in the air slightly above the opponent. Getting all 15 cartons to hit is usually possible."
+              "notes": "Fires 27 ice cream cartons, though on average only about 24 will connect even at optimal positioning. Higher damage potential but substantially longer recovery."
             },
             {
               "version": "C",
@@ -760,7 +764,7 @@
                 "advBlock": "-26",
                 "cancel": "None"
               },
-              "notes": "Shiori rapidly fires 15 cartons of ice cream (most likely vanilla) out randomly across a wide angle in front of her. The best position to use the super is at point-blank range, in the air slightly above the opponent. Getting all 15 cartons to hit is usually possible."
+              "notes": "Fires 50 ice cream cartons, though only about 35 typically connect. Highest potential damage but extremely punishable due to the very long recovery time."
             }
           ]
         },
@@ -779,13 +783,12 @@
             "cancel": "None"
           },
           "properties": [
-            "Shiori crouches down and creates 3 ice spikes from the ground evenly across 1/2 of the screen in front of her. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The best distance to get all 3 spikes to hit is about 1/4 of the screen. Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
-            "Same as the A version, except that Shiori creates 5 ice spikes across the entire screen. It is only possible to hit with 3 spikes at the most though. Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
-            "Same as the B version, except that Shiori creates 6 ice spikes across the entire screen. It is only possible to hit with 4 spikes at the most though. The best distance to get 4 spikes to hit is about 1/4 of the screen. Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
-            "Shiori crouches down and creates 3 ice spikes from the ground evenly across 1/2 of the screen in front of her. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The best distance to get all 3 spikes to hit is about 1/4 of the screen.",
-            "Allows the player to continue the combo even after the opponent's ice block state hits the ground.",
-            "Same as the A version, except that Shiori creates 5 ice spikes across the entire screen. It is only possible to hit with 3 spikes at the most though.",
-            "Same as the B version, except that Shiori creates 6 ice spikes across the entire screen. It is only possible to hit with 4 spikes at the most though. The best distance to get 4 spikes to hit is about 1/4 of the screen."
+            "Shiori creates ice spikes from the ground across the screen in front of her.",
+            "All versions place the opponent in a special frozen state that allows for direct combos.",
+            "Combos can be performed even after the ice block hits the ground.",
+            "A version creates 3 spikes across half the screen (best at 1/4 screen distance).",
+            "B version creates 5 spikes across the entire screen (max 3 can hit).",
+            "C version creates 6 spikes across the entire screen (max 4 can hit at 1/4 screen)."
           ],
           "variations": [
             {
@@ -800,7 +803,7 @@
                 "advBlock": "-12.66",
                 "cancel": "None"
               },
-              "notes": "Shiori crouches down and creates 3 ice spikes from the ground evenly across 1/2 of the screen in front of her. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The best distance to get all 3 spikes to hit is about 1/4 of the screen. Allows the player to continue the combo even after the opponent's ice block state hits the ground."
+              "notes": "Creates 3 ice spikes across half the screen. The best distance to get all 3 spikes to hit is about 1/4 of the screen. Frozen opponent can be comboed even after hitting the ground."
             },
             {
               "version": "B",
@@ -814,7 +817,7 @@
                 "advBlock": "-8.66",
                 "cancel": "None"
               },
-              "notes": "Shiori crouches down and creates 3 ice spikes from the ground evenly across 1/2 of the screen in front of her. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The best distance to get all 3 spikes to hit is about 1/4 of the screen. Allows the player to continue the combo even after the opponent's ice block state hits the ground."
+              "notes": "Creates 5 ice spikes across the entire screen. Maximum of 3 spikes can hit at once. Allows for combos even after the ice block hits the ground."
             },
             {
               "version": "C",
@@ -828,7 +831,7 @@
                 "advBlock": "+2",
                 "cancel": "None"
               },
-              "notes": "Shiori crouches down and creates 3 ice spikes from the ground evenly across 1/2 of the screen in front of her. This move will place the opponent in a special frozen state if it hits, which allows Shiori to combo directly afterwards. The best distance to get all 3 spikes to hit is about 1/4 of the screen. Allows the player to continue the combo even after the opponent's ice block state hits the ground."
+              "notes": "Creates 6 ice spikes across the entire screen. Maximum of 4 spikes can hit at once (at 1/4 screen distance). Actually plus on block unlike other versions."
             }
           ]
         },
@@ -847,9 +850,12 @@
             "cancel": "IC"
           },
           "properties": [
-            "Shiori generates a column of freezing winds that surrounds her on both sides, and as high as 1/2 of the screen. This move will freeze the opponent if it hits, and cannot be air-blocked. The move randomly attacks the opponent when in range, but will normally reach the maximum amount of 5 hits.",
-            "Same as the A version, except that the column is about 1.5 screens high (already higher than any character can double jump over). Also the randomness is more apparent, varying between 8 and 15 hits, even at point-blank range.",
-            "Same as the B version, except that the hits randomly vary between 12 and 18 hits, even at point-blank range."
+            "Shiori generates a column of freezing winds that surrounds her on both sides.",
+            "All versions freeze the opponent on hit and cannot be air-blocked.",
+            "The move randomly attacks when opponents are in range with different hit patterns.",
+            "A version extends about half screen high with consistently 5 hits.",
+            "B version extends about 1.5 screens high (can't be jumped over) with 8-15 random hits.",
+            "C version has the same height as B but with 12-18 random hits and longer recovery."
           ],
           "variations": [
             {
@@ -864,7 +870,7 @@
                 "advBlock": "-72 ~ -18",
                 "cancel": "IC"
               },
-              "notes": "Shiori generates a column of freezing winds that surrounds her on both sides, and as high as 1/2 of the screen. This move will freeze the opponent if it hits, and cannot be air-blocked. The move randomly attacks the opponent when in range, but will normally reach the maximum amount of 5 hits."
+              "notes": "Creates a wind column about half screen high around Shiori. Consistently hits 5 times at point-blank range. Freezes opponent on hit and can't be air-blocked."
             },
             {
               "version": "B",
@@ -878,7 +884,7 @@
                 "advBlock": "-72 ~ -14",
                 "cancel": "IC"
               },
-              "notes": "Shiori generates a column of freezing winds that surrounds her on both sides, and as high as 1/2 of the screen. This move will freeze the opponent if it hits, and cannot be air-blocked. The move randomly attacks the opponent when in range, but will normally reach the maximum amount of 5 hits."
+              "notes": "Wind column extends about 1.5 screens high (higher than any character can double jump). Hits randomly vary between 8-15 times even at point-blank range."
             },
             {
               "version": "C",
@@ -892,7 +898,7 @@
                 "advBlock": "-81 ~ -14",
                 "cancel": "IC"
               },
-              "notes": "Shiori generates a column of freezing winds that surrounds her on both sides, and as high as 1/2 of the screen. This move will freeze the opponent if it hits, and cannot be air-blocked. The move randomly attacks the opponent when in range, but will normally reach the maximum amount of 5 hits."
+              "notes": "Similar to B version but with more hits (12-18 random hits) and longer active/recovery time. Highest damage potential but most punishable on block."
             }
           ]
         },
