@@ -1,4 +1,3 @@
-```markdown
 # EFZ Frame Data Discord Bot
 
 A Discord bot created with Copilot AI for getting information about character moves from the game **Eternal Fighter Zero**.
@@ -6,7 +5,7 @@ A Discord bot created with Copilot AI for getting information about character mo
 Most of the information was parsed from the **EFZ Mizumi Wiki** - [wiki.gbl.gg/w/Eternal_Fighter_Zero](https://wiki.gbl.gg/w/Eternal_Fighter_Zero).
 
 ---
-
+```markdown
 ## Features
 
 - **Scrapes Frame Data**: Extracts detailed frame data for all characters in Eternal Fighter Zero using the Mizumi Wiki as the data source.
