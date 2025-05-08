@@ -326,7 +326,8 @@
                 "recovery": "47.66",
                 "advHit": "/",
                 "advBlock": "-27.33",
-                "cancel": "IC"
+                "cancel": "IC",
+                "property": "I: 1-19"  
               },
               "notes": "A spinning uppercut with her wing. Fully invulnerable until partway through recovery. Good as a reversal but highly punishable if blocked."
             },
@@ -340,7 +341,8 @@
                 "recovery": "-",
                 "advHit": "/",
                 "advBlock": "-",
-                "cancel": "IC"
+                "cancel": "IC",
+                "property": "I: 1-64"
               },
               "notes": "Kanna spins high above the screen, making her nearly impossible to punish even on whiff. Fully invulnerable until the final hit. Much faster startup (3f vs 8f) than A/B versions."
             }
@@ -469,15 +471,16 @@
           "input": "236236A",
           "image": "https://wiki.gbl.gg/images/thumb/5/57/EFZ_Kanna_236236A.png/175px-EFZ_Kanna_236236A.png",
           "damage": "/",
-          "framedata": {
-            "guard": "Any",
-            "startup": "-",
-            "active": "∞",
-            "recovery": "/",
-            "advHit": "/",
-            "advBlock": "-",
-            "cancel": "None"
-          },
+              "framedata": {
+                "guard": "Any",
+                "startup": "-",
+                "active": "∞",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "-",
+                "cancel": "None",
+                "property": "I: 1-174"
+      },
           "properties": [
             "Kanna sends a single feather offscreen that multiplies and covers the entire screen.",
             "All feathers are untechable launchers, allowing for combo opportunities.",
@@ -504,7 +507,7 @@
         },
         {
           "moveName": "Treasured Sword of Seven Branches",
-          "input": "Costs 3 SP",
+          "input": "236236B",
           "image": "https://wiki.gbl.gg/images/thumb/6/62/EFZ_Kanna_236236B.png/175px-EFZ_Kanna_236236B.png",
           "damage": "-",
           "framedata": {
@@ -514,7 +517,8 @@
             "recovery": "12",
             "advHit": "-",
             "advBlock": "+19",
-            "cancel": "IC"
+            "cancel": "IC",
+            "property": "I: 1-76"
           },
           "properties": [
             "Kanna screams in anguish as several pillars of spikes rise from the ground. Kanna is fully invulnerable until the final hit of the spikes. Breaks armor.",
@@ -533,7 +537,8 @@
             "recovery": "76",
             "advHit": "/",
             "advBlock": "-42",
-            "cancel": "None"
+            "cancel": "None",
+            "property": "I: 1-23"
           },
           "properties": [
             "Kanna raises her wings as they transform into swords of light and sweeps them downwards. Breaks armor.",
@@ -552,7 +557,8 @@
             "recovery": "80",
             "advHit": "-",
             "advBlock": "-60",
-            "cancel": "IC"
+            "cancel": "IC",
+            "property": "I: 1-46"
           },
           "properties": [
             "Kanna does a sequence of 2 hits which are similar to her f5B and 5C, then if the opponent was hit she adds a third and launches the opponent into the sky. She then unclothes herself, prays and rises into the sky engulfed in a bird of light before piercing through the opponent. This move may get you banned from Twitch, we haven't tested it yet.",
@@ -560,7 +566,7 @@
           ],
           "variations": [
             {
-              "version": "A",
+              "version": "First Hit",
               "damage": "-",
               "framedata": {
                 "guard": "Ground",
@@ -574,7 +580,7 @@
               "notes": "Kanna does a sequence of 2 hits which are similar to her f5B and 5C, then if the opponent was hit she adds a third and launches the opponent into the sky. She then unclothes herself, prays and rises into the sky engulfed in a bird of light before piercing through the opponent. This move may get you banned from Twitch, we haven't tested it yet."
             },
             {
-              "version": "B",
+              "version": "Second Hit",
               "damage": "-",
               "framedata": {
                 "guard": "Ground",

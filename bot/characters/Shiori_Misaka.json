@@ -612,7 +612,8 @@
                 "recovery": "18",
                 "advHit": "/",
                 "advBlock": "-12 ~ +2",
-                "cancel": "IC"
+                "cancel": "IC",
+                "property": "I: 0.33-11.66, HI:12.00-63.66"
               },
               "notes": "Has startup invincibility and knocks down on hit. Shiori's main reversal option, though not the strongest. 18 potential hits with IC cancel gives good damage potential."
             }
@@ -696,7 +697,8 @@
                 "recovery": "18",
                 "advHit": "/",
                 "advBlock": "+5 ~ +10",
-                "cancel": "FIC"
+                "cancel": "FIC",
+                "property": "I:0.33-16.00"
               },
               "notes": "Has startup invincibility and each boxcutter hits 4 times. Most advantageous on block (+5~+10) and deals the most damage, making it Shiori's best aerial pressure tool."
             }
@@ -831,7 +833,7 @@
                 "advBlock": "+2",
                 "cancel": "None"
               },
-              "notes": "Creates 6 ice spikes across the entire screen. Maximum of 4 spikes can hit at once (at 1/4 screen distance). Actually plus on block unlike other versions."
+              "notes": "Creates 6 ice spikes across the entire screen. Maximum of 4 spikes can hit at once (at 1/4 screen distance). Actually plus on block unlike other versions. Has some invcincibility frames on startup, however it's easier to counter it on reaction."
             }
           ]
         },
@@ -898,7 +900,7 @@
                 "advBlock": "-81 ~ -14",
                 "cancel": "IC"
               },
-              "notes": "Similar to B version but with more hits (12-18 random hits) and longer active/recovery time. Highest damage potential but most punishable on block."
+              "notes": "Similar to B version but with more hits (12-18 random hits) and longer active/recovery time. Highest damage potential but most punishable on block. Has startup invincibility until the first active frame."
             }
           ]
         },

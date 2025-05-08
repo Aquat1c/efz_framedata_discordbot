@@ -263,50 +263,6 @@
           },
           "properties": [
             "Sayuri throws the opponent back over her shoulder. This can be both a blessing and a curse - she gets IAD j412C/jC mixups off this, but may lose the corner."
-          ],
-          "variations": [
-            {
-              "version": "A",
-              "damage": "1150",
-              "framedata": {
-                "guard": "Throw",
-                "startup": "5",
-                "active": "1",
-                "recovery": "24",
-                "advHit": "-",
-                "advBlock": "-",
-                "cancel": "None"
-              },
-              "notes": "Sayuri throws the opponent back over her shoulder. This can be both a blessing and a curse - she gets IAD j412C/jC mixups off this, but may lose the corner."
-            },
-            {
-              "version": "B",
-              "damage": "1150",
-              "framedata": {
-                "guard": "Throw",
-                "startup": "5",
-                "active": "1",
-                "recovery": "24",
-                "advHit": "-",
-                "advBlock": "-",
-                "cancel": "None"
-              },
-              "notes": "Sayuri throws the opponent back over her shoulder. This can be both a blessing and a curse - she gets IAD j412C/jC mixups off this, but may lose the corner."
-            },
-            {
-              "version": "C",
-              "damage": "1150",
-              "framedata": {
-                "guard": "Throw",
-                "startup": "5",
-                "active": "1",
-                "recovery": "24",
-                "advHit": "-",
-                "advBlock": "-",
-                "cancel": "None"
-              },
-              "notes": "Sayuri throws the opponent back over her shoulder. This can be both a blessing and a curse - she gets IAD j412C/jC mixups off this, but may lose the corner."
-            }
           ]
         },
         {
@@ -315,14 +271,15 @@
           "image": "https://wiki.gbl.gg/images/a/a8/EFZ_Sayuri_AirGrab.png",
           "damage": "1200",
           "framedata": {
-            "guard": "Throw",
-            "startup": "2",
-            "active": "1",
-            "recovery": "/",
-            "advHit": "/",
-            "advBlock": "/",
-            "cancel": "None"
-          },
+          "guard": "Throw",
+          "startup": "2",
+          "active": "1",
+          "recovery": "/",
+          "advHit": "/",
+          "advBlock": "/",
+          "cancel": "None",
+          "property": "I: 3 - 6.66 (on whiff)" 
+        },
           "properties": [
             "Sayuri grabs the opponent by the neck and electrocutes them with magic. The invincibility on this air throw starts one frame too late to cover its active frames, meaning it can trade unlike most other throws. On the bright side, these late invincibility frames will cover Sayuri during the startup of her jC if it whiffs, and the invincibility is actually longer than what is usual for throws. As player 2, trading with this can be beneficial thanks to a bug that stuns the opponent in place in the air for 333.33 frames, allowing her to easily start a combo. Throw trades act normally as player 1, making the opponent fall straight to the ground without taking any damage.",
             "The invincibility on this air throw starts one frame too late to cover its active frames, meaning it can trade unlike most other throws. On the bright side, these late invincibility frames will cover Sayuri during the startup of her jC if it whiffs, and the invincibility is actually longer than what is usual for throws.",
@@ -514,7 +471,7 @@
                 "advHit": "/",
                 "advBlock": "-",
                 "cancel": "IC",
-                "property": "I: 0.33-16"
+                "property": "I: 0.33-15.66, 55.66-57.33"
               },
               "notes": "First hit of a three-hit sequence (623B + 623A). Has invulnerability on startup. Can be used as a risky reversal option."
             },
@@ -550,7 +507,7 @@
         },
         {
           "moveName": "Ah, got your skill~",
-          "input": "214*",
+          "input": "214A/B/C",
           "image": "https://wiki.gbl.gg/images/f/f3/EFZ_Sayuri_214X_A.png",
           "damage": "600",
           "framedata": {
@@ -590,7 +547,7 @@
         },
         {
           "moveName": "Magical☆Cutter",
-          "input": "",
+          "input": "Any attack button during the blockstun",
           "image": "https://wiki.gbl.gg/images/thumb/0/0b/EFZ_Sayuri_214X_1.png/175px-EFZ_Sayuri_214X_1.png",
           "damage": "100",
           "framedata": {
@@ -600,7 +557,8 @@
             "recovery": "56.66",
             "advHit": "/",
             "advBlock": "-39",
-            "cancel": "IC"
+            "cancel": "IC",
+            "property": "I: 0.33 - 21"
           },
           "properties": [
             "If Sayuri blocks a move previously remembered by \"Ah, got your skill~\", she flashes white during blockstun.",
@@ -657,26 +615,26 @@
         },
         {
           "moveName": "Magical☆Smash",
-"input": "j412*",
-"image": "https://wiki.gbl.gg/images/thumb/5/5e/Sayurij412.png/175px-Sayurij412.png",
-"damage": "800",
-"framedata": {
-  "guard": "Any",
-  "startup": "20",
-  "active": "Until ground or hit",
-  "recovery": "/",
-  "advHit": "/",
-  "advBlock": "/",
-  "cancel": "IC"
-},
-"properties": [
-  "Sayuri performs a diagonal downward attack with different properties based on button pressed.",
-  "A version is a simple downward attack effective after blocked/RGed aerial attacks.",
-  "B version causes Sayuri to jump back if blocked/RGed, allowing for immediate follow-up actions.",
-  "C version starts with an invulnerable energy ball phase before the attack.",
-  "C version automatically turns around to face the opponent when used as a crossup."
-],
-"variations": [
+          "input": "j412*",
+          "image": "https://wiki.gbl.gg/images/thumb/5/5e/Sayurij412.png/175px-Sayurij412.png",
+          "damage": "800",
+          "framedata": {
+            "guard": "Any",
+            "startup": "20",
+            "active": "Until ground or hit",
+            "recovery": "/",
+            "advHit": "/",
+            "advBlock": "/",
+            "cancel": "IC"
+          },
+          "properties": [
+            "Sayuri performs a diagonal downward attack with different properties based on button pressed.",
+            "A version is a simple downward attack effective after blocked/RGed aerial attacks.",
+            "B version causes Sayuri to jump back if blocked/RGed, allowing for immediate follow-up actions.",
+            "C version starts with an invulnerable energy ball phase before the attack.",
+            "C version automatically turns around to face the opponent when used as a crossup."
+          ],
+          "variations": [
                 {
                   "version": "A",
                   "damage": "800",
@@ -715,7 +673,8 @@
                     "recovery": "/",
                     "advHit": "/",
                     "advBlock": "/",
-                    "cancel": "IC"
+                    "cancel": "IC",
+                    "property": "I: 0.33-38.66"
                   },
                   "notes": "Starts with an energy ball phase with 38 frames of invulnerability. Excellent for predicting wakeup reversals. Has 5 vulnerable frames before the attack hitbox appears."
                 },
@@ -737,27 +696,27 @@
         },
         {
           "moveName": "Magical☆Press",
-"input": "41236*",
-"image": "https://wiki.gbl.gg/images/thumb/8/8c/Sayuri41236.png/175px-Sayuri41236.png",
-"damage": "1000",
-"framedata": {
-  "guard": "Ground",
-  "startup": "17",
-  "active": "12",
-  "recovery": "14",
-  "advHit": "/",
-  "advBlock": "-18",
-  "cancel": "IC",
-  "property": "I: 0.33-20.66"
-},
-"properties": [
-  "Sayuri dashes forward to slam opponents into the wall.",
-  "Air unblockable, making it excellent in blockstrings and mixups.",
-  "A version has short range but is relatively safe on block (-4).",
-  "B version goes further but is more negative on block (-10).",
-  "C version travels the furthest with wallbounce properties and frame 1 invulnerability."
-],
-"variations": [
+          "input": "41236*",
+          "image": "https://wiki.gbl.gg/images/thumb/8/8c/Sayuri41236.png/175px-Sayuri41236.png",
+          "damage": "1000",
+          "framedata": {
+            "guard": "Ground",
+            "startup": "17",
+            "active": "12",
+            "recovery": "14",
+            "advHit": "/",
+            "advBlock": "-18",
+            "cancel": "IC",
+            "property": "I: 0.33-20.66(only C version)"
+          },
+          "properties": [
+            "Sayuri dashes forward to slam opponents into the wall.",
+            "Air unblockable, making it excellent in blockstrings and mixups.",
+            "A version has short range but is relatively safe on block (-4).",
+            "B version goes further but is more negative on block (-10).",
+            "C version travels the furthest with wallbounce properties and frame 1 invulnerability."
+          ],
+          "variations": [
                 {
                   "version": "A",
                   "damage": "1000",
@@ -782,7 +741,8 @@
                     "recovery": "14",
                     "advHit": "/",
                     "advBlock": "-10",
-                    "cancel": "IC"
+                    "cancel": "IC",
+                    "property": "I: 0.33 - 13.33"
                   },
                   "notes": "Travels further than A version but more negative on block (-10). Can be used at ranges where A would whiff, but requires more caution due to the higher punishment risk."
                 },
@@ -894,8 +854,7 @@
               "recovery": "15",
               "advHit": "-",
               "advBlock": "-6",
-              "cancel": "IC",
-              "property": "I: 0.33-2.33"
+              "cancel": "IC"
             },
             "properties": [
               "Sayuri dashes forward to slam opponents between walls.",
@@ -915,10 +874,9 @@
                   "recovery": "15",
                   "advHit": "-",
                   "advBlock": "-6",
-                  "cancel": "IC",
-                  "property": "I: 0.33-2.33"
+                  "cancel": "IC"
                 },
-                "notes": "Slams the opponent into one wall, then back into the opposite wall. Brief invulnerability from frame 1 makes this a decent reversal option when you can reach opponents during the invulnerability window."
+                "notes": "An extra-powerful version of Magical☆Press. This is Sayuri's highest damage combo ender."
               },
               {
                 "version": "B",
@@ -930,9 +888,10 @@
                   "recovery": "15",
                   "advHit": "-",
                   "advBlock": "-12",
-                  "cancel": "IC"
+                  "cancel": "IC",
+                  "property": "I: 0.33 - 13.33"
                 },
-                "notes": "Slams the opponent back and forth between walls 3 times. Faster startup (11f vs 15f) than A version, but more negative on block."
+                "notes": "Same as A except slams the opponent into one wall, then back into the opposite wall. A brief period of invulnerability from frame 1, extending slightly into startup, makes this a decent reversal option if you react to the startup or whiff of an opponent's move during her usual IC points in pressure, or after 236* FIC, but often only if you can reach the opponent during the invulnerability window.."
               },
               {
                 "version": "C",
@@ -944,9 +903,10 @@
                   "recovery": "15",
                   "advHit": "-",
                   "advBlock": "-24",
-                  "cancel": "IC"
+                  "cancel": "IC",
+                  "property": "I: 0.33-25.33"
                 },
-                "notes": "Same startup as B but with significantly longer invulnerability extending into active frames, making this less risky from further away. Highest damage potential."
+                "notes": "Same as above, except goes back and forth between the walls 3 times. Same startup as B version, but the invulnerability extends significantly further into active frames, making this less risky to use from further away."
               }
             ]
         },
@@ -983,7 +943,8 @@
             "recovery": "-",
             "advHit": "-",
             "advBlock": "-",
-            "cancel": "None"
+            "cancel": "None",
+            "property": "I: 0.33 - 3, 6.33-7.00"
           },
           "notes": "Sayuri grabs the opponent by the neck and electrocutes them. This version is jumpable after the super flash, making it rarely used compared to other versions."
         },
@@ -998,7 +959,7 @@
             "advHit": "-",
             "advBlock": "-",
             "cancel": "None",
-            "property": "I: 0.33-3.66"
+            "property": "I: 0.33-3.33"
           },
           "notes": "Impossible to avoid after super flash. A crucial part of Sayuri's gameplan, forcing opponents to respect her pressure instead of simply blocking or reacting to overheads."
         },
@@ -1013,7 +974,7 @@
             "advHit": "-",
             "advBlock": "-",
             "cancel": "None",
-            "property": "I: 0.33-0.66"
+            "property": "I: 0.33-3.33"
           },
           "notes": "Impossible to jump after super flash. Same applications as B version but with higher damage at lower cost efficiency."
         }
@@ -1032,7 +993,7 @@
           "advHit": "/",
           "advBlock": "/",
           "cancel": "None",
-          "property": "I: 0.33-25"
+          "property": "I: 0.33 - 44.66"
         },
         "properties": [
           "Sayuri teleports above the opponent and falls on top of them.",
