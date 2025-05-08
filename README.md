@@ -76,7 +76,7 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## Acknowledgments
-
+```
 - **EFZ Mizumi Wiki**: For providing comprehensive frame data and move information.
 - **Copilot AI**: For assisting in the creation of this bot.
 ```
