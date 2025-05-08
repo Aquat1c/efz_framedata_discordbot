@@ -1,5 +1,3 @@
-Here’s a detailed `README.md` draft based on your starting text and the repository's functions:
-
 ```markdown
 # EFZ Frame Data Discord Bot
 
@@ -83,5 +81,3 @@ This project is licensed under the [MIT License](LICENSE).
 - **EFZ Mizumi Wiki**: For providing comprehensive frame data and move information.
 - **Copilot AI**: For assisting in the creation of this bot.
 ```
-
-Would you like me to adjust anything further or add specific sections?
