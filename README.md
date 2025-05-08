@@ -32,7 +32,7 @@ Most of the information was parsed from the **EFZ Mizumi Wiki** - [wiki.gbl.gg/w
    - Notes and additional metadata
 3. **Integration**: The processed data is used by the Discord bot to respond to user queries about character moves and frame data.
 
-CURRENTLY, A LOT OF THINGS IN THE JSONs are hardcoded, since the Wiki has inconsisten formatting for different characters(mostly follow-up moves)
+CURRENTLY, A LOT OF THINGS IN THE JSONs are hardcoded, since the Wiki has inconsistent formatting for different characters(mostly follow-up moves)
 ---
 ```
 ## Getting Started
