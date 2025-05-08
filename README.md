@@ -34,9 +34,9 @@ Most of the information was parsed from the **EFZ Mizumi Wiki** - [wiki.gbl.gg/w
 
 CURRENTLY, A LOT OF THINGS IN THE JSONs are hardcoded, since the Wiki has inconsisten formatting for different characters(mostly follow-up moves)
 ---
-
+```
 ## Getting Started
-
+```
 ### Prerequisites
 - Node.js (latest LTS version recommended)
 - npm or yarn
