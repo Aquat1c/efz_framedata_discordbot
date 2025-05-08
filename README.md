@@ -53,6 +53,12 @@ CURRENTLY, A LOT OF THINGS IN THE JSONs are hardcoded, since the Wiki has incons
    npm install
    ```
 3. Configure the bot (e.g., API keys, Discord bot token) in the appropriate config files.
+   ```
+   Create config.json file in the root of the bot directory:
+    {
+    "token": "YOUR_TOKEN"
+  }
+  ```
 
 ### Running the Bot
   
