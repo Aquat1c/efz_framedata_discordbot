@@ -41,7 +41,7 @@ CURRENTLY, A LOT OF THINGS IN THE JSONs are hardcoded, since the Wiki has incons
 - Node.js (latest LTS version recommended)
 - npm or yarn
 - Access to the Mizumi Wiki for scraping data
-
+```
 ### Installation
 1. Clone the repository:
    ```bash
