@@ -513,7 +513,8 @@
                 "recovery": "68.66",
                 "advHit": "/",
                 "advBlock": "-",
-                "cancel": "IC"
+                "cancel": "IC",
+                "property": "I: 0.33-16"
               },
               "notes": "First hit of a three-hit sequence (623B + 623A). Has invulnerability on startup. Can be used as a risky reversal option."
             },
@@ -745,8 +746,9 @@
   "active": "12",
   "recovery": "14",
   "advHit": "/",
-  "advBlock": "-4",
-  "cancel": "IC"
+  "advBlock": "-18",
+  "cancel": "IC",
+  "property": "I: 0.33-20.66"
 },
 "properties": [
   "Sayuri dashes forward to slam opponents into the wall.",
@@ -794,7 +796,8 @@
                     "recovery": "10",
                     "advHit": "/",
                     "advBlock": "-18",
-                    "cancel": "IC"
+                    "cancel": "IC",
+                    "property": "I: 0.33-20.66"
                   },
                   "notes": "Travels furthest with wallbounce properties on hit. Has frame 1 invulnerability, making it a powerful reversal option. Also useful for punishing certain projectiles from mid-range."
                 }
@@ -891,7 +894,8 @@
               "recovery": "15",
               "advHit": "-",
               "advBlock": "-6",
-              "cancel": "IC"
+              "cancel": "IC",
+              "property": "I: 0.33-2.33"
             },
             "properties": [
               "Sayuri dashes forward to slam opponents between walls.",
@@ -911,7 +915,8 @@
                   "recovery": "15",
                   "advHit": "-",
                   "advBlock": "-6",
-                  "cancel": "IC"
+                  "cancel": "IC",
+                  "property": "I: 0.33-2.33"
                 },
                 "notes": "Slams the opponent into one wall, then back into the opposite wall. Brief invulnerability from frame 1 makes this a decent reversal option when you can reach opponents during the invulnerability window."
               },
@@ -992,7 +997,8 @@
             "recovery": "-",
             "advHit": "-",
             "advBlock": "-",
-            "cancel": "None"
+            "cancel": "None",
+            "property": "I: 0.33-3.66"
           },
           "notes": "Impossible to avoid after super flash. A crucial part of Sayuri's gameplan, forcing opponents to respect her pressure instead of simply blocking or reacting to overheads."
         },
@@ -1006,7 +1012,8 @@
             "recovery": "-",
             "advHit": "-",
             "advBlock": "-",
-            "cancel": "None"
+            "cancel": "None",
+            "property": "I: 0.33-0.66"
           },
           "notes": "Impossible to jump after super flash. Same applications as B version but with higher damage at lower cost efficiency."
         }
@@ -1024,7 +1031,8 @@
           "recovery": "19",
           "advHit": "/",
           "advBlock": "/",
-          "cancel": "None"
+          "cancel": "None",
+          "property": "I: 0.33-25"
         },
         "properties": [
           "Sayuri teleports above the opponent and falls on top of them.",

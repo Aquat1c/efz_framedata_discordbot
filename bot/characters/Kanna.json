@@ -200,51 +200,11 @@
             "cancel": "N SP J AD j2 ※"
           },
           "properties": [
-            "Kanna's 7-way airdash. Does not require a double press, so it can be accidentally input very easily. After completing the dash Kanna will float and descend very slowly while keeping some horizontal velocity. ※ Cannot be cancelled immediately. Windows vary for different cancels."
-          ],
-          "variations": [
-            {
-              "version": "A",
-              "damage": "/",
-              "framedata": {
-                "guard": "/",
-                "startup": "-",
-                "active": "/",
-                "recovery": "-",
-                "advHit": "/",
-                "advBlock": "/",
-                "cancel": "N SP J AD j2 ※"
-              },
-              "notes": "Kanna's 7-way airdash. Does not require a double press, so it can be accidentally input very easily. After completing the dash Kanna will float and descend very slowly while keeping some horizontal velocity. ※ Cannot be cancelled immediately. Windows vary for different cancels."
-            },
-            {
-              "version": "B",
-              "damage": "/",
-              "framedata": {
-                "guard": "/",
-                "startup": "-",
-                "active": "/",
-                "recovery": "-",
-                "advHit": "/",
-                "advBlock": "/",
-                "cancel": "N SP J AD j2 ※"
-              },
-              "notes": "Kanna's 7-way airdash. Does not require a double press, so it can be accidentally input very easily. After completing the dash Kanna will float and descend very slowly while keeping some horizontal velocity. ※ Cannot be cancelled immediately. Windows vary for different cancels."
-            },
-            {
-              "version": "C",
-              "damage": "/",
-              "framedata": {
-                "guard": "/",
-                "startup": "-",
-                "active": "/",
-                "recovery": "-",
-                "advHit": "/",
-                "advBlock": "/",
-                "cancel": "N SP J AD j2 ※"
-              },
-              "notes": "Kanna's 7-way airdash. Does not require a double press, so it can be accidentally input very easily. After completing the dash Kanna will float and descend very slowly while keeping some horizontal velocity. ※ Cannot be cancelled immediately. Windows vary for different cancels."
-            }
+            "Kanna's 7-way airdash system. Does not require double directional press like other characters.",
+            "After completing the dash, Kanna will float and descend very slowly while maintaining horizontal velocity.",
+            "Cannot be cancelled immediately - windows vary for different cancels.",
+            "Unlike most characters who cannot double jump after an airdash, Kanna can mix her air movements freely.",
+            "Provides Kanna with unparalleled air mobility compared to the rest of the cast."
           ]
         },
         {
@@ -262,12 +222,16 @@
             "cancel": "N SP J AD"
           },
           "properties": [
-            "Kanna cancels her passive floating into a freefall state. She maintains some horizontal velocity during this move."
+            "Kanna cancels her passive floating into a freefall state.",
+            "She maintains some horizontal velocity during this move.",
+            "Essential for quickly returning to the ground after an air action.",
+            "Can be canceled into normals, specials, airdashes, or jumps for mixups.",
+            "A key part of Kanna's aerial mobility toolkit."
           ]
         },
         {
           "moveName": "Kusanagi's Blade of Light",
-          "input": "236C",
+          "input": "236*",
           "image": "https://wiki.gbl.gg/images/thumb/6/69/EFZ_Kanna_236A.png/175px-EFZ_Kanna_236A.png",
           "damage": "1100",
           "framedata": {
@@ -280,8 +244,10 @@
             "cancel": "IC"
           },
           "properties": [
-            "Horizontal slash that knocks the opponent off their feet and reaches across 3/4 of the screen.",
-            "A horizontal slash that knocks the opponent off their feet, wall bounces, is completely untechable, and reaches across the entire screen."
+            "Kanna performs a horizontal slash with her sword that knocks opponents down.",
+            "A/B versions reach across approximately 3/4 of the screen.",
+            "C version has faster startup and higher damage.",
+            "Air versions maintain similar properties but can be performed during flight."
           ],
           "variations": [
             {
@@ -296,7 +262,7 @@
                 "advBlock": "+1",
                 "cancel": "IC"
               },
-              "notes": "Horizontal slash that knocks the opponent off their feet and reaches across 3/4 of the screen."
+              "notes": "Horizontal slash that knocks the opponent off their feet and reaches across 3/4 of the screen. Actually advantageous on block."
             },
             {
               "version": "C",
@@ -310,7 +276,7 @@
                 "advBlock": "+1",
                 "cancel": "IC"
               },
-              "notes": "Horizontal slash that knocks the opponent off their feet and reaches across 3/4 of the screen."
+              "notes": "Stronger version with faster startup (7f vs 11f). Adds wall bounce properties and is completely untechable. Reaches across the entire screen."
             },
             {
               "version": "jA/B/C",
@@ -324,13 +290,13 @@
                 "advBlock": "/",
                 "cancel": "IC"
               },
-              "notes": "Horizontal slash that knocks the opponent off their feet and reaches across 3/4 of the screen."
+              "notes": "Aerial versions maintain the same properties as their ground counterparts. Can be performed at any point during Kanna's flight."
             }
           ]
         },
         {
           "moveName": "Sky-Soaring Double Spiral",
-          "input": "623",
+          "input": "623*",
           "image": "https://wiki.gbl.gg/images/thumb/3/30/EFZ_Kanna_623X.png/175px-EFZ_Kanna_623X.png",
           "damage": "600 x 2",
           "framedata": {
@@ -343,8 +309,11 @@
             "cancel": "IC"
           },
           "properties": [
-            "A spinning uppercut with her wing. Fully invulnerable until partway through recovery.",
-            "Kanna spins high above the screen, making her nearly impossible to punish, even on whiff. Fully invulnerable until the final hit."
+            "Kanna performs a spinning uppercut with her wing.",
+            "All versions have invulnerability frames, making this an effective reversal.",
+            "A/B versions perform a standard uppercut with two hits.",
+            "C version spins Kanna high above the screen with extended invulnerability and many more hits.",
+            "C version is extremely difficult to punish even on whiff due to its height."
           ],
           "variations": [
             {
@@ -359,7 +328,7 @@
                 "advBlock": "-27.33",
                 "cancel": "IC"
               },
-              "notes": "A spinning uppercut with her wing. Fully invulnerable until partway through recovery."
+              "notes": "A spinning uppercut with her wing. Fully invulnerable until partway through recovery. Good as a reversal but highly punishable if blocked."
             },
             {
               "version": "C",
@@ -373,44 +342,34 @@
                 "advBlock": "-",
                 "cancel": "IC"
               },
-              "notes": "A spinning uppercut with her wing. Fully invulnerable until partway through recovery."
+              "notes": "Kanna spins high above the screen, making her nearly impossible to punish even on whiff. Fully invulnerable until the final hit. Much faster startup (3f vs 8f) than A/B versions."
             }
           ]
         },
         {
           "moveName": "Stone of the Heaven-Revering Moon",
-          "input": "214",
+          "input": "214*",
           "image": "https://wiki.gbl.gg/images/thumb/3/3b/EFZ_Kanna_214X.png/175px-EFZ_Kanna_214X.png",
-          "damage": "/",
+          "damage": "890",
           "framedata": {
-            "guard": "/",
-            "startup": "16",
-            "active": "/",
-            "recovery": "25",
+            "guard": "Any",
+            "startup": "32",
+            "active": "2",
+            "recovery": "/",
             "advHit": "/",
-            "advBlock": "/",
+            "advBlock": "+25",
             "cancel": "None"
           },
           "properties": [
-            "Kanna commands her sword to pierce the ground, causing an eruption of stone to rise out of the ground. Version dictates the location of the eruption, appearing farther away with button strength. Extremely long untech time. Once the sword starts heading towards the ground, can no longer be interrupted."
+            "Kanna commands her sword to pierce the ground, causing an eruption of stone.",
+            "The location of the eruption depends on button strength, appearing farther away with stronger buttons.",
+            "All versions have extremely long untech time, allowing for full combos.",
+            "Once the sword starts heading towards the ground, this move can no longer be interrupted.",
+            "Actually very advantageous on block, but the long startup makes it easy to avoid."
           ],
           "variations": [
             {
-              "version": "A/B/C",
-              "damage": "/",
-              "framedata": {
-                "guard": "/",
-                "startup": "16",
-                "active": "/",
-                "recovery": "25",
-                "advHit": "/",
-                "advBlock": "/",
-                "cancel": "None"
-              },
-              "notes": "Kanna commands her sword to pierce the ground, causing an eruption of stone to rise out of the ground. Version dictates the location of the eruption, appearing farther away with button strength. Extremely long untech time. Once the sword starts heading towards the ground, can no longer be interrupted."
-            },
-            {
-              "version": "-",
+              "version": "A",
               "damage": "890",
               "framedata": {
                 "guard": "Any",
@@ -421,45 +380,62 @@
                 "advBlock": "+25",
                 "cancel": "None"
               },
-              "notes": "Kanna commands her sword to pierce the ground, causing an eruption of stone to rise out of the ground. Version dictates the location of the eruption, appearing farther away with button strength. Extremely long untech time. Once the sword starts heading towards the ground, can no longer be interrupted."
+              "notes": "Eruption appears closest to Kanna. Good for catching opponents trying to approach. The stone eruption has extremely long untech time, allowing for follow-up combos."
+            },
+            {
+              "version": "B",
+              "damage": "890",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32",
+                "active": "2",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+25",
+                "cancel": "None"
+              },
+              "notes": "Eruption appears at mid-range from Kanna. Useful for zoning and catching opponents at common neutral distances."
+            },
+            {
+              "version": "C",
+              "damage": "890",
+              "framedata": {
+                "guard": "Any",
+                "startup": "32",
+                "active": "2",
+                "recovery": "/",
+                "advHit": "/",
+                "advBlock": "+25",
+                "cancel": "None"
+              },
+              "notes": "Eruption appears furthest from Kanna, almost at the edge of the screen. Excellent for controlling space at long range."
             }
           ]
         },
         {
           "moveName": "Celestial Hawk's Bow",
-          "input": "C",
+          "input": "41236*",
           "image": "https://wiki.gbl.gg/images/thumb/4/45/EFZ_Kanna_41236A.png/175px-EFZ_Kanna_41236A.png",
-          "damage": "/",
+          "damage": "900",
           "framedata": {
-            "guard": "/",
+            "guard": "Any",
             "startup": "19.33",
-            "active": "/",
-            "recovery": "17",
+            "active": "∞",
+            "recovery": "/",
             "advHit": "/",
-            "advBlock": "/",
+            "advBlock": "+3 ~ +22",
             "cancel": "None"
           },
           "properties": [
-            "The reason you play Kanna. The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch.",
-            "Kanna shoots out 6 smaller homing projectiles behind her."
+            "The reason you play Kanna. An extremely powerful projectile.",
+            "A/B versions fire a single powerful bow shot that's nearly impossible to erase with other projectiles.",
+            "C version fires 6 smaller homing projectiles behind Kanna that converge on the opponent.",
+            "All versions inflict electric launch on hit for combo potential.",
+            "Extremely spammable and highly advantageous on block."
           ],
           "variations": [
             {
               "version": "A/B",
-              "damage": "/",
-              "framedata": {
-                "guard": "/",
-                "startup": "19.33",
-                "active": "/",
-                "recovery": "17",
-                "advHit": "/",
-                "advBlock": "/",
-                "cancel": "None"
-              },
-              "notes": "The reason you play Kanna. The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch."
-            },
-            {
-              "version": "-",
               "damage": "900",
               "framedata": {
                 "guard": "Any",
@@ -470,24 +446,10 @@
                 "advBlock": "+3 ~ +22",
                 "cancel": "None"
               },
-              "notes": "The reason you play Kanna. The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch."
+              "notes": "The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch for combo potential."
             },
             {
               "version": "C",
-              "damage": "/",
-              "framedata": {
-                "guard": "/",
-                "startup": "19",
-                "active": "/",
-                "recovery": "18",
-                "advHit": "/",
-                "advBlock": "/",
-                "cancel": "None"
-              },
-              "notes": "The reason you play Kanna. The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch."
-            },
-            {
-              "version": "-",
               "damage": "-",
               "framedata": {
                 "guard": "Any",
@@ -498,44 +460,34 @@
                 "advBlock": "+2 ~ +45",
                 "cancel": "None"
               },
-              "notes": "The reason you play Kanna. The strongest projectile in the game, extremely spammable, nearly impossible to erase with any other projectile. Projectile inflicts an electric launch."
+              "notes": "Kanna shoots out 6 smaller homing projectiles behind her that converge on the opponent. Even more advantageous on block than A/B versions and harder to avoid due to the homing property."
             }
           ]
         },
         {
           "moveName": "Raging Heavens of Konohana",
-          "input": "Costs 3 SP",
+          "input": "236236A",
           "image": "https://wiki.gbl.gg/images/thumb/5/57/EFZ_Kanna_236236A.png/175px-EFZ_Kanna_236236A.png",
           "damage": "/",
           "framedata": {
-            "guard": "/",
+            "guard": "Any",
             "startup": "-",
-            "active": "/",
-            "recovery": "192",
+            "active": "∞",
+            "recovery": "/",
             "advHit": "/",
-            "advBlock": "/",
+            "advBlock": "-",
             "cancel": "None"
           },
           "properties": [
-            "Kanna sends a single feather offscreen that multiples and covers the entire screen as they fly past. All feathers are untechable launchers. Kanna is fully invulnerable during the duration of the feathers flying across the screen."
+            "Kanna sends a single feather offscreen that multiplies and covers the entire screen.",
+            "All feathers are untechable launchers, allowing for combo opportunities.",
+            "Kanna is fully invulnerable during the duration of the feathers flying across the screen.",
+            "Costs 3 SP bars to use but provides full-screen coverage and safety.",
+            "The large recovery after the attack makes it risky if it doesn't hit."
           ],
           "variations": [
             {
-              "version": "A",
-              "damage": "/",
-              "framedata": {
-                "guard": "/",
-                "startup": "-",
-                "active": "/",
-                "recovery": "192",
-                "advHit": "/",
-                "advBlock": "/",
-                "cancel": "None"
-              },
-              "notes": "Kanna sends a single feather offscreen that multiples and covers the entire screen as they fly past. All feathers are untechable launchers. Kanna is fully invulnerable during the duration of the feathers flying across the screen."
-            },
-            {
-              "version": "-",
+              "version": "Feather",
               "damage": "500 x N",
               "framedata": {
                 "guard": "Any",
@@ -546,7 +498,7 @@
                 "advBlock": "-",
                 "cancel": "None"
               },
-              "notes": "Kanna sends a single feather offscreen that multiples and covers the entire screen as they fly past. All feathers are untechable launchers. Kanna is fully invulnerable during the duration of the feathers flying across the screen."
+              "notes": "Sends a single feather offscreen that multiplies and covers the entire screen as they fly past. All feathers cause untechable launches. Kanna is fully invulnerable during the feathers' flight."
             }
           ]
         },
@@ -571,7 +523,7 @@
         },
         {
           "moveName": "Sword of Unbound Silver",
-          "input": "Costs 3 SP",
+          "input": "j236236B",
           "image": "https://wiki.gbl.gg/images/thumb/9/9d/EFZ_Kanna_j236236B_1.png/175px-EFZ_Kanna_j236236B_1.png",
           "damage": "4500",
           "framedata": {
@@ -590,7 +542,7 @@
         },
         {
           "moveName": "Bird's Poem",
-          "input": "Cinematic",
+          "input": "236236C",
           "image": "https://wiki.gbl.gg/images/thumb/a/a9/EFZ_Kanna_FM_1.png/175px-EFZ_Kanna_FM_1.png",
           "damage": "-",
           "framedata": {

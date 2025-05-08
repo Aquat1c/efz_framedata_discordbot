@@ -331,7 +331,7 @@ function getMovesFromCharacter(character, moveListId = null) {
   return [];
 }
 
-// Helper function to create an embed for a move
+// Modify the createMoveEmbed function to include the property field
 function createMoveEmbed(character, move, section, moveListName = null, version = 0) {
   const colorMap = {
     0: 0x4287f5, // Blue
@@ -390,16 +390,35 @@ function createMoveEmbed(character, move, section, moveListName = null, version 
         embed.addFields({ name: 'Damage', value: move.damage.toString() });
       }
       
-      // Add frame data for base move
+      // Add frame data for base move in a more compact format
       if (move.framedata) {
         let frameDataText = '';
+        let propertyField = null;
+        
         for (const [key, value] of Object.entries(move.framedata)) {
           if (!value || value === '' || value === '/' || value === '-') continue;
-          frameDataText += `**${key}**: ${value}\n`;
+          
+          // Handle property separately for improved visibility
+          if (key.toLowerCase() === 'property') {
+            propertyField = value;
+          } else {
+            // Skip adding property to general frame data
+            frameDataText += `**${key}**: ${value} | `;
+          }
+        }
+        
+        // Remove trailing separator
+        if (frameDataText.endsWith(' | ')) {
+          frameDataText = frameDataText.substring(0, frameDataText.length - 3);
         }
         
         if (frameDataText) {
           embed.addFields({ name: 'Frame Data', value: frameDataText });
+        }
+        
+        // Add property field separately if available
+        if (propertyField) {
+          embed.addFields({ name: 'Properties', value: propertyField });
         }
       }
       
@@ -427,16 +446,35 @@ function createMoveEmbed(character, move, section, moveListName = null, version 
           embed.addFields({ name: 'Damage', value: currentVersionObj.damage });
         }
         
-        // Add frame data if available
+        // Add frame data if available in a more compact format
         if (currentVersionObj.framedata) {
           let frameDataText = '';
+          let propertyField = null;
+          
           for (const [key, value] of Object.entries(currentVersionObj.framedata)) {
             if (!value || value === '' || value === '/' || value === '-') continue;
-            frameDataText += `**${key}**: ${value}\n`;
+            
+            // Handle property separately for improved visibility
+            if (key.toLowerCase() === 'property') {
+              propertyField = value;
+            } else {
+              // Skip adding property to general frame data
+              frameDataText += `**${key}**: ${value} | `;
+            }
+          }
+          
+          // Remove trailing separator
+          if (frameDataText.endsWith(' | ')) {
+            frameDataText = frameDataText.substring(0, frameDataText.length - 3);
           }
           
           if (frameDataText) {
             embed.addFields({ name: 'Frame Data', value: frameDataText });
+          }
+          
+          // Add property field separately if available
+          if (propertyField) {
+            embed.addFields({ name: 'Properties', value: propertyField });
           }
         }
         
@@ -473,15 +511,33 @@ function createMoveEmbed(character, move, section, moveListName = null, version 
         embed.addFields({ name: 'Damage', value: dataToUse.Damage });
       }
       
-      // Extract frame data
+      // Extract frame data in compact format
       let frameDataText = '';
+      let propertyField = null;
+      
       for (const [key, value] of Object.entries(dataToUse)) {
         if (key === 'Damage' || key === 'Version' || !value || value === '/' || value === '-' || value === '') continue;
-        frameDataText += `**${key}**: ${value}\n`;
+        
+        // Handle property separately
+        if (key.toLowerCase() === 'property') {
+          propertyField = value;
+        } else {
+          frameDataText += `**${key}**: ${value} | `;
+        }
+      }
+      
+      // Remove trailing separator
+      if (frameDataText.endsWith(' | ')) {
+        frameDataText = frameDataText.substring(0, frameDataText.length - 3);
       }
       
       if (frameDataText) {
         embed.addFields({ name: 'Frame Data', value: frameDataText });
+      }
+      
+      // Add property field separately if available
+      if (propertyField) {
+        embed.addFields({ name: 'Properties', value: propertyField });
       }
       
       // Extract notes if present
@@ -500,16 +556,34 @@ function createMoveEmbed(character, move, section, moveListName = null, version 
         embed.addFields({ name: 'Damage', value: move.damage.toString() });
       }
       
-      // Collect non-empty frame data
+      // Collect non-empty frame data in more compact format
       if (move.framedata) {
         let frameDataText = '';
+        let propertyField = null;
+        
         for (const [key, value] of Object.entries(move.framedata)) {
           if (!value || value === '' || value === '/' || value === '-') continue;
-          frameDataText += `**${key}**: ${value}\n`;
+          
+          // Handle property separately
+          if (key.toLowerCase() === 'property') {
+            propertyField = value;
+          } else {
+            frameDataText += `**${key}**: ${value} | `;
+          }
+        }
+        
+        // Remove trailing separator
+        if (frameDataText.endsWith(' | ')) {
+          frameDataText = frameDataText.substring(0, frameDataText.length - 3);
         }
         
         if (frameDataText) {
           embed.addFields({ name: 'Frame Data', value: frameDataText });
+        }
+        
+        // Add property field separately if available
+        if (propertyField) {
+          embed.addFields({ name: 'Properties', value: propertyField });
         }
       }
       
@@ -1769,7 +1843,7 @@ module.exports = {
               }
             });
             
-            // Split nested follow-up buttons into rows
+            // Split nestedFollowUp buttons into rows
             const nestedFollowUpRows = splitButtonsIntoRows(nestedFollowUpButtons);
             components.push(...nestedFollowUpRows);
           }
